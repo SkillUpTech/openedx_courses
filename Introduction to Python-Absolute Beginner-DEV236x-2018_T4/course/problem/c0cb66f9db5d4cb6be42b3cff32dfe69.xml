@@ -1,0 +1,10 @@
+<problem display_name="Question 1 " markdown="Python cannot display quotes in strings using &lt;code&gt;print()&lt;/code&gt;&#10;&#10;( ) True&#10;(x) False&#10;&#10;" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p>Python cannot display quotes in strings using <code>print()</code>
+</p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">True</choice>
+      <choice correct="true">False</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

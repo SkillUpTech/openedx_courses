@@ -1,0 +1,164 @@
+0
+00:00:03,210 --> 00:00:05,346
+A variable is just a container.
+
+1
+00:00:05,347 --> 00:00:08,661
+It's a name storage location that holds an object.
+
+2
+00:00:08,662 --> 00:00:11,745
+You might have used variables in math and
+
+3
+00:00:11,746 --> 00:00:16,832
+you think of x equals five or other equations that have variables.
+
+4
+00:00:16,833 --> 00:00:19,080
+It's similar in Python.
+
+5
+00:00:19,081 --> 00:00:23,759
+With Python, we use variables so that we can re-use code and
+
+6
+00:00:23,760 --> 00:00:27,535
+we can assign different values to the variable.
+
+7
+00:00:29,687 --> 00:00:35,430
+So in Python, we use very simple names.
+
+8
+00:00:35,431 --> 00:00:36,600
+As we show here, for
+
+9
+00:00:36,601 --> 00:00:39,540
+a student_name that would be a good example of a variable.
+
+10
+00:00:39,541 --> 00:00:42,280
+It's descriptive, we use lower case and
+
+11
+00:00:42,281 --> 00:00:44,060
+we connect it with an underscore.
+
+12
+00:00:45,910 --> 00:00:49,360
+Variables can also be assigned strings
+
+13
+00:00:49,361 --> 00:00:50,910
+not just numbers like in math.
+
+14
+00:00:53,400 --> 00:00:58,430
+And if we run that cell, we don't get an echo but
+
+15
+00:00:58,431 --> 00:01:03,990
+what we've done is we've assigned this storage location,
+
+16
+00:01:03,991 --> 00:01:05,930
+which has a student name
+
+17
+00:01:07,360 --> 00:01:12,930
+with a string of the student's name, that's in quotes.
+
+18
+00:01:12,931 --> 00:01:16,825
+Then we can call back on that variable and
+
+19
+00:01:16,826 --> 00:01:19,814
+we see that it will echo below.
+
+20
+00:01:22,187 --> 00:01:27,487
+We can also print the literal string as we did in earlier assignments.
+
+21
+00:01:30,401 --> 00:01:34,404
+But through using a variable I can automate that.
+
+22
+00:01:34,405 --> 00:01:38,027
+And I can have a different student name going through this print
+
+23
+00:01:38,028 --> 00:01:39,325
+statement each time,
+
+24
+00:01:39,326 --> 00:01:42,485
+where other code can change the value of student name.
+
+25
+00:01:44,947 --> 00:01:46,816
+So, what would that look like?
+
+26
+00:01:46,817 --> 00:01:49,785
+Well we call that variable reassignment.
+
+27
+00:01:49,786 --> 00:01:54,487
+And we see the example below, the first time that print ran,
+
+28
+00:01:54,488 --> 00:01:57,400
+it had the student name of Joana.
+
+29
+00:01:59,658 --> 00:02:03,594
+Then, we reassigned the variable with Colette, and
+
+30
+00:02:03,595 --> 00:02:06,658
+when we print it again, Colette prints.
+
+31
+00:02:09,199 --> 00:02:13,441
+>> If we go back up to the top, we can rerun the cell and
+
+32
+00:02:13,442 --> 00:02:15,979
+reinitialize the variable.
+
+33
+00:02:17,220 --> 00:02:21,870
+And then we can check the further value now in student_name.
+
+34
+00:02:23,430 --> 00:02:28,342
+Now it is Joana and we can see that if I re-run this previous cell and
+
+35
+00:02:28,343 --> 00:02:33,541
+then rerun the student_name again, it will change back to Colette.
+
+36
+00:02:36,233 --> 00:02:40,865
+>> So, a variable is a name storage address that we can use in our code,
+
+37
+00:02:40,866 --> 00:02:44,196
+just the same we do as a literal string or number or
+
+38
+00:02:44,197 --> 00:02:47,450
+other objects we'll see later.
+
+39
+00:02:47,451 --> 00:02:51,810
+A variable means change as well, so remember we can
+
+40
+00:02:51,811 --> 00:02:55,560
+reuse that variable within our code and make it more efficient.
+

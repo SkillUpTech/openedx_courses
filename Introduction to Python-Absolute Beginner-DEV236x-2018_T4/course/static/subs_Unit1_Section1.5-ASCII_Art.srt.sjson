@@ -1,0 +1,35 @@
+{
+  "start": [
+    3099, 
+    7755, 
+    12800, 
+    17400, 
+    20038, 
+    23918, 
+    27538, 
+    29498, 
+    32491
+  ], 
+  "end": [
+    7754, 
+    12799, 
+    17399, 
+    20037, 
+    23917, 
+    27537, 
+    29497, 
+    32490, 
+    35320
+  ], 
+  "text": [
+    "ASCII Art, also known as character art, allows software", 
+    "developers to add creativity to console based applications.", 
+    "These simple examples of ASCII Art can give you an idea of ways to use", 
+    "ASCII Art to decorate your programs.", 
+    "We can create simple letters and you can get much more stylized letters.", 
+    "So you can do a web search for those and get some great ideas.", 
+    "We can put logos on there.", 
+    "We can give rewards for correct answers,", 
+    "make the ASCII Art part of the program."
+  ]
+}

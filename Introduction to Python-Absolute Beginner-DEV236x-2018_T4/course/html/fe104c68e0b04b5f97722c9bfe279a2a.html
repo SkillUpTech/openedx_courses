@@ -1,0 +1,133 @@
+   <h1 id="concept-nested-conditionals">Concept: nested conditionals</h1>
+
+<h2 id="using-nested-conditionals">Using nested conditionals</h2>
+<p><strong>if</strong><br />
+<strong>    if</strong><br />
+<strong>        if</strong><br />
+<strong>        else</strong><br />
+<strong>    else</strong><br />
+<strong>else</strong></p>
+<h3 id="making-a-sandwich">Making a sandwich</h3>
+<p>Taking a sandwich order starts with sandwich choices:</p>
+<blockquote>
+<p><strong>Cheese or Veggie special?</strong><br />
+if the response is <strong>&quot;Cheese&quot;</strong> &quot;nest&quot; a sub ask:</p>
+<blockquote>
+<p><strong>Manchego or Cheddar?</strong></p>
+</blockquote>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Nested  **<code>if</code>**  statement  flowchart</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="https://iajupyterprodblobs.blob.core.windows.net/imagecontainer/flowchart_sandwich.png" alt="Image of sandwich order flowchart" /></td>
+</tr>
+</tbody>
+</table>
+<h1 id="example">Example</h1>
+<blockquote>
+<p><strong><em>TIP:</em></strong> click in input box before typing input</p>
+</blockquote>
+<pre><code class="language-python"># simplified example
+# [ ] review the code then run and following the flowchart paths
+
+# ***TIP:*** click in input box before typing
+
+sandwich_type = input('&quot;c&quot; for Cheese or &quot;v&quot; for Veggie Special: ')
+
+if sandwich_type.lower() == &quot;c&quot;:
+    # select cheese type
+    cheese_type = input('&quot;c&quot; for Cheddar or &quot;m&quot; for Manchego: ')
+    
+    if cheese_type.lower() == &quot;c&quot;:
+        print(&quot;Here is your Cheddar Cheese sandwich&quot;)
+    else:
+        print(&quot;Here is your Manchego Cheese sandwich&quot;) 
+
+else:
+    print(&quot;Here is your Veggie Special&quot;)
+</code></pre>
+<pre><code class="language-python"># full example: handling some invalid input and elif statement
+# [ ] review the code then run following the flowchart paths including **invalid responses** like &quot;xyz123&quot;
+
+# ***TIP:*** click in input box before typing
+
+print(&quot;Hi, welcome to the sandwich shop.  Please select a sandwich.&quot;)
+sandwich_type = input('&quot;c&quot; for Cheese or &quot;v&quot; for Veggie Special: ')
+# select sandwich type sandwich_type = input('&quot;c&quot; for Cheese or &quot;v&quot; for Veggie Special: ')
+print()
+    
+if sandwich_type.lower() == &quot;c&quot;:
+    # select cheese type
+    print(&quot;Please select a cheese.&quot;)
+    cheese_type = input('&quot;c&quot; for Cheddar or &quot;m&quot; for Manchego: ')
+    print()
+    
+    if cheese_type.lower() == &quot;c&quot;:
+        print(&quot;Here is your Cheddar Cheese sandwich.  Thank you.&quot;)
+    elif cheese_type.lower() == &quot;m&quot;:
+        print(&quot;Here is your Manchego Cheese sandwich.  Thank you.&quot;) 
+    else:
+        print(&quot;Sorry, we don't have&quot;, cheese_type, &quot;choice today.&quot;)
+
+elif sandwich_type.lower() == &quot;v&quot;:
+    print(&quot;Here is your Veggie Special. Thank you.&quot;)
+        
+else:
+    print(&quot;Sorry, we don't have&quot;, sandwich_type, &quot;choice today.&quot;)
+print()
+print(&quot;Goodbye!&quot;)
+
+</code></pre>
+<h1 id="task-1">Task 1</h1>
+<h2 id="nested-if">Nested <code>if</code></h2>
+<h3 id="program-say-hello">[ ] Program: Say &quot;Hello&quot;</h3>
+<ul>
+<li>using nested <strong><code>if</code></strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Say &quot;Hello&quot; flowchart</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="https://iajupyterprodblobs.blob.core.windows.net/imagecontainer/flowchart_say_hello.png" alt="Image: Say &quot;Hello&quot; flowchart" /></td>
+</tr>
+</tbody>
+</table>
+<pre><code class="language-python"># [ ] Say &quot;Hello&quot; with nested if
+# [ ] Challenge: handle input other than y/n
+
+
+</code></pre>
+<h1 id="task-2">Task 2</h1>
+<h2 id="nested-if-testing-for-false">Nested <code>if</code> - testing for <code>False</code></h2>
+<h3 id="program-3-guesses">Program:  [ ] 3 Guesses</h3>
+<ul>
+<li>use nested if statements complete the flowchart code</li>
+<li>create a <strong><code>bird_names</code></strong> string variable with the names of 1, 2, 3 or more birds to make it easier</li>
+<li>get <strong><code>bird_guess</code></strong> input and use <strong><code>bird_guess in bird_names</code></strong> to generate Boolean True/False</li>
+<li>if the the guess is wrong (<strong><code>False</code></strong>) create a sub test until the user has had 3 guesses</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>3 Guesses (&quot;Guess the Bird&quot;) flowchart</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="https://iajupyterprodblobs.blob.core.windows.net/imagecontainer/flowchart_guess_the_bird.png" alt="Image of Guess the Bird flowchart" /></td>
+</tr>
+</tbody>
+</table>
+<pre><code class="language-python"># [ ] Create the &quot;Guess the bird&quot; program 
+
+
+</code></pre>

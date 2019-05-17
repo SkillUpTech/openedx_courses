@@ -1,0 +1,164 @@
+0
+00:00:04,750 --> 00:00:08,965
+Nested conditionals allows subdecisions to be made by indenting
+
+1
+00:00:08,966 --> 00:00:13,498
+conditional statements underneath other conditional statements.
+
+2
+00:00:13,499 --> 00:00:18,279
+Let's take a look at nested conditionals indenting.
+
+3
+00:00:21,320 --> 00:00:25,646
+If we run this first if statement and it evaluates to true,
+
+4
+00:00:25,647 --> 00:00:27,777
+the code indented will run.
+
+5
+00:00:27,778 --> 00:00:32,800
+In this case, we see further if statements.
+
+6
+00:00:32,801 --> 00:00:37,190
+If the second indented if statement evaluates to true,
+
+7
+00:00:37,191 --> 00:00:38,959
+then the code underneath that will run.
+
+8
+00:00:41,020 --> 00:00:44,470
+This means we can run a series of questions.
+
+9
+00:00:48,200 --> 00:00:49,860
+Let's look at the example below.
+
+10
+00:00:49,861 --> 00:00:54,431
+We have a number that we assume will either be 1,
+
+11
+00:00:54,432 --> 00:00:57,980
+2 or 3 for the code below.
+
+12
+00:00:57,981 --> 00:01:03,830
+The first if statement checks is the number greater than or equal to 2.
+
+13
+00:01:03,831 --> 00:01:07,487
+Starting number with 1, it is not greater or equal to 2.
+
+14
+00:01:07,488 --> 00:01:12,121
+And so the if statement moves to the matching else statement and
+
+15
+00:01:12,122 --> 00:01:13,990
+prints the number as 1.
+
+16
+00:01:13,991 --> 00:01:14,490
+Let's run the code.
+
+17
+00:01:17,867 --> 00:01:22,497
+If we set the number to 2, we expect to enter the code under
+
+18
+00:01:22,498 --> 00:01:27,615
+the first if statement because 2 is greater than or equal to 2.
+
+19
+00:01:27,616 --> 00:01:35,230
+The second if statement says is the number greater than 2?
+
+20
+00:01:35,231 --> 00:01:35,730
+No.
+
+21
+00:01:37,210 --> 00:01:40,420
+So the else statement runs and it prints the "number is 2".
+
+22
+00:01:45,789 --> 00:01:51,005
+With 3, we get the number 3 by being greater
+
+23
+00:01:51,006 --> 00:01:55,550
+than 2 and then greater than 2 again.
+
+24
+00:01:59,880 --> 00:02:04,480
+We can also review this flow chart that is included in the notebook.
+
+25
+00:02:06,450 --> 00:02:10,210
+Here we start with the question whether we want a cheese or
+
+26
+00:02:10,211 --> 00:02:11,770
+veggie sandwich.
+
+27
+00:02:11,771 --> 00:02:14,310
+If you want a cheese sandwich,
+
+28
+00:02:14,311 --> 00:02:16,930
+then you can continue to ask another question.
+
+29
+00:02:16,931 --> 00:02:22,060
+So this, if it's true, we can go to this nested if statement and
+
+30
+00:02:22,061 --> 00:02:24,660
+then ask the type of cheese.
+
+31
+00:02:24,661 --> 00:02:25,750
+Let's look at the code.
+
+32
+00:02:28,200 --> 00:02:32,326
+Here we ask for input whether we want cheese or veggie.
+
+33
+00:02:32,327 --> 00:02:34,511
+And we check, if it's s for
+
+34
+00:02:34,512 --> 00:02:39,553
+cheese then we can run the code below and ask the type of cheese.
+
+35
+00:02:47,493 --> 00:02:51,149
+If I ask for cheese, then I could say I want manchego cheese.
+
+36
+00:02:52,780 --> 00:02:55,160
+And then it gives me my manchego cheese sandwich.
+
+37
+00:02:56,250 --> 00:02:57,360
+I can run the code again.
+
+38
+00:02:58,940 --> 00:03:01,699
+I can ask for a veggie sandwich.
+
+39
+00:03:05,377 --> 00:03:08,215
+And it gives me my vegetable special.
+
+40
+00:03:12,497 --> 00:03:17,570
+Nested if conditionals allow us to make subdecisions in our code.
+

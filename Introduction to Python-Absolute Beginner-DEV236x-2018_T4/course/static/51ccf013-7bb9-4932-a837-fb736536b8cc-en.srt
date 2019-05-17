@@ -1,0 +1,404 @@
+0
+00:00:00,200 --> 00:00:05,530
+Hello and welcome to the part 2 of the lab for module two,
+
+1
+00:00:05,584 --> 00:00:09,136
+Logistic Regression with the MNIST data.
+
+2
+00:00:09,200 --> 00:00:11,536
+I'm going to open that now from
+
+3
+00:00:11,600 --> 00:00:17,776
+CNTK 103 B. Okay, in the first notebook we
+
+4
+00:00:17,872 --> 00:00:21,488
+just reviewed, we downloaded the data
+
+5
+00:00:21,552 --> 00:00:25,248
+and formatted it to a local file in the CTF format
+
+6
+00:00:25,312 --> 00:00:27,936
+and this notebook we're actually going to read that data
+
+7
+00:00:28,032 --> 00:00:31,040
+and use it to train our model.
+
+8
+00:00:31,376 --> 00:00:38,160
+So, let's start with-- let's review
+
+9
+00:00:38,272 --> 00:00:40,288
+the two types of Logistic Regression.
+
+10
+00:00:40,336 --> 00:00:44,816
+So there's a Binary Logistic Regression and a Multi-class form.
+
+11
+00:00:44,880 --> 00:00:47,460
+In the binary form, we have a
+
+12
+00:00:47,552 --> 00:00:51,104
+single node which takes the weighted sum of the inputs
+
+13
+00:00:51,168 --> 00:00:54,448
+and runs that through a sigmoid function to squash the value
+
+14
+00:00:54,512 --> 00:00:58,140
+between 0 and 1 and treat city value
+
+15
+00:00:58,224 --> 00:01:03,296
+output from 0 to 0.5 is the first class prediction and anything above
+
+16
+00:01:03,344 --> 00:01:05,872
+0.5 as the second class prediction.
+
+17
+00:01:05,930 --> 00:01:09,952
+In Multi-class Linear Regression which is the form we're going to use
+
+18
+00:01:10,048 --> 00:01:12,288
+in this notebook, we have a
+
+19
+00:01:12,352 --> 00:01:17,200
+separate node for each output class that we're trying to predict.
+
+20
+00:01:17,280 --> 00:01:19,776
+And each node has its own set of weights
+
+21
+00:01:19,824 --> 00:01:22,080
+and takes the weighted sum of all the inputs
+
+22
+00:01:22,176 --> 00:01:25,920
+and we run collectively, we run all three
+
+23
+00:01:26,000 --> 00:01:30,832
+outputs into softmax such that we get out probabilities for each
+
+24
+00:01:30,896 --> 00:01:36,192
+selected class and the output with the largest probability is
+
+25
+00:01:36,240 --> 00:01:38,448
+the prediction for the associated class.
+
+26
+00:01:38,520 --> 00:01:44,016
+Alright, our code starts out with again bringing in some libraries
+
+27
+00:01:44,112 --> 00:01:45,536
+that we're going to be using.
+
+28
+00:01:45,584 --> 00:01:49,872
+Matplotlib, numpy, sys, os and then here we see CNTK
+
+29
+00:01:49,936 --> 00:01:53,200
+being brought in and we're going to refer to that as a capital C.
+
+30
+00:01:53,310 --> 00:01:58,464
+And again, we're using our matplotlib inline to say any plots we create
+
+31
+00:01:58,540 --> 00:02:01,984
+we want them to be in the output pane, not as a floating window
+
+32
+00:02:02,040 --> 00:02:04,208
+just to make them easier to manage.
+
+33
+00:02:04,304 --> 00:02:07,680
+Here's a little section and we can
+
+34
+00:02:07,776 --> 00:02:13,344
+ignore but what this does is, it switches the CNTK system to use
+
+35
+00:02:13,440 --> 00:02:16,816
+either CPU or GPU depending on
+
+36
+00:02:16,896 --> 00:02:22,624
+environmental setting. But this is just used for internal CNTK testing.
+
+37
+00:02:22,704 --> 00:02:26,528
+Alright! In our initialization section
+
+38
+00:02:26,576 --> 00:02:29,872
+we call np random seed,
+
+39
+00:02:29,920 --> 00:02:32,688
+setting that to zero, this will ensure that
+
+40
+00:02:32,752 --> 00:02:35,024
+because there's some fixed number here
+
+41
+00:02:35,070 --> 00:02:37,776
+that we're going to get a consistent set of
+
+42
+00:02:37,856 --> 00:02:40,032
+sequence of random numbers.
+
+43
+00:02:40,128 --> 00:02:42,416
+And we have two variables here,
+
+44
+00:02:42,480 --> 00:02:47,232
+one is input dimension and number of classes. Input dimension is going to be
+
+45
+00:02:47,280 --> 00:02:50,064
+our 28 by 28 pixels for each record
+
+46
+00:02:50,128 --> 00:02:53,696
+which is 784 values and we're trying to
+
+47
+00:02:53,760 --> 00:02:55,408
+predict the digits 0 through 9,
+
+48
+00:02:55,488 --> 00:03:00,336
+so that's a total of 10 classes that we going to output or predictions for
+
+49
+00:03:00,400 --> 00:03:04,272
+and here's a reminder of what our data is looking like
+
+50
+00:03:04,330 --> 00:03:08,352
+in the CTF format, each record will start with a vertical bar and labels
+
+51
+00:03:08,416 --> 00:03:12,112
+and then be followed by the 1-hot encoding of that label
+
+52
+00:03:12,176 --> 00:03:14,912
+and followed by features
+
+53
+00:03:14,976 --> 00:03:19,760
+and then the 784 values from 0 to 255
+
+54
+00:03:19,840 --> 00:03:25,850
+that make up the pixel Grayscale values.
+
+55
+00:03:25,936 --> 00:03:30,000
+So this code block here is going to
+
+56
+00:03:30,096 --> 00:03:34,624
+create our reader object that will use in our training
+
+57
+00:03:34,680 --> 00:03:37,648
+and it's job is just going to be to read the
+
+58
+00:03:37,712 --> 00:03:41,360
+next set of data 32 or 64
+
+59
+00:03:41,424 --> 00:03:45,936
+however many-- many batch, whatever many batch size we use,
+
+60
+00:03:46,000 --> 00:03:47,888
+it'll read that many records.
+
+61
+00:03:48,256 --> 00:03:52,200
+So we sort of start here label stream, we can see
+
+62
+00:03:52,352 --> 00:03:57,232
+we're defining in a stream, it's field, is going to be called labels
+
+63
+00:03:57,280 --> 00:04:00,320
+that's the vertical bar and the word it's going to look for
+
+64
+00:04:00,416 --> 00:04:04,272
+and it's going to have a ten values
+
+65
+00:04:04,422 --> 00:04:05,920
+from num label classes.
+
+66
+00:04:06,320 --> 00:04:12,090
+The features-- feature stream will be defined using the
+
+67
+00:04:12,160 --> 00:04:15,180
+features keyword with vertical bar in front of it.
+
+68
+00:04:15,240 --> 00:04:18,180
+And it's going to have 784 values.
+
+69
+00:04:19,160 --> 00:04:21,250
+Then we put both these streams together
+
+70
+00:04:21,360 --> 00:04:24,380
+and this CTFDeserializer.
+
+71
+00:04:24,460 --> 00:04:27,840
+And finally we wrap all that with a MinibatchSource.
+
+72
+00:04:27,900 --> 00:04:29,530
+And the MinibatchSource is our actual
+
+73
+00:04:29,600 --> 00:04:31,890
+reader object that we can use in our training loop.
+
+74
+00:04:32,160 --> 00:04:34,400
+And then some parameters here
+
+75
+00:04:34,490 --> 00:04:36,440
+as taking the Deserializer
+
+76
+00:04:36,540 --> 00:04:41,700
+and then it's saying that, using the name parameter randomize
+
+77
+00:04:41,790 --> 00:04:45,420
+and it sets it to true if it's training or false if it's not training
+
+78
+00:04:45,520 --> 00:04:47,030
+because we don't have any
+
+79
+00:04:47,080 --> 00:04:50,720
+reason to randomize if we're doing that just evaluation.
+
+80
+00:04:50,780 --> 00:04:53,450
+Randomization is really used
+
+81
+00:04:53,520 --> 00:04:56,340
+for during training. And our max sweeps
+
+82
+00:04:56,480 --> 00:04:58,760
+is going to be infinity, we're not going to
+
+83
+00:04:58,840 --> 00:05:01,610
+put a maximum on here, if we're doing training,
+
+84
+00:05:01,940 --> 00:05:04,090
+otherwise if we're doing
+
+85
+00:05:04,200 --> 00:05:07,520
+testing we're just going to say go through the data and maximum of one time.
+
+86
+00:05:09,540 --> 00:05:13,210
+Down here, we're trying to figure out
+
+87
+00:05:13,310 --> 00:05:16,050
+where our data is? We're trying to figure out the data directory.
+
+88
+00:05:16,100 --> 00:05:21,630
+Essentially, we first look in the examples directory
+
+89
+00:05:21,680 --> 00:05:24,940
+and if we don't find it there, we look in the--
+
+90
+00:05:25,000 --> 00:05:30,440
+the data in this directory and when we're
+
+91
+00:05:30,490 --> 00:05:33,110
+finally done, essentially we actually
+
+92
+00:05:33,200 --> 00:05:36,170
+loop through these two sets of directories and we try them both.
+
+93
+00:05:36,480 --> 00:05:38,530
+And when we find the file,
+
+94
+00:05:38,600 --> 00:05:40,920
+we say data found is true when we break out.
+
+95
+00:05:41,060 --> 00:05:45,130
+So if we didn't-- if we didn't find the file
+
+96
+00:05:45,210 --> 00:05:47,250
+we say ok, raise an exception.
+
+97
+00:05:47,320 --> 00:05:51,160
+Otherwise we print where the data is and you can see the last time I run this
+
+98
+00:05:51,220 --> 00:05:53,610
+it says Data directory is data MNIST.
+
+99
+00:05:53,690 --> 00:05:57,090
+So now we've got our directory, we've got our reader to use.
+
+100
+00:05:57,200 --> 00:05:59,580
+Now, we're going to create our model.
+

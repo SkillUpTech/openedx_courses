@@ -1,0 +1,148 @@
+0
+00:00:01,180 --> 00:00:05,810
+Let's do brief recap of basic machine learning
+
+1
+00:00:05,810 --> 00:00:08,830
+terminologies in this video.
+
+2
+00:00:11,180 --> 00:00:13,710
+We'll start with understanding what the input data is
+
+3
+00:00:13,710 --> 00:00:14,610
+gonna look like.
+
+4
+00:00:14,610 --> 00:00:16,996
+We'll define a very simple model.
+
+5
+00:00:19,297 --> 00:00:23,790
+And we'll predict whatever our target values are gonna be.
+
+6
+00:00:24,790 --> 00:00:29,160
+These techniques are applicable for both classification and
+
+7
+00:00:29,160 --> 00:00:31,400
+regression tasks.
+
+8
+00:00:31,400 --> 00:00:33,620
+But for simplicity, in this video,
+
+9
+00:00:33,620 --> 00:00:36,063
+we are gonna focus on a regression task.
+
+10
+00:00:38,203 --> 00:00:42,125
+We have a solar panel where the features x here happens to
+
+11
+00:00:42,125 --> 00:00:46,216
+be a single feature which is the average day temperature in
+
+12
+00:00:46,216 --> 00:00:47,480
+Fahrenheit.
+
+13
+00:00:47,480 --> 00:00:51,660
+And we want to predict based on that feature what is the output
+
+14
+00:00:51,660 --> 00:00:54,880
+of the solar panel in watts for that particular day.
+
+15
+00:00:56,940 --> 00:01:00,810
+So our input x is the feature in this case is the average day
+
+16
+00:01:00,810 --> 00:01:05,280
+temperature and the output is the observed output which is
+
+17
+00:01:05,280 --> 00:01:08,160
+also can be thought of as labels, except that it's
+
+18
+00:01:08,160 --> 00:01:11,420
+a real number here, which is the solar panel output in watts.
+
+19
+00:01:13,430 --> 00:01:17,690
+We have a bunch of observations that these are the readings
+
+20
+00:01:17,690 --> 00:01:19,800
+already collected from the solar panel for
+
+21
+00:01:19,800 --> 00:01:23,020
+a given day temperature x here.
+
+22
+00:01:23,020 --> 00:01:25,477
+We have the corresponding value of the y.
+
+23
+00:01:28,420 --> 00:01:33,210
+We can now fit a very simple model, it's a line.
+
+24
+00:01:33,210 --> 00:01:35,350
+So if you go back to your algebra class,
+
+25
+00:01:35,350 --> 00:01:40,280
+it's defined by a slope, which is the rate of
+
+26
+00:01:40,280 --> 00:01:45,180
+change of y over rate of change of x.
+
+27
+00:01:46,660 --> 00:01:50,170
+So, this is the slope, and b is the intercept.
+
+28
+00:01:52,070 --> 00:01:57,950
+So our model function has two parameters, slope and intercept.
+
+29
+00:01:57,950 --> 00:02:00,910
+We learned a model where you have the input coming as
+
+30
+00:02:00,910 --> 00:02:04,530
+the temperature of the day, the z function is our model,
+
+31
+00:02:04,530 --> 00:02:08,290
+the parameters here are m and b.
+
+32
+00:02:10,140 --> 00:02:12,390
+With that we can predict for
+
+33
+00:02:12,390 --> 00:02:16,570
+any arbitrary temperature the value of y.
+
+34
+00:02:16,570 --> 00:02:20,711
+So for instance say someday we have a very high temperature
+
+35
+00:02:20,711 --> 00:02:23,416
+here, daytime temperature is this,
+
+36
+00:02:23,416 --> 00:02:26,895
+the output predicted by our model will be y star.
+

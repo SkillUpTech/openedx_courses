@@ -1,0 +1,84 @@
+0
+00:00:03,091 --> 00:00:06,854
+The addition operator can do math and numbers,
+
+1
+00:00:06,855 --> 00:00:12,060
+such as energies and floats, or it can concatenate strings.
+
+2
+00:00:12,061 --> 00:00:12,740
+Let's take a look.
+
+3
+00:00:15,670 --> 00:00:19,300
+Here, I just have a simple math equation, 19 + 3.
+
+4
+00:00:19,301 --> 00:00:21,634
+And if we echo to the screen by running it,
+
+5
+00:00:21,635 --> 00:00:24,070
+we see we can get an answer there.
+
+6
+00:00:24,071 --> 00:00:26,843
+You can change the numbers and use this as your own calculator.
+
+7
+00:00:28,583 --> 00:00:31,109
+I can also use this to add float numbers.
+
+8
+00:00:35,789 --> 00:00:37,690
+And that also shows the result below.
+
+9
+00:00:37,691 --> 00:00:41,390
+So this is a typical mathematical operation, and
+
+10
+00:00:41,391 --> 00:00:43,069
+use this just like you would in your math.
+
+11
+00:00:45,000 --> 00:00:47,410
+We can also add strings.
+
+12
+00:00:47,411 --> 00:00:50,310
+Here, I have two strings, my name + Allysa.
+
+13
+00:00:51,470 --> 00:00:55,450
+If I echo that below, it displays as a single string.
+
+14
+00:00:55,451 --> 00:00:58,260
+We can also put these within a print function.
+
+15
+00:00:59,260 --> 00:01:02,143
+I can do the math operation in the print function and
+
+16
+00:01:02,144 --> 00:01:03,557
+the result can display.
+
+17
+00:01:06,425 --> 00:01:11,290
+I can put a number of strings and concatenate them using
+
+18
+00:01:11,291 --> 00:01:16,170
+the + operator, and they display as a single string.
+
+19
+00:01:17,950 --> 00:01:22,920
+The additional operator allows us to do math additions with numbers or
+
+20
+00:01:22,921 --> 00:01:24,440
+to concatenate strings.
+

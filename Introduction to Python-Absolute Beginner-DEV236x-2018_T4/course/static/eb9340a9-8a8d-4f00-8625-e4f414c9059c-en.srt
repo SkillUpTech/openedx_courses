@@ -1,0 +1,124 @@
+0
+00:00:00,740 --> 00:00:07,362
+We'll start with explaining what the data looks like a bit later,
+
+1
+00:00:07,362 --> 00:00:12,804
+but first let's get the intuition of the task involved
+
+2
+00:00:12,804 --> 00:00:18,853
+in tagging entities in the Air Traffic Controller Data Set.
+
+3
+00:00:18,853 --> 00:00:25,100
+We have Text tokens which we would associate class labels.
+
+4
+00:00:26,640 --> 00:00:31,950
+Each token would have a corresponding class labels and
+
+5
+00:00:31,950 --> 00:00:36,750
+we have a notion of recurrence here because a sentence or
+
+6
+00:00:36,750 --> 00:00:40,670
+a sequence would have multiple tokens associated with it.
+
+7
+00:00:40,670 --> 00:00:43,540
+For instance, we can start with
+
+8
+00:00:43,540 --> 00:00:48,323
+the first token here in one of the sequences show, and
+
+9
+00:00:48,323 --> 00:00:52,800
+the label that we will assign to it is O, or other.
+
+10
+00:00:52,800 --> 00:00:56,289
+And once you process that, we'll also have a history.
+
+11
+00:00:56,289 --> 00:00:59,594
+Remember, there is no history when we start the recurring
+
+12
+00:00:59,594 --> 00:01:01,490
+pattern, that history is zero.
+
+13
+00:01:03,250 --> 00:01:06,803
+So, the next token would be say, Burbank,
+
+14
+00:01:06,803 --> 00:01:10,942
+and the corresponding label would be From_city.
+
+15
+00:01:10,942 --> 00:01:15,681
+The following one is to, and this one we will label other,
+
+16
+00:01:15,681 --> 00:01:19,885
+and so and so forth, the next token being Seattle.
+
+17
+00:01:19,885 --> 00:01:24,749
+So now the fact that there was to, the word to that appeared
+
+18
+00:01:24,749 --> 00:01:29,925
+before a name of a city, renders it with a different context.
+
+19
+00:01:29,925 --> 00:01:33,372
+In this case we label it as a To_city, and
+
+20
+00:01:33,372 --> 00:01:35,447
+then flights tomorrow.
+
+21
+00:01:35,447 --> 00:01:40,153
+So think about an application where you have a sentence or
+
+22
+00:01:40,153 --> 00:01:42,995
+a query that a user makes on an app,
+
+23
+00:01:42,995 --> 00:01:46,932
+say show Burbank to Seattle flights tomorrow.
+
+24
+00:01:46,932 --> 00:01:51,287
+You can immediately feed it into some kind of a structured
+
+25
+00:01:51,287 --> 00:01:56,279
+context, which is the beginning of the location where the person
+
+26
+00:01:56,279 --> 00:02:00,000
+is gonna start flying, and it's destination,
+
+27
+00:02:00,000 --> 00:02:04,628
+with the date that is going to be associated with the intended
+
+28
+00:02:04,628 --> 00:02:08,653
+action of finding a flight for that particular day.
+
+29
+00:02:08,653 --> 00:02:11,490
+So here you can see there are many inputs.
+
+30
+00:02:13,360 --> 00:02:17,620
+And there are correspondingly as many tokens associated with it.
+

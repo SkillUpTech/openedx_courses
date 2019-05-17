@@ -1,0 +1,128 @@
+0
+00:00:02,569 --> 00:00:07,003
+Boolean String Methods such as isalpha or
+
+1
+00:00:07,004 --> 00:00:14,490
+isnum can be used to control our flow of code in an if statement.
+
+2
+00:00:14,491 --> 00:00:18,590
+We can use any Boolean String Method in an if statement because they all
+
+3
+00:00:18,591 --> 00:00:20,399
+resolve to either true or false.
+
+4
+00:00:21,960 --> 00:00:25,670
+In our example, we get input for the title of a book and
+
+5
+00:00:25,671 --> 00:00:28,040
+save that in favorite_book.
+
+6
+00:00:28,041 --> 00:00:31,060
+Then we use the istitle method
+
+7
+00:00:31,061 --> 00:00:35,210
+to see if it's a title case where every word is capitalized.
+
+8
+00:00:36,400 --> 00:00:40,500
+If that result is true, then we'll print nice capitalization.
+
+9
+00:00:40,501 --> 00:00:42,964
+If not true, we'll go to the else statement and
+
+10
+00:00:42,965 --> 00:00:45,435
+we'll give them a tip to capitalize each word.
+
+11
+00:00:48,409 --> 00:00:50,360
+We run the code and I'll put in a title.
+
+12
+00:00:57,701 --> 00:01:01,255
+It says nice capitalization because I put in each word capitalized.
+
+13
+00:01:05,396 --> 00:01:08,097
+If I'll just put in something without capitalization,
+
+14
+00:01:08,098 --> 00:01:09,060
+it gives me the tip.
+
+15
+00:01:10,560 --> 00:01:12,376
+So this resolve do not true.
+
+16
+00:01:15,598 --> 00:01:20,160
+In the next example, we want to enter a positive integer and
+
+17
+00:01:20,161 --> 00:01:23,000
+then we run the check, is it a digit.
+
+18
+00:01:25,354 --> 00:01:30,651
+This is a good check because if we're looking for a number input,
+
+19
+00:01:30,652 --> 00:01:35,177
+then if someone puts in something that's not a number or
+
+20
+00:01:35,178 --> 00:01:37,505
+the positive digit we want,
+
+21
+00:01:42,058 --> 00:01:48,550
+Then we see that a text string is not an integer.
+
+22
+00:01:48,551 --> 00:01:52,983
+We can also run more than one if statement at a time.
+
+23
+00:01:57,190 --> 00:01:59,577
+After this first if statement runs,
+
+24
+00:01:59,578 --> 00:02:04,700
+I can run a second one to check if it's a alphabetical character.
+
+25
+00:02:04,701 --> 00:02:07,700
+And if it is, we can tell people that that's a word and
+
+26
+00:02:07,701 --> 00:02:10,550
+that we're looking for a number input.
+
+27
+00:02:12,060 --> 00:02:12,834
+So I can try again.
+
+28
+00:02:14,104 --> 00:02:17,348
+And that it says number is not a positive integer,
+
+29
+00:02:17,349 --> 00:02:19,132
+number is more like a word.
+
+30
+00:02:21,691 --> 00:02:26,833
+So we can use our Boolean string test to evaluate if statements and
+
+31
+00:02:26,834 --> 00:02:29,180
+control the flow of our code.
+

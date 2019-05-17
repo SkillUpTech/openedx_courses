@@ -1,0 +1,380 @@
+0
+00:00:01,400 --> 00:00:03,100
+Let's do a quick review of
+
+1
+00:00:03,200 --> 00:00:05,020
+the previous module where we you learn
+
+2
+00:00:05,520 --> 00:00:07,740
+to build a Multi-layer Perceptron.
+
+3
+00:00:08,500 --> 00:00:12,410
+You took an image of a handwritten digit three here.
+
+4
+00:00:12,760 --> 00:00:17,660
+And then flattened it out into an array.
+
+5
+00:00:17,800 --> 00:00:21,140
+And used it as an input into your deep model.
+
+6
+00:00:23,080 --> 00:00:27,380
+All the image pixels were connected to
+
+7
+00:00:27,440 --> 00:00:33,560
+their corresponding nodes in the model here.
+
+8
+00:00:33,780 --> 00:00:36,740
+We then layered this first layer
+
+9
+00:00:36,840 --> 00:00:39,740
+and output of that layer was fed to the second layer
+
+10
+00:00:39,920 --> 00:00:43,420
+and the final output node had
+
+11
+00:00:43,700 --> 00:00:46,980
+ten categories which spelled out
+
+12
+00:00:47,160 --> 00:00:49,380
+one for each digit what they meant.
+
+13
+00:00:51,780 --> 00:00:53,760
+In this case, we were learning
+
+14
+00:00:53,860 --> 00:00:57,920
+for the first layer a set of weights and biases.
+
+15
+00:00:59,260 --> 00:01:03,660
+So in total there were six sets of parameters,
+
+16
+00:01:05,380 --> 00:01:10,020
+three sets of weights and biases. Okay!
+
+17
+00:01:12,400 --> 00:01:14,540
+The fact that all the pixels
+
+18
+00:01:14,780 --> 00:01:17,420
+were connected to the nodes
+
+19
+00:01:17,540 --> 00:01:19,420
+that were in the next layer
+
+20
+00:01:19,960 --> 00:01:22,280
+makes it a fully connected Network.
+
+21
+00:01:24,440 --> 00:01:27,500
+So in our case with n hidden nodes
+
+22
+00:01:27,620 --> 00:01:30,600
+the first layer had 400 such
+
+23
+00:01:30,940 --> 00:01:32,740
+but it could be anything arbitrary
+
+24
+00:01:33,580 --> 00:01:36,380
+if you build the entire network
+
+25
+00:01:36,500 --> 00:01:39,480
+it would have for this particular layer itself
+
+26
+00:01:39,720 --> 00:01:48,576
+you'll have 784 times n for the weights and n biases.
+
+27
+00:01:49,320 --> 00:01:50,880
+These are the total number of parameters
+
+28
+00:01:50,940 --> 00:01:52,360
+for this fully connected layer.
+
+29
+00:01:54,480 --> 00:01:57,540
+Now we want to do away with this flattening
+
+30
+00:01:58,460 --> 00:02:04,200
+may I ask, Why should we consider flattening out these image?
+
+31
+00:02:04,380 --> 00:02:07,300
+Does it make sense? Other than the convenience
+
+32
+00:02:07,500 --> 00:02:10,670
+of doing some algebraic manipulations.
+
+33
+00:02:11,980 --> 00:02:15,580
+The fact that a pixel within an image
+
+34
+00:02:16,460 --> 00:02:18,540
+is adjacent to another pixel
+
+35
+00:02:18,640 --> 00:02:20,880
+in all the directions and when you flatten it
+
+36
+00:02:21,020 --> 00:02:23,320
+that adjacency information is lost.
+
+37
+00:02:26,160 --> 00:02:29,920
+That doesn't make sense. So what we would like
+
+38
+00:02:30,020 --> 00:02:35,240
+to do instead is to see if we can devise
+
+39
+00:02:35,340 --> 00:02:39,950
+a scheme where we can take the image
+
+40
+00:02:40,240 --> 00:02:41,840
+and process it in such a way
+
+41
+00:02:41,920 --> 00:02:44,460
+that doesn't require this flattening.
+
+42
+00:02:48,740 --> 00:02:50,200
+So we take an image here
+
+43
+00:02:50,380 --> 00:02:54,320
+and we consider a weight matrix
+
+44
+00:02:54,640 --> 00:02:58,520
+say of size 3 by 3
+
+45
+00:02:58,570 --> 00:03:04,940
+instead of flattened weight vector here.
+
+46
+00:03:05,040 --> 00:03:12,940
+Okay! of length 784, if we did that and overlaid on top of this
+
+47
+00:03:13,008 --> 00:03:16,780
+region in the image we could do a dot product
+
+48
+00:03:16,864 --> 00:03:19,400
+between the weights and the corresponding pixel
+
+49
+00:03:19,456 --> 00:03:26,670
+values in the image, add the wires and that would be my output value
+
+50
+00:03:26,736 --> 00:03:30,200
+for that particular patch of the image.
+
+51
+00:03:30,240 --> 00:03:36,150
+And this would have taken into account the spacial adjacency
+
+52
+00:03:36,192 --> 00:03:37,500
+between the pixels,
+
+53
+00:03:41,280 --> 00:03:47,488
+and the number of parameters for this particular patch would be ten,
+
+54
+00:03:47,552 --> 00:03:52,400
+three times three for the weights and one for the bias.
+
+55
+00:03:52,512 --> 00:03:56,190
+Now note that this patch we will use as 3 by 3 but it doesn't
+
+56
+00:03:56,240 --> 00:04:00,240
+have to be it can be anything that you choose it's a parameter in your network.
+
+57
+00:04:00,304 --> 00:04:04,140
+In order to build the equivalent of a fully connected network
+
+58
+00:04:04,190 --> 00:04:11,690
+with this schema of running a patch or we'll call it a kernel or a filter
+
+59
+00:04:11,760 --> 00:04:16,570
+you can now go through and scan the
+
+60
+00:04:16,640 --> 00:04:20,860
+kernel across the entire image in a zigzag fashion.
+
+61
+00:04:20,944 --> 00:04:27,270
+And moving from here to there, there are 28 minus 2 steps
+
+62
+00:04:27,328 --> 00:04:35,520
+and you can repeat that steps along all the rows in the image
+
+63
+00:04:35,632 --> 00:04:42,320
+and when you do that you would have 28, minus two times 28 minus 2
+
+64
+00:04:42,400 --> 00:04:45,400
+output node and those have 10 parameters each.
+
+65
+00:04:45,488 --> 00:04:46,940
+So your network would have
+
+66
+00:04:47,024 --> 00:04:52,260
+6,760 parameters. Now we'll talk a lot about these number of
+
+67
+00:04:52,304 --> 00:04:55,770
+parameters because for these small images it may not make much of a
+
+68
+00:04:55,840 --> 00:04:59,900
+difference but for larger data set it can make a big difference.
+
+69
+00:04:59,952 --> 00:05:05,560
+So let's calculate what does it mean with respect to larger images
+
+70
+00:05:05,632 --> 00:05:12,890
+200 by 200 pixels that's not a whole lot that would be something like
+
+71
+00:05:12,976 --> 00:05:22,450
+40,000 pixels and in your cameras today you get image resolutions
+
+72
+00:05:22,528 --> 00:05:24,570
+that are in the order of megapixels.
+
+73
+00:05:24,624 --> 00:05:29,980
+Let's see what happens with this relatively small size image
+
+74
+00:05:30,064 --> 00:05:33,700
+of 200 by 200 pixels
+
+75
+00:05:33,760 --> 00:05:38,570
+with the filter size of 3 by 3 which is a very tiny patch
+
+76
+00:05:38,640 --> 00:05:43,070
+and you can say that when we slide the
+
+77
+00:05:43,152 --> 00:05:47,150
+kernel by one spot that is the stripe and we will have
+
+78
+00:05:47,216 --> 00:05:53,130
+five layers in my network and number of filters say are 20 per layer.
+
+79
+00:05:53,200 --> 00:06:01,152
+If we do the math it comes down to a hoping 39 million parameters.
+
+80
+00:06:01,312 --> 00:06:06,750
+Now 39 million parameters is a lot of parameters,
+
+81
+00:06:06,840 --> 00:06:09,420
+for a small network.
+
+82
+00:06:11,710 --> 00:06:15,130
+What do we do with this small set of image now
+
+83
+00:06:15,220 --> 00:06:18,940
+which is generating this huge set of parameters.
+
+84
+00:06:19,140 --> 00:06:21,550
+There is a big problem because
+
+85
+00:06:21,640 --> 00:06:28,000
+this would lead to over fitting. We have to fit
+
+86
+00:06:28,060 --> 00:06:31,240
+these many parameters to our data set
+
+87
+00:06:31,330 --> 00:06:35,530
+and that too for a small Kernel size
+
+88
+00:06:35,820 --> 00:06:40,170
+with a relatively small image size.
+
+89
+00:06:40,320 --> 00:06:45,360
+And the layers being 5 which may sound a lot
+
+90
+00:06:45,460 --> 00:06:48,930
+to you but you will see later on that many practical architectures
+
+91
+00:06:49,020 --> 00:06:54,020
+would have way more than 5 layers.
+
+92
+00:06:54,110 --> 00:06:59,400
+And the number of filters I have set it to 20 but they
+
+93
+00:06:59,480 --> 00:07:04,110
+can be much larger too. How can we make it happen?
+
+94
+00:07:04,380 --> 00:07:10,660
+This is the motivation for Convolution Networks.
+

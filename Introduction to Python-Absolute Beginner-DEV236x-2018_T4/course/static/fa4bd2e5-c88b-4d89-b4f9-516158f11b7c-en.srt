@@ -1,0 +1,196 @@
+0
+00:00:04,282 --> 00:00:08,100
+A while loop runs while a condition is true.
+
+1
+00:00:08,101 --> 00:00:12,606
+If you write while with the keyword true, it will run forever.
+
+2
+00:00:12,607 --> 00:00:15,740
+And is what is known as an infinity loop.
+
+3
+00:00:15,741 --> 00:00:19,520
+Let's take a look at why the while True loop runs forever.
+
+4
+00:00:19,521 --> 00:00:21,190
+Here, we have the keyword true.
+
+5
+00:00:21,191 --> 00:00:23,340
+It can't evaluate to anything but true.
+
+6
+00:00:23,341 --> 00:00:26,850
+And so this while loop keeps continuing when it gets to the end
+
+7
+00:00:26,851 --> 00:00:27,738
+of the indentation.
+
+8
+00:00:27,739 --> 00:00:30,513
+But this while true loop only runs one time,
+
+9
+00:00:30,514 --> 00:00:33,310
+because we have the keyword break.
+
+10
+00:00:33,311 --> 00:00:35,920
+Break breaks out of a loop.
+
+11
+00:00:35,921 --> 00:00:38,983
+It returns to the code after the indentation.
+
+12
+00:00:38,984 --> 00:00:41,800
+And would run anything that follows.
+
+13
+00:00:41,801 --> 00:00:42,880
+Let's run the code here.
+
+14
+00:00:44,720 --> 00:00:47,080
+It runs once and then breaks.
+
+15
+00:00:47,081 --> 00:00:48,990
+It's kind of a meaningless while true loop,
+
+16
+00:00:48,991 --> 00:00:52,530
+because it's hard-coded break and there's no conditional.
+
+17
+00:00:52,531 --> 00:00:55,370
+So we need to look at an example that has a conditional for
+
+18
+00:00:55,371 --> 00:00:57,480
+the break, an If statement.
+
+19
+00:00:57,481 --> 00:01:01,368
+Here, if this evaluates to true, a break statement will run.
+
+20
+00:01:03,802 --> 00:01:08,470
+This while true loop takes a number_guess input.
+
+21
+00:01:08,471 --> 00:01:11,420
+It has a secret number that it's gonna compare against.
+
+22
+00:01:12,950 --> 00:01:15,870
+The number is 5, hard coded above.
+
+23
+00:01:17,890 --> 00:01:18,780
+Let's run the code.
+
+24
+00:01:20,760 --> 00:01:26,954
+If I put in anything but a number, it will be incorrect.
+
+25
+00:01:26,955 --> 00:01:30,638
+Because we're comparing my number guess from the input to
+
+26
+00:01:30,639 --> 00:01:31,800
+the string five.
+
+27
+00:01:31,801 --> 00:01:35,650
+If it's not the number five in a string format,
+
+28
+00:01:35,651 --> 00:01:41,220
+then it will give the message that your guess is incorrect.
+
+29
+00:01:41,221 --> 00:01:42,590
+So we can put in the number.
+
+30
+00:01:44,220 --> 00:01:46,217
+And finally yes we are correct.
+
+31
+00:01:49,518 --> 00:01:52,536
+Let's look at another example,
+
+32
+00:01:52,537 --> 00:01:57,730
+where we get input and we ask it to be just a single word.
+
+33
+00:01:57,731 --> 00:02:00,870
+So a single word has no spaces and
+
+34
+00:02:00,871 --> 00:02:05,540
+it is a word and uses only alphabetical characters.
+
+35
+00:02:05,541 --> 00:02:08,330
+So we're gonna use the is alpha check.
+
+36
+00:02:08,331 --> 00:02:11,170
+This will evaluate as false for
+
+37
+00:02:11,171 --> 00:02:13,840
+anything that is not an alphabetical character.
+
+38
+00:02:13,841 --> 00:02:17,560
+So a space or some type of symbol.
+
+39
+00:02:17,561 --> 00:02:19,007
+I'll put in a full name.
+
+40
+00:02:22,608 --> 00:02:25,960
+It says that Alton Derosa is not a single word.
+
+41
+00:02:25,961 --> 00:02:31,379
+Because the space failed the isalpha check, the else statement runs.
+
+42
+00:02:35,763 --> 00:02:38,590
+I can't spell Alton with the at symbol.
+
+43
+00:02:38,591 --> 00:02:43,294
+That is not an alphabetical character, so again, it fails, and
+
+44
+00:02:43,295 --> 00:02:44,414
+the else runs.
+
+45
+00:02:49,587 --> 00:02:50,740
+Welcome, Alton.
+
+46
+00:02:50,741 --> 00:02:55,100
+We finally wrote just a single word of all alphabetical characters.
+
+47
+00:02:56,900 --> 00:02:59,480
+A while true loop will loop forever,
+
+48
+00:02:59,481 --> 00:03:01,630
+until it encounters a break statement.
+

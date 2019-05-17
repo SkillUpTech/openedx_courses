@@ -1,0 +1,204 @@
+0
+00:00:04,377 --> 00:00:07,046
+A while loop can be used with any boolean, but
+
+1
+00:00:07,047 --> 00:00:11,050
+it's common to use it with a boolean string test to make sure that our
+
+2
+00:00:11,051 --> 00:00:13,170
+input is in the format that we want.
+
+3
+00:00:14,370 --> 00:00:19,890
+An example of a format that we might want is just a first name.
+
+4
+00:00:19,891 --> 00:00:26,960
+And so in the first example here, we define a variable called student
+
+5
+00:00:26,961 --> 00:00:31,960
+fname, standing for first name, and just give it an empty string.
+
+6
+00:00:31,961 --> 00:00:36,140
+And then we have a boolean string test in a while loop.
+
+7
+00:00:37,210 --> 00:00:40,600
+Here, we're gonna check if the student first name
+
+8
+00:00:40,601 --> 00:00:42,570
+is alphabetical characters.
+
+9
+00:00:43,650 --> 00:00:49,450
+And if that is false, then we're gonna run the code to get input for
+
+10
+00:00:49,451 --> 00:00:54,650
+the name because once it's true then we have a alphabetical
+
+11
+00:00:54,651 --> 00:00:59,650
+character name and then we can print it out with this statement below.
+
+12
+00:01:00,880 --> 00:01:02,265
+Let's run this code.
+
+13
+00:01:05,367 --> 00:01:08,645
+If I put in Alton D,
+
+14
+00:01:12,497 --> 00:01:19,460
+That fails, a fail here of this test is equal to false.
+
+15
+00:01:19,461 --> 00:01:22,320
+And so the code runs again and gets input.
+
+16
+00:01:22,321 --> 00:01:26,680
+The problem here is that a space is not an alphabetical character.
+
+17
+00:01:26,681 --> 00:01:28,881
+So we just looking for a first name, and
+
+18
+00:01:28,882 --> 00:01:32,822
+although this isn't always true that first name don't have spaces,
+
+19
+00:01:32,823 --> 00:01:36,323
+just for the purposes of this task we want to illustrate that.
+
+20
+00:01:38,955 --> 00:01:42,412
+So now I can just enter Alton with no spaces.
+
+21
+00:01:45,004 --> 00:01:48,342
+Then I get my greeting, Alton has been entered as first name.
+
+22
+00:01:52,624 --> 00:01:54,939
+In this second example,
+
+23
+00:01:54,940 --> 00:02:00,570
+we have a while loop that wants all of the input in uppercase.
+
+24
+00:02:01,620 --> 00:02:05,210
+We just did the same thing we did in the last loop where we
+
+25
+00:02:05,211 --> 00:02:07,480
+check if this is false.
+
+26
+00:02:07,481 --> 00:02:09,623
+If the message is upper,
+
+27
+00:02:09,624 --> 00:02:13,815
+is returned false then we keep going in the loop.
+
+28
+00:02:13,816 --> 00:02:16,468
+And the way that we compared it this time is we said,
+
+29
+00:02:16,469 --> 00:02:18,560
+it's not equal to true.
+
+30
+00:02:18,561 --> 00:02:23,502
+And so the case is when I put in high and lowercase,
+
+31
+00:02:23,503 --> 00:02:27,940
+that's false and that is not equal to true.
+
+32
+00:02:27,941 --> 00:02:35,460
+So when that happens, then this code below will be run.
+
+33
+00:02:35,461 --> 00:02:40,009
+So I'll keep doing the input until I go in uppercase, so let's run that.
+
+34
+00:02:43,586 --> 00:02:47,222
+Sorry, I can't hear, please yell a message.
+
+35
+00:02:51,340 --> 00:02:53,341
+Can't hear, yell a message.
+
+36
+00:02:57,654 --> 00:02:59,780
+So now the message is received.
+
+37
+00:03:02,381 --> 00:03:07,357
+Finally, there's an example where we want a number input,
+
+38
+00:03:07,358 --> 00:03:11,080
+and we say enter a positive integer.
+
+39
+00:03:11,081 --> 00:03:15,050
+This is a case where isdigit works very well.
+
+40
+00:03:15,051 --> 00:03:20,240
+Isdigit will return as false if you
+
+41
+00:03:20,241 --> 00:03:24,449
+enter a decimal point or a minus sign, and so only number,
+
+42
+00:03:24,450 --> 00:03:29,160
+numeric characters can be entered to have this be true.
+
+43
+00:03:30,270 --> 00:03:35,310
+As long as is number returns false,
+
+44
+00:03:35,311 --> 00:03:38,540
+then it is not true and the code below runs.
+
+45
+00:03:38,541 --> 00:03:41,789
+So let's run that code.
+
+46
+00:03:41,790 --> 00:03:47,264
+I'm gonna go 3.3, -5,
+
+47
+00:03:47,265 --> 00:03:52,430
+and even a number written in text.
+
+48
+00:03:52,431 --> 00:03:58,800
+Finally, I'll just put in 34, which is a positive integer.
+
+49
+00:03:58,801 --> 00:04:03,745
+We can use while loops to keep running through at input to
+
+50
+00:04:03,746 --> 00:04:07,967
+get the proper format that we need for our code.
+

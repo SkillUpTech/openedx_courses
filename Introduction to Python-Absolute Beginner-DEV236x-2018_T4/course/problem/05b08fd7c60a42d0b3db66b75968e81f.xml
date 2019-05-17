@@ -1,0 +1,11 @@
+<problem display_name="Question 2" markdown="Which contains only integers? (ignore the commas)&#10;&#10;( ) Q, W, E, R, T, Y, a, s, d, f&#10;( ) -2, -1, -0.5, 0, 0.5, 1, 2&#10;(x) 1, 2, 0, -3, 2, -5 &#10;( ) 3, 2, 1, *, +, =, -   &#10;" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p>Which contains only integers? (ignore the commas)</p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">Q, W, E, R, T, Y, a, s, d, f</choice>
+      <choice correct="false">-2, -1, -0.5, 0, 0.5, 1, 2</choice>
+      <choice correct="true">1, 2, 0, -3, 2, -5</choice>
+      <choice correct="false">3, 2, 1, *, +, =, -</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

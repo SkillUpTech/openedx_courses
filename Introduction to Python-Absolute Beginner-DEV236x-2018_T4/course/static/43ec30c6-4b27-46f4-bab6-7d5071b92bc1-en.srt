@@ -1,0 +1,188 @@
+0
+00:00:03,880 --> 00:00:07,760
+When we work with Strings sometimes they're not in the format that we want
+
+1
+00:00:07,800 --> 00:00:13,000
+them to be in. And so we can use some test some boolean string method tests
+
+2
+00:00:13,050 --> 00:00:16,340
+to figure out, what format the strings are in?
+
+3
+00:00:16,390 --> 00:00:22,700
+So let's take a look, so we have several boolean string methods
+
+4
+00:00:22,750 --> 00:00:25,000
+that will return a true or false.
+
+5
+00:00:25,050 --> 00:00:28,860
+For instance we have this "Python" isalpha
+
+6
+00:00:28,900 --> 00:00:30,710
+and you just add that method to
+
+7
+00:00:30,760 --> 00:00:36,560
+the end of a string or string variable. The name is lowercase isalpha with
+
+8
+00:00:36,600 --> 00:00:40,320
+parenthesis and then when we run that we see it's true.
+
+9
+00:00:40,370 --> 00:00:44,120
+If I put a space in there, it's still true?
+
+10
+00:00:44,170 --> 00:00:48,590
+No, because the space is not a alphabetical character,
+
+11
+00:00:48,630 --> 00:00:57,650
+how about if I put a exclamation still false. So, in order to have a isalpha
+
+12
+00:00:57,700 --> 00:01:00,800
+pass you need only letters of the alphabet.
+
+13
+00:01:00,850 --> 00:01:09,000
+Here I have isalpha numeric or isalnum. And so same thing
+
+14
+00:01:09,050 --> 00:01:12,480
+If I run that it's true because it has digits
+
+15
+00:01:12,530 --> 00:01:15,480
+and it has alphabetic characters.
+
+16
+00:01:15,530 --> 00:01:20,760
+So again if I put a space in there that resolves to False.
+
+17
+00:01:23,830 --> 00:01:31,160
+A very useful method is startswith and in startswith you can put in
+
+18
+00:01:31,210 --> 00:01:36,480
+a string or a character. And so in this case, I'll see if
+
+19
+00:01:36,530 --> 00:01:38,480
+save startswith("s")
+
+20
+00:01:38,650 --> 00:01:42,460
+and we expect that is False.
+
+21
+00:01:42,510 --> 00:01:48,350
+False because this is case sensitive and so the only way to get truth
+
+22
+00:01:48,400 --> 00:01:54,040
+there is to have a exact match and now it is True.
+
+23
+00:01:54,090 --> 00:01:58,000
+So startswith can be very useful, here I have
+
+24
+00:01:58,050 --> 00:01:59,920
+is "HEY" islower
+
+25
+00:01:59,970 --> 00:02:03,170
+looks like it's yelling. So that's False.
+
+26
+00:02:03,220 --> 00:02:11,520
+So maybe I need to find out if its upper, yes, it is upper indeed.
+
+27
+00:02:11,570 --> 00:02:17,860
+Title is something that checks, if every word separated by a
+
+28
+00:02:17,910 --> 00:02:23,140
+space in your string is uppercase.
+
+29
+00:02:23,190 --> 00:02:34,920
+So that is True but the end is not True and we also said earlier
+
+30
+00:02:34,970 --> 00:02:39,120
+we can use a string variable. So here I'm going
+
+31
+00:02:39,170 --> 00:02:47,400
+to get the string of digits 176 to be centimeter height and then I'm going to
+
+32
+00:02:47,450 --> 00:02:55,400
+see are all of those digits and says yes that's True and if I took the quotes off.
+
+33
+00:02:55,450 --> 00:02:58,480
+What would happen? I'll get an error because
+
+34
+00:02:58,570 --> 00:03:04,800
+this is not a string and this only runs on strings.
+
+35
+00:03:04,850 --> 00:03:16,300
+So, I can also use my string methods inside
+
+36
+00:03:16,460 --> 00:03:20,640
+of a comma formatted print statement.
+
+37
+00:03:20,770 --> 00:03:23,200
+And so over here I have this centimeter height
+
+38
+00:03:23,310 --> 00:03:26,420
+is it a digit and so, then I just asked I said
+
+39
+00:03:26,550 --> 00:03:31,080
+is centimeter height and then I show the height is it all digits,
+
+40
+00:03:31,280 --> 00:03:35,600
+we can run that and it says 176
+
+41
+00:03:35,710 --> 00:03:39,520
+is all digits True. So this is where the True-False evaluates
+
+42
+00:03:39,640 --> 00:03:42,380
+and you put that right into a print statement.
+
+43
+00:03:42,510 --> 00:03:46,480
+So when we're working with various boolean string methods
+
+44
+00:03:46,550 --> 00:03:48,180
+we're able to identify,
+
+45
+00:03:48,280 --> 00:03:51,910
+what is inner strings and different elements of our string
+
+46
+00:03:52,020 --> 00:03:56,130
+such as what letters it starts with upper, lower and title.
+

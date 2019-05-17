@@ -1,0 +1,348 @@
+0
+00:00:03,228 --> 00:00:05,274
+deep learning let's take a step and
+
+1
+00:00:05,274 --> 00:00:08,282
+understand what you can expect later in the course.
+
+2
+00:00:10,660 --> 00:00:14,220
+So we'll cover the deep learning basics in six modules.
+
+3
+00:00:15,248 --> 00:00:19,410
+In Module 1, you'll have a flavor of the different concepts
+
+4
+00:00:19,410 --> 00:00:22,420
+getting introduced in the form of different application where
+
+5
+00:00:22,420 --> 00:00:27,320
+deep learning is being used, and a high level modeling work
+
+6
+00:00:27,320 --> 00:00:30,960
+flow that we will be using throughout the later modules.
+
+7
+00:00:32,050 --> 00:00:34,603
+In Module 2, we will cover logistic regression with
+
+8
+00:00:34,603 --> 00:00:37,110
+an application in optical character recognition.
+
+9
+00:00:38,830 --> 00:00:40,790
+We will use the optical character recognition
+
+10
+00:00:40,790 --> 00:00:44,350
+application in module three and four as well.
+
+11
+00:00:44,350 --> 00:00:49,071
+In Module 3, we will use Multi-layer perceptron
+
+12
+00:00:49,071 --> 00:00:51,497
+base models for the task.
+
+13
+00:00:51,497 --> 00:00:54,577
+And in Module 4, we will use convolution network for
+
+14
+00:00:54,577 --> 00:00:57,320
+the same optical character recognition task.
+
+15
+00:00:59,610 --> 00:01:02,700
+In Module 5, we will introduce time-series
+
+16
+00:01:02,700 --> 00:01:04,219
+modeling using deep networks.
+
+17
+00:01:05,260 --> 00:01:09,150
+In Module 6, we will going to text modeling,
+
+18
+00:01:09,150 --> 00:01:12,940
+we'll specifically use long-short term memory
+
+19
+00:01:12,940 --> 00:01:15,660
+recurrence units for text classification.
+
+20
+00:01:17,910 --> 00:01:22,420
+The course will have 5 hands-on lab, and 5 quizzes.
+
+21
+00:01:22,420 --> 00:01:24,160
+These are required for certification.
+
+22
+00:01:25,280 --> 00:01:29,407
+We will use Python Jupyter notebooks for your hands-on lab.
+
+23
+00:01:32,920 --> 00:01:36,510
+Upon completion, the students will be having enough knowledge
+
+24
+00:01:36,510 --> 00:01:39,910
+to build their own deep learning, end to end workflow,
+
+25
+00:01:39,910 --> 00:01:42,240
+combining the concepts, and the algorithms,
+
+26
+00:01:42,240 --> 00:01:43,909
+that will be introduced in this course.
+
+27
+00:01:45,810 --> 00:01:49,686
+You'll be specifically be able to build these models and
+
+28
+00:01:49,686 --> 00:01:52,834
+combining the end to end workflow that will get
+
+29
+00:01:52,834 --> 00:01:57,113
+introduced, you should be able solve practical problems in AI
+
+30
+00:01:57,113 --> 00:01:59,634
+with large amount of data involved.
+
+31
+00:02:03,668 --> 00:02:07,455
+So who are the audience for this course?
+
+32
+00:02:07,455 --> 00:02:10,433
+We aim this course for Data Scientists and
+
+33
+00:02:10,433 --> 00:02:14,519
+Engineers who are getting introduced to deep learning,
+
+34
+00:02:14,519 --> 00:02:17,923
+who have some background in machine learning,
+
+35
+00:02:17,923 --> 00:02:20,984
+and want to try out what deep learning can or
+
+36
+00:02:20,984 --> 00:02:24,419
+cannot provide in their application domains.
+
+37
+00:02:24,419 --> 00:02:30,597
+So this course is more of a practical hands on approach.
+
+38
+00:02:30,597 --> 00:02:33,573
+We also target technical managers who are interested and
+
+39
+00:02:33,573 --> 00:02:36,310
+involved in development in AI based technologies.
+
+40
+00:02:37,690 --> 00:02:41,580
+The third audience are the machine learning scientists
+
+41
+00:02:41,580 --> 00:02:44,510
+who are looking to build deep models, and
+
+42
+00:02:44,510 --> 00:02:48,490
+the focus is gonna be on agility and ease.
+
+43
+00:02:48,490 --> 00:02:52,229
+This is very, very important because as you can imagine,
+
+44
+00:02:52,229 --> 00:02:54,898
+with large amount of data involved, it is
+
+45
+00:02:54,898 --> 00:02:58,968
+important that you are able to scale your models efficiently.
+
+46
+00:03:01,747 --> 00:03:04,439
+So let's talk a little bit about the instructors.
+
+47
+00:03:06,353 --> 00:03:10,363
+I am Sayan Pathak I'm a principal machine learning
+
+48
+00:03:10,363 --> 00:03:12,420
+scientist at Microsoft.
+
+49
+00:03:12,420 --> 00:03:16,616
+I've built several machine learning applications in my past
+
+50
+00:03:16,616 --> 00:03:19,123
+in healthcare domain funded by NIH.
+
+51
+00:03:19,123 --> 00:03:21,904
+I have published in neuroinformatics during my
+
+52
+00:03:21,904 --> 00:03:24,830
+tenure at the Allen Institute for Brain Science.
+
+53
+00:03:26,000 --> 00:03:29,160
+I have a diverse range of interests starting from
+
+54
+00:03:29,160 --> 00:03:33,230
+computer vision, healthcare, informatics
+
+55
+00:03:33,230 --> 00:03:38,140
+applied to social networks as well as online advertisements.
+
+56
+00:03:38,140 --> 00:03:40,880
+I have academic affiliations with the University of
+
+57
+00:03:40,880 --> 00:03:44,690
+Washington and at the Indian Institute of Technology.
+
+58
+00:03:44,690 --> 00:03:48,117
+I'm also an instructor at the Ai school at Microsoft.
+
+59
+00:03:51,229 --> 00:03:54,051
+And my co-instructor, Roland Fernandez,
+
+60
+00:03:54,051 --> 00:03:56,790
+he's a researcher at Microsoft.
+
+61
+00:03:56,790 --> 00:03:59,090
+He's also an Ai school instructor.
+
+62
+00:03:59,090 --> 00:04:01,470
+His interested are in reinforcement learning,
+
+63
+00:04:01,470 --> 00:04:05,260
+autonomous multitask learning, and Computer Human Interaction.
+
+64
+00:04:06,330 --> 00:04:10,800
+He has worked in areas of Natural User Interface, activity
+
+65
+00:04:10,800 --> 00:04:14,980
+based computing, and a large number of programmer tools,
+
+66
+00:04:14,980 --> 00:04:16,530
+operating systems, and databases.
+
+67
+00:04:17,780 --> 00:04:20,170
+Let's talk a little bit about programming environment.
+
+68
+00:04:21,480 --> 00:04:26,619
+We'll be using Microsoft Cognitive Toolkit (CNTK).
+
+69
+00:04:26,619 --> 00:04:28,920
+We will be using different environments for
+
+70
+00:04:28,920 --> 00:04:30,730
+this course that meets your need.
+
+71
+00:04:31,730 --> 00:04:33,480
+Any one of them is appropriate for
+
+72
+00:04:33,480 --> 00:04:36,020
+you to successfully complete this course.
+
+73
+00:04:37,280 --> 00:04:40,987
+The first one that is recommended is that you install
+
+74
+00:04:40,987 --> 00:04:44,364
+the toolkit locally on a machine that you have.
+
+75
+00:04:44,364 --> 00:04:47,751
+You can also use pre-installed notebooks in
+
+76
+00:04:47,751 --> 00:04:49,450
+the Azure Notebooks.
+
+77
+00:04:49,450 --> 00:04:52,090
+Note these are gonna be CPU only.
+
+78
+00:04:52,090 --> 00:04:56,892
+So for those of you who want to leverage the powers
+
+79
+00:04:56,892 --> 00:05:01,475
+of deep learning, we do recommend using GPU.
+
+80
+00:05:01,475 --> 00:05:05,449
+But for the course, you can use CPU machines only and
+
+81
+00:05:05,449 --> 00:05:08,260
+successfully complete the course.
+
+82
+00:05:08,260 --> 00:05:11,298
+Additionally, we do provide access to Azure Data Science
+
+83
+00:05:11,298 --> 00:05:14,584
+Virtual Machines, where you can sign up with a trial account.
+
+84
+00:05:14,584 --> 00:05:18,796
+More details will be provided to you in the form of course notes,
+
+85
+00:05:18,796 --> 00:05:22,073
+samples, and in the supplementary material that
+
+86
+00:05:22,073 --> 00:05:24,115
+comes along with this course.
+

@@ -1,0 +1,228 @@
+0
+00:00:00,550 --> 00:00:04,380
+In the context of the A test data that I have walked you
+
+1
+00:00:04,380 --> 00:00:10,540
+through, it is shown at the top right corner of the slide here.
+
+2
+00:00:10,540 --> 00:00:13,330
+Let's see how we can visualize the network
+
+3
+00:00:13,330 --> 00:00:14,160
+that we are gonna train.
+
+4
+00:00:15,820 --> 00:00:20,618
+So here is the data and we create the recurring steps for
+
+5
+00:00:20,618 --> 00:00:22,610
+each of these tokens.
+
+6
+00:00:25,712 --> 00:00:27,956
+The position of the tokens does matter,
+
+7
+00:00:27,956 --> 00:00:29,700
+as I've eluded to before.
+
+8
+00:00:29,700 --> 00:00:34,880
+So beginning of sentence, from Boston to Pittsburgh on Thursday
+
+9
+00:00:34,880 --> 00:00:40,350
+of the next week should be classified into these tags.
+
+10
+00:00:42,720 --> 00:00:47,529
+And that the common step that I showed before expands
+
+11
+00:00:47,529 --> 00:00:51,690
+this entire network for you automatically.
+
+12
+00:00:51,690 --> 00:00:56,942
+This is unique to this toolkit because think about, if you had,
+
+13
+00:00:56,942 --> 00:01:02,191
+instead of, how many tokens we have here, so 11, if you had,
+
+14
+00:01:02,191 --> 00:01:06,958
+say, 20 tokens, you would have to manually create this
+
+15
+00:01:06,958 --> 00:01:11,756
+unrolling for 20 times if the sentence length was 20.
+
+16
+00:01:11,756 --> 00:01:15,556
+In another instance, if you had a sentence that was, say,
+
+17
+00:01:15,556 --> 00:01:18,976
+length of 10 words, then you'll have to create and
+
+18
+00:01:18,976 --> 00:01:22,168
+manually roll out these recurrences shown here,
+
+19
+00:01:22,168 --> 00:01:25,580
+which can be really, really painful.
+
+20
+00:01:25,580 --> 00:01:28,230
+So in this toolkit that you are using,
+
+21
+00:01:28,230 --> 00:01:30,790
+that task is abstracted away from you.
+
+22
+00:01:30,790 --> 00:01:36,180
+It's automatically figured out how much to expand this graph
+
+23
+00:01:36,180 --> 00:01:40,390
+to achieve the task of tagging each of these word tokens
+
+24
+00:01:40,390 --> 00:01:42,300
+into their corresponding labels.
+
+25
+00:01:44,230 --> 00:01:48,340
+So, here, let's see what it means in terms of processing
+
+26
+00:01:48,340 --> 00:01:51,510
+the data as you would be feeding it into
+
+27
+00:01:51,510 --> 00:01:55,500
+the toolkit machinery that we are gonna use for the tutorials.
+
+28
+00:01:55,500 --> 00:01:59,630
+So say, you have a sentence, beginning of sentence from
+
+29
+00:01:59,630 --> 00:02:03,680
+Boston to Pittsburgh on Thursday of next week, end of sentence.
+
+30
+00:02:03,680 --> 00:02:07,616
+There are 11 tokens, each of them are one hard encoded.
+
+31
+00:02:07,616 --> 00:02:11,472
+Remember, we are using the one hard encoding as our input.
+
+32
+00:02:11,472 --> 00:02:14,380
+It's an array of 943 elements.
+
+33
+00:02:14,380 --> 00:02:18,896
+So each of these blocks are composed of an array with
+
+34
+00:02:18,896 --> 00:02:20,583
+943 elements.
+
+35
+00:02:23,939 --> 00:02:28,091
+Okay, it is very important to recognize the data format and
+
+36
+00:02:28,091 --> 00:02:32,160
+how the encodings are being passed into the entire trained
+
+37
+00:02:32,160 --> 00:02:34,175
+test and predict workflow.
+
+38
+00:02:34,175 --> 00:02:36,900
+So this is my text token encoding.
+
+39
+00:02:36,900 --> 00:02:39,930
+And then, it's pretty standard, what we have been using.
+
+40
+00:02:39,930 --> 00:02:44,328
+For the rest of the network, the corresponding label that
+
+41
+00:02:44,328 --> 00:02:48,724
+you will have is also gonna be a one hard encoded label set,
+
+42
+00:02:48,724 --> 00:02:51,975
+which is gonna be of the dimension 129.
+
+43
+00:02:51,975 --> 00:02:56,540
+Because there, we'll have 129 classes and this unit is gonna
+
+44
+00:02:56,540 --> 00:03:01,271
+magically unroll the recurrences across the 11th times steps and
+
+45
+00:03:01,271 --> 00:03:05,504
+show that the later time, your sequence change to different
+
+46
+00:03:05,504 --> 00:03:08,615
+length to automatically take care of that.
+
+47
+00:03:08,615 --> 00:03:14,354
+With that, let's compute the error or the loss function.
+
+48
+00:03:14,354 --> 00:03:17,229
+Because at the end of the day, you want to minimize
+
+49
+00:03:17,229 --> 00:03:20,244
+the difference between the emitted probability for
+
+50
+00:03:20,244 --> 00:03:23,395
+the 129 classes with the corresponding labels that
+
+51
+00:03:23,395 --> 00:03:25,879
+are provided as a part of the training set.
+
+52
+00:03:25,879 --> 00:03:28,915
+And this is pretty standard thing that we have used in
+
+53
+00:03:28,915 --> 00:03:30,985
+the past with all our other models,
+
+54
+00:03:30,985 --> 00:03:32,860
+especially with the MS date up.
+
+55
+00:03:32,860 --> 00:03:35,205
+And this is will be our lost function.
+
+56
+00:03:35,205 --> 00:03:38,466
+[BLANK AUDIO]
+

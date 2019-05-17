@@ -1,0 +1,27 @@
+<problem display_name="Question 3" markdown="Given the code below and entering &quot;Colette&quot; for user_name input:  &#10;&#10;&lt;pre&gt;&lt;code&gt;python  &#10;total_cost = 22.95&#10;user_name = input(&quot;Enter your name: &quot;)&#10;&lt;/code&gt;&lt;/pre&gt;&#10;&#10;Choose the print statement below that will output: &lt;code&gt;Colette - the total is $ 22.95 for today's purchase&lt;/code&gt;&#10;&#10;( ) &lt;code&gt;print(Colette, &quot;- the total is $&quot;, total_cost, &quot;for today's purchase&quot;)&lt;/code&gt;&#10;(x) &lt;code&gt;print(user_name, &quot;- the total is $&quot;, total_cost, &quot;for today's purchase&quot;)&lt;/code&gt;&#10;( ) &lt;code&gt;print(Colette, '- the total is $', total_cost, 'for todays purchase')&lt;/code&gt;&#10;( ) &lt;code&gt;print(&quot;user_name&quot;, &quot;- the total is $&quot;, &quot;total_cost&quot;, &quot;for today's purchase&quot;)&lt;/code&gt;" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p>Given the code below and entering "Colette" for user_name input:  </p>
+    <pre>
+      <code>python  
+total_cost = 22.95
+user_name = input("Enter your name: ")
+</code>
+    </pre>
+    <p>Choose the print statement below that will output: <code>Colette - the total is $ 22.95 for today's purchase</code>
+</p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">
+        <code>print(Colette, "- the total is $", total_cost, "for today's purchase")</code>
+      </choice>
+      <choice correct="true">
+        <code>print(user_name, "- the total is $", total_cost, "for today's purchase")</code>
+      </choice>
+      <choice correct="false">
+        <code>print(Colette, '- the total is $', total_cost, 'for todays purchase')</code>
+      </choice>
+      <choice correct="false">
+        <code>print("user_name", "- the total is $", "total_cost", "for today's purchase")</code>
+      </choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

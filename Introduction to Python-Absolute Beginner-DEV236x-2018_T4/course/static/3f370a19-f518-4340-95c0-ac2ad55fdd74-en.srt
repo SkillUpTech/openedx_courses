@@ -1,0 +1,184 @@
+0
+00:00:03,611 --> 00:00:08,095
+String comparisons will resolve to true and false and therefore we can
+
+1
+00:00:08,096 --> 00:00:12,280
+use them in an if statement to control the flow of our code.
+
+2
+00:00:12,281 --> 00:00:16,020
+In our first example, we have a string called msg and
+
+3
+00:00:16,021 --> 00:00:18,490
+that contains Save the notebook.
+
+4
+00:00:18,491 --> 00:00:22,730
+And we want to check if that message string
+
+5
+00:00:22,731 --> 00:00:28,028
+is equal to this string literal Save the notebook.
+
+6
+00:00:28,029 --> 00:00:29,060
+If that resolves to true,
+
+7
+00:00:29,061 --> 00:00:31,520
+we're going to print the message as expected.
+
+8
+00:00:32,750 --> 00:00:38,355
+If it resolves to false, then we'll go to our else statement.
+
+9
+00:00:40,380 --> 00:00:43,956
+Print the message was not as expected.
+
+10
+00:00:43,957 --> 00:00:45,109
+Let's run the code.
+
+11
+00:00:46,813 --> 00:00:49,509
+So the message was not as expected, so
+
+12
+00:00:49,510 --> 00:00:53,820
+that means this must have resolved to not true or false.
+
+13
+00:00:53,821 --> 00:00:57,789
+And we see that's because the capitalization of the two strings
+
+14
+00:00:57,790 --> 00:00:58,750
+is different.
+
+15
+00:01:00,650 --> 00:01:04,080
+A more elegant way to write this code would be to test
+
+16
+00:01:04,081 --> 00:01:05,930
+our message against a prediction.
+
+17
+00:01:05,931 --> 00:01:09,320
+So both of these can use variables.
+
+18
+00:01:09,321 --> 00:01:12,790
+And we're going to ignore the case.
+
+19
+00:01:12,791 --> 00:01:18,840
+So here we're going to put both sides of this comparison to lower.
+
+20
+00:01:18,841 --> 00:01:20,650
+Regardless of what are entered for
+
+21
+00:01:20,651 --> 00:01:25,410
+the message and the prediction the case will be ignored.
+
+22
+00:01:25,411 --> 00:01:28,300
+And so the same as before,
+
+23
+00:01:28,301 --> 00:01:34,070
+we will print message as expected if the statement resolves to true.
+
+24
+00:01:35,670 --> 00:01:38,820
+And if doesn't, we'll go to our else.
+
+25
+00:01:38,821 --> 00:01:42,410
+If this is not true, and do message not as expected.
+
+26
+00:01:42,411 --> 00:01:48,430
+And this time, the message is as expected because we ignore the case.
+
+27
+00:01:49,670 --> 00:01:55,850
+In this example, we're gonna input a name, a last name and
+
+28
+00:01:55,851 --> 00:02:00,760
+check if it is alphabetically less than or equal to c.
+
+29
+00:02:02,270 --> 00:02:07,850
+If you remember from our ASCII discussions before that capital C
+
+30
+00:02:07,851 --> 00:02:14,430
+ends up being smaller than lowercase c, it's just the way ASCII works.
+
+31
+00:02:14,431 --> 00:02:17,020
+So in order to do the check,
+
+32
+00:02:17,021 --> 00:02:21,840
+we have to make sure the name is entered to lower.
+
+33
+00:02:21,841 --> 00:02:26,160
+To do this check cuz otherwise a Z uppercase
+
+34
+00:02:26,161 --> 00:02:30,440
+would be less than c and we would not be able to do this check.
+
+35
+00:02:30,441 --> 00:02:32,780
+So we're gonna check against those and
+
+36
+00:02:32,781 --> 00:02:37,500
+if this resolves to true we're gonna print Welcome to the a, b, c line.
+
+37
+00:02:37,501 --> 00:02:40,573
+If the statement resolves to false,
+
+38
+00:02:40,574 --> 00:02:46,680
+then we're going to tell the people sorry, this is only for a, b, c.
+
+39
+00:02:46,681 --> 00:02:48,820
+So let's go ahead and run that code.
+
+40
+00:02:48,821 --> 00:02:53,150
+And they ask us to enter the last name,
+
+41
+00:02:53,151 --> 00:02:58,069
+we'll put in Babic and it says Welcome the the a, b, c line.
+
+42
+00:02:59,300 --> 00:03:00,420
+We could run that again.
+
+43
+00:03:01,630 --> 00:03:03,049
+And we could put in Derosa.
+
+44
+00:03:07,752 --> 00:03:11,488
+We've seen using string comparisons with our if statements,
+
+45
+00:03:11,489 --> 00:03:13,890
+we can control the flow of our programs.
+

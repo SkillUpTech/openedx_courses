@@ -1,0 +1,65 @@
+   <h1 id="concepts-variables">Concepts: Variables</h1>
+<h2 id="variables-storing-strings-in-variables">Variables &amp; Storing Strings in <strong>Variables</strong></h2>
+
+<h3 id="variables-are-named-containers">Variables are named containers</h3>
+<p>Computer programs often create storage for things that are used in repeated processing like item_price, student_name, stock_symbol. In python a variable  is a type of <strong>object</strong> that can be addressed by name to access the assigned contents.</p>
+<h4 id="name-a-variable-staring-with-a-letter-or-underscore">Name a variable staring with a letter or underscore &quot;_&quot;</h4>
+<p>There are different styles for creating variables this course uses lowercase descriptive names connected by underscores:</p>
+<ul>
+<li>item_price</li>
+<li>student_name</li>
+<li>stock_symbol</li>
+</ul>
+<p>descriptive names reduce the need for comments in the code and make it easier to share code or read code written long ago</p>
+<h3 id="variables-can-hold-strings">Variables can hold strings</h3>
+<p>once a variable is <strong>assigned</strong>:</p>
+<blockquote>
+<p><strong><code>current_msg = &quot;I am a string&quot;</code></strong></p>
+</blockquote>
+<p>a python program can refer to the variable,   <strong><code>current_msg</code></strong>,   in code<br />
+so that  <strong><code>current_msg</code></strong>, can be used like the string value  (<strong><code>&quot;I am a string&quot;</code></strong>)   which it stores</p>
+<h3 id="variable-reassignment">Variable reassignment</h3>
+<p>We can reassign a variable, changing the contents.   <strong><code>current_msg = &quot;new current message&quot;</code></strong></p>
+<h3 id="variables-can-be-used-in-place-of-literals">Variables can be used in place of literals</h3>
+<p>If we initialize <strong><code>current_msg = &quot;new current message&quot;</code></strong> then<br />
+the literal string <strong><code>&quot;new current message&quot;</code></strong> and the variable <strong><code>current_msg</code></strong> are the same when used in code</p>
+<h1 id="example">Example</h1>
+<ul>
+<li><strong>Initializing variables</strong></li>
+<li><strong>literals &amp; variables</strong> in printing</li>
+<li><strong>Variable reassignment</strong></li>
+</ul>
+<pre><code class="language-python"># [ ] Review code and Run  
+# initialize the variable  
+current_msg = &quot;I am a string&quot;  
+
+# print literal string  
+print(&quot;I am a string&quot;)  
+
+# print variable string  
+print(current_msg)  
+</code></pre>
+<pre><code class="language-python"># [ ] Review code and Run  
+# assign a new string to the current_msg  
+current_msg = &quot;Run this cell using Ctrl+Enter&quot;  
+
+print(current_msg)  
+</code></pre>
+<h1 id="task-3">Task 3</h1>
+<h2 id="program-assigning-values-to-a-string">Program: assigning values to a string</h2>
+<ul>
+<li>in the cell below
+<ul>
+<li>print the variable current_msg</li>
+<li>assign a new string to current_msg</li>
+<li>print the variable  current_msg again</li>
+</ul>
+</li>
+<li>run the code cell above and then run the cell below</li>
+</ul>
+<pre><code class="language-python"># { ] run cell above then run this cell after completing the code as directed
+
+
+</code></pre>
+<p><strong>Q?:</strong> In the cell above, why did the variable have a value to print before it was assigned?</p>
+<p><em>Jupyter notebooks run cells individually.  Any cell in the notebook can access a variable assigned from a cell that has been run in the current notebook session.</em></p>

@@ -1,0 +1,20 @@
+<problem display_name="Question 2" markdown="&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;hot_plate = True&#10;&#10;if hot_plate:&#10;    print(&amp;quot;Be careful, hot plate!&amp;quot;)&#10;else:&#10;    print(&amp;quot;The plate is ready.&amp;quot;)&#10;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;p&gt;The output of from running the above code is ___&lt;/p&gt;&#10;&#10;&#10;(x) &quot;Be careful, hot plate!&quot;  &#10;( ) &quot;The plate is ready.&quot;  &#10;( ) &quot;True&quot;  &#10;( ) NameError   " max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <pre>
+      <code class="language-python">hot_plate = True
+
+if hot_plate:
+    print("Be careful, hot plate!")
+else:
+    print("The plate is ready.")
+</code>
+    </pre>
+    <p>The output of from running the above code is ___</p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="true">"Be careful, hot plate!"</choice>
+      <choice correct="false">"The plate is ready."</choice>
+      <choice correct="false">"True"</choice>
+      <choice correct="false">NameError</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

@@ -1,0 +1,9 @@
+<problem display_name="Question 1 " markdown="The &lt;code&gt;type()&lt;/code&gt; function is used to change from one data type to another&#10;&#10;( ) True&#10;(x) False&#10;&#10;" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p>The <code>type()</code> function is used to change from one data type to another</p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">True</choice>
+      <choice correct="true">False</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

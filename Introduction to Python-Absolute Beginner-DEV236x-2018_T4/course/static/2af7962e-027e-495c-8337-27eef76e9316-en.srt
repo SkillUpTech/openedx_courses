@@ -1,0 +1,308 @@
+0
+00:00:00,450 --> 00:00:03,340
+So machine learning is a branch of computer science
+
+1
+00:00:03,340 --> 00:00:05,900
+where you build models from data.
+
+2
+00:00:07,680 --> 00:00:10,460
+So these models are mathematical models and
+
+3
+00:00:10,460 --> 00:00:13,400
+can learn from and make predictions on data.
+
+4
+00:00:14,760 --> 00:00:18,470
+There are different subfields of machine learning such as
+
+5
+00:00:18,470 --> 00:00:22,052
+supervised learning, unsupervised learning, and
+
+6
+00:00:22,052 --> 00:00:25,631
+semi-supervised learning.
+
+7
+00:00:25,631 --> 00:00:28,930
+So in supervised learning,
+
+8
+00:00:28,930 --> 00:00:33,260
+you have data points and a label associated with it.
+
+9
+00:00:33,260 --> 00:00:36,388
+For instance, the red dots and the blue dots.
+
+10
+00:00:36,388 --> 00:00:40,250
+The red and blue are the labels, the dots represent data points.
+
+11
+00:00:41,400 --> 00:00:44,380
+You learn a model, a mathematical model,
+
+12
+00:00:44,380 --> 00:00:49,300
+in such a way that when you have unforeseen data, such as these
+
+13
+00:00:49,300 --> 00:00:54,770
+dots that don't have any red or blue tags associated with it,
+
+14
+00:00:54,770 --> 00:01:01,980
+you'll be able to map these data points to either red or blue.
+
+15
+00:01:03,720 --> 00:01:04,740
+That's supervised learning.
+
+16
+00:01:06,210 --> 00:01:11,173
+In unsupervised learning, you start with data that don't
+
+17
+00:01:11,173 --> 00:01:15,449
+have any labels associated with it, in this case.
+
+18
+00:01:15,449 --> 00:01:21,260
+There's no color label associated such as red and blue.
+
+19
+00:01:21,260 --> 00:01:25,320
+What you learn here are inherent structures within the data.
+
+20
+00:01:25,320 --> 00:01:29,337
+So for instance, you will see a red cluster here and
+
+21
+00:01:29,337 --> 00:01:33,549
+you can see that there might be another cluster here.
+
+22
+00:01:36,728 --> 00:01:40,317
+Semi-supervised learning is somewhere in between,
+
+23
+00:01:40,317 --> 00:01:43,990
+where you have some of the data points that are labeled.
+
+24
+00:01:45,760 --> 00:01:51,020
+You use these labeled information and make predictions
+
+25
+00:01:51,020 --> 00:01:55,560
+on these unlabeled datasets.
+
+26
+00:01:55,560 --> 00:01:59,070
+The key thing is that the number of labels that you see in these
+
+27
+00:01:59,070 --> 00:02:03,800
+datasets are far fewer than the unlabeled data points.
+
+28
+00:02:05,430 --> 00:02:09,590
+In this course, we are gonna be focusing on supervised learning.
+
+29
+00:02:11,350 --> 00:02:16,280
+In supervised learning, one starts with data and
+
+30
+00:02:16,280 --> 00:02:18,670
+a corresponding label.
+
+31
+00:02:18,670 --> 00:02:22,990
+So the input would have data and
+
+32
+00:02:22,990 --> 00:02:26,319
+corresponding label.
+
+33
+00:02:26,319 --> 00:02:31,455
+This data, label pair is used to learn a model and
+
+34
+00:02:31,455 --> 00:02:35,350
+is referred to as the training data.
+
+35
+00:02:35,350 --> 00:02:39,028
+This dataset is referred to as the training data.
+
+36
+00:02:42,260 --> 00:02:45,610
+A classical example is classification of emails.
+
+37
+00:02:47,742 --> 00:02:50,860
+Here, the data is the content in the email and
+
+38
+00:02:50,860 --> 00:02:54,430
+the label is whether it's spam or not spam.
+
+39
+00:02:54,430 --> 00:02:58,971
+You learn a model using this data, such that at
+
+40
+00:02:58,971 --> 00:03:04,093
+a later time when a new email comes into the mailbox,
+
+41
+00:03:04,093 --> 00:03:09,680
+you can run the contents of the email through the model and
+
+42
+00:03:09,680 --> 00:03:13,190
+label it as either spam or not spam.
+
+43
+00:03:16,545 --> 00:03:21,468
+In this case, the presence or absence of certain
+
+44
+00:03:21,468 --> 00:03:26,639
+keywords in the email are referred to as features.
+
+45
+00:03:26,639 --> 00:03:30,732
+So the words in the email can be referred to as features.
+
+46
+00:03:33,014 --> 00:03:36,736
+These features help build effective classifier with
+
+47
+00:03:36,736 --> 00:03:39,547
+a reasonably good performance, such as
+
+48
+00:03:39,547 --> 00:03:44,109
+the majority of the non-spam emails get classified correctly.
+
+49
+00:03:46,728 --> 00:03:50,073
+This particular task in machine learning is refered to
+
+50
+00:03:50,073 --> 00:03:51,680
+as classification task.
+
+51
+00:03:53,660 --> 00:03:56,860
+Another example where machine learning can also be effective
+
+52
+00:03:56,860 --> 00:03:59,940
+is in prediction of house prices in a neighborhood.
+
+53
+00:03:59,940 --> 00:04:04,995
+So here these are the individual houses in a neighborhood and
+
+54
+00:04:04,995 --> 00:04:07,382
+the corresponding prices.
+
+55
+00:04:07,382 --> 00:04:11,329
+So the data here are the different features associated
+
+56
+00:04:11,329 --> 00:04:16,045
+with the house, be it the number of bedrooms, the square footage
+
+57
+00:04:16,045 --> 00:04:20,533
+of the house, the neighborhood, where it is located, etc.
+
+58
+00:04:20,533 --> 00:04:24,824
+And the label here is a price, what is the price of the house?
+
+59
+00:04:24,824 --> 00:04:27,917
+Now as you can imagine this price may be influenced by
+
+60
+00:04:27,917 --> 00:04:31,151
+several different aspects not only just with the house
+
+61
+00:04:31,151 --> 00:04:32,065
+features, but
+
+62
+00:04:32,065 --> 00:04:35,598
+also other features around the house in the neighborhood.
+
+63
+00:04:35,598 --> 00:04:40,156
+So you'll combine these features and build another model such
+
+64
+00:04:40,156 --> 00:04:44,715
+that, when you have unlabeled data point, in this case a house
+
+65
+00:04:44,715 --> 00:04:48,671
+for which we want to estimate the price of it based on all
+
+66
+00:04:48,671 --> 00:04:53,080
+the features that are available for that particular house.
+
+67
+00:04:53,080 --> 00:04:55,110
+Say what is the size of the house?
+
+68
+00:04:55,110 --> 00:04:59,392
+What is the number of bedrooms, the neighborhood that it is in?
+
+69
+00:04:59,392 --> 00:05:01,145
+And you come up with the real number.
+
+70
+00:05:03,218 --> 00:05:07,180
+Note, this is not a category, this is a real number.
+
+71
+00:05:07,180 --> 00:05:10,830
+So this task is also known as regression.
+
+72
+00:05:12,090 --> 00:05:16,360
+We assume in this course that you are familiar with some of
+
+73
+00:05:16,360 --> 00:05:21,110
+the basics associated with classification and regression.
+
+74
+00:05:21,110 --> 00:05:25,094
+We'll do a brief recap of machine learning basics, but
+
+75
+00:05:25,094 --> 00:05:29,844
+there's an underlying assumption that you are familiar with some
+
+76
+00:05:29,844 --> 00:05:31,733
+of these terminologies.
+

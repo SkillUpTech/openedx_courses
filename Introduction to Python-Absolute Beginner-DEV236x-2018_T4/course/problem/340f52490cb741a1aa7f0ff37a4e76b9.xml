@@ -1,0 +1,9 @@
+<problem display_name="Question 1 " markdown="&lt;p&gt;&lt;code&gt;True&lt;/code&gt; and &lt;code&gt;False&lt;/code&gt; are Boolean keywords in Python&lt;/p&gt;&#10;&#10;&#10;(x) True&#10;( ) False&#10;" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p><code>True</code> and <code>False</code> are Boolean keywords in Python</p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="true">True</choice>
+      <choice correct="false">False</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

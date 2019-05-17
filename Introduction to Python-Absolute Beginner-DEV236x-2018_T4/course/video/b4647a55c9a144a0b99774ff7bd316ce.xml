@@ -1,0 +1,8 @@
+<video youtube="1.00:DDjIH9rRYbM" url_name="b4647a55c9a144a0b99774ff7bd316ce" display_name="avoid hard coded values" download_track="true" download_video="true" edx_video_id="c5c3ccf7-2638-4b96-b97b-0487d470442b" html5_sources="[]" sub="" transcripts="{&quot;en&quot;: &quot;c5c3ccf7-2638-4b96-b97b-0487d470442b-en.srt&quot;}" youtube_id_1_0="DDjIH9rRYbM">
+  <transcript language="en" src="c5c3ccf7-2638-4b96-b97b-0487d470442b-en.srt"/>
+  <video_asset client_video_id="Unit1_Section3.3-Bird_Available.mp4" duration="78.19">
+    <encoded_video bitrate="169" file_size="1660843" profile="desktop_mp4" url="https://d2f1egay8yehza.cloudfront.net/MSXIPU1X2017-V002700_DTH.mp4"/>
+    <encoded_video bitrate="155" file_size="1520104" profile="mobile_low" url="https://d2f1egay8yehza.cloudfront.net/MSXIPU1X2017-V002700_MB2.mp4"/>
+    <encoded_video bitrate="0" file_size="0" profile="youtube" url="DDjIH9rRYbM"/>
+  </video_asset>
+</video>

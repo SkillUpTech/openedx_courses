@@ -1,0 +1,31 @@
+<problem display_name="Question 2" markdown="&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;if x &amp;lt; 0:&#10;    print(&amp;quot;-&amp;quot;)&#10;else:&#10;    if y &amp;gt;= 0:&#10;        print(&amp;quot;+/+&amp;quot;)&#10;    else:&#10;        print(&amp;quot;+/-&amp;quot;)&#10;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;p&gt;The nested conditional code is sure to be run if  ___&lt;br /&gt;&#10;(choose best answer)&lt;/p&gt;&#10;&#10;&#10;(x) &lt;code&gt;x = 1&lt;/code&gt;&#10;( ) &lt;code&gt;x = -1&lt;/code&gt;&#10;( ) &lt;code&gt;y = -1&lt;/code&gt;&#10;( ) &lt;code&gt;y = 1&lt;/code&gt;" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <pre>
+      <code class="language-python">if x &lt; 0:
+    print("-")
+else:
+    if y &gt;= 0:
+        print("+/+")
+    else:
+        print("+/-")
+</code>
+    </pre>
+    <p>The nested conditional code is sure to be run if  ___<br/>
+<p>(choose best answer)</p>
+</p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="true">
+        <code>x = 1</code>
+      </choice>
+      <choice correct="false">
+        <code>x = -1</code>
+      </choice>
+      <choice correct="false">
+        <code>y = -1</code>
+      </choice>
+      <choice correct="false">
+        <code>y = 1</code>
+      </choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

@@ -1,0 +1,11 @@
+<problem display_name="Question 2" markdown="An example of Python string addition that will run without error is  &#10;&#10;( ) new_string = Hello + World! &#10;(x) new_string = &quot;Hello &quot; + &quot;World!&quot;   &#10;( ) new_string =  &quot;Hello ' + &quot;World!'  &#10;( ) all of the above " max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p>An example of Python string addition that will run without error is  </p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">new_string = Hello + World!</choice>
+      <choice correct="true">new_string = "Hello " + "World!"</choice>
+      <choice correct="false">new_string =  "Hello ' + "World!'</choice>
+      <choice correct="false">all of the above</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

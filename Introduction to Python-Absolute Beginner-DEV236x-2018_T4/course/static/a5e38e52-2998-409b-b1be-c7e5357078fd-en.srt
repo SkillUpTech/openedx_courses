@@ -1,0 +1,780 @@
+0
+00:00:00,800 --> 00:00:05,630
+Let's train the text classification model with
+
+1
+00:00:05,630 --> 00:00:10,576
+a recurrent network that you have just learned and
+
+2
+00:00:10,576 --> 00:00:14,943
+went through the code corresponding to it.
+
+3
+00:00:14,943 --> 00:00:20,826
+So in order to do the training, we need a loss function and
+
+4
+00:00:20,826 --> 00:00:25,620
+an error metric to track how well we are doing.
+
+5
+00:00:27,170 --> 00:00:30,850
+So let's see what we want to do here.
+
+6
+00:00:32,360 --> 00:00:37,970
+In a lot of places you would have the input
+
+7
+00:00:37,970 --> 00:00:45,490
+vocabulary size and the labeled size specified.
+
+8
+00:00:45,490 --> 00:00:48,932
+So in which case, you can directly use like x =
+
+9
+00:00:48,932 --> 00:00:54,772
+C.sequence.input(vocab_size), or similarly for label dimensions.
+
+10
+00:00:55,970 --> 00:01:00,434
+But in some cases, you may or may not have these inputs and
+
+11
+00:01:00,434 --> 00:01:05,274
+outputs ready at the time when you are defining your network.
+
+12
+00:01:05,274 --> 00:01:09,250
+In such situations, you use something called a placeholder.
+
+13
+00:01:09,250 --> 00:01:11,851
+So here you will see that I'm just showing for
+
+14
+00:01:11,851 --> 00:01:15,549
+illustrative purposes what that placeholder looks like here at
+
+15
+00:01:15,549 --> 00:01:17,337
+the bottom of the screen here.
+
+16
+00:01:17,337 --> 00:01:25,861
+You can create a container named placeholder.
+
+17
+00:01:25,861 --> 00:01:29,760
+You can create a placeholder container with the name labels.
+
+18
+00:01:29,760 --> 00:01:33,230
+The idea is that you would then be able to
+
+19
+00:01:33,230 --> 00:01:36,900
+use this container to define your loss and error.
+
+20
+00:01:36,900 --> 00:01:40,210
+Even though this labels container is not
+
+21
+00:01:41,240 --> 00:01:45,950
+properly shaped or formed, you can then replace at a later
+
+22
+00:01:45,950 --> 00:01:50,470
+time this container with the data that you will have.
+
+23
+00:01:50,470 --> 00:01:53,530
+So in this case, I am just showing you at the very bottom
+
+24
+00:01:53,530 --> 00:02:00,412
+of the screen that you can use the replace_placeholders
+
+25
+00:02:00,412 --> 00:02:05,120
+to put back what the data for that label would be.
+
+26
+00:02:05,120 --> 00:02:08,750
+In this case, this is a little bit contrived in the sense that
+
+27
+00:02:08,750 --> 00:02:13,790
+we already have the knowledge of our input label dimension,
+
+28
+00:02:13,790 --> 00:02:15,820
+so we don't need to do that.
+
+29
+00:02:15,820 --> 00:02:21,868
+So what we do here instead is a simple loss and
+
+30
+00:02:21,868 --> 00:02:25,305
+error metric function.
+
+31
+00:02:25,305 --> 00:02:28,752
+We call the criterion function, where both model and
+
+32
+00:02:28,752 --> 00:02:31,130
+labels are known ahead of time.
+
+33
+00:02:31,130 --> 00:02:36,620
+Which is, in our case, the input to the model is the vocabulary
+
+34
+00:02:36,620 --> 00:02:39,190
+or the words, converted into one-hot encoding.
+
+35
+00:02:39,190 --> 00:02:40,380
+So that would be x, and
+
+36
+00:02:40,380 --> 00:02:44,580
+the label, we have is the corresponding label, y.
+
+37
+00:02:44,580 --> 00:02:49,497
+So in the train function we take the model function,
+
+38
+00:02:49,497 --> 00:02:52,402
+and we pass the input encoded,
+
+39
+00:02:52,402 --> 00:02:57,113
+one-hot encoded vector through that function.
+
+40
+00:02:57,113 --> 00:03:01,163
+We get our model, we then can create our loss and
+
+41
+00:03:01,163 --> 00:03:06,310
+label errors for using this particular function here.
+
+42
+00:03:06,310 --> 00:03:11,129
+Note that I am already passing the model for this,
+
+43
+00:03:11,129 --> 00:03:15,390
+which was z in many of the tutorials before.
+
+44
+00:03:15,390 --> 00:03:20,607
+And y is the label in this case.
+
+45
+00:03:20,607 --> 00:03:23,376
+We define some of these training parameters,
+
+46
+00:03:23,376 --> 00:03:26,997
+that would be the number of samples in your minibatches, and
+
+47
+00:03:26,997 --> 00:03:28,280
+then the epoch size.
+
+48
+00:03:30,200 --> 00:03:34,470
+We define a learning rate here.
+
+49
+00:03:34,470 --> 00:03:37,407
+And if you see this notation here,
+
+50
+00:03:37,407 --> 00:03:42,371
+you will find that there is not a single learning rate which
+
+51
+00:03:42,371 --> 00:03:45,836
+we have been using in many cases before.
+
+52
+00:03:45,836 --> 00:03:51,519
+So what we do here is that we start with a larger learning
+
+53
+00:03:51,519 --> 00:03:56,981
+rate in the beginning part of the training and then.
+
+54
+00:03:56,981 --> 00:04:00,752
+So we don't use that same learning rate through all
+
+55
+00:04:00,752 --> 00:04:03,215
+the iterations of the training.
+
+56
+00:04:03,215 --> 00:04:06,373
+So we will use it for the first four epochs.
+
+57
+00:04:06,373 --> 00:04:09,093
+Then we will use the learning rate a bit and train it for
+
+58
+00:04:09,093 --> 00:04:11,041
+a certain number of more iterations.
+
+59
+00:04:11,041 --> 00:04:13,977
+And then, we will use the remaining number of iterations
+
+60
+00:04:13,977 --> 00:04:15,700
+with a different learning rate.
+
+61
+00:04:16,770 --> 00:04:20,576
+And that gives you a better control over how
+
+62
+00:04:20,576 --> 00:04:23,438
+the optimization progresses.
+
+63
+00:04:23,438 --> 00:04:28,435
+And is often useful to explore these kind of learning rate
+
+64
+00:04:28,435 --> 00:04:34,380
+based experimentation to achieve the best performance.
+
+65
+00:04:34,380 --> 00:04:37,760
+We are also gonna use the AdamOptimizer here,
+
+66
+00:04:37,760 --> 00:04:41,970
+because it works really well with text related datasets.
+
+67
+00:04:41,970 --> 00:04:44,370
+And you can play with the different parameters associated
+
+68
+00:04:44,370 --> 00:04:45,940
+with AdamOptimizer.
+
+69
+00:04:45,940 --> 00:04:50,335
+You can learn more about AdamOptimizers at this site,
+
+70
+00:04:50,335 --> 00:04:52,732
+with the link provided here.
+
+71
+00:04:52,732 --> 00:04:55,025
+And it has a parameter called momentum.
+
+72
+00:04:55,025 --> 00:04:59,546
+We will not go into describing what momentum means, but
+
+73
+00:04:59,546 --> 00:05:03,020
+it enables us to get a better convergence.
+
+74
+00:05:04,620 --> 00:05:08,738
+So in this tutorial, we are going to use the AdamOptimizer,
+
+75
+00:05:08,738 --> 00:05:11,664
+which works very well with text datasets.
+
+76
+00:05:11,664 --> 00:05:17,144
+And is a default optimizer for many of the tasks related
+
+77
+00:05:17,144 --> 00:05:22,040
+with training different kinds of classifiers.
+
+78
+00:05:22,040 --> 00:05:25,637
+And definitely, you should try this first,
+
+79
+00:05:25,637 --> 00:05:28,104
+when it comes to textual data.
+
+80
+00:05:28,104 --> 00:05:31,080
+You can play around with the different parameters associated.
+
+81
+00:05:31,080 --> 00:05:35,673
+I described you the learning rate schedule.
+
+82
+00:05:35,673 --> 00:05:39,702
+And you can also try out the momentum parameters
+
+83
+00:05:39,702 --> 00:05:41,990
+associated with it.
+
+84
+00:05:41,990 --> 00:05:46,469
+Now, the details of the momentum tech parameter can be learned
+
+85
+00:05:46,469 --> 00:05:49,776
+in the documentation for the AdamOptimizer.
+
+86
+00:05:49,776 --> 00:05:53,890
+We won't have time or to go into the details of it.
+
+87
+00:05:55,220 --> 00:06:00,151
+And here, we are using a built-in progress_printer that
+
+88
+00:06:00,151 --> 00:06:02,229
+comes with the tool kit.
+
+89
+00:06:02,229 --> 00:06:05,399
+You should leverage the different
+
+90
+00:06:05,399 --> 00:06:09,116
+facilities that the progress_printer
+
+91
+00:06:09,116 --> 00:06:13,056
+provides before you try to build your own.
+
+92
+00:06:13,056 --> 00:06:17,515
+We'll instantiate the trainer here, the model is passed
+
+93
+00:06:17,515 --> 00:06:21,339
+the label and the label_error, sorry the loss.
+
+94
+00:06:21,339 --> 00:06:25,612
+Here we instantiate the trainer where we pass the model,
+
+95
+00:06:25,612 --> 00:06:28,200
+the loss, and the label_error.
+
+96
+00:06:28,200 --> 00:06:29,985
+We pass the learner, and additionally,
+
+97
+00:06:29,985 --> 00:06:31,415
+we pass the progress_printer.
+
+98
+00:06:33,470 --> 00:06:38,347
+Here, we are logging the number of parameters in the model,
+
+99
+00:06:38,347 --> 00:06:41,703
+and then our training loop is right here.
+
+100
+00:06:41,703 --> 00:06:46,314
+We read some data, input x, the words, and
+
+101
+00:06:46,314 --> 00:06:50,936
+the y, which is the corresponding labels.
+
+102
+00:06:50,936 --> 00:06:55,349
+We run the trainer.train_minibatch,
+
+103
+00:06:55,349 --> 00:06:58,500
+which will update the various
+
+104
+00:06:58,500 --> 00:07:03,298
+parameters in our models using the learner.
+
+105
+00:07:03,298 --> 00:07:05,550
+And we will summarize the training progress.
+
+106
+00:07:06,975 --> 00:07:14,480
+Here, now let's run the model that we have created.
+
+107
+00:07:14,480 --> 00:07:18,112
+We will call the model function that gives us the function z,
+
+108
+00:07:18,112 --> 00:07:20,617
+which you are quite familiar with by now.
+
+109
+00:07:20,617 --> 00:07:25,533
+We will train this model z.
+
+110
+00:07:25,533 --> 00:07:28,757
+We pass in the reader that will read the data
+
+111
+00:07:28,757 --> 00:07:31,810
+from the corresponding training file.
+
+112
+00:07:32,830 --> 00:07:37,000
+And here you can see, that in a very short period,
+
+113
+00:07:37,000 --> 00:07:41,210
+we are able to reduce the loss quite significantly.
+
+114
+00:07:41,210 --> 00:07:46,765
+And the error metric also goes down quite a bit.
+
+115
+00:07:46,765 --> 00:07:53,845
+If you have a GPU based setup, I would recommend that you use it.
+
+116
+00:07:53,845 --> 00:07:58,306
+Because, A, your learning experience is much better, and
+
+117
+00:07:58,306 --> 00:08:02,423
+you can train on a lot more data in a fraction of the time.
+
+118
+00:08:05,699 --> 00:08:08,720
+Now that we have trained the model,
+
+119
+00:08:08,720 --> 00:08:12,280
+let's evaluate the learned model.
+
+120
+00:08:12,280 --> 00:08:14,840
+In this case, we create and
+
+121
+00:08:14,840 --> 00:08:17,810
+evaluate their function because we are gonna be
+
+122
+00:08:17,810 --> 00:08:20,800
+training different types of models, different models here.
+
+123
+00:08:20,800 --> 00:08:25,550
+So it helps to encapsulate all the evaluation components,
+
+124
+00:08:25,550 --> 00:08:30,213
+just like we did the training components in our function.
+
+125
+00:08:30,213 --> 00:08:33,464
+You take the input, you have the model function and
+
+126
+00:08:33,464 --> 00:08:34,682
+create the model.
+
+127
+00:08:34,682 --> 00:08:40,781
+And then you can, just similar to the trainer,
+
+128
+00:08:40,781 --> 00:08:44,452
+you read the training data.
+
+129
+00:08:44,452 --> 00:08:48,163
+In this case, this would be passed in through the reader,
+
+130
+00:08:48,163 --> 00:08:51,010
+and then you call the evaluator.
+
+131
+00:08:51,010 --> 00:08:56,764
+And here you know that only the last function is needed.
+
+132
+00:08:56,764 --> 00:09:00,919
+When you test the already trained model,
+
+133
+00:09:00,919 --> 00:09:06,261
+you can then iterate through all your test dataset and
+
+134
+00:09:06,261 --> 00:09:09,360
+summarize the test progress.
+
+135
+00:09:11,040 --> 00:09:15,858
+Here, let's see how it looks like when you test it
+
+136
+00:09:15,858 --> 00:09:18,739
+on at this data set test data.
+
+137
+00:09:18,739 --> 00:09:21,930
+So we pass in the test data to the reader.
+
+138
+00:09:21,930 --> 00:09:26,304
+And we pass the same model, z.
+
+139
+00:09:26,304 --> 00:09:31,833
+Remember, we have the z being the model we trained here.
+
+140
+00:09:39,726 --> 00:09:41,505
+And we run the test.
+
+141
+00:09:41,505 --> 00:09:47,005
+You can see that the metric that we are getting here is 0.48%.
+
+142
+00:09:47,005 --> 00:09:50,645
+Reasonably comparable with what we get here at the end
+
+143
+00:09:50,645 --> 00:09:52,200
+of training.
+
+144
+00:09:52,200 --> 00:09:54,950
+We will see how, as we introduce different components,
+
+145
+00:09:54,950 --> 00:09:56,440
+things change.
+
+146
+00:09:56,440 --> 00:09:59,000
+We will play around with the different kinds of model tweaks
+
+147
+00:09:59,000 --> 00:10:00,430
+you can make.
+
+148
+00:10:00,430 --> 00:10:03,730
+But before we do that, let's see the model for
+
+149
+00:10:03,730 --> 00:10:07,799
+the learning classify, we want to check the bias value.
+
+150
+00:10:07,799 --> 00:10:09,502
+In the beginning of the tutorial,
+
+151
+00:10:09,502 --> 00:10:11,710
+when we printed this value, it was all 0s.
+
+152
+00:10:11,710 --> 00:10:14,350
+Now you can see there are some numbers that
+
+153
+00:10:14,350 --> 00:10:16,340
+the system has automatically learned.
+
+154
+00:10:16,340 --> 00:10:17,630
+So, we are good.
+
+155
+00:10:20,040 --> 00:10:22,278
+We have trained the model and
+
+156
+00:10:22,278 --> 00:10:26,669
+it seems to have been producing pretty decent results.
+
+157
+00:10:26,669 --> 00:10:28,877
+And the corresponding weights and
+
+158
+00:10:28,877 --> 00:10:31,923
+parameter values you can print and visualize,
+
+159
+00:10:31,923 --> 00:10:36,210
+and convince yourself that the right things have been done.
+
+160
+00:10:36,210 --> 00:10:41,240
+As for the intent behind the model building and
+
+161
+00:10:41,240 --> 00:10:43,990
+training exercise that we are going through.
+
+162
+00:10:43,990 --> 00:10:46,600
+Now that we have tested a model,
+
+163
+00:10:46,600 --> 00:10:51,790
+let's try a query that we will put together.
+
+164
+00:10:51,790 --> 00:10:56,950
+Here, in this case, we illustrate how we can
+
+165
+00:10:56,950 --> 00:11:02,810
+interoperate the learned model with NumPy.
+
+166
+00:11:02,810 --> 00:11:06,140
+So in this case, I give a new sequence.
+
+167
+00:11:06,140 --> 00:11:10,420
+What I'm doing here is called beginning of sentence flight
+
+168
+00:11:10,420 --> 00:11:13,770
+from New York to Seattle, end of sentence.
+
+169
+00:11:13,770 --> 00:11:19,590
+And we look up the corresponding words in the dictionary,
+
+170
+00:11:19,590 --> 00:11:22,300
+and convert it to wording this says.
+
+171
+00:11:22,300 --> 00:11:25,691
+Then we create a one-hot representation using NumPy.
+
+172
+00:11:25,691 --> 00:11:30,567
+And that one-hot vector is then provided
+
+173
+00:11:30,567 --> 00:11:35,830
+as the input to the eval function here.
+
+174
+00:11:35,830 --> 00:11:40,630
+Where the z is the learnt model and
+
+175
+00:11:40,630 --> 00:11:47,860
+x is the input container, which has the one-hot representation
+
+176
+00:11:47,860 --> 00:11:52,150
+of the sentence that we want to learn, or classify, rather.
+
+177
+00:11:53,210 --> 00:11:55,380
+And here, if when I run it,
+
+178
+00:11:55,380 --> 00:11:58,340
+you can see that these are the indices that we
+
+179
+00:11:58,340 --> 00:12:02,430
+have corresponding to the words that are in the vocabulary.
+
+180
+00:12:03,610 --> 00:12:08,325
+There are 8 tokens, 1, 2, 3, 4, 5, 6, 7, 8.
+
+181
+00:12:08,325 --> 00:12:09,900
+So there are 8 tokens and
+
+182
+00:12:09,900 --> 00:12:14,100
+corresponding to those tokens there are 129 labels.
+
+183
+00:12:14,100 --> 00:12:20,025
+And you can see that 128 stands for other.
+
+184
+00:12:20,025 --> 00:12:24,717
+So that's the label for the first three tokens, and
+
+185
+00:12:24,717 --> 00:12:30,610
+then new is the beginning of the from location of the city_name.
+
+186
+00:12:30,610 --> 00:12:34,242
+I is the intermediate location of the city_name,
+
+187
+00:12:34,242 --> 00:12:37,957
+because New York, they are two separate words, but
+
+188
+00:12:37,957 --> 00:12:40,497
+they reflect the same city entity.
+
+189
+00:12:40,497 --> 00:12:45,670
+And then, to Seattle is the to location of the city_name.
+
+190
+00:12:45,670 --> 00:12:52,380
+So now we have trained, tested, and predicted on a sentence
+
+191
+00:12:52,380 --> 00:12:57,190
+that we'd never had seen before during our training process.
+
+192
+00:12:57,190 --> 00:12:59,172
+So we are pretty satisfied with that.
+
+193
+00:12:59,172 --> 00:13:04,055
+And this is your first classification of text data
+
+194
+00:13:04,055 --> 00:13:07,434
+using LSTM and recurrent models.
+

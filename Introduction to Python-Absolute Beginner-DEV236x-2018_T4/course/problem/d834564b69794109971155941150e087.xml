@@ -1,0 +1,9 @@
+<problem display_name="Question 1 " markdown="Python Function &lt;code&gt;return&lt;/code&gt; values must be stored in variables&#10;&#10;( ) True&#10;(x) False&#10;&#10;" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p>Python Function <code>return</code> values must be stored in variables</p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">True</choice>
+      <choice correct="true">False</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

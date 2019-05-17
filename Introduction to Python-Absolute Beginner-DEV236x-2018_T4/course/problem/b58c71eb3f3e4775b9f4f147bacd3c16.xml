@@ -1,0 +1,23 @@
+<problem display_name="Question 3" markdown="&lt;pre&gt;&lt;code&gt;\\\\&#10;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;p&gt;The best choice of code to create the output shown above is ___&lt;/p&gt;&#10;&#10;( ) &lt;code&gt;print(&quot;'\''\''\''\''\'&quot;)&lt;/code&gt;&#10;( ) &lt;code&gt;print(&quot;\\\\&quot;)&lt;/code&gt;&#10;(x) &lt;code&gt;print(&quot;\\\\\\\\&quot;)&lt;/code&gt;&#10;( ) &lt;code&gt;print(\\\\)&lt;/code&gt;&#10;" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <pre>
+      <code>\\\\
+</code>
+    </pre>
+    <p>The best choice of code to create the output shown above is ___</p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">
+        <code>print("'\''\''\''\''\'")</code>
+      </choice>
+      <choice correct="false">
+        <code>print("\\\\")</code>
+      </choice>
+      <choice correct="true">
+        <code>print("\\\\\\\\")</code>
+      </choice>
+      <choice correct="false">
+        <code>print(\\\\)</code>
+      </choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

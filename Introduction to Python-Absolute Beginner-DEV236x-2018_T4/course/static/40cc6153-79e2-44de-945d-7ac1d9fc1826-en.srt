@@ -1,0 +1,88 @@
+0
+00:00:01,560 --> 00:00:03,490
+This is introduction of Python, unit one.
+
+1
+00:00:03,490 --> 00:00:07,915
+I am your instructor, Eric Camplin, a Content Developer at Microsoft.
+
+2
+00:00:07,915 --> 00:00:11,550
+I&#39;m excited to present this course designed for
+
+3
+00:00:11,550 --> 00:00:14,880
+those who are new to programming, to ease into learning Python.
+
+4
+00:00:14,880 --> 00:00:18,760
+The student will cover basic programming concepts and
+
+5
+00:00:18,760 --> 00:00:23,350
+do exercises that can be completed online using the Jupyter Notebook
+
+6
+00:00:23,350 --> 00:00:27,550
+development environment hosted on Microsoft Azure.
+
+7
+00:00:27,550 --> 00:00:30,690
+Unit one focuses on Python Language Basics.
+
+8
+00:00:30,690 --> 00:00:34,520
+Student would be able to develop and run programs in Jupyter Notebooks
+
+9
+00:00:34,520 --> 00:00:39,440
+that utilize concepts as data types, variables, user input,
+
+10
+00:00:39,440 --> 00:00:43,326
+they&#39;ll build functions, use operators and conditional statements.
+
+11
+00:00:43,326 --> 00:00:46,700
+We&#39;ll build while loops and increment variables, and
+
+12
+00:00:46,700 --> 00:00:49,260
+we&#39;ll delve into troubleshooting errors.
+
+13
+00:00:49,260 --> 00:00:53,330
+All key foundations to further learning in computer science.
+
+14
+00:00:53,330 --> 00:00:57,500
+Each concept introduced has a video, and examples, and
+
+15
+00:00:57,500 --> 00:01:03,020
+student coding task, and followed by additional programming practice.
+
+16
+00:01:03,020 --> 00:01:06,860
+With the modules, there are multiple sections that have knowledge checks
+
+17
+00:01:06,860 --> 00:01:09,520
+and end of module coding assignments.
+
+18
+00:01:09,520 --> 00:01:13,090
+At the end, there is a final coding project.
+
+19
+00:01:13,090 --> 00:01:15,308
+For those pursuing the verified certificate,
+
+20
+00:01:15,308 --> 00:01:19,360
+70% credit is required for passing.
+
+21
+00:01:19,360 --> 00:01:20,418
+Welcome to the course.
+

@@ -1,0 +1,132 @@
+0
+00:00:00,750 --> 00:00:04,417
+Before we go too far down the lane, understanding what
+
+1
+00:00:04,417 --> 00:00:08,327
+convolution operations specifically does, let's take
+
+2
+00:00:08,327 --> 00:00:11,528
+a moment and understand the image data format.
+
+3
+00:00:14,319 --> 00:00:18,805
+We have been dealing with the MNIST data, in the previous
+
+4
+00:00:18,805 --> 00:00:22,644
+modules we have been flattening it out into array
+
+5
+00:00:24,867 --> 00:00:28,689
+And here I hopefully have convinced you that,
+
+6
+00:00:28,689 --> 00:00:33,394
+that is not really ideal because we lose the correlations
+
+7
+00:00:33,394 --> 00:00:38,403
+between the pixels that exist here, when we flatten it out.
+
+8
+00:00:40,806 --> 00:00:45,138
+So we would be treating from hereon, this image
+
+9
+00:00:47,177 --> 00:00:51,110
+As a matrix with one channel.
+
+10
+00:00:51,110 --> 00:00:53,829
+Because this is a grayscale image,
+
+11
+00:00:53,829 --> 00:00:59,067
+it has only shades of gray and, With parameters,
+
+12
+00:00:59,067 --> 00:01:02,339
+weight and height, in this case, these are both 28.
+
+13
+00:01:04,388 --> 00:01:09,993
+So, they are 28 x 28 pixels, and each pixel has 1 integer value.
+
+14
+00:01:12,319 --> 00:01:15,452
+Another set of images that you'll often encounter, and
+
+15
+00:01:15,452 --> 00:01:17,343
+this is more likely to be the case,
+
+16
+00:01:17,343 --> 00:01:19,640
+where you'll see natural scene images.
+
+17
+00:01:20,940 --> 00:01:25,398
+And here, your matrix dimensions are gonna be the same weight and
+
+18
+00:01:25,398 --> 00:01:29,871
+height, so this is the weight, and that's gonna be the height.
+
+19
+00:01:31,066 --> 00:01:33,960
+But, there are three channels.
+
+20
+00:01:33,960 --> 00:01:36,680
+The red, green, and blue channels.
+
+21
+00:01:37,860 --> 00:01:41,216
+How do these channels come together to form this nice
+
+22
+00:01:41,216 --> 00:01:43,513
+beautiful image of the fire truck.
+
+23
+00:01:44,967 --> 00:01:45,890
+Let's take a look at it.
+
+24
+00:01:47,080 --> 00:01:49,995
+Here is a moniker for the three channels.
+
+25
+00:01:49,995 --> 00:01:54,952
+Here you can see, this is the red channel, and
+
+26
+00:01:54,952 --> 00:01:59,909
+the red parts of the fire truck are now bright,
+
+27
+00:01:59,909 --> 00:02:02,726
+very bright here, okay?
+
+28
+00:02:05,319 --> 00:02:10,000
+And green parts, which are predominantly
+
+29
+00:02:10,000 --> 00:02:14,165
+the grass area, is very bright here.
+
+30
+00:02:15,627 --> 00:02:20,424
+And here, the sky, which is largely blue,
+
+31
+00:02:20,424 --> 00:02:23,050
+is very, very bright.
+
+32
+00:02:23,050 --> 00:02:28,531
+So these three channels come together to form this image.
+

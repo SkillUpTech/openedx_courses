@@ -1,0 +1,35 @@
+{
+  "start": [
+    770, 
+    2412, 
+    3930, 
+    7090, 
+    8600, 
+    12410, 
+    14170, 
+    16560, 
+    18010
+  ], 
+  "end": [
+    2412, 
+    3930, 
+    7090, 
+    8600, 
+    12410, 
+    14170, 
+    16560, 
+    18010, 
+    18510
+  ], 
+  "text": [
+    "Welcome to the course.", 
+    "I am Sayan Pathak,", 
+    "Principal Machine Learning Scientist at Microsoft.", 
+    ">> And I'm Roland Fernandez,", 
+    "Researcher in the deep learning team of Microsoft research AI.", 
+    ">> We welcome you to this course.", 
+    "We'll be teaching you basics of deep learning.", 
+    "I look forward to it.", 
+    ">> Me too."
+  ]
+}

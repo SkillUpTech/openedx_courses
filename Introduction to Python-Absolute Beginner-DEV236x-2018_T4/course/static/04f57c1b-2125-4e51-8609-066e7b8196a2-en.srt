@@ -1,0 +1,408 @@
+0
+00:00:01,260 --> 00:00:06,849
+By now, whenever I say that there is model parameters and
+
+1
+00:00:06,849 --> 00:00:12,323
+we are increasing the number of model parameters, I´m
+
+2
+00:00:12,323 --> 00:00:17,930
+assuming that you are thinking one thing, what is that?
+
+3
+00:00:20,577 --> 00:00:24,018
+I am thinking overfitting.
+
+4
+00:00:24,018 --> 00:00:29,123
+Which means that your training performance on the model
+
+5
+00:00:29,123 --> 00:00:35,070
+will emit really, really low error during training.
+
+6
+00:00:35,070 --> 00:00:39,300
+But when you are exposing that model to the outside world for
+
+7
+00:00:39,300 --> 00:00:42,450
+new unforseen data on which it will run,
+
+8
+00:00:42,450 --> 00:00:45,730
+you'll get errors much, much, much larger.
+
+9
+00:00:47,780 --> 00:00:50,070
+So whenever you add more parameters to the model,
+
+10
+00:00:50,070 --> 00:00:51,100
+you have to guard against that.
+
+11
+00:00:52,660 --> 00:00:55,660
+Now there are several ways of doing it.
+
+12
+00:00:55,660 --> 00:00:59,620
+And in neural networks, dropout is one of them.
+
+13
+00:01:01,410 --> 00:01:03,960
+So let's see what dropout means.
+
+14
+00:01:06,080 --> 00:01:07,170
+Before we get into that,
+
+15
+00:01:08,580 --> 00:01:10,860
+the problem we are trying to address here is overfitting.
+
+16
+00:01:12,130 --> 00:01:16,058
+What it means is, the model works great with training data,
+
+17
+00:01:16,058 --> 00:01:19,835
+with new data however, which is unseen during training,
+
+18
+00:01:19,835 --> 00:01:22,163
+results in high prediction error.
+
+19
+00:01:24,626 --> 00:01:28,308
+So, the classical approach, which I assume some of you or
+
+20
+00:01:28,308 --> 00:01:30,638
+most of you should be familiar with,
+
+21
+00:01:30,638 --> 00:01:33,869
+has a part of your ML basics is the regularization,
+
+22
+00:01:33,869 --> 00:01:36,290
+which is L1 and L2 regularization.
+
+23
+00:01:38,100 --> 00:01:40,800
+Some other techniques that are also taught in
+
+24
+00:01:40,800 --> 00:01:45,260
+many machine learning courses are data augmentation or
+
+25
+00:01:45,260 --> 00:01:46,960
+train with noise added.
+
+26
+00:01:48,830 --> 00:01:52,930
+Early stopping is another technique that is often
+
+27
+00:01:52,930 --> 00:01:54,010
+used in machine learning.
+
+28
+00:01:55,140 --> 00:01:57,855
+If you are not familiar with these technique,
+
+29
+00:01:57,855 --> 00:02:00,859
+I'll recommend that you go back to your machine learning course
+
+30
+00:02:02,740 --> 00:02:05,250
+to get a refresher on these topics.
+
+31
+00:02:06,470 --> 00:02:11,453
+In this one, we will talk about dropout, which is extremely
+
+32
+00:02:11,453 --> 00:02:15,960
+effective to tackle overfitting in neural networks.
+
+33
+00:02:20,082 --> 00:02:25,853
+You're familiar with multi-layer perception.
+
+34
+00:02:25,853 --> 00:02:30,689
+Let's work out what multi-layer perceptions would
+
+35
+00:02:30,689 --> 00:02:33,487
+be in the context of dropouts.
+
+36
+00:02:33,487 --> 00:02:38,033
+So dropouts means simply ignoring
+
+37
+00:02:38,033 --> 00:02:43,207
+the activations from certain number of
+
+38
+00:02:43,207 --> 00:02:49,330
+randomly chosen nodes during training time.
+
+39
+00:02:50,480 --> 00:02:54,120
+It was a neat little innovation from the Toronto group which is
+
+40
+00:02:54,120 --> 00:02:56,800
+captured in this paper.
+
+41
+00:02:56,800 --> 00:02:58,150
+You can look it up.
+
+42
+00:02:58,150 --> 00:03:00,910
+It's a fairly simple technique, but very powerful.
+
+43
+00:03:02,380 --> 00:03:05,300
+You choose with certain probability that you're gonna
+
+44
+00:03:05,300 --> 00:03:09,217
+knock off a random set of outputs or
+
+45
+00:03:09,217 --> 00:03:11,840
+the activations from the nodes.
+
+46
+00:03:13,200 --> 00:03:17,691
+Which means that during training phase, you're not gonna update
+
+47
+00:03:17,691 --> 00:03:21,552
+the weights and the biases associated with these nodes.
+
+48
+00:03:23,951 --> 00:03:28,367
+In one iteration, you may knock off the nodes shown here.
+
+49
+00:03:31,541 --> 00:03:37,427
+And in another instance, you may choose a different set of nodes.
+
+50
+00:03:39,974 --> 00:03:44,198
+So what does this mean in terms of how the activations are being
+
+51
+00:03:44,198 --> 00:03:45,520
+calculated?
+
+52
+00:03:45,520 --> 00:03:46,184
+Let's work that out.
+
+53
+00:03:48,262 --> 00:03:52,829
+Let's say we have the probability p with which
+
+54
+00:03:52,829 --> 00:03:56,710
+we are gonna drop these nodes.
+
+55
+00:03:56,710 --> 00:04:00,700
+And this probability can be anywhere between zero and one.
+
+56
+00:04:00,700 --> 00:04:02,408
+You do not want to choose zero or
+
+57
+00:04:02,408 --> 00:04:06,530
+one would be the degenerate case where we don't drop anything.
+
+58
+00:04:06,530 --> 00:04:09,080
+So we don't want to drop all the nodes, and
+
+59
+00:04:09,080 --> 00:04:12,810
+you don't want to keep all of them because that would be
+
+60
+00:04:12,810 --> 00:04:15,560
+equivalent to not having dropouts.
+
+61
+00:04:15,560 --> 00:04:18,027
+So now say we drop half of these nodes.
+
+62
+00:04:18,027 --> 00:04:20,748
+So that means probability would be 0.5.
+
+63
+00:04:23,769 --> 00:04:25,937
+If say I take this node and
+
+64
+00:04:25,937 --> 00:04:31,099
+I am gonna not update it with a probability of P to this node,
+
+65
+00:04:31,099 --> 00:04:34,922
+those weights aren't gonna get updated for
+
+66
+00:04:34,922 --> 00:04:39,800
+that particular iteration when it is not chosen.
+
+67
+00:04:39,800 --> 00:04:42,580
+So in this case, this situation it is chosen.
+
+68
+00:04:42,580 --> 00:04:45,790
+But in this situation, this one is not chosen.
+
+69
+00:04:47,740 --> 00:04:48,400
+In other words,
+
+70
+00:04:48,400 --> 00:04:53,620
+the output that would come out of this node would be scaled
+
+71
+00:04:53,620 --> 00:04:58,050
+back by the probability that you pass in as a parameter.
+
+72
+00:04:59,880 --> 00:05:05,960
+So the output would be chosen P times the output and 1 minus
+
+73
+00:05:05,960 --> 00:05:09,645
+P times the times that are not chosen, the output would be 0.
+
+74
+00:05:11,340 --> 00:05:12,920
+So effectively what you'll have
+
+75
+00:05:14,830 --> 00:05:18,690
+the nodes emit is p times output 2.
+
+76
+00:05:18,690 --> 00:05:22,922
+Now, all the nodes are gonna be randomly dropped, and
+
+77
+00:05:22,922 --> 00:05:27,900
+correspondingly the output will be scaled down by a factor of p.
+
+78
+00:05:30,040 --> 00:05:33,980
+So what do we do with a network where you have these
+
+79
+00:05:33,980 --> 00:05:36,530
+fully connected nodes, and
+
+80
+00:05:36,530 --> 00:05:39,170
+this one where the output is scaled down by P?
+
+81
+00:05:41,570 --> 00:05:43,820
+One thought might be,
+
+82
+00:05:43,820 --> 00:05:49,590
+at one time, you're gonna run inputs through all the nodes.
+
+83
+00:05:49,590 --> 00:05:57,020
+And at each node, you can scale it up by a factor of p.
+
+84
+00:05:57,020 --> 00:06:01,619
+Now remember that at test time or at predict time,
+
+85
+00:06:01,619 --> 00:06:06,764
+if you have to multiply each output of a node with a factor
+
+86
+00:06:06,764 --> 00:06:11,380
+of p, that would eat into your computation time.
+
+87
+00:06:12,650 --> 00:06:16,700
+And if you're running it on the device, any device,
+
+88
+00:06:16,700 --> 00:06:21,200
+it would eat up some cycles of that device to do the scale up.
+
+89
+00:06:22,568 --> 00:06:28,219
+So what popularly people do is instead of scaling the output at
+
+90
+00:06:28,219 --> 00:06:33,884
+test time, you can do something called an inverted dropout.
+
+91
+00:06:36,708 --> 00:06:38,125
+And what it means,
+
+92
+00:06:38,125 --> 00:06:42,916
+it performs the scaling of the neurons at training time itself.
+
+93
+00:06:44,405 --> 00:06:46,000
+And at prescale.
+
+94
+00:06:46,000 --> 00:06:50,310
+So these nodes at training time itself, will get prescaled, so
+
+95
+00:06:50,310 --> 00:06:54,230
+that at run time, you don't have to do any of the scaling.
+
+96
+00:06:54,230 --> 00:06:57,630
+So it's a neat little trick, very important one.
+
+97
+00:06:57,630 --> 00:07:00,330
+You don't have to worry about this, because the tool kits that
+
+98
+00:07:00,330 --> 00:07:02,940
+are available and the ones you are gonna use for
+
+99
+00:07:02,940 --> 00:07:04,860
+this course already take care of it.
+
+100
+00:07:04,860 --> 00:07:06,393
+But it's important for
+
+101
+00:07:06,393 --> 00:07:09,387
+you to understand what the dropout node does.
+

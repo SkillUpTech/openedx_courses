@@ -1,0 +1,124 @@
+0
+00:00:06,531 --> 00:00:11,890
+Let's look at some examples of functions that will take arguments.
+
+1
+00:00:11,891 --> 00:00:15,881
+The print statement can take zero to many arguments.
+
+2
+00:00:15,882 --> 00:00:21,150
+And here's an example of the print statement with two arguments.
+
+3
+00:00:21,151 --> 00:00:25,280
+The first argument is the string Hello and then there is
+
+4
+00:00:25,281 --> 00:00:30,660
+a comma which separates the next argument which is World string.
+
+5
+00:00:30,661 --> 00:00:35,482
+And so, print statement that just sends whatever strings are in
+
+6
+00:00:35,483 --> 00:00:39,512
+there to standard out so, we can go and run that cell.
+
+7
+00:00:39,513 --> 00:00:43,791
+And we see, Hello World like we expect but print is unique in that,
+
+8
+00:00:46,072 --> 00:00:51,402
+It can take a variable amount of arguments including zero arguments.
+
+9
+00:00:51,403 --> 00:00:55,822
+So, let's run that cell now and we see now there's a extra space there.
+
+10
+00:00:55,823 --> 00:01:00,003
+And we can even call print with one argument.
+
+11
+00:01:02,802 --> 00:01:07,863
+And then, it's a little easier to see, right there that we have
+
+12
+00:01:07,864 --> 00:01:13,490
+a blank line that was printed when we sent it zero argument.
+
+13
+00:01:13,491 --> 00:01:17,240
+Print can take two arguments or no arguments or
+
+14
+00:01:17,241 --> 00:01:22,324
+one arguments and can take up to, almost infinite amount of arguments.
+
+15
+00:01:24,490 --> 00:01:29,220
+In this second example, we have the type function and type is not so
+
+16
+00:01:29,221 --> 00:01:30,620
+forgiving.
+
+17
+00:01:30,621 --> 00:01:34,840
+It will take exactly one argument of an object and tell you it's type.
+
+18
+00:01:34,841 --> 00:01:38,610
+In this case, we put a number 2.2 in there and
+
+19
+00:01:38,611 --> 00:01:44,382
+another thing about type, it doesn't have the same behavior as print.
+
+20
+00:01:44,383 --> 00:01:48,905
+It doesn't put its answer out to the standard output it just
+
+21
+00:01:48,906 --> 00:01:50,272
+returns a value.
+
+22
+00:01:50,273 --> 00:01:55,433
+And so, right here I'm storing that value in a variable called my_type.
+
+23
+00:01:55,434 --> 00:01:58,273
+And so, let's look at how type will work.
+
+24
+00:01:58,274 --> 00:02:02,444
+So if I hit Enter then, type will return it's value
+
+25
+00:02:02,445 --> 00:02:07,113
+into the my_type variable and then we can run my_type.
+
+26
+00:02:07,114 --> 00:02:11,360
+You see what was in there, yep, 2.2 that's a float.
+
+27
+00:02:11,361 --> 00:02:16,620
+So, we're seeing that arguments can be sent to functions
+
+28
+00:02:16,621 --> 00:02:20,345
+in many different ways where there's a required amount, one or
+
+29
+00:02:20,346 --> 00:02:23,180
+as any other specific number of arguments.
+
+30
+00:02:23,181 --> 00:02:27,360
+Or they can be variable like we have here with the print statement.
+

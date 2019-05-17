@@ -1,0 +1,47 @@
+    <h1 id="concept-comparison-operators-in-conditionals">Concept: Comparison Operators in Conditionals</h1>
+<h2 id="conditionals-comparison-operators-with-if">Conditionals: comparison operators with <code>if</code></h2>
+<p>Comparison operators evaluate to Boolean <strong><code>True</code></strong> and <strong><code>False</code></strong> to direct the flow of <strong><code>if</code></strong> conditionals</p>
+<h1 id="example">Example</h1>
+<pre><code class="language-python"># review code and run cell
+x = 21
+if x &gt; 25:
+    print(&quot;x is already bigger than 25&quot;)
+else:
+    print(&quot;x was&quot;, x)
+    x = 25
+    print(&quot;now x is&quot;, x)
+</code></pre>
+<pre><code class="language-python"># review code and run cell
+x = 18
+if x + 18 == x + x:
+    print(&quot;Pass: x + 18 is equal to&quot;, x + x)
+else:
+    print(&quot;Fail: x + 18 is not equal to&quot;, x + x)
+</code></pre>
+<pre><code class="language-python"># review code and run cell. &quot;!&quot; means &quot;not&quot;
+x = 18
+test_value = 18
+if x != test_value:
+    print('x is not', test_value)
+else:
+    print('x is', test_value)
+
+</code></pre>
+<pre><code class="language-python"># review code and run cell
+# DON'T ASSIGN (x = 2) when you mean to COMPARE (x == 2)
+x = 2
+
+if x = 2:
+    print('&quot;==&quot; tests for, is equal to')
+else:
+    pass
+</code></pre>
+<h1 id="task-2">Task 2</h1>
+<h2 id="evaluating-a-comparison-operator-in-if">Evaluating a comparison operator in <code>if</code></h2>
+<pre><code class="language-python"># [ ] create an if/else statement that tests if y is greater than or equal x + x 
+# [ ] print output: &quot;y greater than or equal x + x is&quot; True/False ...or a similar output
+x = 3
+y = x + 8
+
+
+</code></pre>

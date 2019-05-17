@@ -1,0 +1,196 @@
+0
+00:00:03,600 --> 00:00:06,850
+A common work flow for using Jupyter Notebooks for
+
+1
+00:00:06,851 --> 00:00:10,810
+coding is to use Edit, Run and Save.
+
+2
+00:00:12,200 --> 00:00:16,050
+Some really common operations we're gonna use in our Jupyter notebooks
+
+3
+00:00:16,051 --> 00:00:19,840
+are edit, run, and save.
+
+4
+00:00:19,841 --> 00:00:23,360
+So to edit a cell, and I'm talking about a code cell here,
+
+5
+00:00:23,361 --> 00:00:25,310
+you can see this is a markdown cell.
+
+6
+00:00:25,311 --> 00:00:29,320
+Remember up here, and a code cell, if I highlight, is there.
+
+7
+00:00:29,321 --> 00:00:31,510
+To edit, all I have to do is highlight in there, and
+
+8
+00:00:31,511 --> 00:00:33,230
+you see my blinking cursor.
+
+9
+00:00:33,231 --> 00:00:36,450
+So I already had x = 2, let's go ahead and add to that.
+
+10
+00:00:36,451 --> 00:00:41,527
+I'm gonna say that y is equal to x + 5,
+
+11
+00:00:41,528 --> 00:00:46,920
+and then I will look at how to run this.
+
+12
+00:00:46,921 --> 00:00:49,730
+And so if I run this cell, there's a couple ways I can do that.
+
+13
+00:00:50,780 --> 00:00:55,260
+First let's go to the menu and see Cell > Run Cells.
+
+14
+00:00:55,261 --> 00:00:56,810
+And that has just run the cell.
+
+15
+00:00:56,811 --> 00:01:02,650
+And what it does is put the value 2 in memory for
+
+16
+00:01:02,651 --> 00:01:10,250
+x, and the value of 2 + 5, because that's x + 5 in the for y in memory.
+
+17
+00:01:10,251 --> 00:01:12,980
+And we don't see anything, so let's run it again so
+
+18
+00:01:12,981 --> 00:01:13,954
+we can see something.
+
+19
+00:01:13,955 --> 00:01:15,560
+So I'm just gonna put y there, and
+
+20
+00:01:15,561 --> 00:01:21,250
+all that's gonna do is say echo the value of y to the screen below here.
+
+21
+00:01:21,251 --> 00:01:23,780
+So let's go ahead and run that again, but
+
+22
+00:01:23,781 --> 00:01:27,140
+I'm not gonna hit Cell > Run Cells this time.
+
+23
+00:01:27,141 --> 00:01:32,060
+What I'm gonna do is just click into the cell, the code cell, and
+
+24
+00:01:32,061 --> 00:01:36,290
+hit the Ctrl button, Ctrl+Enter.
+
+25
+00:01:36,291 --> 00:01:40,300
+And then we see that I have the value of 7 there.
+
+26
+00:01:40,301 --> 00:01:43,688
+I can edit again by highlighting it in there, and
+
+27
+00:01:43,689 --> 00:01:45,845
+I can add more to the equation.
+
+28
+00:01:45,846 --> 00:01:49,430
+So I'm gonna add 3 more to the value of y.
+
+29
+00:01:49,431 --> 00:01:51,800
+So I'm gonna expect 10 to come out.
+
+30
+00:01:51,801 --> 00:01:58,945
+And I can hit Ctrl+Enter again to run it, or I can hit Shift+Enter.
+
+31
+00:01:58,946 --> 00:02:03,860
+What Shift+Enter will do is move to the next cell, and
+
+32
+00:02:03,861 --> 00:02:06,620
+if there's no cell below it will create a new cell.
+
+33
+00:02:06,621 --> 00:02:10,257
+So we see that the cell was run because the value changed from
+
+34
+00:02:10,258 --> 00:02:12,700
+7 to 10, and then I have a new cell.
+
+35
+00:02:12,701 --> 00:02:16,390
+And all new cells always default to a code cell, and
+
+36
+00:02:16,391 --> 00:02:18,960
+our notebooks are still Python 3.
+
+37
+00:02:18,961 --> 00:02:21,090
+Now to save my work,
+
+38
+00:02:21,091 --> 00:02:24,712
+there is a Save button right there that will save that.
+
+39
+00:02:24,713 --> 00:02:27,520
+It says Save and have a checkpoint so that next time,
+
+40
+00:02:27,521 --> 00:02:30,850
+when I open this notebook, it will still have
+
+41
+00:02:30,851 --> 00:02:35,840
+the edited text that I put in right there and the new cell.
+
+42
+00:02:35,841 --> 00:02:40,090
+So we learned how to edit just by typing within the box.
+
+43
+00:02:40,091 --> 00:02:43,412
+All you need is the focus there to run using the menu, or
+
+44
+00:02:43,413 --> 00:02:49,090
+we can use Ctrl+Enter, or we can use Shift+Enter, which
+
+45
+00:02:49,091 --> 00:02:53,070
+we'll probably use the most because it will move us to the next cell.
+
+46
+00:02:53,071 --> 00:02:55,658
+And then we can start working on the next cell and
+
+47
+00:02:55,659 --> 00:02:57,219
+keep running them in order.
+
+48
+00:02:57,220 --> 00:02:59,560
+And then to save we can push the Save button.
+

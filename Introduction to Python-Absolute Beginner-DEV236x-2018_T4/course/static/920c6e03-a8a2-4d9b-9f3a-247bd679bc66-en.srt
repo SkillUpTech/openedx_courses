@@ -1,0 +1,288 @@
+0
+00:00:00,600 --> 00:00:02,200
+In machine learning typically,
+
+1
+00:00:02,200 --> 00:00:05,710
+you would start with a bunch of features that is extracted
+
+2
+00:00:05,710 --> 00:00:09,310
+from the data and then you build models on top of it.
+
+3
+00:00:09,310 --> 00:00:12,419
+In supervised learning, you have labels associated with it also.
+
+4
+00:00:15,222 --> 00:00:17,076
+In real world application,
+
+5
+00:00:17,076 --> 00:00:21,413
+that extraction of features can become very, very challenging.
+
+6
+00:00:23,283 --> 00:00:26,710
+For instance, in the case of autonomous driving,
+
+7
+00:00:26,710 --> 00:00:31,097
+different conditions during the driving patterns people have,
+
+8
+00:00:31,097 --> 00:00:33,967
+the weather patterns, road conditions,
+
+9
+00:00:33,967 --> 00:00:37,238
+illuminations, local roads versus highways,
+
+10
+00:00:37,238 --> 00:00:41,329
+make the feature extraction part very, very challenging.
+
+11
+00:00:43,080 --> 00:00:46,800
+When machine learning is applied to health care, it is a very
+
+12
+00:00:46,800 --> 00:00:50,220
+attractive domain but features may not be easily discoverable.
+
+13
+00:00:51,730 --> 00:00:52,400
+In today's day and
+
+14
+00:00:52,400 --> 00:00:56,300
+age, it's not possible to live without web search engines.
+
+15
+00:00:56,300 --> 00:00:59,840
+And these web search engines are increasingly
+
+16
+00:00:59,840 --> 00:01:04,820
+becoming sophisticated and involve machine translation and
+
+17
+00:01:04,820 --> 00:01:05,820
+document comprehension.
+
+18
+00:01:07,640 --> 00:01:10,360
+Machine translation pops up in other places as well.
+
+19
+00:01:10,360 --> 00:01:14,530
+For instance, in Skype Translator when you are talking,
+
+20
+00:01:14,530 --> 00:01:16,540
+you can translate one language from the other.
+
+21
+00:01:18,260 --> 00:01:21,480
+Speech is an area where different intonations,
+
+22
+00:01:21,480 --> 00:01:26,010
+environment, noise, languages make feature detection very,
+
+23
+00:01:26,010 --> 00:01:26,740
+very challenging.
+
+24
+00:01:28,490 --> 00:01:32,989
+As children we all learn to build primitive constructs to
+
+25
+00:01:32,989 --> 00:01:38,190
+recognize voice, and slowly, higher level abstract
+
+26
+00:01:38,190 --> 00:01:41,780
+constructs help our brain understand language as we grow.
+
+27
+00:01:44,030 --> 00:01:47,440
+Many speech recognition engines mimic such complex abstraction
+
+28
+00:01:47,440 --> 00:01:50,560
+models in delivering the experience we have
+
+29
+00:01:50,560 --> 00:01:52,680
+in the form of different applications and devices.
+
+30
+00:01:55,640 --> 00:01:59,605
+Deep learning solves this problem of learning higher order
+
+31
+00:01:59,605 --> 00:02:00,720
+abstractions.
+
+32
+00:02:02,529 --> 00:02:05,833
+Increasingly, these types of models, because of the higher
+
+33
+00:02:05,833 --> 00:02:08,438
+level abstractions that they are able to build,
+
+34
+00:02:08,438 --> 00:02:11,310
+are becoming pervasive in our day-to-day living.
+
+35
+00:02:13,120 --> 00:02:16,105
+Deep learning enables building complex or
+
+36
+00:02:16,105 --> 00:02:19,320
+higher-level constructs, using simpler constructs.
+
+37
+00:02:20,380 --> 00:02:24,587
+Starting with the raw data, simple constructs,
+
+38
+00:02:24,587 --> 00:02:29,310
+to a range of higher order constructs or abstractions.
+
+39
+00:02:29,310 --> 00:02:34,670
+Deep learning is powered by deep neural networks,
+
+40
+00:02:34,670 --> 00:02:36,130
+also referred to as DNN.
+
+41
+00:02:37,790 --> 00:02:40,370
+We'll be learning how to build deep
+
+42
+00:02:40,370 --> 00:02:41,759
+neural networks in this course.
+
+43
+00:02:44,150 --> 00:02:49,070
+Deep learning embodies many of the constructs that
+
+44
+00:02:49,070 --> 00:02:54,040
+is inherently built into our biology, particularly the brain.
+
+45
+00:02:55,180 --> 00:02:58,160
+Deep neural networks may make several layers in the brain.
+
+46
+00:03:01,150 --> 00:03:06,310
+So starting with having multiple layers, such as here.
+
+47
+00:03:06,310 --> 00:03:10,530
+This is the cross section of a mouse brain.
+
+48
+00:03:10,530 --> 00:03:12,410
+I can see the different layers within the brain.
+
+49
+00:03:14,060 --> 00:03:16,400
+Similarly, deep neural nets have multiple layers.
+
+50
+00:03:17,500 --> 00:03:20,900
+Each layer learns a higher abstraction on the input
+
+51
+00:03:20,900 --> 00:03:21,860
+from the layer before it.
+
+52
+00:03:23,700 --> 00:03:28,260
+And many practical deep neural nets have
+
+53
+00:03:28,260 --> 00:03:29,740
+large number of parameters.
+
+54
+00:03:30,940 --> 00:03:35,900
+These type of deep networks, which have humongous number of
+
+55
+00:03:35,900 --> 00:03:39,140
+parameters, were previously difficult to build,
+
+56
+00:03:39,140 --> 00:03:43,440
+largely because of lack of large amount of data to train
+
+57
+00:03:43,440 --> 00:03:48,500
+these models, as well as the computing capabilities needed
+
+58
+00:03:48,500 --> 00:03:53,410
+to process that amount of data and build models out of it.
+
+59
+00:03:53,410 --> 00:03:57,633
+With recent advances in computer science, such cross computing
+
+60
+00:03:57,633 --> 00:04:02,550
+power and handling of large data is made feasible.
+
+61
+00:04:02,550 --> 00:04:08,205
+And with increasing number of devices generating data,
+
+62
+00:04:08,205 --> 00:04:12,798
+the amount of data is also becoming abundant,
+
+63
+00:04:12,798 --> 00:04:15,389
+helping us build really,
+
+64
+00:04:15,389 --> 00:04:20,829
+really complex models that mimic natural behaviors.
+
+65
+00:04:20,829 --> 00:04:26,084
+So that autonomous driving, document comprehension,
+
+66
+00:04:26,084 --> 00:04:32,109
+and speech recognition tasks are becoming more and more common.
+
+67
+00:04:34,462 --> 00:04:38,492
+Application domains for deep learning thus are in image and
+
+68
+00:04:38,492 --> 00:04:41,806
+video processing, speech processing, text.
+
+69
+00:04:41,806 --> 00:04:47,025
+And combining these three, Increasing
+
+70
+00:04:47,025 --> 00:04:50,826
+multi-modality and data coming from Internet of Things,
+
+71
+00:04:50,826 --> 00:04:53,210
+is becoming increasingly common.
+

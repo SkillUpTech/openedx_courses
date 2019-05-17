@@ -1,0 +1,8 @@
+<video youtube="1.00:CbMFWfpTlV4" url_name="d1c969b079f948f2abfce29bfc87d92b" display_name="Notebooks and Libraries" download_track="true" download_video="true" edx_video_id="06119e34-d669-4d70-9df8-395e7913caa7" html5_sources="[]" sub="" transcripts="{&quot;en&quot;: &quot;06119e34-d669-4d70-9df8-395e7913caa7-en.srt&quot;}" youtube_id_1_0="CbMFWfpTlV4">
+  <transcript language="en" src="06119e34-d669-4d70-9df8-395e7913caa7-en.srt"/>
+  <video_asset client_video_id="Unit1_Section1.1-EditRunSave.mp4" duration="180.86">
+    <encoded_video bitrate="170" file_size="3856587" profile="desktop_mp4" url="https://d2f1egay8yehza.cloudfront.net/MSXIPU1X2017-V000300_DTH.mp4"/>
+    <encoded_video bitrate="102" file_size="2320447" profile="mobile_low" url="https://d2f1egay8yehza.cloudfront.net/MSXIPU1X2017-V000300_MB2.mp4"/>
+    <encoded_video bitrate="0" file_size="0" profile="youtube" url="CbMFWfpTlV4"/>
+  </video_asset>
+</video>

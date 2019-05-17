@@ -1,0 +1,8 @@
+<video youtube="1.00:BuHAozasrP0" url_name="c2b3607cab254cefa3697762b85d75d9" display_name="Video: Module 4 Required Code Description" download_track="true" download_video="true" edx_video_id="fe5d7055-b5f7-4673-ad4c-4927a79e8d73" html5_sources="[]" sub="" transcripts="{&quot;en&quot;: &quot;fe5d7055-b5f7-4673-ad4c-4927a79e8d73-en.srt&quot;}" youtube_id_1_0="BuHAozasrP0">
+  <transcript language="en" src="fe5d7055-b5f7-4673-ad4c-4927a79e8d73-en.srt"/>
+  <video_asset client_video_id="dev236x_mod4_required_wm.mp4" duration="243.69">
+    <encoded_video bitrate="0" file_size="0" profile="youtube" url="BuHAozasrP0"/>
+    <encoded_video bitrate="172" file_size="5262177" profile="mobile_low" url="https://d2f1egay8yehza.cloudfront.net/MSXIPU1X2017-V005500_MB2.mp4"/>
+    <encoded_video bitrate="223" file_size="6811235" profile="desktop_mp4" url="https://d2f1egay8yehza.cloudfront.net/MSXIPU1X2017-V005500_DTH.mp4"/>
+  </video_asset>
+</video>

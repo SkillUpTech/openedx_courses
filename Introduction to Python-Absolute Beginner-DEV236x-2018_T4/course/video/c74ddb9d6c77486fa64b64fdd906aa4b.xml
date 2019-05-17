@@ -1,0 +1,8 @@
+<video youtube="1.00:lw_3FRGwm4k" url_name="c74ddb9d6c77486fa64b64fdd906aa4b" display_name="Hello World!" download_track="true" download_video="true" edx_video_id="bbf2b967-c73c-4881-ac48-b911853c0a2d" html5_sources="[]" sub="" transcripts="{&quot;en&quot;: &quot;bbf2b967-c73c-4881-ac48-b911853c0a2d-en.srt&quot;}" youtube_id_1_0="lw_3FRGwm4k">
+  <transcript language="en" src="bbf2b967-c73c-4881-ac48-b911853c0a2d-en.srt"/>
+  <video_asset client_video_id="Unit1_Section1.1-Hello_World.mp4" duration="85.5">
+    <encoded_video bitrate="110" file_size="1182745" profile="mobile_low" url="https://d2f1egay8yehza.cloudfront.net/MSXIPU1X2017-V000200_MB2.mp4"/>
+    <encoded_video bitrate="160" file_size="1716710" profile="desktop_mp4" url="https://d2f1egay8yehza.cloudfront.net/MSXIPU1X2017-V000200_DTH.mp4"/>
+    <encoded_video bitrate="0" file_size="0" profile="youtube" url="lw_3FRGwm4k"/>
+  </video_asset>
+</video>

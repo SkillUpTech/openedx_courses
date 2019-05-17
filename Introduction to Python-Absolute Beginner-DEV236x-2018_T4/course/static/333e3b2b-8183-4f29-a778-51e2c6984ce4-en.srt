@@ -1,0 +1,40 @@
+0
+00:00:03,233 --> 00:00:07,620
+We'll use the hashtag in Python to create comments.
+
+1
+00:00:07,621 --> 00:00:10,060
+>> Good code is commented code.
+
+2
+00:00:10,061 --> 00:00:13,551
+In this version of the Hello World program, we use the hashtag or
+
+3
+00:00:13,552 --> 00:00:16,250
+the pound sign to enter a comment.
+
+4
+00:00:16,251 --> 00:00:17,900
+Tells the user about the code.
+
+5
+00:00:19,900 --> 00:00:23,616
+Also in this course, we'll use a lot of messages for
+
+6
+00:00:23,617 --> 00:00:26,581
+the student in the cells using a comment.
+
+7
+00:00:26,582 --> 00:00:33,563
+We'll use this symbol to signify that the user has some task.
+
+8
+00:00:33,564 --> 00:00:37,472
+And we'll give instructions on how to run the cells in examples
+
+9
+00:00:37,473 --> 00:00:38,070
+as well.
+

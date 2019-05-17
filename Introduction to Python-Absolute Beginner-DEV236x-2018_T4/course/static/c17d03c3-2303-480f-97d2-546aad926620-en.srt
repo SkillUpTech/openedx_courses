@@ -1,0 +1,424 @@
+0
+00:00:00,530 --> 00:00:03,040
+Welcome to the tutorial on convolutional network.
+
+1
+00:00:03,040 --> 00:00:07,060
+We'll continue to work with our Mnest high data set and get you
+
+2
+00:00:07,060 --> 00:00:11,080
+familiar with how to build model using convolutional network.
+
+3
+00:00:11,080 --> 00:00:13,110
+You have gone to the videos I'm sure.
+
+4
+00:00:13,110 --> 00:00:15,740
+You have understood the concepts behind it.
+
+5
+00:00:15,740 --> 00:00:20,070
+We'll quickly recapitulate some of those concepts in the form of
+
+6
+00:00:20,070 --> 00:00:22,790
+code and you should be able to relate to that.
+
+7
+00:00:22,790 --> 00:00:25,740
+And then build your own models on top of data that you
+
+8
+00:00:25,740 --> 00:00:29,220
+might have, using these basic networks.
+
+9
+00:00:29,220 --> 00:00:31,940
+And then you can go and graduate to the next level,
+
+10
+00:00:31,940 --> 00:00:33,820
+where you build really, really deep networks.
+
+11
+00:00:33,820 --> 00:00:36,745
+Because convolutional networks can be very,
+
+12
+00:00:36,745 --> 00:00:39,449
+very challenging because of their depth.
+
+13
+00:00:39,449 --> 00:00:43,779
+And as you have larger depth, you can run into problems like
+
+14
+00:00:43,779 --> 00:00:48,377
+we have seen in the places where you have vanishing gradients.
+
+15
+00:00:48,377 --> 00:00:50,824
+If you are not familiar with that terminology,
+
+16
+00:00:50,824 --> 00:00:54,610
+you will find it in the next module which is with LSTMs.
+
+17
+00:00:54,610 --> 00:00:57,990
+But in this case, we will build a reasonably small model, yet
+
+18
+00:00:57,990 --> 00:01:00,980
+cover all the concepts that has been taught in the video
+
+19
+00:01:00,980 --> 00:01:01,637
+lectures.
+
+20
+00:01:03,697 --> 00:01:05,290
+So let's see what we have here.
+
+21
+00:01:06,748 --> 00:01:09,910
+The convolutional network, as you all know, it's feed forward
+
+22
+00:01:09,910 --> 00:01:13,750
+artificial neural network with learnable weights and biases,
+
+23
+00:01:13,750 --> 00:01:18,930
+very similar to what we have seen in MLP networks before.
+
+24
+00:01:18,930 --> 00:01:20,950
+But we'll see how the weights and
+
+25
+00:01:20,950 --> 00:01:25,240
+biases are learned here and incorporated into the modeling.
+
+26
+00:01:25,240 --> 00:01:29,893
+I won't read through the text here but I encourage you to
+
+27
+00:01:29,893 --> 00:01:34,843
+quickly go through it and have a recap of what convolutional
+
+28
+00:01:34,843 --> 00:01:39,595
+networks are for and how are the different terminologies
+
+29
+00:01:39,595 --> 00:01:44,149
+associated with these networks gonna be interplaying
+
+30
+00:01:44,149 --> 00:01:48,616
+with the code that is gonna be introduced to you here.
+
+31
+00:01:48,616 --> 00:01:52,621
+One thing I would do suggest is that you revise some of these
+
+32
+00:01:52,621 --> 00:01:56,628
+deeper networks like the AlexNet, the VGG, Inception,
+
+33
+00:01:56,628 --> 00:02:00,470
+ResNet at the end of the tutorial maybe, because by then
+
+34
+00:02:00,470 --> 00:02:03,947
+you'll be familiar with the modeling concepts.
+
+35
+00:02:03,947 --> 00:02:07,773
+And then relate back to these networks and
+
+36
+00:02:07,773 --> 00:02:13,129
+see how you can build models, these rather deep AlexNet,
+
+37
+00:02:13,129 --> 00:02:18,950
+VGGs, ResNet which is 152 layers deep on your own.
+
+38
+00:02:18,950 --> 00:02:21,960
+If you want to fleet forward a bit,
+
+39
+00:02:21,960 --> 00:02:26,460
+you can go look into the next set of tutorials which
+
+40
+00:02:26,460 --> 00:02:29,500
+you see in tk202 in the GitHub repository to get a sense
+
+41
+00:02:29,500 --> 00:02:32,680
+how those networks might look like in form of code.
+
+42
+00:02:34,880 --> 00:02:38,600
+So this is the same problem we have with the goal of
+
+43
+00:02:38,600 --> 00:02:40,550
+detecting the digits.
+
+44
+00:02:40,550 --> 00:02:43,060
+I will train the classifier only this time.
+
+45
+00:02:43,060 --> 00:02:46,270
+The classifier will be based on convolutional
+
+46
+00:02:46,270 --> 00:02:48,870
+elements that define a convolutional network.
+
+47
+00:02:52,590 --> 00:02:57,020
+These are some of the imports, then we select the device.
+
+48
+00:02:58,270 --> 00:03:02,380
+And I wanna just quickly recap here is that in the previous
+
+49
+00:03:02,380 --> 00:03:05,800
+tutorial so far we have had this image.
+
+50
+00:03:05,800 --> 00:03:10,340
+And we have scanned it in raster fashion and
+
+51
+00:03:10,340 --> 00:03:14,300
+flattened it into 784 pixel.
+
+52
+00:03:14,300 --> 00:03:18,560
+And by doing so we lost all the spatial relationships
+
+53
+00:03:18,560 --> 00:03:21,870
+that exist between and its neighboring pixels.
+
+54
+00:03:24,190 --> 00:03:27,340
+And we will see how we can bring it back.
+
+55
+00:03:27,340 --> 00:03:30,200
+How we can bring these spatial neighborhoods
+
+56
+00:03:30,200 --> 00:03:32,780
+back into the play using convolutional networks.
+
+57
+00:03:35,800 --> 00:03:39,360
+Now even though our dataset is grayscale,
+
+58
+00:03:39,360 --> 00:03:41,750
+which means that they're single channel.
+
+59
+00:03:41,750 --> 00:03:45,160
+A lot of the convolution networks use natural scene
+
+60
+00:03:45,160 --> 00:03:49,020
+images which are multi channel, which is red, green and blue.
+
+61
+00:03:50,240 --> 00:04:00,206
+So, Even though our
+
+62
+00:04:00,206 --> 00:04:04,866
+dataset is gray scale as seen here what we have, what we find
+
+63
+00:04:04,866 --> 00:04:09,806
+in real world is natural scene images have three channels which
+
+64
+00:04:09,806 --> 00:04:14,580
+is red, green and blue and these can be specified as tuples.
+
+65
+00:04:14,580 --> 00:04:19,640
+The first number of the tuple is gonna be the number of channels,
+
+66
+00:04:19,640 --> 00:04:21,380
+then image width and image height.
+
+67
+00:04:23,130 --> 00:04:26,240
+By doing this, we preserve the spatial relationship between
+
+68
+00:04:26,240 --> 00:04:27,730
+the pixels, okay.
+
+69
+00:04:28,820 --> 00:04:32,000
+Now if you had a volumetric scan, that instead of a flat,
+
+70
+00:04:32,000 --> 00:04:35,350
+2D image, you had a 3D scan.
+
+71
+00:04:35,350 --> 00:04:39,430
+In which case, this data would be, number of channels would
+
+72
+00:04:39,430 --> 00:04:42,230
+remain to be three because of the three colors.
+
+73
+00:04:43,350 --> 00:04:45,750
+You can have volume width, volume height and
+
+74
+00:04:45,750 --> 00:04:46,950
+volume depth in this case.
+
+75
+00:04:46,950 --> 00:04:51,080
+So it becomes tuple with four values.
+
+76
+00:04:52,390 --> 00:04:57,298
+By doing this, CNTK enables you to specify any arbitrary
+
+77
+00:04:57,298 --> 00:05:00,681
+image with higher dimensional space.
+
+78
+00:05:00,681 --> 00:05:05,168
+So for instance, if your dataset had 15 colors, 16 colors,
+
+79
+00:05:05,168 --> 00:05:08,106
+which can happen with satellite imagery,
+
+80
+00:05:08,106 --> 00:05:12,850
+then this number 3 would become 16, 15, whatever it might be.
+
+81
+00:05:16,650 --> 00:05:19,670
+So here, we specify back to them this data set.
+
+82
+00:05:19,670 --> 00:05:23,490
+We are specifying the input dimension of the model to be
+
+83
+00:05:23,490 --> 00:05:27,394
+(1,28,28), 1 for the grayscale channel and
+
+84
+00:05:27,394 --> 00:05:30,890
+then 28 and 28 for the image width and height.
+
+85
+00:05:31,920 --> 00:05:34,980
+And then our dataset, though we have red,
+
+86
+00:05:34,980 --> 00:05:37,191
+is flattened in raster order.
+
+87
+00:05:37,191 --> 00:05:40,330
+So the input dimension here is 28 times 28.
+
+88
+00:05:40,330 --> 00:05:44,600
+By specifying this input_dim_model, you'll see that
+
+89
+00:05:44,600 --> 00:05:48,030
+when this flattened data that we have been using gets read in,
+
+90
+00:05:48,030 --> 00:05:53,120
+it will be put back into the two-dimensional
+
+91
+00:05:53,120 --> 00:05:56,130
+shape which preserves the spatial relationships
+
+92
+00:05:56,130 --> 00:05:58,220
+between the pixels that we have been talking about.
+
+93
+00:06:00,390 --> 00:06:04,256
+You're quite familiar by now with the one-hot encoding of
+
+94
+00:06:04,256 --> 00:06:05,660
+the labeled data.
+
+95
+00:06:05,660 --> 00:06:09,150
+In this case, again, this digit 3, so the 4th index,
+
+96
+00:06:09,150 --> 00:06:12,560
+which corresponds to digit 3 is turned on.
+
+97
+00:06:12,560 --> 00:06:17,599
+This is refered to as the one-hot encoded label.
+
+98
+00:06:19,510 --> 00:06:24,380
+Here we are gonna use the same CTFDeserializer in this course
+
+99
+00:06:24,380 --> 00:06:30,450
+and we will sample data using the create_reader function for
+
+100
+00:06:30,450 --> 00:06:32,300
+training testing purposes.
+
+101
+00:06:35,163 --> 00:06:38,360
+This is the place where we read the data in.
+
+102
+00:06:38,360 --> 00:06:40,460
+Feel free to go and
+
+103
+00:06:40,460 --> 00:06:46,907
+look into this Train-28x28_cntk_text.txt
+
+104
+00:06:46,907 --> 00:06:50,750
+file to see what the raw data looks like if you want to
+
+105
+00:06:50,750 --> 00:06:53,450
+convince yourself that indeed the right data is being read in.
+

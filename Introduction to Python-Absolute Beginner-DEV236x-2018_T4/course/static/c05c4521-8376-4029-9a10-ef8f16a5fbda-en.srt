@@ -1,0 +1,180 @@
+0
+00:00:05,531 --> 00:00:09,258
+Conditionals help us run the flow of our code using
+
+1
+00:00:09,259 --> 00:00:13,980
+conditional statements that resolve to true or false.
+
+2
+00:00:13,981 --> 00:00:17,520
+We will look at if, else, and pass statements.
+
+3
+00:00:18,750 --> 00:00:21,210
+>> The example has an if True statement.
+
+4
+00:00:22,320 --> 00:00:25,150
+True is a Boolean keyword.
+
+5
+00:00:25,151 --> 00:00:31,560
+So if True will do whatever code is indented below the if statement.
+
+6
+00:00:33,717 --> 00:00:37,207
+If it's not true, and in this case it's always true, so
+
+7
+00:00:37,208 --> 00:00:40,850
+unless I write false, then we will do the else statement.
+
+8
+00:00:40,851 --> 00:00:44,870
+So let's just quickly look at how this works out when I run it.
+
+9
+00:00:44,871 --> 00:00:48,400
+So if True, it never gets past if True.
+
+10
+00:00:48,401 --> 00:00:52,947
+It prints this if statement after if is True.
+
+11
+00:00:52,948 --> 00:00:55,794
+And the statement after if is True.
+
+12
+00:00:55,795 --> 00:00:58,276
+To get to the else statement,
+
+13
+00:00:58,277 --> 00:01:02,557
+we would have to have whatever's here be not True.
+
+14
+00:01:02,558 --> 00:01:06,782
+And so we can actually use these keywords, not and True.
+
+15
+00:01:09,519 --> 00:01:12,702
+And then we see that the else statement will print when
+
+16
+00:01:12,703 --> 00:01:14,192
+something's Not True.
+
+17
+00:01:15,782 --> 00:01:19,729
+The more typical way we think of Not True, is we think of it as False.
+
+18
+00:01:21,500 --> 00:01:23,819
+And this is also the Boolean keyword, False.
+
+19
+00:01:26,530 --> 00:01:30,887
+So as different statements evaluate to True or False,
+
+20
+00:01:30,888 --> 00:01:35,850
+we can execute either the if statement or the else.
+
+21
+00:01:35,851 --> 00:01:40,890
+A way to understand that a little more easily is we can set
+
+22
+00:01:40,891 --> 00:01:44,420
+right here a variable to True or False.
+
+23
+00:01:44,421 --> 00:01:47,140
+And so, I have someone I know is True.
+
+24
+00:01:47,141 --> 00:01:52,490
+And if someone I know is True then I'll say, how have you been?
+
+25
+00:01:52,491 --> 00:01:57,570
+Else, if it's Not True, I'll print nice to meet you.
+
+26
+00:01:57,571 --> 00:01:59,630
+And so I say how have you been?
+
+27
+00:01:59,631 --> 00:02:03,050
+And then I could have something later where I determine
+
+28
+00:02:04,100 --> 00:02:08,830
+that I don't know who that person is, and so is it someone I know?
+
+29
+00:02:08,831 --> 00:02:09,570
+That is False.
+
+30
+00:02:09,571 --> 00:02:14,400
+So I look here, if someone I know, if it's True or
+
+31
+00:02:14,401 --> 00:02:18,330
+False, and I should see that nice to meet you.
+
+32
+00:02:19,490 --> 00:02:21,270
+And it says nice to meet you.
+
+33
+00:02:21,271 --> 00:02:25,880
+Sometimes though, when I run a if statement or an else statement,
+
+34
+00:02:25,881 --> 00:02:28,980
+I really want only one of the conditions to execute.
+
+35
+00:02:28,981 --> 00:02:33,300
+What that means is I would only wanna print, how have you been or
+
+36
+00:02:33,301 --> 00:02:34,140
+nice to meet you.
+
+37
+00:02:34,141 --> 00:02:37,790
+And so if I do not wanna do anything,
+
+38
+00:02:37,791 --> 00:02:39,953
+I can just write the word pass.
+
+39
+00:02:39,954 --> 00:02:43,260
+And this is a keyword, it turns green.
+
+40
+00:02:43,261 --> 00:02:47,210
+And so nothing happens in this case.
+
+41
+00:02:47,211 --> 00:02:48,590
+And then if I write True.
+
+42
+00:02:53,516 --> 00:02:56,810
+Then it will run the how have you been path.
+
+43
+00:02:58,880 --> 00:03:02,932
+So, if statements evaluate if they are True, and
+
+44
+00:03:02,933 --> 00:03:06,895
+if Not True they will move to the else statement.
+

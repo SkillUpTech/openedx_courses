@@ -1,0 +1,63 @@
+    <h1 id="concept-conditional-elif">Concept: Conditional <code>elif</code></h1>
+<h2 id="using-the-conditional-elif">Using the Conditional <code>elif</code></h2>
+
+<p><strong>Review:</strong> <code>if</code> and <code>else</code></p>
+<ul>
+<li><strong><code>if</code></strong> means &quot;<strong>if</strong> a condition exists then do some task.&quot; <strong><code>if</code></strong> is usually followed by <strong><code>else</code></strong></li>
+<li><strong><code>else</code></strong> means &quot;<strong>or else</strong> after we have tested <strong>if</strong>, then do an alternative task&quot;</li>
+</ul>
+<p>When there  is a need to test for multiple conditions there is <strong><code>elif</code></strong></p>
+<ul>
+<li><strong><code>elif</code><strong>  statement follows  </strong><code>if</code></strong>, and means <strong>&quot;else, if &quot;</strong> another condition exists do something else</li>
+  <li><strong><code>elif</code></strong>  can be used many times</li>
+<li><strong><code>else</code><strong>  is used after the last test condition (</strong><code>if</code></strong> or <strong><code>elif</code></strong>)</li>
+</ul>
+<h4 id="in-pseudo-code">in pseudo code</h4>
+<p><strong>If</strong> it is raining bring an umbrella<br />
+or <strong>Else If</strong>  (<code>elif</code>) it is snowing bring a warm coat<br />
+or <strong>Else</strong> go as usual</p>
+<p>Like <strong><code>else</code></strong>, the <strong><code>elif</code></strong> only executes when the previous <strong><code>if</code></strong> conditional is False</p>
+<h1 id="example">Example</h1>
+<pre><code class="language-python"># [ ] review the code then run testing different inputs
+# WHAT TO WEAR
+weather = input(&quot;Enter weather (sunny, rainy, snowy): &quot;) 
+
+if weather.lower() == &quot;sunny&quot;:
+    print(&quot;Wear a t-shirt&quot;)
+elif weather.lower() == &quot;rainy&quot;:
+    print(&quot;Bring an umbrella and boots&quot;)
+elif weather.lower() == &quot;snowy&quot;:
+    print(&quot;Wear a warm coat and hat&quot;)
+else:
+    print(&quot;Sorry, not sure what to suggest for&quot;, weather)
+</code></pre>
+<pre><code class="language-python"># [ ] review the code then run testing different inputs
+# SECRET NUMBER GUESS
+secret_num = &quot;2&quot;
+
+guess = input(&quot;Enter a guess for the secret number (1-3): &quot;)
+
+if guess.isdigit() == False:
+    print(&quot;Invalid: guess should only use digits&quot;)
+elif guess == &quot;1&quot;:
+    print(&quot;Guess is too low&quot;)
+elif guess == secret_num:
+    print(&quot;Guess is right&quot;)
+elif guess == &quot;3&quot;:
+    print(&quot;Guess is too high&quot;)
+else:
+    print(guess, &quot;is not a valid guess (1-3)&quot;)
+</code></pre>
+<h1 id="task-1">Task 1</h1>
+<h2 id="program-shirt-sale">Program: Shirt Sale</h2>
+<h3 id="complete-program-using-if-elif-else">Complete program using   <code>if, elif, else</code></h3>
+<ul>
+<li>Get user input for variable size (S, M, L)</li>
+<li>reply with each shirt size and price (Small = $ 6, Medium = $ 7, Large = $ 8)</li>
+<li>if the reply is other than S, M, L, give a message for not available</li>
+<li><em>optional</em>: add additional sizes</li>
+</ul>
+<pre><code class="language-python"># [ ] code and test SHIRT SALE
+
+
+</code></pre>

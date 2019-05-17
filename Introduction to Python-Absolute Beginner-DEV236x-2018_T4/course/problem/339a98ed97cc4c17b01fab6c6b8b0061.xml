@@ -1,0 +1,18 @@
+<problem display_name="Question 3" markdown="&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;x = 3&#10;y = 4&#10;calculation = x*y&#10;print(calculation)&#10;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;p&gt;The best estimate for the output of the above code is ___&lt;/p&gt;&#10;&#10;( ) 12.0 &#10;( ) 9.0&#10;(x) 12&#10;( ) 9 &#10;" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <pre>
+      <code class="language-python">x = 3
+y = 4
+calculation = x*y
+print(calculation)
+</code>
+    </pre>
+    <p>The best estimate for the output of the above code is ___</p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">12.0</choice>
+      <choice correct="false">9.0</choice>
+      <choice correct="true">12</choice>
+      <choice correct="false">9</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

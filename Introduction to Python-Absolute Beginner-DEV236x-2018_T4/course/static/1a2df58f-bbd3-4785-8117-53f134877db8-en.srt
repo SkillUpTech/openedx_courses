@@ -1,0 +1,372 @@
+0
+00:00:00,420 --> 00:00:04,210
+Now that you are familiar with the basic components of building
+
+1
+00:00:04,210 --> 00:00:07,860
+a model, namely the weights, biases and the activation
+
+2
+00:00:07,860 --> 00:00:13,430
+functions, let's try to build our first deep network.
+
+3
+00:00:16,020 --> 00:00:19,299
+We start with our input features.
+
+4
+00:00:21,130 --> 00:00:26,000
+And we put our first layer in place.
+
+5
+00:00:27,280 --> 00:00:33,580
+Remember we said that we are going to take this 784, so
+
+6
+00:00:33,580 --> 00:00:40,860
+this input vector x, which is 784 pixels
+
+7
+00:00:42,170 --> 00:00:47,430
+as my input and the output is going to be 400 activations.
+
+8
+00:00:47,430 --> 00:00:53,530
+So, this means these nodes are gonna be 400 of these, and
+
+9
+00:00:53,530 --> 00:00:56,740
+note i'm using the relu activation function here.
+
+10
+00:00:59,130 --> 00:01:04,788
+So corresponding to this layer, we have one weight matrix which
+
+11
+00:01:04,788 --> 00:01:09,835
+400 rows and 784 columns, and the 400 biases.
+
+12
+00:01:12,955 --> 00:01:14,190
+We'll add another layer.
+
+13
+00:01:15,700 --> 00:01:19,320
+This time we would have the input be
+
+14
+00:01:19,320 --> 00:01:22,960
+the output of the previous layer which is 400,
+
+15
+00:01:22,960 --> 00:01:27,930
+and output of this layer would be 200.
+
+16
+00:01:27,930 --> 00:01:30,550
+So what's the intuition behind
+
+17
+00:01:30,550 --> 00:01:32,910
+putting a layer on top of another one?
+
+18
+00:01:33,980 --> 00:01:36,840
+The key thing here is to understand
+
+19
+00:01:36,840 --> 00:01:40,640
+that we are trying to build one layer on top of the other.
+
+20
+00:01:42,080 --> 00:01:46,960
+So we are trying to first layer to the input images, the raw
+
+21
+00:01:46,960 --> 00:01:53,150
+pixels and transform it into some interaction between them.
+
+22
+00:01:53,150 --> 00:01:55,900
+And resulted in a set of features say 400 of those.
+
+23
+00:01:57,240 --> 00:02:00,280
+Now we take this set of 400 features and
+
+24
+00:02:00,280 --> 00:02:04,380
+try to find interaction between these features and
+
+25
+00:02:04,380 --> 00:02:07,500
+here we are gonna generate 200 of those.
+
+26
+00:02:09,050 --> 00:02:15,600
+So these 200 features would represent another matrix,
+
+27
+00:02:15,600 --> 00:02:19,923
+this layer would have a weight matrix of
+
+28
+00:02:19,923 --> 00:02:24,380
+200 by 400 and the 200 biases.
+
+29
+00:02:25,580 --> 00:02:32,110
+And now we feel that with the combination of these features
+
+30
+00:02:32,110 --> 00:02:36,210
+in the first layer and the interaction of
+
+31
+00:02:36,210 --> 00:02:39,160
+the features that we have in the second layer.
+
+32
+00:02:40,300 --> 00:02:43,270
+We feel pretty comfortable that let's
+
+33
+00:02:43,270 --> 00:02:46,730
+take these combination of the features that we have and
+
+34
+00:02:46,730 --> 00:02:50,570
+project it directly into the ten categories that we want to get
+
+35
+00:02:50,570 --> 00:02:53,750
+to, the categories being the digits zero to nine.
+
+36
+00:02:53,750 --> 00:02:57,775
+Now you could arguably change the number of layer,
+
+37
+00:02:57,775 --> 00:02:59,890
+the nodes within one layer,
+
+38
+00:02:59,890 --> 00:03:04,700
+say from 200 to 400 or you could add more layers.
+
+39
+00:03:04,700 --> 00:03:06,240
+That's something you can experiment
+
+40
+00:03:06,240 --> 00:03:09,530
+as you are building different models for your dataset.
+
+41
+00:03:09,530 --> 00:03:13,940
+And note that as you have more layers you are adding more and
+
+42
+00:03:13,940 --> 00:03:14,710
+more parameters.
+
+43
+00:03:14,710 --> 00:03:16,620
+So in this case, the first layer has weights and
+
+44
+00:03:16,620 --> 00:03:19,940
+biases, the second layer has more weights and biases.
+
+45
+00:03:19,940 --> 00:03:23,680
+So if you have more parameters you would need more data
+
+46
+00:03:23,680 --> 00:03:25,160
+to train on.
+
+47
+00:03:25,160 --> 00:03:30,180
+So a lot of time your decision to how deep your network
+
+48
+00:03:30,180 --> 00:03:34,720
+can be is often determined by how much data you have.
+
+49
+00:03:34,720 --> 00:03:37,910
+And obviously, as you have more parameters you would have to
+
+50
+00:03:37,910 --> 00:03:41,000
+fit those parameters, you have to find the right weights for
+
+51
+00:03:41,000 --> 00:03:43,790
+those, and those take computational time.
+
+52
+00:03:43,790 --> 00:03:46,860
+So it's always gonna be a trade off between
+
+53
+00:03:46,860 --> 00:03:50,470
+your model architecture, the amount of data you have and
+
+54
+00:03:50,470 --> 00:03:53,330
+the number of iterations or the computation time
+
+55
+00:03:53,330 --> 00:03:56,690
+budget that you might be having at your disposal.
+
+56
+00:03:56,690 --> 00:04:00,480
+So let's put the final layer here and
+
+57
+00:04:00,480 --> 00:04:06,160
+we have here, the input being 200 will
+
+58
+00:04:06,160 --> 00:04:11,850
+map it to our final 10 digits, 1 for each digit.
+
+59
+00:04:11,850 --> 00:04:16,130
+And note that I'm gonna use softmax because softmax does
+
+60
+00:04:16,130 --> 00:04:20,750
+a very good job in taking the outputs after the network and
+
+61
+00:04:20,750 --> 00:04:22,860
+categorizing them as probabilities.
+
+62
+00:04:22,860 --> 00:04:24,560
+So I'll put the activation as none.
+
+63
+00:04:24,560 --> 00:04:27,840
+The last layer of your deep network typically doesn't have
+
+64
+00:04:27,840 --> 00:04:30,690
+an activation on it and
+
+65
+00:04:30,690 --> 00:04:34,440
+this is going to be our first deep model.
+
+66
+00:04:36,070 --> 00:04:38,940
+Here, there are a lot of terminologies but the one that I
+
+67
+00:04:38,940 --> 00:04:41,449
+like to use is that there are two hidden layers.
+
+68
+00:04:42,910 --> 00:04:44,190
+And the one output layer.
+
+69
+00:04:44,190 --> 00:04:49,850
+So this is hidden, hidden, output, yep.
+
+70
+00:04:49,850 --> 00:04:51,710
+And what is the output value?
+
+71
+00:04:51,710 --> 00:04:55,530
+It's some value of your model function z.
+
+72
+00:04:55,530 --> 00:04:57,470
+It's going to be a single value and
+
+73
+00:04:57,470 --> 00:04:58,680
+you'll get an array of those.
+
+74
+00:04:58,680 --> 00:05:02,480
+And this dimension is 10, 10 values.
+
+75
+00:05:02,480 --> 00:05:05,590
+You will map it to the softmax function exactly like
+
+76
+00:05:05,590 --> 00:05:09,350
+the way we did it for that logistic regression model.
+
+77
+00:05:10,520 --> 00:05:13,700
+And we convert them into some probabilistic representation.
+
+78
+00:05:15,900 --> 00:05:17,770
+Loss functions comes next which you
+
+79
+00:05:17,770 --> 00:05:18,950
+are intimately familiar with.
+
+80
+00:05:18,950 --> 00:05:22,010
+It's very similar to what we did for logistic regression.
+
+81
+00:05:23,210 --> 00:05:26,920
+In this case, what we do is take the input data
+
+82
+00:05:28,970 --> 00:05:32,290
+and feed it into the model.
+
+83
+00:05:32,290 --> 00:05:35,100
+The weights and biases of the models are learned.
+
+84
+00:05:36,200 --> 00:05:38,880
+And when learned properly, it would have
+
+85
+00:05:40,390 --> 00:05:43,809
+emitted a set of probabilities corresponding to these digits.
+
+86
+00:05:45,170 --> 00:05:48,954
+And ideally these, for the digit three,
+
+87
+00:05:48,954 --> 00:05:52,963
+we would have a value of 1 and 0 elsewhere.
+
+88
+00:05:56,929 --> 00:06:01,393
+But that rarely happens in reality, so what we do is we
+
+89
+00:06:01,393 --> 00:06:06,060
+compare the predicted probability against the one hard
+
+90
+00:06:06,060 --> 00:06:10,765
+encoded label that comes along with the training data.
+
+91
+00:06:10,765 --> 00:06:14,943
+And in this case we will use the cross entropy error as my loss
+
+92
+00:06:14,943 --> 00:06:15,787
+function.
+

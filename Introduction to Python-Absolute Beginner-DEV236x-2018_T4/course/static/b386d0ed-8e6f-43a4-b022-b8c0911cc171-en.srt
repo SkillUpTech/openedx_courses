@@ -1,0 +1,132 @@
+0
+00:00:00,350 --> 00:00:05,350
+So now you know, how we can build classifiers, and
+
+1
+00:00:05,350 --> 00:00:10,200
+we build ten of those to be able to detect a hand written
+
+2
+00:00:10,200 --> 00:00:14,650
+digit to its corresponding numerical interpretation,
+
+3
+00:00:14,650 --> 00:00:15,940
+meaning zero to nine.
+
+4
+00:00:17,360 --> 00:00:23,020
+Here, what it means is that for the digit 3,
+
+5
+00:00:23,020 --> 00:00:26,770
+you get a very high value and rest of it are relatively low.
+
+6
+00:00:28,300 --> 00:00:32,164
+However, I would like to give it a probabilistic interpretation.
+
+7
+00:00:32,164 --> 00:00:37,650
+And compare one digit with other and
+
+8
+00:00:37,650 --> 00:00:40,940
+in this case if you see it, that is
+
+9
+00:00:40,940 --> 00:00:44,850
+not possible because all these digits do not sum up to one.
+
+10
+00:00:44,850 --> 00:00:46,670
+One of the key requirements for
+
+11
+00:00:46,670 --> 00:00:51,210
+us to give it a probabilistic interpretation.
+
+12
+00:00:51,210 --> 00:00:53,010
+So, in machine learning and
+
+13
+00:00:53,010 --> 00:00:58,410
+in deep neutral especially, we use logistic regression
+
+14
+00:00:58,410 --> 00:01:01,960
+with something we call Softmax which I'll explain shortly.
+
+15
+00:01:01,960 --> 00:01:05,420
+And this has much better distributional properties.
+
+16
+00:01:05,420 --> 00:01:09,580
+And statistically it yields better results
+
+17
+00:01:09,580 --> 00:01:12,730
+when you train models with Softmax as the output layer.
+
+18
+00:01:13,830 --> 00:01:18,790
+So typically what happens is, instead of a sigmoid function
+
+19
+00:01:18,790 --> 00:01:27,470
+that we had here before, we do not have anything.
+
+20
+00:01:27,470 --> 00:01:31,550
+It's a pass through and this becomes our model function.
+
+21
+00:01:33,060 --> 00:01:37,310
+And the output can be any value from z0 to z9.
+
+22
+00:01:39,190 --> 00:01:43,767
+What we do then is, normalize these z
+
+23
+00:01:43,767 --> 00:01:47,320
+scores by first exponentiating them and
+
+24
+00:01:47,320 --> 00:01:50,800
+then dividing it by the sum of those exponents.
+
+25
+00:01:52,340 --> 00:01:58,870
+And this yields a vector which is indicative
+
+26
+00:01:58,870 --> 00:02:04,050
+of the predicted probabilities of a digit 3,
+
+27
+00:02:04,050 --> 00:02:08,070
+indeed being detected as the digit 3.
+
+28
+00:02:08,070 --> 00:02:12,394
+When you have trained the model parameters, Ws and Bs,
+
+29
+00:02:12,394 --> 00:02:15,246
+they should have a very high value and
+
+30
+00:02:15,246 --> 00:02:18,476
+the others would have a much lower value.
+
+31
+00:02:18,476 --> 00:02:22,241
+And now you can compare one against the other.
+
+32
+00:02:22,241 --> 00:02:27,830
+So this is called the logistic regression with Softmax.
+

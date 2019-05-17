@@ -1,0 +1,184 @@
+0
+00:00:03,890 --> 00:00:07,440
+Let's look at improving our input messages
+
+1
+00:00:07,580 --> 00:00:10,500
+by using the input prompt mechanism
+
+2
+00:00:10,750 --> 00:00:12,770
+and simplify things a little bit.
+
+3
+00:00:13,270 --> 00:00:16,450
+Previously we used a message
+
+4
+00:00:16,930 --> 00:00:20,840
+to the user in a print statement and then we put in our input.
+
+5
+00:00:21,040 --> 00:00:24,050
+Well, that's fine but we have
+
+6
+00:00:24,150 --> 00:00:26,760
+this message up here  and then below, I have to
+
+7
+00:00:26,870 --> 00:00:30,100
+put in my answer and when I
+
+8
+00:00:30,240 --> 00:00:35,410
+improve this with by using  the input prompt,
+
+9
+00:00:35,630 --> 00:00:37,420
+I can just do it all on a single line.
+
+10
+00:00:37,540 --> 00:00:41,370
+So, inside of the parenthesis,  I'm allowed to
+
+11
+00:00:41,470 --> 00:00:43,920
+put in a message, in a string.
+
+12
+00:00:44,160 --> 00:00:47,240
+And so that will be displayed to the user
+
+13
+00:00:47,410 --> 00:00:49,250
+and we're going to see right here
+
+14
+00:00:49,440 --> 00:00:53,370
+that if I run that now,  the prompt message
+
+15
+00:00:53,530 --> 00:00:57,890
+that is inside the parenthesis  of the input function
+
+16
+00:00:58,230 --> 00:01:00,120
+is displayed and then I can
+
+17
+00:01:00,220 --> 00:01:02,880
+enter a name in there.
+
+18
+00:01:03,020 --> 00:01:06,420
+And now, that is assigned to student name
+
+19
+00:01:06,510 --> 00:01:11,420
+and I get my name out here. So, let's going forward
+
+20
+00:01:11,520 --> 00:01:13,770
+just use the input prompt and that will
+
+21
+00:01:13,850 --> 00:01:16,200
+simplify things and you keep the prompt
+
+22
+00:01:16,300 --> 00:01:18,710
+with your input statement.
+
+23
+00:01:18,930 --> 00:01:20,510
+Another thing that we really need to
+
+24
+00:01:20,610 --> 00:01:24,910
+look at here is that when we enter in
+
+25
+00:01:25,010 --> 00:01:28,220
+the student name input, we want to know
+
+26
+00:01:28,330 --> 00:01:30,440
+what kind of type that is.
+
+27
+00:01:38,660 --> 00:01:42,690
+And we see that, that is a type string.
+
+28
+00:01:43,410 --> 00:01:46,970
+So, that is a string because it's a name
+
+29
+00:01:47,070 --> 00:01:48,910
+and we would expect that to be a string.
+
+30
+00:01:49,100 --> 00:01:52,280
+But let's look back at our initial example
+
+31
+00:01:52,360 --> 00:01:59,170
+here with small int. What is that?
+
+32
+00:02:00,150 --> 00:02:03,530
+Well it's also a string.
+
+33
+00:02:03,700 --> 00:02:07,490
+So, no matter what your intent is  whether you want
+
+34
+00:02:07,590 --> 00:02:14,340
+this to be a numeric value or a string value,
+
+35
+00:02:14,480 --> 00:02:17,090
+it's always going to be a string.
+
+36
+00:02:17,190 --> 00:02:20,530
+And so this is a digit 3 which is
+
+37
+00:02:20,700 --> 00:02:23,720
+the same as 3 in quotes.
+
+38
+00:02:23,890 --> 00:02:27,770
+This is rather than the numeric 3. So we would not
+
+39
+00:02:27,870 --> 00:02:32,010
+be able to add together three plus three.
+
+40
+00:02:32,870 --> 00:02:35,900
+So, what we've learned is that, we can use
+
+41
+00:02:36,030 --> 00:02:38,420
+the input prompt that's built into the
+
+42
+00:02:38,540 --> 00:02:40,520
+input statement by typing inside the
+
+43
+00:02:40,630 --> 00:02:43,480
+parenthesis and that no matter what
+
+44
+00:02:43,600 --> 00:02:45,440
+no matter what we type in
+
+45
+00:02:45,560 --> 00:02:48,510
+to the input statement is always going to be a string.
+

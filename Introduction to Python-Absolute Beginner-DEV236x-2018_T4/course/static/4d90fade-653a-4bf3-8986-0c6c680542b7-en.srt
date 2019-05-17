@@ -1,0 +1,360 @@
+0
+00:00:00,016 --> 00:00:06,190
+Even though the problem said that we're gonna deal
+
+1
+00:00:06,190 --> 00:00:12,500
+with MNIST images are grey scale, most of the applications
+
+2
+00:00:12,500 --> 00:00:16,329
+that you will deal with in the case of convolution networks
+
+3
+00:00:17,420 --> 00:00:20,650
+I'm gonna be probably natural scene images.
+
+4
+00:00:20,650 --> 00:00:23,590
+In other words they would have the red, green and
+
+5
+00:00:23,590 --> 00:00:25,030
+blue channels.
+
+6
+00:00:25,030 --> 00:00:29,827
+So let's understand what convolution operation means
+
+7
+00:00:29,827 --> 00:00:34,519
+when you have natural scene images in the context of RGB
+
+8
+00:00:34,519 --> 00:00:36,060
+color channels.
+
+9
+00:00:37,980 --> 00:00:41,180
+So you start with this image,
+
+10
+00:00:41,180 --> 00:00:45,980
+which has three components, the red, green, blue channels
+
+11
+00:00:45,980 --> 00:00:50,140
+represented by the number of channels information here 3.
+
+12
+00:00:50,140 --> 00:00:53,411
+And the width and the height of course.
+
+13
+00:00:53,411 --> 00:00:58,931
+In the past video, we have seen that we have used
+
+14
+00:00:58,931 --> 00:01:06,000
+a single 3 by 3 matrix or a patch or a kernel or a filter.
+
+15
+00:01:06,000 --> 00:01:09,260
+These are all synonymous and did a doc product
+
+16
+00:01:09,260 --> 00:01:13,050
+with the underline pixels which are treated as features.
+
+17
+00:01:14,090 --> 00:01:18,060
+And then of course we cannot forget our bias.
+
+18
+00:01:18,060 --> 00:01:22,647
+In this case, we're gonna do
+
+19
+00:01:22,647 --> 00:01:27,600
+the same thing except my W matrix
+
+20
+00:01:27,600 --> 00:01:32,570
+is gonna be having 3 channels.
+
+21
+00:01:32,570 --> 00:01:35,030
+One matrix for each channel.
+
+22
+00:01:35,030 --> 00:01:40,049
+And then the width and the height.
+
+23
+00:01:47,768 --> 00:01:52,428
+Our filter is gonna match the corresponding image batch
+
+24
+00:01:52,428 --> 00:01:54,113
+underneath it, and
+
+25
+00:01:54,113 --> 00:01:59,450
+it's gonna have the dimensions that I just explained.
+
+26
+00:01:59,450 --> 00:02:01,909
+And we'll call this the filter_width and
+
+27
+00:02:01,909 --> 00:02:04,070
+the filter_height.
+
+28
+00:02:04,070 --> 00:02:09,328
+Now the next thing we need to do, with respect to convolution,
+
+29
+00:02:09,328 --> 00:02:13,793
+is to slide this filter to its adjacent position where
+
+30
+00:02:13,793 --> 00:02:17,878
+we're gonna repeat the dot product operation.
+
+31
+00:02:19,840 --> 00:02:21,778
+So let's do that, and
+
+32
+00:02:21,778 --> 00:02:26,990
+you can see that the patch has moved to a different location.
+
+33
+00:02:26,990 --> 00:02:30,163
+And the other thing if you paid attention,
+
+34
+00:02:30,163 --> 00:02:34,050
+the patch did not move to this particular location.
+
+35
+00:02:34,050 --> 00:02:36,770
+Let me choose a different color pen.
+
+36
+00:02:36,770 --> 00:02:39,445
+So it didn't move to this location but
+
+37
+00:02:39,445 --> 00:02:41,710
+instead move to this location.
+
+38
+00:02:43,770 --> 00:02:48,520
+So this movement is called a stride.
+
+39
+00:02:48,520 --> 00:02:53,612
+And in this case, since we skipped one value here and
+
+40
+00:02:53,612 --> 00:02:58,011
+landed up two steps away from this location,
+
+41
+00:02:58,011 --> 00:03:00,950
+our value of our stride is 2.
+
+42
+00:03:00,950 --> 00:03:03,430
+This is a parameter in your network
+
+43
+00:03:03,430 --> 00:03:07,220
+that you can play around with as you build your models.
+
+44
+00:03:08,900 --> 00:03:12,120
+Now, the usual thing we'll do and
+
+45
+00:03:12,120 --> 00:03:17,560
+it can be seen in this animation here where you will see that
+
+46
+00:03:17,560 --> 00:03:23,130
+the patch gets moved around and that filters get composed.
+
+47
+00:03:23,130 --> 00:03:25,431
+In this case we have our blue filter,
+
+48
+00:03:25,431 --> 00:03:28,997
+we have the orange filter then we have the green filter and
+
+49
+00:03:28,997 --> 00:03:31,500
+then we have the purple filter.
+
+50
+00:03:31,500 --> 00:03:34,511
+You can have any number of filters over there and
+
+51
+00:03:34,511 --> 00:03:36,017
+that's a parameter for
+
+52
+00:03:36,017 --> 00:03:39,491
+you to define as a part of the network you will see that.
+
+53
+00:03:41,659 --> 00:03:48,767
+And then finally, The output of
+
+54
+00:03:48,767 --> 00:03:54,118
+your function here gets routed to an activation function.
+
+55
+00:03:57,060 --> 00:04:03,504
+Okay and this is gonna be represented by our moniker for
+
+56
+00:04:03,504 --> 00:04:09,950
+convolution, which has the filter height and width,
+
+57
+00:04:09,950 --> 00:04:15,710
+the number of filters, the strides, padding.
+
+58
+00:04:15,710 --> 00:04:19,020
+This is something I haven't introduced to you yet..
+
+59
+00:04:19,020 --> 00:04:22,585
+But it will become clearer in the next few videos where I'm
+
+60
+00:04:22,585 --> 00:04:24,270
+gonna talk about padding.
+
+61
+00:04:24,270 --> 00:04:26,982
+In activation you have seen a lot of these and
+
+62
+00:04:26,982 --> 00:04:30,062
+you can play around those activation functions as
+
+63
+00:04:30,062 --> 00:04:32,560
+you build your network.
+
+64
+00:04:32,560 --> 00:04:34,220
+How's the cord gonna look like?
+
+65
+00:04:34,220 --> 00:04:38,784
+The cord is gonna be very similar to this cartoon that we
+
+66
+00:04:38,784 --> 00:04:42,060
+have here which has the filter shape and
+
+67
+00:04:42,060 --> 00:04:45,650
+you have the number of filters which is 8.
+
+68
+00:04:45,650 --> 00:04:50,530
+The strides which you already know in this case we had strides
+
+69
+00:04:50,530 --> 00:04:53,693
+of 2 and these are two values because,
+
+70
+00:04:55,510 --> 00:04:58,493
+One is along the width, and the other is along the height.
+
+71
+00:05:04,870 --> 00:05:07,879
+So let's say this is for the width dimension, this is for
+
+72
+00:05:07,879 --> 00:05:10,011
+the height dimension, this is again for
+
+73
+00:05:10,011 --> 00:05:13,288
+the width dimension this is for the height dimension, okay?
+
+74
+00:05:15,940 --> 00:05:18,245
+In this case we have set the pad to be true, but
+
+75
+00:05:18,245 --> 00:05:22,110
+it can be false as well and what it means, we will shortly learn.
+
+76
+00:05:22,110 --> 00:05:25,222
+And then the activation unit that we have used here is called
+
+77
+00:05:25,222 --> 00:05:27,580
+relu okay.
+
+78
+00:05:27,580 --> 00:05:31,050
+Now what does this operation mean numerically?
+
+79
+00:05:31,050 --> 00:05:35,694
+You can follow this rendition of this convolution operation
+
+80
+00:05:35,694 --> 00:05:39,609
+done in three dimensions with the three channels,
+
+81
+00:05:39,609 --> 00:05:41,351
+red, green and blue.
+
+82
+00:05:44,590 --> 00:05:49,275
+The values of this filter is multiplied with
+
+83
+00:05:49,275 --> 00:05:53,960
+the corresponding value in the input data,
+
+84
+00:05:53,960 --> 00:05:57,550
+and then you sum all of them up.
+
+85
+00:05:57,550 --> 00:05:59,010
+When you sum all of them up and
+
+86
+00:05:59,010 --> 00:06:03,030
+then add your bias, you should get a corresponding value here.
+
+87
+00:06:03,030 --> 00:06:06,925
+You may take a moment and review the content of this page to
+
+88
+00:06:06,925 --> 00:06:10,742
+convince yourself that indeed these values are getting
+
+89
+00:06:10,742 --> 00:06:13,845
+computed the way that I have just described.
+

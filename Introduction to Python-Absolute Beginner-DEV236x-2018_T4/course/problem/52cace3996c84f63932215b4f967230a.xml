@@ -1,0 +1,18 @@
+<problem display_name="Question 3" markdown="&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;name = &amp;quot;skye homsi&amp;quot;  &#10;name_1 = name.title()&#10;name_2 = name_1.swapcase()&#10;print(name_2)&#10;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;p&gt;The output from the above code is ___&lt;/p&gt;&#10;&#10;( ) &quot;Skye Homsi&quot; &#10;( ) &quot;SKYE HOMSI&quot; &#10;( ) &quot;skye homsi&quot; &#10;(x) &quot;sKYE hOMSI&quot;&#10;&#10;" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <pre>
+      <code class="language-python">name = "skye homsi"  
+name_1 = name.title()
+name_2 = name_1.swapcase()
+print(name_2)
+</code>
+    </pre>
+    <p>The output from the above code is ___</p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">"Skye Homsi"</choice>
+      <choice correct="false">"SKYE HOMSI"</choice>
+      <choice correct="false">"skye homsi"</choice>
+      <choice correct="true">"sKYE hOMSI"</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

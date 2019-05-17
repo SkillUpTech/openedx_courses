@@ -1,0 +1,8 @@
+<video youtube="1.00:Fr5eQrt9vTc" url_name="e87d2f73ca684579acb2d0d0cc0b8140" display_name="What is a string" download_track="true" download_video="true" edx_video_id="aa34bbb5-a6f2-4361-b982-2a69e1f6c81f" html5_sources="[]" sub="" transcripts="{&quot;en&quot;: &quot;aa34bbb5-a6f2-4361-b982-2a69e1f6c81f-en.srt&quot;}" youtube_id_1_0="Fr5eQrt9vTc">
+  <transcript language="en" src="aa34bbb5-a6f2-4361-b982-2a69e1f6c81f-en.srt"/>
+  <video_asset client_video_id="Unit1_Section1.2-String.mp4" duration="139.18">
+    <encoded_video bitrate="237" file_size="4135143" profile="desktop_mp4" url="https://d2f1egay8yehza.cloudfront.net/MSXIPU1X2017-V000500_DTH.mp4"/>
+    <encoded_video bitrate="157" file_size="2746025" profile="mobile_low" url="https://d2f1egay8yehza.cloudfront.net/MSXIPU1X2017-V000500_MB2.mp4"/>
+    <encoded_video bitrate="0" file_size="0" profile="youtube" url="Fr5eQrt9vTc"/>
+  </video_asset>
+</video>

@@ -1,0 +1,104 @@
+0
+00:00:03,229 --> 00:00:08,040
+Comparison operators such as greater than, less than or
+
+1
+00:00:08,041 --> 00:00:14,080
+equal to, can be used to evaluate to a true/false boolean.
+
+2
+00:00:14,081 --> 00:00:18,480
+Let's take a look at each of the comparison operators Starting
+
+3
+00:00:18,481 --> 00:00:22,000
+with >, 3 > 5 is False.
+
+4
+00:00:22,001 --> 00:00:26,425
+3 < 5 is True.
+
+5
+00:00:26,426 --> 00:00:33,700
+3 > 3 is False.
+
+6
+00:00:33,701 --> 00:00:37,000
+So we can use a > or =.
+
+7
+00:00:37,001 --> 00:00:39,057
+3 > or = 3 is True.
+
+8
+00:00:39,058 --> 00:00:44,470
+These work just like we've seen in our math class.
+
+9
+00:00:46,092 --> 00:00:48,020
+Assignment versus comparing.
+
+10
+00:00:49,320 --> 00:00:52,150
+Here we're going to assign points the value of 0.
+
+11
+00:00:52,151 --> 00:00:56,940
+The single equals sign is used for assignment.
+
+12
+00:00:56,941 --> 00:00:59,183
+To compare, we use two equals signs.
+
+13
+00:00:59,184 --> 00:01:02,703
+These points = to 9.
+
+14
+00:01:02,704 --> 00:01:05,130
+That is false.
+
+15
+00:01:05,131 --> 00:01:09,850
+If we set the value to 9, we can see the comparison is now true.
+
+16
+00:01:13,087 --> 00:01:16,510
+Not equal can be confusing when used in comparison.
+
+17
+00:01:17,740 --> 00:01:21,350
+Here we're gonna assign x the value of 3.
+
+18
+00:01:21,351 --> 00:01:25,940
+So the not equals sign is used here in this comparison
+
+19
+00:01:25,941 --> 00:01:29,628
+in the print statement and it returns a boolean true or false.
+
+20
+00:01:29,629 --> 00:01:33,780
+Is x != 9?
+
+21
+00:01:33,781 --> 00:01:37,960
+Is x Equal to 3?
+
+22
+00:01:37,961 --> 00:01:44,390
+Here we see x not equal to 9 is true because x is 3.
+
+23
+00:01:44,391 --> 00:01:47,460
+And x equal to 3 is true.
+
+24
+00:01:47,461 --> 00:01:51,500
+So now we can run different comparison operators
+
+25
+00:01:51,501 --> 00:01:53,520
+that return our boolean values.
+

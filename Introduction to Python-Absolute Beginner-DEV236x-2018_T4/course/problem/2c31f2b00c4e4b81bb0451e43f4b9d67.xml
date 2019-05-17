@@ -1,0 +1,9 @@
+<problem display_name="Question 1  " markdown="&lt;p&gt;&lt;code&gt;while True:&lt;/code&gt; will loop forever but can be interrupted using the Python &lt;strong&gt;keyword &amp;quot;&lt;code&gt;end&lt;/code&gt;&amp;quot;&lt;/strong&gt; inside the loop&lt;/p&gt;&#10;&#10;( ) True&#10;(x) False&#10;&#10;" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p><code>while True:</code> will loop forever but can be interrupted using the Python <strong>keyword "<code>end</code>"</strong> inside the loop</p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">True</choice>
+      <choice correct="true">False</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

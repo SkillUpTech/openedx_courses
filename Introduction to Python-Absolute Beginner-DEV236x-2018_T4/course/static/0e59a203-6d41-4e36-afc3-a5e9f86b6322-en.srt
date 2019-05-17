@@ -1,0 +1,72 @@
+0
+00:00:00,800 --> 00:00:03,823
+Here are the references we have used for this course.
+
+1
+00:00:03,823 --> 00:00:08,295
+We start with a great book by Goodfellow, Bengio, and
+
+2
+00:00:08,295 --> 00:00:11,125
+Courville titled Deep Learning.
+
+3
+00:00:11,125 --> 00:00:15,886
+Standford CS231N course also has a wealth of information
+
+4
+00:00:15,886 --> 00:00:20,730
+that has been very relevant in preparing this course.
+
+5
+00:00:20,730 --> 00:00:23,770
+And finally, the tutorials on neural networks by Geoff Hinton.
+
+6
+00:00:26,020 --> 00:00:29,026
+I'd like to acknowledge, Chris Basoglu and
+
+7
+00:00:29,026 --> 00:00:33,700
+Cha Zhang, Microsoft for their support and
+
+8
+00:00:33,700 --> 00:00:37,470
+improvement throughout the development of the course.
+
+9
+00:00:37,470 --> 00:00:42,278
+I'd like to extend my thanks to Surya Pathak,
+
+10
+00:00:42,278 --> 00:00:44,930
+Professor at the University of Washington for
+
+11
+00:00:44,930 --> 00:00:48,190
+helping out the pedagogical approach to teaching and
+
+12
+00:00:48,190 --> 00:00:51,300
+changes to the content to reflect those.
+
+13
+00:00:51,300 --> 00:00:55,920
+Jonathan Sanito, who is Content Developer at Microsoft for
+
+14
+00:00:55,920 --> 00:00:58,510
+his assistance with graphics, and later on in the course
+
+15
+00:00:58,510 --> 00:01:01,305
+you'll see especially in the convolutional networks.
+
+16
+00:01:02,770 --> 00:01:06,553
+Nikos Karampatziakis, my colleague, for help with
+
+17
+00:01:06,553 --> 00:01:10,431
+the tutorials associated with text classification.
+

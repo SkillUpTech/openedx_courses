@@ -1,0 +1,76 @@
+0
+00:00:03,350 --> 00:00:06,360
+Sequence is the order that code runs.
+
+1
+00:00:06,361 --> 00:00:08,985
+An object needs to be defined before calling.
+
+2
+00:00:11,951 --> 00:00:14,395
+In this example, we have a freshly opened notebook.
+
+3
+00:00:14,396 --> 00:00:18,947
+first_name is a variable that we want to to assign a name "Alton" and
+
+4
+00:00:18,948 --> 00:00:22,121
+we're just gonna call it with a print function.
+
+5
+00:00:22,122 --> 00:00:26,880
+I get a name error, says 'first_name' is not defined.
+
+6
+00:00:28,430 --> 00:00:30,830
+I need to run this first cell
+
+7
+00:00:30,831 --> 00:00:35,640
+in order to assign a value to first name and instantiate the variable.
+
+8
+00:00:37,320 --> 00:00:41,602
+Now that it's been run, I can run the print statement and print Alton.
+
+9
+00:00:44,130 --> 00:00:49,740
+In the second example I have defined a function hat_available,
+
+10
+00:00:49,741 --> 00:00:53,109
+which takes a single parameter color.
+
+11
+00:00:55,545 --> 00:01:00,147
+If I run this have_hat which calls hat_available,
+
+12
+00:01:00,148 --> 00:01:02,608
+I run into the same problem.
+
+13
+00:01:05,048 --> 00:01:07,410
+'hat available' is not defined.
+
+14
+00:01:09,150 --> 00:01:14,815
+I need to first, run the code that defines hat_available.
+
+15
+00:01:14,816 --> 00:01:18,046
+Once that is run, I can call hat_available.
+
+16
+00:01:22,331 --> 00:01:26,909
+A NameError is a common error that occurs when you call something
+
+17
+00:01:26,910 --> 00:01:28,619
+before it's defined.
+
+18
+00:01:28,620 --> 00:01:31,308
+In other words, you're calling it out of sequence.
+

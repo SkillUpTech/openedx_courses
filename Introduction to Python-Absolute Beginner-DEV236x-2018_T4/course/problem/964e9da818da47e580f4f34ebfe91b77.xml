@@ -1,0 +1,11 @@
+<problem display_name="Question 3" markdown="Choose the correct statement  &#10;&#10;( ) variables only represent strings in Python  &#10;( ) the same variable in Python can be represented in either upper or lower case &#10;(x) variables in Python can be initialized using the equals sign (=)  &#10;( ) new variables always start out as zero  &#10;" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p>Choose the correct statement  </p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">variables only represent strings in Python</choice>
+      <choice correct="false">the same variable in Python can be represented in either upper or lower case</choice>
+      <choice correct="true">variables in Python can be initialized using the equals sign (=)</choice>
+      <choice correct="false">new variables always start out as zero</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

@@ -1,0 +1,152 @@
+0
+00:00:02,510 --> 00:00:05,184
+In order to create functions
+
+1
+00:00:05,264 --> 00:00:07,456
+that take arguments like we saw with the print
+
+2
+00:00:07,536 --> 00:00:08,848
+and the type function,
+
+3
+00:00:08,992 --> 00:00:11,552
+we're going to have to define some parameters.
+
+4
+00:00:12,048 --> 00:00:16,096
+Sometimes we're going to need to make functions with multiple parameters.
+
+5
+00:00:16,832 --> 00:00:19,536
+To call a function with multiple parameters,
+
+6
+00:00:19,648 --> 00:00:21,376
+you need multiple arguments.
+
+7
+00:00:22,416 --> 00:00:26,704
+Here we're going to call, make_schedule with two arguments.
+
+8
+00:00:27,024 --> 00:00:30,320
+These are strings separated by a comma.
+
+9
+00:00:30,672 --> 00:00:33,376
+To define the function, make_schedule
+
+10
+00:00:33,488 --> 00:00:36,032
+with two parameters as well
+
+11
+00:00:36,208 --> 00:00:39,312
+inside the parentheses of the function definition,
+
+12
+00:00:39,456 --> 00:00:42,816
+we separate the function names also with a comma.
+
+13
+00:00:42,960 --> 00:00:45,568
+Then when we call that function,
+
+14
+00:00:45,824 --> 00:00:48,608
+the first argument, mathematics
+
+15
+00:00:48,736 --> 00:00:53,040
+the string will be assigned to the parameter period1.
+
+16
+00:00:53,200 --> 00:00:56,992
+And likewise history will be assigned to period2.
+
+17
+00:00:57,216 --> 00:00:59,504
+In the body of the function,
+
+18
+00:00:59,616 --> 00:01:02,336
+we can do some string concatenation.
+
+19
+00:01:02,592 --> 00:01:06,400
+And then we can return that in this variable schedule.
+
+20
+00:01:07,696 --> 00:01:11,296
+Below we print out that return value
+
+21
+00:01:11,856 --> 00:01:14,360
+with a little label SCHEDULE.
+
+22
+00:01:14,496 --> 00:01:18,112
+Let's run the code. Here we see
+
+23
+00:01:18,336 --> 00:01:21,056
+that we've added the first period
+
+24
+00:01:21,152 --> 00:01:23,808
+and then that first argument mathematics,
+
+25
+00:01:23,911 --> 00:01:27,150
+and second period, the second argument history.
+
+26
+00:01:28,016 --> 00:01:33,280
+In this example, format_info, we're going to send three parameters.
+
+27
+00:01:36,080 --> 00:01:39,552
+So, here we call with the arguments
+
+28
+00:01:39,760 --> 00:01:42,128
+a name which is a string,
+
+29
+00:01:42,240 --> 00:01:45,776
+and an age which is a number integer
+
+30
+00:01:45,936 --> 00:01:50,256
+and a school which is also a string.
+
+31
+00:01:50,832 --> 00:01:53,744
+Here the return statement
+
+32
+00:01:54,336 --> 00:02:00,288
+is made up of a string concatenation versus a variable as we did above.
+
+33
+00:02:00,896 --> 00:02:04,928
+Let's run that code. And here, we can see
+
+34
+00:02:05,022 --> 00:02:07,550
+because we use formatting characters,
+
+35
+00:02:07,644 --> 00:02:09,870
+that we get a nice output here
+
+36
+00:02:10,044 --> 00:02:13,120
+and we can make functions with multiple parameters
+
+37
+00:02:13,280 --> 00:02:16,768
+by using the commas to separate the parameter names.
+

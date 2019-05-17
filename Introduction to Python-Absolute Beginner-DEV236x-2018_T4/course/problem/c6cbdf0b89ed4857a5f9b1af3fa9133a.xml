@@ -1,0 +1,16 @@
+<problem display_name="Question 4" markdown="&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;calculation = 5 + 15 / 5 + 3 * 2 - 1&#10;print(calculation)&#10;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;p&gt;The best estimate for the output of the above code is ___&lt;/p&gt;&#10;&#10;( ) 13  &#10;( ) 9&#10;(x) 13.0&#10;( ) 9.0 &#10;" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <pre>
+      <code class="language-python">calculation = 5 + 15 / 5 + 3 * 2 - 1
+print(calculation)
+</code>
+    </pre>
+    <p>The best estimate for the output of the above code is ___</p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">13</choice>
+      <choice correct="false">9</choice>
+      <choice correct="true">13.0</choice>
+      <choice correct="false">9.0</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

@@ -1,0 +1,9 @@
+<problem display_name="Question 1" markdown="Jupyter Notebooks have code cells and MarkDown cells.&#10;&#10;&#10;(x) True&#10;( ) False&#10;" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p>Jupyter Notebooks have code cells and MarkDown cells.</p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="true">True</choice>
+      <choice correct="false">False</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

@@ -1,0 +1,19 @@
+<problem display_name="Question 2  " markdown="a properly formated Python &lt;code&gt;print()&lt;/code&gt; function example is  &#10;&#10;( ) &lt;code&gt;print(&quot;Welcome the&quot;, 3, New students!)&lt;/code&gt;&#10;( ) &lt;code&gt;print(&quot;Welcome the&quot;, 3 +  New students!)&lt;/code&gt;&#10;(x) &lt;code&gt;print(&quot;Welcome the&quot;, 3, &quot;New students!&quot;)&lt;/code&gt;&#10;( ) &lt;code&gt;print(&quot;Welcome the&quot;, 3 + &quot; New students!&quot;)&lt;/code&gt;&#10;" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p>a properly formated Python <code>print()</code> function example is  </p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">
+        <code>print("Welcome the", 3, New students!)</code>
+      </choice>
+      <choice correct="false">
+        <code>print("Welcome the", 3 +  New students!)</code>
+      </choice>
+      <choice correct="true">
+        <code>print("Welcome the", 3, "New students!")</code>
+      </choice>
+      <choice correct="false">
+        <code>print("Welcome the", 3 + " New students!")</code>
+      </choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

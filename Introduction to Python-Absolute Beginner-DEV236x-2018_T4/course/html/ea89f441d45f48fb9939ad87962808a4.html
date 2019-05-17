@@ -1,0 +1,70 @@
+    <h1 id="concept-conditional-with-boolean-string-methods">Concept: Conditional with Boolean String Methods</h1>
+<h2 id="using-conditionals-with-boolean-string-test-methods">Using Conditionals with Boolean String test methods</h2>
+
+<pre><code class="language-python">if student_name.isalpha():
+</code></pre>
+<ul>
+<li><strong><code>.isalnum()</code></strong></li>
+<li><strong><code>.istitle()</code></strong></li>
+<li><strong><code>.isdigit()</code></strong></li>
+<li><strong><code>.islower()</code></strong></li>
+<li><strong><code>.startswith()</code></strong></li>
+</ul>
+<h1 id="example">Example</h1>
+<pre><code class="language-python"># review code and run cell
+favorite_book = input(&quot;Enter the title of a favorite book: &quot;)
+
+if favorite_book.istitle():
+    print(favorite_book, &quot;- nice capitalization in that title!&quot;)
+else:
+    print(favorite_book, &quot;- consider capitalization throughout for book titles.&quot;)
+</code></pre>
+<pre><code class="language-python"># review code and run cell
+a_number = input(&quot;enter a positive integer number: &quot;)
+
+if a_number.isdigit():
+    print(a_number, &quot;is a positive integer&quot;)
+else:
+    print(a_number, &quot;is not a positive integer&quot;)
+    
+# another if
+if a_number.isalpha():
+    print(a_number, &quot;is more like a word&quot;)
+else:
+    pass
+</code></pre>
+<pre><code class="language-python"># review code and run cell
+vehicle_type = input('&quot;enter a type of vehicle that starts with &quot;P&quot;: ')
+
+if vehicle_type.upper().startswith(&quot;P&quot;):
+    print(vehicle_type, 'starts with &quot;P&quot;')
+else:
+    print(vehicle_type, 'does not start with &quot;P&quot;')
+</code></pre>
+<h1 id="task-2-multi-part">Task 2: multi-part</h1>
+<h2 id="evaluating-boolean-conditionals">Evaluating Boolean Conditionals</h2>
+<h3 id="create-evaluations-for.islower">create evaluations for <code>.islower()</code></h3>
+<ul>
+<li>print output describing <strong>if</strong> each of the 2 strings is all lower or not</li>
+</ul>
+<pre><code class="language-python">test_string_1 = &quot;welcome&quot;
+test_string_2 = &quot;I have $3&quot;
+# [ ] use if, else to test for islower() for the 2 strings
+
+
+</code></pre>
+<h1 id="task-2-continued">Task 2 continued...</h1>
+<h3 id="create-a-functions-using-startswithw">create a functions  using <code>startswith('w')</code></h3>
+<ul>
+<li>w_start_test() tests if starts with &quot;w&quot;<br />
+<strong>function should have a parameter for <code>test_string</code> and print the test result</strong></li>
+</ul>
+<pre><code class="language-python">test_string_1 = &quot;welcome&quot;
+test_string_2 = &quot;I have $3&quot;
+test_string_3 = &quot;With a function it's efficient to repeat code&quot;
+# [ ] create a function w_start_test() use if &amp; else to test with startswith('w')
+
+# [ ] Test the 3 string variables provided by calling w_start_test()
+
+
+</code></pre>

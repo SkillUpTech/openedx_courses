@@ -1,0 +1,304 @@
+0
+00:00:00,180 --> 00:00:05,040
+We have all the components to train
+
+1
+00:00:05,090 --> 00:00:08,013
+our Multi-layer Perceptron Network.
+
+2
+00:00:08,360 --> 00:00:12,586
+We are going to us the same train validate
+
+3
+00:00:12,650 --> 00:00:15,160
+test predict workflow that you have seen before.
+
+4
+00:00:15,480 --> 00:00:18,666
+The only difference here is the
+
+5
+00:00:18,720 --> 00:00:22,706
+model itself. In the previous module the
+
+6
+00:00:22,760 --> 00:00:24,813
+model was logistic regression.
+
+7
+00:00:24,920 --> 00:00:28,160
+Here it's a Multi-layer Perceptron model.
+
+8
+00:00:28,466 --> 00:00:34,040
+So let's see the Train workflow remains exactly the same
+
+9
+00:00:34,493 --> 00:00:36,600
+except we are going to replace
+
+10
+00:00:36,666 --> 00:00:39,986
+this part with the Multi-layer Perceptron model.
+
+11
+00:00:40,053 --> 00:00:41,906
+So I want to spend time
+
+12
+00:00:42,026 --> 00:00:45,120
+explaining the loss function how it
+
+13
+00:00:45,200 --> 00:00:48,620
+evolves over the iterations. The suffice to
+
+14
+00:00:48,706 --> 00:00:52,440
+say that during this stage we are
+
+15
+00:00:52,470 --> 00:00:56,390
+finding new sets of parameters which
+
+16
+00:00:56,410 --> 00:01:02,449
+yield lower and lower loss value.
+
+17
+00:01:02,460 --> 00:01:04,979
+Subsequently in the validation workflow
+
+18
+00:01:04,990 --> 00:01:10,619
+we select the final model based on a
+
+19
+00:01:10,630 --> 00:01:14,200
+different data set called the validation data set
+
+20
+00:01:14,350 --> 00:01:17,930
+such that the loss is the least
+
+21
+00:01:17,950 --> 00:01:22,150
+on the validation data set.
+
+22
+00:01:22,170 --> 00:01:26,630
+So let's start with the same database
+
+23
+00:01:26,650 --> 00:01:28,610
+the MNIST database. Here we are going to
+
+24
+00:01:28,630 --> 00:01:31,850
+use the training data set again. Pretty
+
+25
+00:01:31,870 --> 00:01:34,130
+much nothing changes here we sample a
+
+26
+00:01:34,150 --> 00:01:38,660
+mini batch of size 128 these are the
+
+27
+00:01:38,680 --> 00:01:41,093
+number of images that we are drawing from this
+
+28
+00:01:41,110 --> 00:01:44,330
+MNIST database and the corresponding
+
+29
+00:01:44,350 --> 00:01:47,570
+labels which are One-hot encoded. Now this
+
+30
+00:01:47,590 --> 00:01:52,200
+is where things are different right. The model here
+
+31
+00:01:53,280 --> 00:01:55,270
+is the Multi-layer Perceptron model that
+
+32
+00:01:55,290 --> 00:01:58,546
+we have seen during the lectures.
+
+33
+00:01:59,320 --> 00:02:03,930
+The first dense layer produces 400 outputs,
+
+34
+00:02:03,950 --> 00:02:09,039
+the second one has 200 outputs
+
+35
+00:02:09,050 --> 00:02:13,000
+and the final one emits an array of 10 numbers
+
+36
+00:02:13,020 --> 00:02:16,540
+representing the ten digits that
+
+37
+00:02:16,560 --> 00:02:19,590
+we are trying to classify. We are using
+
+38
+00:02:19,610 --> 00:02:23,960
+activation function relu here in the hidden layers.
+
+39
+00:02:23,980 --> 00:02:25,239
+Since we are going to use soft max
+
+40
+00:02:25,250 --> 00:02:28,800
+we do not use an activation function,
+
+41
+00:02:28,820 --> 00:02:32,530
+we just have it as a pass through in the final output layer.
+
+42
+00:02:32,550 --> 00:02:42,630
+So there are six sets of parameters, three weights and three biases
+
+43
+00:02:42,650 --> 00:02:47,900
+our loss function is cross_entropy_with_softmax
+
+44
+00:02:47,920 --> 00:02:50,459
+which takes the output of the model
+
+45
+00:02:50,470 --> 00:02:55,830
+and the labels from our training set.
+
+46
+00:02:55,850 --> 00:02:58,390
+Optionally we also use the
+
+47
+00:02:58,410 --> 00:03:00,860
+classification error() function to figure out
+
+48
+00:03:00,880 --> 00:03:03,220
+how well our classifier is doing
+
+49
+00:03:03,240 --> 00:03:06,790
+against the ground truth or the label
+
+50
+00:03:06,810 --> 00:03:11,140
+set and then using the trainer object
+
+51
+00:03:11,160 --> 00:03:13,570
+which takes the model, the loss, the error
+
+52
+00:03:13,590 --> 00:03:19,210
+and learner functions we train our model
+
+53
+00:03:19,230 --> 00:03:23,600
+like repeatedly calling Trainer.train_minibatch
+
+54
+00:03:23,620 --> 00:03:28,360
+with the data and the labels provided to the function as an input.
+
+55
+00:03:28,380 --> 00:03:35,200
+The learners can be any one of them such as sgd, adagrad et cetera that
+
+56
+00:03:35,220 --> 00:03:38,300
+we have introduced to you in the last lecture.
+
+57
+00:03:38,320 --> 00:03:41,080
+Following the selection of the
+
+58
+00:03:41,100 --> 00:03:44,350
+final model we want to test what its
+
+59
+00:03:44,370 --> 00:03:47,530
+performance is going to be on data set
+
+60
+00:03:47,550 --> 00:03:50,666
+that hasn't been used for training.
+
+61
+00:03:50,950 --> 00:03:55,300
+So using the final model, we sample data sets
+
+62
+00:03:55,320 --> 00:03:59,170
+from the test database and using
+
+63
+00:03:59,190 --> 00:04:01,480
+the final model we generate predictions
+
+64
+00:04:01,500 --> 00:04:05,200
+and calculate the error. Let's see how
+
+65
+00:04:05,220 --> 00:04:06,960
+the test workflow loads out here.
+
+66
+00:04:06,980 --> 00:04:10,860
+We do not want to sample from the training data set.
+
+67
+00:04:10,880 --> 00:04:13,230
+We sample from the test data set,
+
+68
+00:04:13,250 --> 00:04:16,450
+we sample the input data or the
+
+69
+00:04:16,470 --> 00:04:19,500
+features in this case what we call and the corresponding labels .
+
+70
+00:04:19,520 --> 00:04:23,380
+Note in this case the model is frozen
+
+71
+00:04:23,400 --> 00:04:25,900
+that means the weights and the bias
+
+72
+00:04:25,920 --> 00:04:29,430
+values are fixed, they are not changing.
+
+73
+00:04:29,450 --> 00:04:32,960
+We called Trainer.test_mini-batch
+
+74
+00:04:32,980 --> 00:04:37,160
+repeatedly and evaluate the average error that
+
+75
+00:04:37,180 --> 00:04:42,160
+this model would produce.
+

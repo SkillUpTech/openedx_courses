@@ -1,0 +1,11 @@
+<problem display_name="Question 2" markdown="&lt;p&gt;&lt;code&gt;type(3.55)&lt;/code&gt; returns  &lt;/p&gt;&#10;&#10;&#10;(x) float  &#10;( ) int &#10;( ) str&#10;( ) all of the above " max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p><code>type(3.55)</code> returns  </p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="true">float</choice>
+      <choice correct="false">int</choice>
+      <choice correct="false">str</choice>
+      <choice correct="false">all of the above</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

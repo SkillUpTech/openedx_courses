@@ -1,0 +1,61 @@
+<h1 id="concept-boolean-in-keyword">Concept: Boolean <code>in</code> keyword</h1>
+<h2 id="using-the-in-keyword-to-return-a-boolean">Using the <code>in</code> keyword to return a Boolean</h2>
+<p><g class="gr_ gr_27 gr-alert gr_gramm gr_inline_cards gr_run_anim Style multiReplace" id="27" data-gr-id="27">the </g><strong><code>in</code></strong><g class="gr_ gr_27 gr-alert gr_gramm gr_inline_cards gr_disable_anim_appear Style multiReplace" id="27" data-gr-id="27"> keyword</g> can be used as a simple search <g class="gr_ gr_28 gr-alert gr_gramm gr_inline_cards gr_run_anim Style multiReplace" id="28" data-gr-id="28">returning </g><strong><code>True</code></strong><g class="gr_ gr_28 gr-alert gr_gramm gr_inline_cards gr_disable_anim_appear Style multiReplace" id="28" data-gr-id="28"> </g><g class="gr_ gr_29 gr-alert gr_gramm gr_inline_cards gr_run_anim Style multiReplace" id="29" data-gr-id="29"><g class="gr_ gr_28 gr-alert gr_gramm gr_inline_cards gr_disable_anim_appear Style multiReplace" id="28" data-gr-id="28">or</g> </g><strong><code>False</code></strong><g class="gr_ gr_29 gr-alert gr_gramm gr_inline_cards gr_disable_anim_appear Style multiReplace" id="29" data-gr-id="29"> indication</g> if a string is included in a target sequence.</p>
+<h3 id="comparing-strings-is-case-sensitive">comparing strings is case sensitive</h3>
+<p><code>'Hello'</code> is not the same as <code>'hello'</code></p>
+<h1 id="example">Example</h1>
+<pre><code class="lang-python"># review and run code to test if a string is to be found in another string
+menu = "salad, pasta, sandwich, pizza, drinks, dessert"
+print('pizza' in menu)
+</code></pre>
+<pre><code class="lang-python"># review and run code to test case sensitive examples 
+greeting = "Hello World!"
+print("'hello' in greeting = ",'hello' in greeting)
+print("'Hello' in greeting = ", 'Hello' in greeting)
+</code></pre>
+<p><g class="gr_ gr_33 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar multiReplace" id="33" data-gr-id="33">example</g> below: <strong>remove case sensitivity from a string comparison</strong></p>
+<pre><code class="lang-python"># review and run code to test removing case sensitivity from a string comparison
+greeting = "Hello World!"
+print("'hello' in greeting = ",'hello' in greeting)
+print("'Hello' in greeting = ", 'Hello' in greeting)
+print("'hello' in greeting if lower used = ", 'hello'.lower() in greeting.lower())
+</code></pre>
+<h1 id="task-3-multi-part">Task 3: multi-part</h1>
+<p><strong>[ ] add code below</strong> testing the <strong><code>menu</code></strong> string variable <g class="gr_ gr_34 gr-alert gr_gramm gr_inline_cards gr_run_anim Punctuation multiReplace" id="34" data-gr-id="34"><g class="gr_ gr_35 gr-alert gr_gramm gr_inline_cards gr_run_anim Style multiReplace" id="35" data-gr-id="35">for </g></g><code>'pizza'</code><g class="gr_ gr_34 gr-alert gr_gramm gr_inline_cards gr_disable_anim_appear Punctuation multiReplace" id="34" data-gr-id="34"><g class="gr_ gr_35 gr-alert gr_gramm gr_inline_cards gr_disable_anim_appear Style multiReplace" id="35" data-gr-id="35">,</g> </g><code>'soup'</code><g class="gr_ gr_34 gr-alert gr_gramm gr_inline_cards gr_disable_anim_appear Punctuation multiReplace" id="34" data-gr-id="34">,</g> and <code>'dessert'</code> using keyword &nbsp; <strong><code>in</code></strong></p>
+<ul>
+<li>print each test on a separate line</li>
+<li>print a description for each test &nbsp; (e.g. - "<code>Pizza in menu = True</code>")</li>
+</ul>
+<pre><code class="lang-python"># [] print 3 tests, with description text, testing the menu variable for 'pizza', 'soup' and 'dessert'
+menu = "salad, pasta, sandwich, pizza, drinks, dessert"
+</code></pre>
+<h2 id="program-what-is-on-the-menu">Program: What is on the menu</h2>
+<h3 id="-create-a-program-where-a-user-can-check-if-an-item-is-on-the-menu">[ ] Create a program where a user can check if an item is on the menu</h3>
+<ul>
+<li>store the user response in a variable menu_ask</li>
+<li>use the menu from above and add some additional items</li>
+<li>the program should be able to ignore case mismatch so that "hello" is found in "Hello World!"</li>
+</ul>
+<pre><code class="lang-python"># Create a program where the user supplies input to search the menu
+</code></pre>
+<h3 id="-challenge-add-to-the-menu">[ ] Challenge: Add to the menu</h3>
+<ul>
+<li>print the current menu</li>
+<li>get user input for add_item variable</li>
+<li>new_menu use string addition to <g class="gr_ gr_36 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar multiReplace" id="36" data-gr-id="36">add</g> add_item to menu</li>
+<li>print the new_menu</li>
+</ul>
+<p>testing</p>
+<ul>
+<li>check if an item is on the menu, check for previous items and the item you added</li>
+</ul>
+<pre><code class="lang-python"># add to menu
+</code></pre>
+<pre><code class="lang-python"># Testing Add to Menu - create user input to search for an item on the new menu
+</code></pre>
+<h1 id="task-4">Task 4</h1>
+<h2 id="fix-the-error">Fix The Error</h2>
+<pre><code class="lang-python"># [ ] fix the error
+paint_colors = "red, blue, green, black, orange, pink"
+print('Red in paint colors = ',red in paint_colors)
+</code></pre>

@@ -1,0 +1,148 @@
+0
+00:00:03,450 --> 00:00:12,130
+Function parameters allow data to be passed to and used by functions.
+
+1
+00:00:12,131 --> 00:00:16,924
+This example uses a parameter in the function definition.
+
+2
+00:00:16,925 --> 00:00:21,330
+Say_this has phrase inside the parentheses and
+
+3
+00:00:21,331 --> 00:00:23,780
+that is the name of a variable.
+
+4
+00:00:23,781 --> 00:00:27,820
+That variable gets used inside the function code, in this case,
+
+5
+00:00:27,821 --> 00:00:31,860
+in a print statement that is indented inside of the function.
+
+6
+00:00:31,861 --> 00:00:35,901
+So to call that function, we just call it with the argument,
+
+7
+00:00:35,902 --> 00:00:38,297
+which in this case is a string, HI.
+
+8
+00:00:40,340 --> 00:00:45,363
+And there we go with the string getting passed into the variable
+
+9
+00:00:45,364 --> 00:00:49,740
+in the parameter list and then that gets used to print.
+
+10
+00:00:49,741 --> 00:00:50,983
+And we can change that.
+
+11
+00:00:53,663 --> 00:00:58,343
+And we see that it will continue to update with whatever value
+
+12
+00:00:58,344 --> 00:01:01,120
+gets passed as an argument.
+
+13
+00:01:01,121 --> 00:01:04,830
+So the parameter can be used within the function.
+
+14
+00:01:04,831 --> 00:01:07,670
+I have a very similar function called yell_this.
+
+15
+00:01:07,671 --> 00:01:10,460
+And it does exactly what say_this says, except that
+
+16
+00:01:10,461 --> 00:01:15,380
+it uses a string method to make the phrase into upper case and
+
+17
+00:01:15,381 --> 00:01:20,800
+it uses string addition to put a exclamation point at the end.
+
+18
+00:01:20,801 --> 00:01:24,350
+So let's call with good morning and
+
+19
+00:01:24,351 --> 00:01:29,090
+we see that this works as the example above.
+
+20
+00:01:29,091 --> 00:01:33,280
+But what if we wanted a default value, so
+
+21
+00:01:33,281 --> 00:01:37,570
+that we can call this without any arguments?
+
+22
+00:01:37,571 --> 00:01:42,740
+So I want to call yell_this just with parenthesis and
+
+23
+00:01:42,741 --> 00:01:44,060
+no argument inside.
+
+24
+00:01:45,840 --> 00:01:49,310
+How I would do that is when I define my parameter,
+
+25
+00:01:49,311 --> 00:01:51,182
+I would assign it a value.
+
+26
+00:01:55,772 --> 00:02:01,140
+So I just assigned it a default value of good night and
+
+27
+00:02:01,141 --> 00:02:06,874
+I can still call it with an argument like good morning and
+
+28
+00:02:06,875 --> 00:02:10,534
+I expect it to act as it did before and
+
+29
+00:02:10,535 --> 00:02:15,300
+it'll just ignore my default value.
+
+30
+00:02:15,301 --> 00:02:18,850
+But if I call it with no value, it will use the default value.
+
+31
+00:02:18,851 --> 00:02:21,511
+So let's run that code.
+
+32
+00:02:21,512 --> 00:02:25,695
+And we see that in the first instance of the call good morning,
+
+33
+00:02:25,696 --> 00:02:29,396
+the argument was passed and the second with no values,
+
+34
+00:02:29,397 --> 00:02:30,860
+it uses the default.
+
+35
+00:02:32,450 --> 00:02:38,310
+So now, we know how to define functions with arguments and
+
+36
+00:02:38,311 --> 00:02:41,430
+we know how to give those arguments default values.
+

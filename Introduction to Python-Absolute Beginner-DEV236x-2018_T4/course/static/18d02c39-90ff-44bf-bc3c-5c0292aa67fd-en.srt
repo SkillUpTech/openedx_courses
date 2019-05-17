@@ -1,0 +1,268 @@
+0
+00:00:01,000 --> 00:00:05,150
+You've heard me talk about activation functions many times,
+
+1
+00:00:05,150 --> 00:00:08,890
+and every time I bring up sigmoid, so you might be
+
+2
+00:00:08,890 --> 00:00:13,570
+wondering like beyond sigmoid is there something?
+
+3
+00:00:13,570 --> 00:00:15,920
+What are these activation functions?
+
+4
+00:00:15,920 --> 00:00:17,420
+When do I use it?
+
+5
+00:00:17,420 --> 00:00:20,752
+What are the traits, tradeoffs maybe associated with these
+
+6
+00:00:20,752 --> 00:00:22,720
+different activation functions?
+
+7
+00:00:22,720 --> 00:00:25,654
+So, let's take a moment and
+
+8
+00:00:25,654 --> 00:00:30,200
+learn the concept of activation function.
+
+9
+00:00:30,200 --> 00:00:33,720
+In the next several slides you will see
+
+10
+00:00:33,720 --> 00:00:36,620
+the different options you may have when building your models.
+
+11
+00:00:39,390 --> 00:00:45,010
+So, activation functions, also known as non-linearities,
+
+12
+00:00:45,010 --> 00:00:48,850
+take a single number and map it to a different value.
+
+13
+00:00:49,950 --> 00:00:52,390
+So for example, your friend and
+
+14
+00:00:52,390 --> 00:00:57,120
+much too familiar sigmoid activation function maps values,
+
+15
+00:00:58,380 --> 00:01:02,960
+any numerical value, to a 0,1 range.
+
+16
+00:01:02,960 --> 00:01:07,650
+Some of the popular activation functions yes, sigmoid again,
+
+17
+00:01:07,650 --> 00:01:14,090
+then we have hyperbolic tangent also known as tan.h value,
+
+18
+00:01:14,090 --> 00:01:17,970
+this is a very popular one it's called the rectified liner unit
+
+19
+00:01:17,970 --> 00:01:21,165
+and then there's an advancement over value leaky value and
+
+20
+00:01:21,165 --> 00:01:21,920
+parametric value.
+
+21
+00:01:21,920 --> 00:01:26,770
+There are few others that I'll allude to you as we go along
+
+22
+00:01:26,770 --> 00:01:27,450
+in the video.
+
+23
+00:01:29,270 --> 00:01:32,220
+Let's take a closer look at the different activation
+
+24
+00:01:32,220 --> 00:01:32,960
+functions you have.
+
+25
+00:01:35,490 --> 00:01:40,930
+Let's start with our friend sigmoid and
+
+26
+00:01:40,930 --> 00:01:42,730
+understand what its characteristics are.
+
+27
+00:01:43,820 --> 00:01:48,649
+So we have Our function is very simple
+
+28
+00:01:51,060 --> 00:01:56,126
+And the output of this function becomes
+
+29
+00:01:56,126 --> 00:02:01,046
+the input to my activation function.
+
+30
+00:02:06,315 --> 00:02:12,250
+So say we have a value of 0 here at the output,
+
+31
+00:02:12,250 --> 00:02:18,500
+which is the input to the activation function,
+
+32
+00:02:18,500 --> 00:02:23,986
+the value of the sigmoid would be 0.5.
+
+33
+00:02:27,027 --> 00:02:31,695
+Now if we have a different value,
+
+34
+00:02:31,695 --> 00:02:35,030
+say something like 3 or
+
+35
+00:02:35,030 --> 00:02:39,699
+something, so it'll go here and
+
+36
+00:02:39,699 --> 00:02:45,389
+it would give me a value of, say 0.9.
+
+37
+00:02:49,521 --> 00:02:53,737
+Historically, this activation function has been very,
+
+38
+00:02:53,737 --> 00:02:58,390
+very popular and because it mimics the brain-firing pattern.
+
+39
+00:03:01,507 --> 00:03:04,268
+Recently, it's popularity is dipping, and
+
+40
+00:03:04,268 --> 00:03:08,410
+largely due to saturation and vanishing gradients.
+
+41
+00:03:08,410 --> 00:03:09,480
+What does this mean?
+
+42
+00:03:09,480 --> 00:03:12,520
+Let's take a deeper look.
+
+43
+00:03:12,520 --> 00:03:16,248
+So the either end of the tails here,
+
+44
+00:03:16,248 --> 00:03:21,966
+like once your input crosses a certain value, say 4 or
+
+45
+00:03:21,966 --> 00:03:27,435
+5, the output of your activation function is gonna
+
+46
+00:03:27,435 --> 00:03:33,630
+be close to 1, As shown here.
+
+47
+00:03:35,830 --> 00:03:41,022
+And say you had initial model wx + b where for
+
+48
+00:03:41,022 --> 00:03:48,329
+certain choice of weights and biases, your value was say 8.
+
+49
+00:03:48,329 --> 00:03:53,080
+So the output would be, say very close to 1.
+
+50
+00:03:53,080 --> 00:03:58,196
+And now with the different set of weights which got updated
+
+51
+00:03:58,196 --> 00:04:02,593
+during training, you would get say a value of 5.
+
+52
+00:04:05,864 --> 00:04:11,826
+And the output of the activation unit would be close to 1.
+
+53
+00:04:11,826 --> 00:04:14,004
+So which means that,
+
+54
+00:04:14,004 --> 00:04:19,812
+if you were gonna take the difference between these two,
+
+55
+00:04:19,812 --> 00:04:25,257
+the change between the updates of w to w' between that
+
+56
+00:04:25,257 --> 00:04:31,791
+iterations of your training set, you would see that the slope or
+
+57
+00:04:31,791 --> 00:04:36,640
+the change is gonna be very, very negligible.
+
+58
+00:04:36,640 --> 00:04:40,040
+Which means that for that particular
+
+59
+00:04:40,040 --> 00:04:44,680
+update during the training step, the net new learning for
+
+60
+00:04:44,680 --> 00:04:48,470
+the network is very, very low if anything else.
+
+61
+00:04:51,780 --> 00:04:55,330
+Besides this phenomenon of vanishing gradient or
+
+62
+00:04:55,330 --> 00:04:59,140
+saturation, the output
+
+63
+00:04:59,140 --> 00:05:03,740
+of sigmoid function is non-zero centered.
+
+64
+00:05:03,740 --> 00:05:07,451
+What it means is that for
+
+65
+00:05:07,451 --> 00:05:13,956
+input value of 0, the output is 0.5.
+
+66
+00:05:13,956 --> 00:05:18,410
+It's more of an inconvenience and less severe than saturation.
+

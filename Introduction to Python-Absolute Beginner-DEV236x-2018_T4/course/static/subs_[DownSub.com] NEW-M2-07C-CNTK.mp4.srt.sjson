@@ -1,0 +1,53 @@
+{
+  "start": [
+    30, 
+    4080, 
+    7200, 
+    10200, 
+    12870, 
+    15299, 
+    18480, 
+    20609, 
+    22920, 
+    24689, 
+    30869, 
+    33780, 
+    35940, 
+    39629, 
+    43680
+  ], 
+  "end": [
+    4080, 
+    7200, 
+    10200, 
+    12870, 
+    15299, 
+    18480, 
+    20609, 
+    22920, 
+    24689, 
+    30869, 
+    33780, 
+    35940, 
+    39629, 
+    43680, 
+    0
+  ], 
+  "text": [
+    "so welcome<font color=\"#E5E5E5\"> to the cognitive toolkit that</font>", 
+    "<font color=\"#E5E5E5\">we will be</font><font color=\"#CCCCCC\"> using</font><font color=\"#E5E5E5\"> for this course you can</font>", 
+    "find<font color=\"#E5E5E5\"> a lot of information at this wiki</font>", 
+    "site including how to set up<font color=\"#E5E5E5\"> your</font>", 
+    "machines locally you'll be getting some", 
+    "<font color=\"#CCCCCC\">additional</font><font color=\"#E5E5E5\"> information as a part of the</font>", 
+    "course material but<font color=\"#E5E5E5\"> we will be using</font>", 
+    "<font color=\"#E5E5E5\">this particular tool kit</font><font color=\"#CCCCCC\"> for doing your</font>", 
+    "homework<font color=\"#E5E5E5\"> assignments and the lab</font>", 
+    "<font color=\"#E5E5E5\">exercises that come along</font><font color=\"#CCCCCC\"> with it we</font>", 
+    "also<font color=\"#E5E5E5\"> encourage you</font><font color=\"#CCCCCC\"> to ask questions on</font>", 
+    "Stack Overflow with the<font color=\"#CCCCCC\"> tag</font><font color=\"#E5E5E5\"> C and TK</font><font color=\"#CCCCCC\"> as</font>", 
+    "you run into issues<font color=\"#E5E5E5\"> and we will be</font><font color=\"#CCCCCC\"> able</font>", 
+    "<font color=\"#E5E5E5\">to answer your inquiries as you go</font>", 
+    "through this course"
+  ]
+}

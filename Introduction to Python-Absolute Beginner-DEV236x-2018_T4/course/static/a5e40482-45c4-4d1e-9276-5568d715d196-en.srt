@@ -1,0 +1,252 @@
+0
+00:00:00,740 --> 00:00:02,429
+Since this is our first lab,
+
+1
+00:00:02,430 --> 00:00:05,749
+we're going to show you a few extra things at the beginning.
+
+2
+00:00:05,750 --> 00:00:11,820
+All our labs are written as Jupyter Notebooks in Python.
+
+3
+00:00:11,820 --> 00:00:14,420
+So the first thing we're gonna show you how to do is to
+
+4
+00:00:14,420 --> 00:00:15,990
+launch the server on your laptop.
+
+5
+00:00:18,080 --> 00:00:19,720
+So I'm gonna run the command line.
+
+6
+00:00:20,970 --> 00:00:23,913
+I've got a batch file that takes me to where the tutorials are.
+
+7
+00:00:23,913 --> 00:00:26,936
+And then I'm gonna activate my Python environment,
+
+8
+00:00:26,936 --> 00:00:28,688
+my SimTK Python environment.
+
+9
+00:00:32,209 --> 00:00:34,000
+And not, I'm gonna run the Jupyter Notebook.
+
+10
+00:00:38,740 --> 00:00:44,401
+This will launch it in a browser, the Jupyter console.
+
+11
+00:00:44,401 --> 00:00:48,316
+And before we actually load the first notebook, I just want to
+
+12
+00:00:48,316 --> 00:00:52,021
+show you a few things about Jupyter Notebooks in general.
+
+13
+00:00:52,021 --> 00:00:56,740
+To get you oriented to how they work.
+
+14
+00:00:58,160 --> 00:01:01,408
+So I'm starting a new notebook here and the way
+
+15
+00:01:01,408 --> 00:01:05,490
+Jupyter Notebooks are organized is as a series of cells.
+
+16
+00:01:05,490 --> 00:01:08,810
+And the two basic cell types are marked down or
+
+17
+00:01:08,810 --> 00:01:11,390
+rich text cells and code cells.
+
+18
+00:01:11,390 --> 00:01:14,290
+So let's just start with a simple code cell right here.
+
+19
+00:01:14,290 --> 00:01:18,611
+If I say something like 3 times 4 and then I say Ctrl Enter,
+
+20
+00:01:18,611 --> 00:01:21,040
+it actually executes that cell.
+
+21
+00:01:22,190 --> 00:01:23,970
+And we see the result there is 12.
+
+22
+00:01:23,970 --> 00:01:28,010
+I can do something, I can put any Python code here so
+
+23
+00:01:28,010 --> 00:01:31,460
+I'm going to put a little function called predict.
+
+24
+00:01:34,300 --> 00:01:38,410
+And it will take an m and b parameter and
+
+25
+00:01:38,410 --> 00:01:43,300
+x and it's treating this as a simple linear.
+
+26
+00:01:43,300 --> 00:01:47,630
+It will just return the prediction
+
+27
+00:01:47,630 --> 00:01:50,770
+which is m times x plus b.
+
+28
+00:01:52,220 --> 00:01:56,010
+And now we can have some values to try this out with.
+
+29
+00:01:56,010 --> 00:01:58,690
+I'll just bring in numpy's.
+
+30
+00:01:58,690 --> 00:01:59,820
+We can do arrays.
+
+31
+00:02:02,550 --> 00:02:06,480
+And I'll make a set of x values, np.
+
+32
+00:02:06,480 --> 00:02:08,370
+Let's use random.
+
+33
+00:02:08,370 --> 00:02:09,520
+No actually, let's use array.
+
+34
+00:02:11,410 --> 00:02:15,590
+And we'll just say 3, 6, 8.
+
+35
+00:02:15,590 --> 00:02:19,000
+If I say x, and now I'm gonna do a CTRL Enter,
+
+36
+00:02:19,000 --> 00:02:21,910
+that will execute that entire code block.
+
+37
+00:02:21,910 --> 00:02:25,059
+And return the value at the end there, which is 3, 6 and
+
+38
+00:02:25,059 --> 00:02:26,182
+8 as a NumPy array.
+
+39
+00:02:26,182 --> 00:02:29,516
+Now, I can actually call my function with that array of
+
+40
+00:02:29,516 --> 00:02:32,420
+values and do a set of predictions.
+
+41
+00:02:32,420 --> 00:02:33,070
+Let's try that.
+
+42
+00:02:33,070 --> 00:02:38,370
+So predict and we'll say, m is 3,
+
+43
+00:02:38,370 --> 00:02:42,930
+b is 2,
+
+44
+00:02:42,930 --> 00:02:48,730
+and our x value, and CTRL Enter to execute it.
+
+45
+00:02:48,730 --> 00:02:50,380
+And there we got our prediction.
+
+46
+00:02:50,380 --> 00:02:51,667
+So that's how the code cells work.
+
+47
+00:02:51,667 --> 00:02:54,750
+They have these two sort of subcells which is the source
+
+48
+00:02:54,750 --> 00:02:57,810
+code, in Python in this case, and then the output.
+
+49
+00:02:57,810 --> 00:03:00,410
+And the output can be text, or it can be images.
+
+50
+00:03:01,930 --> 00:03:05,142
+So now let's say we were creating a notebook here for
+
+51
+00:03:05,142 --> 00:03:08,216
+someone to learn about the simple linear models.
+
+52
+00:03:08,216 --> 00:03:12,564
+So, we can put a cell, say Insert Cell Above here.
+
+53
+00:03:12,564 --> 00:03:17,225
+And we'll make that a Markdown cell which is the way they
+
+54
+00:03:17,225 --> 00:03:19,413
+construct the rich text.
+
+55
+00:03:19,413 --> 00:03:23,688
+And I can use Markdown here and
+
+56
+00:03:23,688 --> 00:03:31,388
+say something like simple linear model prediction.
+
+57
+00:03:37,082 --> 00:03:44,838
+This is a simple sample of linear model prediction.
+
+58
+00:03:44,838 --> 00:03:48,951
+And now when I execute this Markdown text, and
+
+59
+00:03:48,951 --> 00:03:50,550
+with CTRL Enter.
+
+60
+00:03:50,550 --> 00:03:52,830
+It'll actually render it as rich text so
+
+61
+00:03:52,830 --> 00:03:55,940
+I have some bold up there and regular text there.
+
+62
+00:03:55,940 --> 00:04:00,051
+So that's basically how these Jupyter Notebooks work.
+

@@ -1,0 +1,80 @@
+0
+00:00:00,860 --> 00:00:04,220
+Let's begin with understanding what
+
+1
+00:00:04,220 --> 00:00:07,910
+the MNIST database provides with regards to handwritten digits.
+
+2
+00:00:09,300 --> 00:00:15,150
+So on the left here, you see these
+
+3
+00:00:15,150 --> 00:00:18,200
+are the images of different digits written by hand.
+
+4
+00:00:18,200 --> 00:00:20,180
+You can see that the same image,
+
+5
+00:00:20,180 --> 00:00:23,620
+like the digit 3 is written in three different ways here.
+
+6
+00:00:23,620 --> 00:00:25,950
+And we want to detect
+
+7
+00:00:25,950 --> 00:00:30,580
+what those digits are in a machine readable format, so
+
+8
+00:00:30,580 --> 00:00:33,880
+this is an application called optical character recognition.
+
+9
+00:00:33,880 --> 00:00:36,400
+And this application was originally used to
+
+10
+00:00:36,400 --> 00:00:39,360
+recognize handwritten post codes.
+
+11
+00:00:39,360 --> 00:00:43,581
+So the data set has handwritten digits of 0 to 9,
+
+12
+00:00:43,581 --> 00:00:47,520
+and there are 60,000 training images.
+
+13
+00:00:47,520 --> 00:00:50,450
+Needless to say, there are multiple repetitions of
+
+14
+00:00:50,450 --> 00:00:53,130
+the same digits like you see here, 3, 3, 3.
+
+15
+00:00:53,130 --> 00:00:56,570
+There might be however many 0s and so on and so
+
+16
+00:00:56,570 --> 00:01:00,950
+forth for all the represented digits from 0 to 9.
+
+17
+00:01:00,950 --> 00:01:06,730
+And then, there are 10,000 test images, and
+
+18
+00:01:06,730 --> 00:01:12,990
+each image here represents an array of 28 by 28 numbers and
+
+19
+00:01:12,990 --> 00:01:17,120
+in image terminology they are called 28 by 28 pixels.
+

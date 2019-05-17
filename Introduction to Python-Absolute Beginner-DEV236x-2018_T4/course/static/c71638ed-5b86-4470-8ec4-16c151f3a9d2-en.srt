@@ -1,0 +1,276 @@
+0
+00:00:00,880 --> 00:00:04,594
+Next thing to do would be to go through the model creation
+
+1
+00:00:04,594 --> 00:00:07,210
+process for convolutional networks.
+
+2
+00:00:07,210 --> 00:00:10,132
+So we've taken this input image,
+
+3
+00:00:10,132 --> 00:00:13,595
+in this case we are showing an RGB image.
+
+4
+00:00:13,595 --> 00:00:17,416
+And you know that we specify this input dimension as three
+
+5
+00:00:17,416 --> 00:00:19,256
+times width times height.
+
+6
+00:00:19,256 --> 00:00:23,970
+And in the case of MNIST data we will only have a single channel.
+
+7
+00:00:23,970 --> 00:00:27,050
+So in this case, let's go through this illustration which
+
+8
+00:00:27,050 --> 00:00:30,690
+you have already seen it during the video lectures.
+
+9
+00:00:30,690 --> 00:00:33,450
+In this case, we are gonna estimate this
+
+10
+00:00:33,450 --> 00:00:38,470
+filters which are defined by this W matrix if you might say.
+
+11
+00:00:38,470 --> 00:00:43,186
+And the bias values, these are single scalar values.
+
+12
+00:00:43,186 --> 00:00:47,790
+And you take the dot product between the weights and
+
+13
+00:00:47,790 --> 00:00:52,394
+the corresponding footprint, which we refer to as
+
+14
+00:00:52,394 --> 00:00:56,370
+the receptive field of the image location.
+
+15
+00:00:56,370 --> 00:00:58,748
+When the filter W is superimposed,
+
+16
+00:00:58,748 --> 00:01:01,060
+we are gonna learn n such filters.
+
+17
+00:01:01,060 --> 00:01:03,320
+So let's take a look at this animation here,
+
+18
+00:01:03,320 --> 00:01:06,090
+what it spells out for us.
+
+19
+00:01:06,090 --> 00:01:08,940
+We will take a look at it from the top.
+
+20
+00:01:10,800 --> 00:01:11,650
+Give it a moment.
+
+21
+00:01:12,860 --> 00:01:16,700
+All right, now we are scanning in raster order, the kernel is
+
+22
+00:01:16,700 --> 00:01:22,755
+moving from left to right and then bottom to top in this case.
+
+23
+00:01:22,755 --> 00:01:25,755
+And create the first output set,
+
+24
+00:01:25,755 --> 00:01:29,795
+which is the output of those dot product plus the bias value
+
+25
+00:01:29,795 --> 00:01:32,765
+added optionally passed through an activation function.
+
+26
+00:01:32,765 --> 00:01:36,175
+And we are gonna repeat this process for n such filters.
+
+27
+00:01:38,570 --> 00:01:40,930
+Let's go through this cycle again, once again.
+
+28
+00:01:40,930 --> 00:01:44,160
+You can see the scanning order that is happening here for
+
+29
+00:01:44,160 --> 00:01:45,197
+the first layer.
+
+30
+00:01:45,197 --> 00:01:47,640
+You repeat the process, then you go to the second layer.
+
+31
+00:01:47,640 --> 00:01:50,822
+You again do the same scanning, zig-zag,
+
+32
+00:01:50,822 --> 00:01:53,918
+through all the possible steps you have for
+
+33
+00:01:53,918 --> 00:01:57,630
+this particular filter sets that we are learning.
+
+34
+00:01:57,630 --> 00:02:00,720
+In this case, there are four shown here but with the dot,
+
+35
+00:02:00,720 --> 00:02:03,880
+dot, dot, you can have arbitrary number of them below.
+
+36
+00:02:03,880 --> 00:02:05,560
+Take a look at it, and
+
+37
+00:02:05,560 --> 00:02:08,670
+convince yourself the process of convolution.
+
+38
+00:02:08,670 --> 00:02:11,160
+The advantages of convolutions are spelled out here.
+
+39
+00:02:11,160 --> 00:02:12,900
+I won't get go into details.
+
+40
+00:02:12,900 --> 00:02:13,803
+Feel free to read through it.
+
+41
+00:02:13,803 --> 00:02:16,717
+But what it enables us to do is,
+
+42
+00:02:16,717 --> 00:02:22,549
+by doing this kind of shared weights that are learned across,
+
+43
+00:02:22,549 --> 00:02:26,040
+we are able to handle larger images.
+
+44
+00:02:27,400 --> 00:02:28,800
+In this case, say 512 by 512.
+
+45
+00:02:28,800 --> 00:02:31,040
+You can try larger filter sizes.
+
+46
+00:02:31,040 --> 00:02:33,590
+You can learn more filters.
+
+47
+00:02:33,590 --> 00:02:35,329
+You can go to deeper architectures.
+
+48
+00:02:36,880 --> 00:02:40,524
+We also are able to do something called a translation invariance,
+
+49
+00:02:40,524 --> 00:02:43,583
+which is the ability to recognize a feature independent
+
+50
+00:02:43,583 --> 00:02:45,483
+of where they appear in the image.
+
+51
+00:02:45,483 --> 00:02:48,400
+This can be quite important for real-world examples.
+
+52
+00:02:49,440 --> 00:02:53,404
+The other parameter that we often run into is strides and
+
+53
+00:02:53,404 --> 00:02:57,382
+pads associated with the network that we get to choose.
+
+54
+00:02:57,382 --> 00:03:01,254
+These are network parameters that are chosen by the person
+
+55
+00:03:01,254 --> 00:03:03,580
+who is building the model.
+
+56
+00:03:03,580 --> 00:03:04,290
+In this case,
+
+57
+00:03:04,290 --> 00:03:08,210
+we have seen these animations in the video lectures.
+
+58
+00:03:08,210 --> 00:03:10,120
+So take a close look at it.
+
+59
+00:03:10,120 --> 00:03:14,281
+If you see that between stride one and stride two,
+
+60
+00:03:14,281 --> 00:03:19,531
+the output image size, which is the teal colored output here,
+
+61
+00:03:19,531 --> 00:03:22,120
+you can see, are difference.
+
+62
+00:03:22,120 --> 00:03:25,530
+So a lot of these choices of these parameters are based on
+
+63
+00:03:25,530 --> 00:03:29,470
+what your output shapes for the each layer, you want it to be.
+
+64
+00:03:29,470 --> 00:03:32,820
+And there is a corresponding relationship with the number of
+
+65
+00:03:32,820 --> 00:03:36,780
+parameters, which we will shortly see how these
+
+66
+00:03:36,780 --> 00:03:39,480
+different type of parameters such as strides.
+
+67
+00:03:39,480 --> 00:03:43,264
+The filter shapes come into the picture when you are computing
+
+68
+00:03:43,264 --> 00:03:46,840
+the number of parameters you are going to have in your model
+

@@ -1,0 +1,264 @@
+0
+00:00:00,860 --> 00:00:04,390
+Now, let's look at some of the other options we have for
+
+1
+00:00:04,390 --> 00:00:07,920
+activations function, starting with the hyperbolic tangent.
+
+2
+00:00:08,980 --> 00:00:12,130
+Now let's look at the hyperbolic tangent, tanh.
+
+3
+00:00:14,180 --> 00:00:16,990
+Here, we map the input,
+
+4
+00:00:16,990 --> 00:00:20,121
+instead of zero to one, to a range of -1 to 1.
+
+5
+00:00:21,960 --> 00:00:26,220
+And it's, like sigmoid, its activation also saturates but
+
+6
+00:00:26,220 --> 00:00:29,170
+its output is zero centered, that means
+
+7
+00:00:29,170 --> 00:00:33,765
+if you have an input value of zero the output is also zero.
+
+8
+00:00:33,765 --> 00:00:39,620
+Tanh is usually preferred over sigmoid because of this
+
+9
+00:00:39,620 --> 00:00:43,326
+even though it does have the same issue with saturation and
+
+10
+00:00:43,326 --> 00:00:46,060
+the two ends.
+
+11
+00:00:46,060 --> 00:00:47,590
+And tanh can be scaled,
+
+12
+00:00:49,380 --> 00:00:52,590
+a representation of a sigmoid function.
+
+13
+00:00:54,170 --> 00:00:57,620
+Now let's come to one of the most popular
+
+14
+00:00:58,820 --> 00:01:01,730
+activation functions called ReLU.
+
+15
+00:01:01,730 --> 00:01:05,410
+ReLU stands for rectified linear units.
+
+16
+00:01:05,410 --> 00:01:12,609
+And it's very popular, simply thresholds values below 0.
+
+17
+00:01:15,449 --> 00:01:20,370
+One of the big pros for ReLU is its fast convergence.
+
+18
+00:01:22,080 --> 00:01:27,190
+Stochastic gradient descent convergence much faster
+
+19
+00:01:27,190 --> 00:01:29,240
+compared to sigmoid and tanh.
+
+20
+00:01:31,730 --> 00:01:35,882
+It's arguably due to its linear non saturating form,
+
+21
+00:01:35,882 --> 00:01:40,302
+what it means in this range there is no notion of saturation
+
+22
+00:01:40,302 --> 00:01:44,904
+like in case of sigmoid, we saw that saturation happening,
+
+23
+00:01:44,904 --> 00:01:47,270
+there is no such thing in here.
+
+24
+00:01:49,917 --> 00:01:53,800
+And it's relatively simple to implement.
+
+25
+00:01:53,800 --> 00:01:58,310
+It involves thresholding of an activation matrix at zero.
+
+26
+00:01:58,310 --> 00:02:02,115
+If any value of this w is less than 0,
+
+27
+00:02:02,115 --> 00:02:05,930
+then you simply output 0.
+
+28
+00:02:05,930 --> 00:02:09,306
+So it's pretty straight forward to implement.
+
+29
+00:02:11,542 --> 00:02:13,430
+However, it is a bit fragile.
+
+30
+00:02:14,800 --> 00:02:19,870
+It can irreversibly die when large gradient flows.
+
+31
+00:02:19,870 --> 00:02:25,694
+What it means is if you, say, your function output, say,
+
+32
+00:02:25,694 --> 00:02:30,630
+was 2 at some point, which would be here.
+
+33
+00:02:32,400 --> 00:02:37,347
+And all of a sudden, for a new update,
+
+34
+00:02:37,347 --> 00:02:43,840
+the output became, say, -1 of this function,
+
+35
+00:02:43,840 --> 00:02:48,786
+then in this case the out put would have
+
+36
+00:02:48,786 --> 00:02:53,287
+been 2, output of the ReLU unit.
+
+37
+00:02:53,287 --> 00:02:57,810
+Here, the output will simply be 0.
+
+38
+00:02:57,810 --> 00:03:02,550
+And once it is 0, in subsequent iterations,
+
+39
+00:03:02,550 --> 00:03:05,030
+the neuron pretty much doesn't update anything.
+
+40
+00:03:05,030 --> 00:03:06,700
+It kind of dies.
+
+41
+00:03:08,330 --> 00:03:10,636
+So it has stopped learning new things.
+
+42
+00:03:12,844 --> 00:03:15,906
+To overcome some of these limitations of ReLU,
+
+43
+00:03:18,285 --> 00:03:26,590
+People have proposed Leaky ReLU to fix the dying ReLU problem.
+
+44
+00:03:28,946 --> 00:03:32,160
+For a negative input, instead of zero,
+
+45
+00:03:32,160 --> 00:03:36,510
+there is a small negative slope, alpha, which is here.
+
+46
+00:03:36,510 --> 00:03:39,840
+You can see that slope.
+
+47
+00:03:39,840 --> 00:03:40,571
+It's not zero.
+
+48
+00:03:43,387 --> 00:03:47,205
+And this slope which is, for Leaky ReLU,
+
+49
+00:03:47,205 --> 00:03:52,125
+is a small slope is typically set to a value of 0.1.
+
+50
+00:03:53,870 --> 00:03:57,920
+Another version of this Leaky ReLU is called
+
+51
+00:03:57,920 --> 00:04:01,100
+parametric ReLU or called PReLU.
+
+52
+00:04:02,360 --> 00:04:06,670
+The slope here is parameterised, in other words, you learn
+
+53
+00:04:06,670 --> 00:04:10,440
+what this value of alpha will be during the training process.
+
+54
+00:04:12,370 --> 00:04:18,486
+An even more advanced technique called maxOut, and it's
+
+55
+00:04:18,486 --> 00:04:24,802
+basically dot product between the weights and the data.
+
+56
+00:04:24,802 --> 00:04:28,288
+If it sounds a bit complicated, please bear with me.
+
+57
+00:04:28,288 --> 00:04:33,157
+It is the max of two different lines,
+
+58
+00:04:33,157 --> 00:04:39,441
+each parameterized by these two variables a and
+
+59
+00:04:39,441 --> 00:04:44,010
+c, which can be learned, again.
+
+60
+00:04:44,010 --> 00:04:49,372
+And you can see that both of these are equations of lines,
+
+61
+00:04:49,372 --> 00:04:51,277
+so these are lines.
+
+62
+00:04:51,277 --> 00:04:53,667
+And ReLU, Leaky ReLU,
+
+63
+00:04:53,667 --> 00:04:58,336
+parametric ReLU are special cases of Maxout.
+
+64
+00:05:01,110 --> 00:05:03,899
+It enjoys the benefit of all
+
+65
+00:05:03,899 --> 00:05:08,150
+except the number of parameters double.
+

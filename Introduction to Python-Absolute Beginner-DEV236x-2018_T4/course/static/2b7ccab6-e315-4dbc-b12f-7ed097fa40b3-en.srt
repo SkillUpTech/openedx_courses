@@ -1,0 +1,72 @@
+0
+00:00:00,520 --> 00:00:04,313
+Many of you who are not familiar with text processing,
+
+1
+00:00:04,313 --> 00:00:08,105
+may be wondering how we can convert the text tokens, be
+
+2
+00:00:08,105 --> 00:00:12,650
+it in the input or in the output labels, into a numerical format.
+
+3
+00:00:15,530 --> 00:00:20,185
+In a previous module you have seen that when we had the MNIST
+
+4
+00:00:20,185 --> 00:00:24,175
+data, we had taken the digit 3 and represented it
+
+5
+00:00:24,175 --> 00:00:28,830
+in a one-hot encoding which means that the fourth element
+
+6
+00:00:28,830 --> 00:00:33,486
+with the index starting from 0 would represent digit 3.
+
+7
+00:00:33,486 --> 00:00:39,340
+We had ten digits, 0 to 9, so the length of the encoding or
+
+8
+00:00:39,340 --> 00:00:43,130
+the one-hot encoded vector was ten.
+
+9
+00:00:43,130 --> 00:00:45,800
+Similarly, in case of each word,
+
+10
+00:00:45,800 --> 00:00:50,650
+the One-hot representation is a vector with 943 elements.
+
+11
+00:00:51,770 --> 00:00:57,330
+So for the token boston, which is the 266th element in
+
+12
+00:00:57,330 --> 00:01:02,930
+the vocabulary of the words that make up the ATIS data set, we
+
+13
+00:01:02,930 --> 00:01:08,860
+will make that 266th element to be 1, rest of it all will be 0.
+
+14
+00:01:08,860 --> 00:01:12,450
+And the length of this vector would have 943 elements.
+
+15
+00:01:15,230 --> 00:01:16,580
+Similarly, for
+
+16
+00:01:16,580 --> 00:01:20,910
+each label we would have a one-hot representation.
+
+17
+00:01:20,910 --> 00:01:23,897
+And it would be a vector with 129 elements.
+

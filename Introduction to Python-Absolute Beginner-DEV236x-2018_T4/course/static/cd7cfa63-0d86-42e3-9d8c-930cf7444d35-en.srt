@@ -1,0 +1,144 @@
+0
+00:00:03,890 --> 00:00:06,700
+Previously we ran into some type errors
+
+1
+00:00:06,740 --> 00:00:10,040
+when we try to concatenate strings
+
+2
+00:00:10,090 --> 00:00:13,140
+and numbers inside a print statements.
+
+3
+00:00:13,190 --> 00:00:15,760
+And we're going to see how we can fix that
+
+4
+00:00:15,870 --> 00:00:20,130
+using the comma format and it allows us to combine them easily.
+
+5
+00:00:22,540 --> 00:00:25,870
+So this is the old way that we would try
+
+6
+00:00:25,920 --> 00:00:29,270
+to combine these elements using the
+
+7
+00:00:29,320 --> 00:00:32,550
+addition and we know that we can't add
+
+8
+00:00:32,600 --> 00:00:36,460
+the strings and the numbers together and so,
+
+9
+00:00:36,500 --> 00:00:39,500
+we get that type error and so the way
+
+10
+00:00:39,540 --> 00:00:42,240
+that we can fix that is you could create
+
+11
+00:00:42,290 --> 00:00:45,100
+a string out of the number
+
+12
+00:00:47,920 --> 00:00:51,840
+or we could use a comma.
+
+13
+00:00:51,890 --> 00:00:55,550
+So this is a great improvement is now,
+
+14
+00:00:55,600 --> 00:01:00,640
+I'm allowed to legally combine a number
+
+15
+00:01:00,690 --> 00:01:04,650
+and a string in the same print statement.
+
+16
+00:01:05,840 --> 00:01:10,510
+So let's look below with a number variable.
+
+17
+00:01:12,750 --> 00:01:16,040
+So I have num error equals zero
+
+18
+00:01:16,090 --> 00:01:19,600
+and then I have this longish print statement
+
+19
+00:01:19,660 --> 00:01:21,750
+separated with commas using
+
+20
+00:01:21,800 --> 00:01:23,490
+the comma formatting and I have a string
+
+21
+00:01:23,540 --> 00:01:27,070
+int equals and then I have a literal number,
+
+22
+00:01:27,140 --> 00:01:29,510
+and then I have a literal string,
+
+23
+00:01:29,550 --> 00:01:33,630
+and then I have this number here as well
+
+24
+00:01:33,700 --> 00:01:37,700
+that is the variable number error which
+
+25
+00:01:37,750 --> 00:01:40,220
+would be zero and then followed with a string.
+
+26
+00:01:40,260 --> 00:01:44,830
+So I can alternate strings and numbers
+
+27
+00:01:44,880 --> 00:01:47,540
+or I can do variable numbers
+
+28
+00:01:47,590 --> 00:01:51,220
+and hard-coded numbers and let's see how that runs.
+
+29
+00:01:51,270 --> 00:01:56,540
+And so that works, my 14 shows up fine
+
+30
+00:01:56,580 --> 00:02:00,170
+and my number of zero errors came up
+
+31
+00:02:00,220 --> 00:02:02,280
+and indeed we got zero errors in that.
+
+32
+00:02:02,340 --> 00:02:06,930
+So in this lesson, we learned that we can
+
+33
+00:02:06,980 --> 00:02:09,550
+combine numbers with strings using
+
+34
+00:02:09,600 --> 00:02:11,850
+the comma print formatting and then that can
+
+35
+00:02:11,900 --> 00:02:15,120
+really speed up our display of information.
+

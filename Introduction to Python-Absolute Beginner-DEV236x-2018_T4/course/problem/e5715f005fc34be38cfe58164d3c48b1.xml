@@ -1,0 +1,17 @@
+<problem display_name="Question 3" markdown="&lt;pre&gt;&lt;code&gt; &#10;answer = input(&quot;enter your answer: &quot;)  &#10;print(10 + answer) &#10;&lt;/code&gt;&lt;/pre&gt;&#10;With user input: 38, the code above results in output of  &#10;&#10;( ) 48&#10;( ) 1038&#10;( ) 10answer&#10;(x) TypeError&#10;&#10;" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <pre>
+      <code> 
+answer = input("enter your answer: ")  
+print(10 + answer) 
+</code>
+    </pre>
+    <p>With user input: 38, the code above results in output of  </p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">48</choice>
+      <choice correct="false">1038</choice>
+      <choice correct="false">10answer</choice>
+      <choice correct="true">TypeError</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

@@ -1,0 +1,86 @@
+    <h1 id="concept-variable-increment">Concept: Variable Increment</h1>
+<h2 id="incrementing-a-variable">Incrementing a variable</h2>
+<h2 id="incrementing">Incrementing</h2>
+<h3 id="votes-votes-1-or-votes-1"><code>votes = votes + 1</code>     or    <code>votes += 1</code></h3>
+<h2 id="decrementing-negative-incrementing">Decrementing  (negative incrementing)</h2>
+<h3 id="votes-votes-1-or-votes-1-1"><code>votes = votes - 1</code>     or   <code>votes -= 1</code></h3>
+<h1 id="example">Example</h1>
+<pre><code class="language-python"># [ ] review and run example
+votes = 3
+print(votes)
+
+votes = votes + 1
+print(votes)
+
+votes += 2
+print(votes)
+</code></pre>
+<pre><code class="language-python">print(votes)
+
+votes -= 1
+print(votes)
+</code></pre>
+<pre><code class="language-python"># [ ] review the SEAT COUNT code then run 
+
+seat_count = 0
+while True:
+    print(&quot;seat count:&quot;,seat_count)
+    seat_count = seat_count + 1
+
+    if seat_count &gt; 4:
+        break
+</code></pre>
+<pre><code class="language-python"># [ ] review the SEAT TYPE COUNT code then run entering: hard, soft, medium and exit
+
+# initialize variables
+seat_count = 0
+soft_seats = 0
+hard_seats = 0
+num_seats = 4
+
+# loops tallying seats using soft pads vs hard, until seats full or user &quot;exits&quot;
+while True:
+    seat_type = input('enter seat type of &quot;hard&quot;,&quot;soft&quot; or &quot;exit&quot; (to finish): ')
+    
+    if seat_type.lower().startswith(&quot;e&quot;):
+        print()
+        break
+    elif seat_type.lower() == &quot;hard&quot;:
+        hard_seats += 1
+    elif seat_type.lower() == &quot;soft&quot;:
+        soft_seats += 1
+    else:
+        print(&quot;invalid entry: counted as hard&quot;)
+        hard_seats += 1  
+    seat_count += 1
+    if seat_count &gt;= num_seats:
+        print(&quot;\nseats are full&quot;)
+        break
+        
+print(seat_count,&quot;Seats Total: &quot;,hard_seats,&quot;hard and&quot;,soft_seats,&quot;soft&quot; )
+</code></pre>
+<h1 id="task-2">Task 2</h1>
+<h2 id="incrementing-in-a-while-loop">incrementing in a <code>while()</code> loop</h2>
+<h3 id="program-shirt-count">Program: Shirt Count</h3>
+<ul>
+<li>enter a sizes (S, M, L)</li>
+<li>tally the count of each size</li>
+<li>input &quot;exit&quot; when finished</li>
+<li>report out the purchase of each shirt size</li>
+</ul>
+<pre><code class="language-python"># [ ] Create the Shirt Count program, run tests
+
+
+</code></pre>
+<h3 id="challenge-shirt-register-optional">CHALLENGE: Shirt Register (optional)</h3>
+<p>Update the <strong>Shirt Count</strong> program to calculate cost</p>
+<ul>
+<li>use shirt cost (S = 6, M = 7, L = 8)</li>
+<li>to calculate and report the subtotal cost for each size</li>
+<li>to calculate and report the total cost of all shirts</li>
+</ul>
+<pre><code class="language-python"># [ ] Create the Shirt Register program, run tests
+
+
+</code></pre>
+

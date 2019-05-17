@@ -1,0 +1,19 @@
+<problem display_name="Question 3" markdown="Which is a valid Python code comment? &#10;&#10;&#10;(x) &lt;code&gt;# use comments to describe the function of code&lt;/code&gt;&#10;( ) &lt;code&gt;// comments make code easier to update code&lt;/code&gt;&#10;( ) &lt;code&gt;[comment] comments can provide use instructions for other developers&lt;/code&gt;&#10;( ) &lt;code&gt;(comment) warnings can be placed in comments&lt;/code&gt;" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p>Which is a valid Python code comment? </p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="true">
+        <code># use comments to describe the function of code</code>
+      </choice>
+      <choice correct="false">
+        <code>// comments make code easier to update code</code>
+      </choice>
+      <choice correct="false">
+        <code>[comment] comments can provide use instructions for other developers</code>
+      </choice>
+      <choice correct="false">
+        <code>(comment) warnings can be placed in comments</code>
+      </choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

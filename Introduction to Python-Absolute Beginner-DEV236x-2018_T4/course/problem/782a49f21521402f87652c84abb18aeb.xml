@@ -1,0 +1,16 @@
+<problem display_name="Question 4" markdown="&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;length = &amp;quot;33&amp;quot;&#10;length.isalnum()&#10;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;p&gt;The code above will output ___&lt;/p&gt;&#10;&#10;( ) &quot;33&quot;&#10;( ) Error &#10;( ) False&#10;(x) True&#10;&#10;" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <pre>
+      <code class="language-python">length = "33"
+length.isalnum()
+</code>
+    </pre>
+    <p>The code above will output ___</p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">"33"</choice>
+      <choice correct="false">Error</choice>
+      <choice correct="false">False</choice>
+      <choice correct="true">True</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

@@ -1,0 +1,204 @@
+0
+00:00:00,980 --> 00:00:04,490
+Now that you have a fairly good intuition of what
+
+1
+00:00:04,490 --> 00:00:09,440
+recurrence means and how important history can be.
+
+2
+00:00:09,440 --> 00:00:12,530
+And we've introduced you to the input data
+
+3
+00:00:12,530 --> 00:00:15,610
+with the dimension that is different from the dimension
+
+4
+00:00:15,610 --> 00:00:16,880
+that you get from the history.
+
+5
+00:00:16,880 --> 00:00:20,010
+The input dimension of the data was n dimension.
+
+6
+00:00:20,010 --> 00:00:24,110
+And if you noticed the dimensions
+
+7
+00:00:24,110 --> 00:00:26,810
+of the history unit was m dimensional.
+
+8
+00:00:26,810 --> 00:00:31,499
+Let's figure out how we can take a history,
+
+9
+00:00:31,499 --> 00:00:34,286
+say from time t minus one,
+
+10
+00:00:34,286 --> 00:00:38,340
+add to it the current input at time t and
+
+11
+00:00:38,340 --> 00:00:44,447
+generate the new history and the corresponding output.
+
+12
+00:00:48,125 --> 00:00:49,500
+Here is our model.
+
+13
+00:00:50,670 --> 00:00:55,410
+We have the input, x(t), and the corresponding output.
+
+14
+00:00:57,360 --> 00:01:02,351
+And we have the history here, from t minus 1.
+
+15
+00:01:03,760 --> 00:01:08,143
+And we want to generate a new history based on the new input
+
+16
+00:01:08,143 --> 00:01:09,247
+that came in.
+
+17
+00:01:12,732 --> 00:01:14,738
+So what we do is first,
+
+18
+00:01:14,738 --> 00:01:18,760
+start with the n dimensional input at time t.
+
+19
+00:01:21,150 --> 00:01:23,410
+And we also bring in the history,
+
+20
+00:01:23,410 --> 00:01:27,141
+from the previous time step which is m-dimensional.
+
+21
+00:01:30,236 --> 00:01:36,694
+We put them together so now our data set is n plus m dimension.
+
+22
+00:01:39,284 --> 00:01:44,073
+We'll take this new input x* and
+
+23
+00:01:44,073 --> 00:01:48,527
+update our history for time t.
+
+24
+00:01:48,527 --> 00:01:50,594
+And this is gonna be, again,
+
+25
+00:01:50,594 --> 00:01:55,195
+m dimensional because we want to recur a cross time step.
+
+26
+00:01:55,195 --> 00:01:57,338
+This was m dimensional,
+
+27
+00:01:57,338 --> 00:02:00,610
+the intermedia data point is n plus m.
+
+28
+00:02:00,610 --> 00:02:05,310
+We want to project it back to an m dimensional space.
+
+29
+00:02:05,310 --> 00:02:09,180
+You already know how to do it from past experiences and
+
+30
+00:02:09,180 --> 00:02:11,920
+lectures, and
+
+31
+00:02:11,920 --> 00:02:16,040
+our dense layer comes to help where we take the input.
+
+32
+00:02:16,040 --> 00:02:19,580
+So the input of the dense layer is n plus m vector.
+
+33
+00:02:19,580 --> 00:02:22,773
+And the output is m dimensional output, and
+
+34
+00:02:22,773 --> 00:02:25,545
+we use an activation of ten each here.
+
+35
+00:02:28,620 --> 00:02:32,830
+And by using that we are able to project the input into a new
+
+36
+00:02:32,830 --> 00:02:33,630
+history.
+
+37
+00:02:35,130 --> 00:02:38,830
+So once we have the output which is m dimensional output
+
+38
+00:02:38,830 --> 00:02:43,780
+you can also think of it as our standard matrix multiplication.
+
+39
+00:02:44,880 --> 00:02:47,620
+Here, with the bias added.
+
+40
+00:02:47,620 --> 00:02:51,650
+And additionally, you route it to a ten H non-linearity
+
+41
+00:02:51,650 --> 00:02:52,890
+to generate the new history.
+
+42
+00:02:55,280 --> 00:02:58,500
+If you want to emit an output here, YT,
+
+43
+00:02:58,500 --> 00:03:02,220
+you can project it into C number of classes, the output of this.
+
+44
+00:03:03,450 --> 00:03:05,710
+I said to a softmax.
+
+45
+00:03:05,710 --> 00:03:07,990
+If you do not want to see classes,
+
+46
+00:03:07,990 --> 00:03:11,920
+you want to just project say, the output of the solar panel
+
+47
+00:03:11,920 --> 00:03:13,580
+then you do not need to use softmax.
+
+48
+00:03:13,580 --> 00:03:15,620
+You will see later on, we will use something else.
+
+49
+00:03:17,530 --> 00:03:22,070
+Because the output of the solar panel is a real number and
+
+50
+00:03:23,140 --> 00:03:26,350
+this is gonna be your basic recurrent unit.
+

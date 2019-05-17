@@ -1,0 +1,11 @@
+<problem display_name="Question 4" markdown="Choose the correct statement  &#10;&#10;( ) a variable name in Python cannot contain numbers&#10;( ) a variable value in Python cannot be updated&#10;( ) variables are updated in Python using the keyword &quot;new&quot; &#10;(x) variable values in Python can change type, from integer to string  &#10;&#10;" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p>Choose the correct statement  </p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">a variable name in Python cannot contain numbers</choice>
+      <choice correct="false">a variable value in Python cannot be updated</choice>
+      <choice correct="false">variables are updated in Python using the keyword "new"</choice>
+      <choice correct="true">variable values in Python can change type, from integer to string</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

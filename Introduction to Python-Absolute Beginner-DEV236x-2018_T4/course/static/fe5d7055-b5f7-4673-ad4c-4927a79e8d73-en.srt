@@ -1,0 +1,260 @@
+0
+00:00:00,390 --> 00:00:03,637
+We're going to review module four:
+
+1
+00:00:03,637 --> 00:00:07,165
+Required Coding Activity on string analysis.
+
+2
+00:00:07,165 --> 00:00:09,385
+And in this activity,
+
+3
+00:00:09,385 --> 00:00:13,540
+you have some key word requirements listed below.
+
+4
+00:00:13,540 --> 00:00:17,188
+We have to define a function and use the def key word.
+
+5
+00:00:17,188 --> 00:00:19,594
+We'll have a while loop,
+
+6
+00:00:19,594 --> 00:00:23,345
+that will loop while we're inputting a valid input,
+
+7
+00:00:23,345 --> 00:00:25,935
+so we can't have an empty string entered.
+
+8
+00:00:25,935 --> 00:00:28,480
+We're going to use if,
+
+9
+00:00:28,480 --> 00:00:33,000
+and then we're going to either use else or elif.
+
+10
+00:00:33,000 --> 00:00:36,290
+Also, we'll be using the int,
+
+11
+00:00:36,290 --> 00:00:42,665
+to cast input into a integer or a digit.
+
+12
+00:00:42,665 --> 00:00:48,710
+We're going to check if input is digit or is alpha.
+
+13
+00:00:48,710 --> 00:00:52,970
+And of course, we'll have to get user input and we will
+
+14
+00:00:52,970 --> 00:00:57,107
+be printing some results to our users.
+
+15
+00:00:57,107 --> 00:01:04,905
+Let's look at the edx page for this coding activity.
+
+16
+00:01:04,905 --> 00:01:07,427
+And like the other pages,
+
+17
+00:01:07,427 --> 00:01:09,360
+there are the assignment requirements,
+
+18
+00:01:09,360 --> 00:01:11,805
+that we just looked at.
+
+19
+00:01:11,805 --> 00:01:15,030
+And we'll have that same information
+
+20
+00:01:15,030 --> 00:01:17,415
+on our Jupiter notebook.
+
+21
+00:01:17,415 --> 00:01:22,410
+We should use the Jupiter notebook to code our solution.
+
+22
+00:01:22,410 --> 00:01:26,340
+I've pre-loaded this page with a solution,
+
+23
+00:01:26,340 --> 00:01:30,727
+so that we can see how it runs.
+
+24
+00:01:30,727 --> 00:01:34,315
+So it asks us to enter a word or an integer.
+
+25
+00:01:34,315 --> 00:01:35,765
+If we enter nothing,
+
+26
+00:01:35,765 --> 00:01:39,583
+it will continue to ask us for input.
+
+27
+00:01:39,583 --> 00:01:42,935
+So, let's go ahead and just run that again.
+
+28
+00:01:42,935 --> 00:01:46,890
+Okay, so now we can enter in a word,
+
+29
+00:01:46,890 --> 00:01:49,780
+so which is right word.
+
+30
+00:01:49,780 --> 00:01:53,880
+And we see that word is all alphabetical characters.
+
+31
+00:01:53,880 --> 00:01:59,550
+So it checks if the input is all alpha.
+
+32
+00:01:59,550 --> 00:02:03,120
+For that message, we can run it
+
+33
+00:02:03,120 --> 00:02:09,655
+again and I can put in a series of digits.
+
+34
+00:02:09,655 --> 00:02:12,930
+And it says, "that's a pretty big number",
+
+35
+00:02:12,930 --> 00:02:14,754
+because that's bigger than 99.
+
+36
+00:02:14,754 --> 00:02:17,875
+So let's go ahead and run it again.
+
+37
+00:02:17,875 --> 00:02:21,570
+I could run it with something smaller.
+
+38
+00:02:21,570 --> 00:02:29,000
+And it says that is "28 is smaller than expected".
+
+39
+00:02:29,000 --> 00:02:32,990
+We can also just see how the behavior works otherwise.
+
+40
+00:02:32,990 --> 00:02:36,795
+So if I say 22.5,
+
+41
+00:02:36,795 --> 00:02:41,965
+it says "that's not all alpha or all digit characters".
+
+42
+00:02:41,965 --> 00:02:44,450
+And some of us might disagree with that,
+
+43
+00:02:44,450 --> 00:02:47,758
+but it's looking at the characters,
+
+44
+00:02:47,758 --> 00:02:50,650
+it's not looking at the data type.
+
+45
+00:02:50,650 --> 00:02:54,145
+And this may look like it is a float,
+
+46
+00:02:54,145 --> 00:02:55,585
+but is actually a string,
+
+47
+00:02:55,585 --> 00:02:58,785
+and it's a string that contains a non-digit.
+
+48
+00:02:58,785 --> 00:03:02,555
+So likewise, if we are running,
+
+49
+00:03:02,555 --> 00:03:07,282
+it asks us for a word or integer,
+
+50
+00:03:07,282 --> 00:03:11,500
+so if I put Alton Derosoa,
+
+51
+00:03:11,500 --> 00:03:16,270
+it's also not an alpha or a digit
+
+52
+00:03:16,270 --> 00:03:18,190
+because a space is not
+
+53
+00:03:18,190 --> 00:03:22,380
+an alphabetical character or a digit.
+
+54
+00:03:22,380 --> 00:03:26,690
+So, you can go ahead and build that code.
+
+55
+00:03:26,690 --> 00:03:29,710
+Make sure you keep getting input until it has
+
+56
+00:03:29,710 --> 00:03:33,250
+something in there that it checks for the empty input.
+
+57
+00:03:33,250 --> 00:03:37,920
+And then we test whether it is an integer or digit.
+
+58
+00:03:37,920 --> 00:03:39,655
+If it's a digit, we're going to have to
+
+59
+00:03:39,655 --> 00:03:42,370
+convert that into a number.
+
+60
+00:03:42,370 --> 00:03:48,870
+See how big it is, and use some nested comparisons.
+
+61
+00:03:48,870 --> 00:03:53,005
+So, make sure we're going to use all of these keywords.
+
+62
+00:03:53,005 --> 00:03:56,482
+And if you're having trouble submitting,
+
+63
+00:03:56,482 --> 00:03:57,490
+look at some of
+
+64
+00:03:57,490 --> 00:04:02,420
+the earlier required coding activity videos.
+

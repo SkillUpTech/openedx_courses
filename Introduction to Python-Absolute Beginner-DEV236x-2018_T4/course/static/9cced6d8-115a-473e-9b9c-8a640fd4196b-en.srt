@@ -1,0 +1,132 @@
+0
+00:00:06,542 --> 00:00:11,311
+We use comparison operators with if else statements to help make
+
+1
+00:00:11,312 --> 00:00:12,824
+decisions in code.
+
+2
+00:00:14,975 --> 00:00:20,605
+Here, we have an example where we use a x greater than 25 test.
+
+3
+00:00:20,606 --> 00:00:25,675
+If x is greater than 25, then we print x is already greater than 25.
+
+4
+00:00:25,676 --> 00:00:30,858
+If it's not true, if x is less or equal to 25, then we'll
+
+5
+00:00:30,859 --> 00:00:36,162
+execute our else statement and print what the value of x was.
+
+6
+00:00:36,163 --> 00:00:40,260
+And then assign it a new value of 26, and inform the user.
+
+7
+00:00:40,261 --> 00:00:41,060
+Let's run that code.
+
+8
+00:00:42,320 --> 00:00:46,410
+So with x at 23, this evaluates to false or
+
+9
+00:00:46,411 --> 00:00:49,518
+not true, else statement runs.
+
+10
+00:00:51,995 --> 00:00:56,311
+If we increase the value to larger than 25,
+
+11
+00:00:56,312 --> 00:01:01,660
+sorry 26, then we see x is already greater than 25.
+
+12
+00:01:01,661 --> 00:01:05,061
+We are using decisions in our code.
+
+13
+00:01:07,877 --> 00:01:13,309
+In this example, we have a gameboard where the player position and
+
+14
+00:01:13,310 --> 00:01:16,870
+a trap position are set in the code.
+
+15
+00:01:16,871 --> 00:01:21,660
+We do an if statement checking if we're not in the trap.
+
+16
+00:01:21,661 --> 00:01:25,470
+If we're not in the trap and that's true, we keep playing.
+
+17
+00:01:25,471 --> 00:01:29,810
+If we're not in the trap false, that means we're in the trap and
+
+18
+00:01:29,811 --> 00:01:31,390
+then the game is over.
+
+19
+00:01:31,391 --> 00:01:35,280
+So let's start with position of 19 and the trap at 18, and
+
+20
+00:01:35,281 --> 00:01:36,730
+we can keep playing.
+
+21
+00:01:36,731 --> 00:01:39,700
+And then if I put myself in the trap at position 18,
+
+22
+00:01:39,701 --> 00:01:41,240
+then my game is over.
+
+23
+00:01:42,800 --> 00:01:46,530
+The last example uses the equal comparison operator.
+
+24
+00:01:46,531 --> 00:01:50,970
+First, I use the single equals sign to set the value of my variable
+
+25
+00:01:50,971 --> 00:01:52,370
+x to 2.
+
+26
+00:01:52,371 --> 00:01:57,751
+In my comparison statement, I just test if the value is equal to 2, and
+
+27
+00:01:57,752 --> 00:02:02,684
+then I give the message about the double equals sign is the test for
+
+28
+00:02:02,685 --> 00:02:03,687
+is equal to.
+
+29
+00:02:03,688 --> 00:02:07,330
+I use a pass statement if this value is not true.
+
+30
+00:02:08,360 --> 00:02:14,040
+So we have seen how we can use boolean comparison operators in our
+
+31
+00:02:14,041 --> 00:02:18,390
+if else statements, and it really does help us make decisions and
+
+32
+00:02:18,391 --> 00:02:19,560
+make more interesting code.
+

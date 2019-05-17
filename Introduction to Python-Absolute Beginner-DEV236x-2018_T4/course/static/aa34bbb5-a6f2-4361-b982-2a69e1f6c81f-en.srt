@@ -1,0 +1,140 @@
+0
+00:00:02,994 --> 00:00:06,114
+We've worked with some strings printing, and
+
+1
+00:00:06,115 --> 00:00:09,396
+now let's talk a little bit more what a string is.
+
+2
+00:00:09,397 --> 00:00:13,607
+So a string, is just a sequence of characters, and so
+
+3
+00:00:13,608 --> 00:00:17,140
+that just means one or more characters.
+
+4
+00:00:17,141 --> 00:00:20,930
+And the characters are just the keyboard characters, for
+
+5
+00:00:20,931 --> 00:00:22,160
+the most part.
+
+6
+00:00:22,161 --> 00:00:26,655
+So case a through z, lowercase a through z,
+
+7
+00:00:26,656 --> 00:00:33,580
+as well as the digits 0 through 9, and a variety of punctuation and
+
+8
+00:00:33,581 --> 00:00:38,816
+characters and just any of the symbols that we see.
+
+9
+00:00:38,817 --> 00:00:44,048
+We can add some more in there, but basically, all of these pieces
+
+10
+00:00:44,049 --> 00:00:49,013
+that we see in our keyboard, those are all valid characters.
+
+11
+00:00:49,014 --> 00:00:53,275
+And we can also have characters that we'll see later how to do that
+
+12
+00:00:53,276 --> 00:00:57,012
+are not printable, such as a new line character as well.
+
+13
+00:00:57,013 --> 00:01:00,612
+And so we can echo that to the screen by running,
+
+14
+00:01:00,613 --> 00:01:04,410
+because the characters are in our quotes.
+
+15
+00:01:04,411 --> 00:01:06,720
+Just like we did with the print statement earlier,
+
+16
+00:01:06,721 --> 00:01:08,880
+we could show our string.
+
+17
+00:01:08,881 --> 00:01:14,140
+So, again, the rules are single quotes matching,
+
+18
+00:01:14,141 --> 00:01:17,580
+so this starts and ends with single quotes and,
+
+19
+00:01:17,581 --> 00:01:21,950
+or double quotes matching, start or end with a double quote.
+
+20
+00:01:21,951 --> 00:01:24,210
+Just run that, and so that runs nicely.
+
+21
+00:01:24,211 --> 00:01:28,350
+If we don't match our quotes, we can see how that looks,
+
+22
+00:01:29,970 --> 00:01:32,400
+so it tells us we have a SyntaxError.
+
+23
+00:01:32,401 --> 00:01:36,850
+And that's just telling us that we have not used
+
+24
+00:01:36,851 --> 00:01:41,540
+proper Python formatting on the way that we use a string.
+
+25
+00:01:41,541 --> 00:01:46,110
+And so, because it starts with a double quote and
+
+26
+00:01:46,111 --> 00:01:48,450
+ends with a single quote, we have to match those.
+
+27
+00:01:48,451 --> 00:01:52,100
+I could either make them both single or both double.
+
+28
+00:01:52,101 --> 00:01:55,830
+And then I will make them both double, maybe not with so
+
+29
+00:01:55,831 --> 00:01:57,180
+many returns.
+
+30
+00:01:59,650 --> 00:02:01,220
+And then that will work right there.
+
+31
+00:02:04,290 --> 00:02:08,150
+So we see, in working with strings, that they
+
+32
+00:02:08,151 --> 00:02:11,970
+are a sequence of characters, so one or more character.
+
+33
+00:02:11,971 --> 00:02:16,870
+And that the characters have to be in matching quotes, double quotes or
+
+34
+00:02:16,871 --> 00:02:17,780
+single quotes.
+

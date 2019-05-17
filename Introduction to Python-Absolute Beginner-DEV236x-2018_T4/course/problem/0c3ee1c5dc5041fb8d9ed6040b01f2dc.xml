@@ -1,0 +1,25 @@
+<problem display_name="Question 2" markdown="&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;&#10;num_1 = 3&#10;num_2 = &amp;quot;8&amp;quot;&#10;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;p&gt;The minimum code to mathematically add num_1 to num_2 of the choices below is ___&lt;/p&gt;&#10;&#10;( ) &lt;code&gt;num_1 + str(num_2)&lt;/code&gt;&#10;( ) &lt;code&gt;int(num_1) + str(num_2)&lt;/code&gt;&#10;( ) &lt;code&gt;int(num_1) + int(num_2)&lt;/code&gt;&#10;(x) &lt;code&gt;num_1 + int(num_2)&lt;/code&gt;&#10;&#10;" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <pre>
+      <code class="language-python">
+num_1 = 3
+num_2 = "8"
+</code>
+    </pre>
+    <p>The minimum code to mathematically add num_1 to num_2 of the choices below is ___</p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">
+        <code>num_1 + str(num_2)</code>
+      </choice>
+      <choice correct="false">
+        <code>int(num_1) + str(num_2)</code>
+      </choice>
+      <choice correct="false">
+        <code>int(num_1) + int(num_2)</code>
+      </choice>
+      <choice correct="true">
+        <code>num_1 + int(num_2)</code>
+      </choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

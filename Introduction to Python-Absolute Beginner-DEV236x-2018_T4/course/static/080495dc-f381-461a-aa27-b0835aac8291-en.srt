@@ -1,0 +1,36 @@
+0
+00:00:00,770 --> 00:00:02,412
+Welcome to the course.
+
+1
+00:00:02,412 --> 00:00:03,930
+I am Sayan Pathak,
+
+2
+00:00:03,930 --> 00:00:07,090
+Principal Machine Learning Scientist at Microsoft.
+
+3
+00:00:07,090 --> 00:00:08,600
+>> And I'm Roland Fernandez,
+
+4
+00:00:08,600 --> 00:00:12,410
+Researcher in the deep learning team of Microsoft research AI.
+
+5
+00:00:12,410 --> 00:00:14,170
+>> We welcome you to this course.
+
+6
+00:00:14,170 --> 00:00:16,560
+We'll be teaching you basics of deep learning.
+
+7
+00:00:16,560 --> 00:00:18,010
+I look forward to it.
+
+8
+00:00:18,010 --> 00:00:18,510
+>> Me too.
+

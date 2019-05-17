@@ -1,0 +1,284 @@
+0
+00:00:00,080 --> 00:00:04,050
+So now we are at the last slide, we have all the pieces
+
+1
+00:00:04,070 --> 00:00:07,625
+that we need to put together our end to end
+
+2
+00:00:07,640 --> 00:00:11,900
+Training Validation Test Predict Workflow.
+
+3
+00:00:11,920 --> 00:00:15,025
+So let's see what we have here that is different,
+
+4
+00:00:15,040 --> 00:00:20,175
+the only difference that we have here is this model.
+
+5
+00:00:20,190 --> 00:00:25,550
+We are going to be using a convolution Network here
+
+6
+00:00:25,570 --> 00:00:28,675
+instead of using logistic regression
+
+7
+00:00:28,690 --> 00:00:34,400
+or a multi-layer perceptron model in the previous lectures.
+
+8
+00:00:34,440 --> 00:00:39,150
+So. again we start with the training database here
+
+9
+00:00:39,170 --> 00:00:46,050
+we sample a mini batch of handwritten digits.
+
+10
+00:00:46,070 --> 00:00:50,875
+So in this case you will note that we have 128 samples
+
+11
+00:00:50,890 --> 00:00:54,950
+for the mini batch, but then we have the handwritten digits,
+
+12
+00:00:54,990 --> 00:00:57,300
+which are now not flattened
+
+13
+00:00:57,320 --> 00:00:59,300
+out instead they are being red
+
+14
+00:00:59,320 --> 00:01:04,275
+as one channel for the color in this case it's gray scales,
+
+15
+00:01:04,290 --> 00:01:08,150
+so that's one if it was a natural scene this would be three
+
+16
+00:01:08,170 --> 00:01:14,975
+and the image pixel width and the image pixel height both being 28.
+
+17
+00:01:14,990 --> 00:01:22,375
+The labels are the same they don't change and each of the input image
+
+18
+00:01:22,390 --> 00:01:26,250
+has a corresponding label, our model is
+
+19
+00:01:26,270 --> 00:01:29,575
+convolution model here with max pooling.
+
+20
+00:01:29,590 --> 00:01:35,750
+This is same as the one that we described in the lectures before.
+
+21
+00:01:35,770 --> 00:01:39,925
+The parameters here are somewhat different
+
+22
+00:01:39,940 --> 00:01:44,150
+they are the parameters coming in from the convolution
+
+23
+00:01:44,190 --> 00:01:47,070
+and the dense outputs,
+
+24
+00:01:47,090 --> 00:01:49,070
+note max pooling does not
+
+25
+00:01:49,090 --> 00:01:52,550
+change the number of parameters in itself.
+
+26
+00:01:52,570 --> 00:01:58,025
+Then we have used the same cross entropy with softmax loss function,
+
+27
+00:01:58,040 --> 00:02:03,975
+the classification error function create the trainer object here
+
+28
+00:02:03,990 --> 00:02:09,650
+and using the trainer dot train underscore minibatch and providing
+
+29
+00:02:09,670 --> 00:02:14,525
+the trainer with different instances of randomly sampled
+
+30
+00:02:14,540 --> 00:02:19,075
+minibatches of handwritten digits and their corresponding labels.
+
+31
+00:02:19,090 --> 00:02:22,500
+The learners are pretty much the same
+
+32
+00:02:22,520 --> 00:02:24,500
+options that you have you can explore that
+
+33
+00:02:25,520 --> 00:02:33,450
+sgd, adagrad and many others that are available with most of the tool kits.
+
+34
+00:02:33,470 --> 00:02:41,675
+Having found the final model that we want to see how well it performs on
+
+35
+00:02:41,690 --> 00:02:48,450
+previously unforeseen data during training and use the test data.
+
+36
+00:02:48,470 --> 00:02:55,325
+We measure the performance of the model by calculating the error
+
+37
+00:02:55,340 --> 00:03:00,050
+that is how many images of the MS digits are misclassified.
+
+38
+00:03:00,070 --> 00:03:03,610
+and we repeat this a few times
+
+39
+00:03:04,150 --> 00:03:08,290
+to get the average performance of these trained model.
+
+40
+00:03:09,380 --> 00:03:13,790
+Now that we have the trained model we are going to test its performance,
+
+41
+00:03:14,330 --> 00:03:17,940
+on the test database we will start with the MNIST
+
+42
+00:03:18,400 --> 00:03:23,950
+test database here, we'll draw many batches of handwritten
+
+43
+00:03:24,000 --> 00:03:27,490
+images from this test database.
+
+44
+00:03:28,370 --> 00:03:34,390
+The image data and the corresponding one hot encoded labels,
+
+45
+00:03:36,200 --> 00:03:40,230
+this would be the input to the model.
+
+46
+00:03:41,330 --> 00:03:45,680
+We are illustrating the use of convolution with max pooling model
+
+47
+00:03:46,100 --> 00:03:49,220
+here, these are weights that have been
+
+48
+00:03:49,280 --> 00:03:52,510
+identified during the training process, we are not going to change that
+
+49
+00:03:53,000 --> 00:04:00,660
+in testing. We simply iterate through the samples in the test database
+
+50
+00:04:01,360 --> 00:04:06,480
+and each time we measure how well the classifier does
+
+51
+00:04:07,050 --> 00:04:10,120
+with this test samples
+
+52
+00:04:10,140 --> 00:04:12,120
+compared against the labels
+
+53
+00:04:12,660 --> 00:04:14,820
+that are provided in the test database as well
+
+54
+00:04:15,680 --> 00:04:19,120
+and then finally return the classification error as percent
+
+55
+00:04:19,600 --> 00:04:24,760
+incorrectly labeled and missed image. And you have seen that
+
+56
+00:04:25,390 --> 00:04:28,040
+as we went from logistic regression
+
+57
+00:04:28,060 --> 00:04:30,870
+to multi-layer perceptron to the convolutions
+
+58
+00:04:31,310 --> 00:04:37,600
+the error increasingly reduced that means the accuracy of our classifier
+
+59
+00:04:37,620 --> 00:04:40,620
+is becoming better and better.
+
+60
+00:04:41,280 --> 00:04:47,870
+Now with the tested model we can deploy this model,
+
+61
+00:04:48,560 --> 00:04:53,270
+in an application or web service where we take an arbitrary image
+
+62
+00:04:54,020 --> 00:04:57,730
+of handwritten digit and predict
+
+63
+00:04:57,830 --> 00:05:05,460
+it's corresponding optically recognized value in this case it's nine
+
+64
+00:05:06,330 --> 00:05:09,670
+which is the index with the highest value
+
+65
+00:05:09,960 --> 00:05:14,460
+in the predicted softmax probability array
+
+66
+00:05:15,560 --> 00:05:18,650
+can use numpy, argmax functions
+
+67
+00:05:19,610 --> 00:05:25,170
+to identify the index of the array where this has the highest value.
+
+68
+00:05:25,870 --> 00:05:31,830
+In general you can use numpy operations to craft different ways
+
+69
+00:05:32,210 --> 00:05:34,920
+to enhance your modeling capabilities
+
+70
+00:05:35,060 --> 00:05:38,960
+and either pre-process or post-process your data as well.
+

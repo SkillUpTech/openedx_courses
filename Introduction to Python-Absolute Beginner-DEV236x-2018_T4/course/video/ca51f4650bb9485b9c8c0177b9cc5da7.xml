@@ -1,0 +1,8 @@
+<video youtube="1.00:oZVRDUgcOZM" url_name="ca51f4650bb9485b9c8c0177b9cc5da7" display_name="Using Jupyter Notebooks Video" download_track="true" download_video="true" edx_video_id="df322b4c-2ca2-4391-823b-cff67dab6a5b" html5_sources="[]" sub="" transcripts="{&quot;en&quot;: &quot;df322b4c-2ca2-4391-823b-cff67dab6a5b-en.srt&quot;}" youtube_id_1_0="oZVRDUgcOZM">
+  <transcript language="en" src="df322b4c-2ca2-4391-823b-cff67dab6a5b-en.srt"/>
+  <video_asset client_video_id="_MOD1_Using_Jupyter_Notebooks.mp4" duration="285.37">
+    <encoded_video bitrate="161" file_size="5763655" profile="mobile_low" url="https://d2f1egay8yehza.cloudfront.net/MSXIPU1X2017-V005600_MB2.mp4"/>
+    <encoded_video bitrate="204" file_size="7303321" profile="desktop_mp4" url="https://d2f1egay8yehza.cloudfront.net/MSXIPU1X2017-V005600_DTH.mp4"/>
+    <encoded_video bitrate="0" file_size="0" profile="youtube" url="oZVRDUgcOZM"/>
+  </video_asset>
+</video>

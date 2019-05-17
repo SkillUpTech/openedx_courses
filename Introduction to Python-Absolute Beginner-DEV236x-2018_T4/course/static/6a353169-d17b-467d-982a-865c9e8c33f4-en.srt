@@ -1,0 +1,272 @@
+0
+00:00:00,800 --> 00:00:03,130
+You are now quite familiar with the concept of recurrence.
+
+1
+00:00:04,390 --> 00:00:08,490
+How we can take multiple features as input and
+
+2
+00:00:08,490 --> 00:00:11,680
+emit the history that can be used in
+
+3
+00:00:12,710 --> 00:00:17,410
+future instances of the recurrent unit, which
+
+4
+00:00:17,410 --> 00:00:21,740
+help us make better predictions for the future time points.
+
+5
+00:00:23,190 --> 00:00:25,960
+Now before we get into this module,
+
+6
+00:00:25,960 --> 00:00:30,050
+which is gonna talk about a problem with long set of
+
+7
+00:00:30,050 --> 00:00:33,970
+recurrences, also known as the vanishing gradients.
+
+8
+00:00:33,970 --> 00:00:36,000
+Let me update you, and
+
+9
+00:00:36,000 --> 00:00:40,050
+bring to your focus one aspect, which will be very important in
+
+10
+00:00:40,050 --> 00:00:41,340
+understanding vanishing gradients.
+
+11
+00:00:43,010 --> 00:00:47,220
+So here in our previous module, we have seen that for
+
+12
+00:00:47,220 --> 00:00:51,440
+a given input and a history, we admit a new history.
+
+13
+00:00:51,440 --> 00:00:55,270
+And every time we do that we update the weight and
+
+14
+00:00:55,270 --> 00:01:01,190
+the bias parameter and the same parameters
+
+15
+00:01:01,190 --> 00:01:04,420
+are shared and updated across the time step.
+
+16
+00:01:05,740 --> 00:01:10,370
+So as we go from one time step to the other, this weight and
+
+17
+00:01:10,370 --> 00:01:12,230
+the bias parameters get updated.
+
+18
+00:01:13,520 --> 00:01:15,440
+What's the implication of that?
+
+19
+00:01:15,440 --> 00:01:18,960
+Let's take a step back from our time series example of the solar
+
+20
+00:01:18,960 --> 00:01:24,620
+panel output and for a moment take a pause and
+
+21
+00:01:24,620 --> 00:01:30,480
+switch ourselves into the world of text where each word
+
+22
+00:01:30,480 --> 00:01:35,670
+can be thought as a time point, as a sequence.
+
+23
+00:01:37,660 --> 00:01:39,420
+So here there's a long passage.
+
+24
+00:01:39,420 --> 00:01:41,440
+And I don't want you to read through it.
+
+25
+00:01:41,440 --> 00:01:44,720
+It's about a British Television program called Doctor Who.
+
+26
+00:01:46,190 --> 00:01:50,280
+And you can see that Doctor Who is a British science fiction
+
+27
+00:01:50,280 --> 00:01:52,500
+television program produced by the BBC.
+
+28
+00:01:52,500 --> 00:01:55,926
+And then it goes on to say, blah, blah, blah, blah, blah.
+
+29
+00:01:55,926 --> 00:01:58,796
+There is this sentence,
+
+30
+00:01:58,796 --> 00:02:04,268
+this television series produced by the blank.
+
+31
+00:02:05,588 --> 00:02:11,161
+Now, think of building a model where you take each word and
+
+32
+00:02:11,161 --> 00:02:13,560
+generate the next word.
+
+33
+00:02:15,500 --> 00:02:21,710
+So you start, say at time t with doctor with zero history
+
+34
+00:02:23,440 --> 00:02:26,590
+and output of the model is gonna be who, the next word.
+
+35
+00:02:28,340 --> 00:02:29,510
+You continue to do so.
+
+36
+00:02:29,510 --> 00:02:32,330
+Like you feed the next word as your input to the model.
+
+37
+00:02:33,860 --> 00:02:36,610
+And it emits the following word, is.
+
+38
+00:02:37,850 --> 00:02:40,110
+And you continue to do so
+
+39
+00:02:40,110 --> 00:02:44,530
+until you reach this particular dot, which is here.
+
+40
+00:02:46,060 --> 00:02:49,370
+And at this point, the right answer is BBC.
+
+41
+00:02:51,700 --> 00:02:56,715
+However, in order to remember that this answer is BBC.
+
+42
+00:02:56,715 --> 00:03:01,364
+You have to relate this state back to that
+
+43
+00:03:01,364 --> 00:03:06,988
+occurrence of BBC, which is 75 words behind.
+
+44
+00:03:06,988 --> 00:03:10,517
+So there are 75 recurrent blocks in between.
+
+45
+00:03:10,517 --> 00:03:15,390
+And remember every time you add a word,
+
+46
+00:03:15,390 --> 00:03:19,880
+the H vector gets updated
+
+47
+00:03:20,910 --> 00:03:26,160
+in the next iteration so if you have who it would have had
+
+48
+00:03:26,160 --> 00:03:31,660
+a role to play in the updated H vector now in the history, okay.
+
+49
+00:03:32,800 --> 00:03:34,622
+So what'd we do?
+
+50
+00:03:38,567 --> 00:03:43,090
+We have a history here and the input, the.
+
+51
+00:03:45,890 --> 00:03:49,980
+And we know this mechanism where we can update the history.
+
+52
+00:03:52,310 --> 00:03:56,040
+But increasingly, as you see, those many words that came in
+
+53
+00:03:56,040 --> 00:04:01,090
+between, each of them will be contributing to the history.
+
+54
+00:04:01,090 --> 00:04:05,960
+Thus the diluting the effect that this word BBC
+
+55
+00:04:05,960 --> 00:04:11,090
+would have had in this instance of the history
+
+56
+00:04:11,090 --> 00:04:14,160
+because it was so far back in time.
+
+57
+00:04:16,420 --> 00:04:19,580
+So the learning is that a single set of weights and
+
+58
+00:04:19,580 --> 00:04:23,240
+biases has a limited memory.
+
+59
+00:04:24,730 --> 00:04:26,970
+So when you have limited memory,
+
+60
+00:04:26,970 --> 00:04:31,210
+what are things you can do to overcome that situation?
+
+61
+00:04:32,750 --> 00:04:36,140
+Intuitively, you can do two things.
+
+62
+00:04:38,240 --> 00:04:41,710
+I'd like you to take a moment think about what those two
+
+63
+00:04:41,710 --> 00:04:43,450
+things might be.
+
+64
+00:04:43,450 --> 00:04:47,720
+And in the next video you'll see how we can incorporate
+
+65
+00:04:47,720 --> 00:04:50,690
+some of those intuitions you might already have.
+
+66
+00:04:50,690 --> 00:04:53,590
+And I'll go into some more of it and
+
+67
+00:04:53,590 --> 00:04:56,280
+introduce you to long short term memory cell.
+

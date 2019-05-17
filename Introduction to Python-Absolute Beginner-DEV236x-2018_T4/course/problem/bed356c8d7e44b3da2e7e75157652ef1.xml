@@ -1,0 +1,19 @@
+<problem display_name="Question 2" markdown="The code that formats the string &quot;Green&quot; to &quot;GREEN&quot;:&#10;&#10;( ) &lt;code&gt;.isupper()&lt;/code&gt;&#10;( ) &lt;code&gt;.capitalize()&lt;/code&gt;&#10;( ) &lt;code&gt;.istitle()&lt;/code&gt;&#10;(x) &lt;code&gt;.upper()&lt;/code&gt;&#10;&#10;" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p>The code that formats the string "Green" to "GREEN":</p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">
+        <code>.isupper()</code>
+      </choice>
+      <choice correct="false">
+        <code>.capitalize()</code>
+      </choice>
+      <choice correct="false">
+        <code>.istitle()</code>
+      </choice>
+      <choice correct="true">
+        <code>.upper()</code>
+      </choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

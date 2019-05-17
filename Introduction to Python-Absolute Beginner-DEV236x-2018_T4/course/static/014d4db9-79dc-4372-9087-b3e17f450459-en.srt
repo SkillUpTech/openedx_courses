@@ -1,0 +1,308 @@
+0
+00:00:00,720 --> 00:00:03,080
+Hopefully from the previous video,
+
+1
+00:00:03,080 --> 00:00:07,220
+you have now understood the value of incorporating history
+
+2
+00:00:07,220 --> 00:00:09,150
+in making better predictions in the future.
+
+3
+00:00:10,430 --> 00:00:13,150
+In this section, we will walk you through how that
+
+4
+00:00:13,150 --> 00:00:16,640
+history can be incorporated in the framework of recurrence.
+
+5
+00:00:17,780 --> 00:00:22,940
+So let's see, you have an input which goes into your model.
+
+6
+00:00:22,940 --> 00:00:27,420
+And this input could be as simple as the temperature
+
+7
+00:00:27,420 --> 00:00:28,840
+of the given day.
+
+8
+00:00:28,840 --> 00:00:32,580
+However, we have convinced ourselves here that adding some
+
+9
+00:00:32,580 --> 00:00:36,510
+extra input from the past can really
+
+10
+00:00:36,510 --> 00:00:38,470
+help us make better predictions.
+
+11
+00:00:38,470 --> 00:00:42,600
+For instance, the output of the solar panel from a previous day.
+
+12
+00:00:43,650 --> 00:00:49,120
+Or any of the previous day temperatures, etc, etc.
+
+13
+00:00:49,120 --> 00:00:53,650
+So that's why you see this vector on top of the notation,
+
+14
+00:00:53,650 --> 00:00:57,340
+which means the input can be a set of numbers.
+
+15
+00:00:57,340 --> 00:00:58,850
+And corresponding to that,
+
+16
+00:00:58,850 --> 00:01:02,180
+you would have a n dimensional array here.
+
+17
+00:01:02,180 --> 00:01:05,370
+Now I'm gonna point out to the dimensionality of the array over
+
+18
+00:01:05,370 --> 00:01:09,360
+and over as we go along, because it's key to understand the data
+
+19
+00:01:09,360 --> 00:01:12,880
+that you are gonna use to build these recurrent networks and
+
+20
+00:01:12,880 --> 00:01:15,900
+how the dimensionality of the data interplays with
+
+21
+00:01:15,900 --> 00:01:17,340
+the predictions you're gonna make.
+
+22
+00:01:18,430 --> 00:01:20,630
+Now what's the output gonna look like?
+
+23
+00:01:20,630 --> 00:01:25,100
+So the output in our case was the output of a single day for
+
+24
+00:01:25,100 --> 00:01:26,760
+that solar panel.
+
+25
+00:01:26,760 --> 00:01:30,231
+So it was a single output, say, w out, and
+
+26
+00:01:30,231 --> 00:01:33,710
+that corresponds to the wattage.
+
+27
+00:01:33,710 --> 00:01:39,021
+Now it could be that we are gonna be outputting the wattage
+
+28
+00:01:39,021 --> 00:01:44,785
+of the solar panel for multiple days in future so w out + 1..
+
+29
+00:01:44,785 --> 00:01:48,185
+Say, 5 days or so, you could do that.
+
+30
+00:01:48,185 --> 00:01:51,431
+So y can also be a vector,
+
+31
+00:01:51,431 --> 00:01:56,545
+in this case y is a c dimensional array.
+
+32
+00:02:00,364 --> 00:02:02,210
+Now, what is missing?
+
+33
+00:02:04,170 --> 00:02:07,759
+We have incorporated multiple features and
+
+34
+00:02:07,759 --> 00:02:13,003
+we figured out a way to predict multiple things into the future.
+
+35
+00:02:15,801 --> 00:02:18,378
+I hope you remember in the previous video,
+
+36
+00:02:18,378 --> 00:02:19,960
+we talked about history.
+
+37
+00:02:22,250 --> 00:02:26,760
+How can we incorporate history into our modeling framework?
+
+38
+00:02:26,760 --> 00:02:27,260
+Let's see.
+
+39
+00:02:29,160 --> 00:02:34,280
+So what we do in neural networks is that we have this thing
+
+40
+00:02:34,280 --> 00:02:39,470
+called the internal state, which is an m dimensional array.
+
+41
+00:02:41,430 --> 00:02:43,960
+This is also known as the history.
+
+42
+00:02:45,230 --> 00:02:48,500
+For every time we make a prediction why,
+
+43
+00:02:48,500 --> 00:02:50,670
+we also admit a history.
+
+44
+00:02:52,870 --> 00:02:56,250
+Obviously in the first round, the history is zero,
+
+45
+00:02:56,250 --> 00:02:57,580
+there is no history.
+
+46
+00:02:57,580 --> 00:03:01,540
+But subsequently you will have an ocean of history
+
+47
+00:03:01,540 --> 00:03:06,170
+that feeds into the next stage of your model.
+
+48
+00:03:07,680 --> 00:03:12,880
+So here we'll take the history from t is equal to 1.
+
+49
+00:03:12,880 --> 00:03:18,690
+Take the next set of inputs, and emit the corresponding outputs.
+
+50
+00:03:20,230 --> 00:03:24,804
+And additionally we'll also emit the updated history.
+
+51
+00:03:24,804 --> 00:03:29,910
+So note, the history keeps getting updated
+
+52
+00:03:29,910 --> 00:03:35,439
+as we go from one time point to the other, okay?
+
+53
+00:03:35,439 --> 00:03:39,280
+Now the inputs could be an array of numeric values from different
+
+54
+00:03:39,280 --> 00:03:42,090
+sensors like you have seen here.
+
+55
+00:03:42,090 --> 00:03:42,920
+It could be an image.
+
+56
+00:03:44,550 --> 00:03:47,850
+Pixels in an array, here we would map
+
+57
+00:03:47,850 --> 00:03:51,655
+the image pixels to a compact representation, say n values.
+
+58
+00:03:51,655 --> 00:03:56,460
+And you know the ways to do that given the convolution models
+
+59
+00:03:56,460 --> 00:04:00,750
+that you have built, and from words in text.
+
+60
+00:04:01,920 --> 00:04:05,960
+So you haven't quite done this yet, by the end of next module,
+
+61
+00:04:05,960 --> 00:04:07,800
+you would know how to do this.
+
+62
+00:04:07,800 --> 00:04:10,620
+But I'm just giving you a heads up and a teaser that we can
+
+63
+00:04:10,620 --> 00:04:13,560
+represent words as numeric vectors, and using something
+
+64
+00:04:13,560 --> 00:04:16,451
+called embedding that you'll learn in the next module.
+
+65
+00:04:19,307 --> 00:04:22,871
+So this is how our recurrent network is gonna look like.
+
+66
+00:04:22,871 --> 00:04:27,353
+You'll have an input, you'll have an output.
+
+67
+00:04:27,353 --> 00:04:30,423
+And you'll have an internal state or
+
+68
+00:04:30,423 --> 00:04:35,680
+history which will keep updating at every stage of recursion.
+
+69
+00:04:37,270 --> 00:04:41,220
+So that recursion at each stage implies there's a notion of
+
+70
+00:04:41,220 --> 00:04:46,290
+time, and you'll hear the time steps and
+
+71
+00:04:46,290 --> 00:04:49,410
+recursion being used interchangeably.
+
+72
+00:04:49,410 --> 00:04:54,310
+And here is a visual of what the input vector would look like.
+
+73
+00:04:54,310 --> 00:04:57,630
+These could be different entities all encoded
+
+74
+00:04:57,630 --> 00:05:01,840
+in a numeric array and you can have multiple outputs.
+
+75
+00:05:01,840 --> 00:05:06,246
+c dimension, this is gonna be n dimension, and
+
+76
+00:05:06,246 --> 00:05:08,786
+h is gonna be m dimensions.
+

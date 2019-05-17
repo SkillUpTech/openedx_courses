@@ -1,0 +1,99 @@
+<problem display_name="Custom Python-Evaluated Input" markdown="null" max_attempts="2" showanswer="never" weight="1.0">
+  <customresponse cfn="test_final">
+    <p>This Activity is intended to be completed in a jupyter notebook and then pasted into the assessment page submission box below</p>
+    <description><strong>NOTE</strong> Submission will be marked wrong if missing elements listed in <em>Some Assignment Requirements</em> section</description>
+    <script type="loncapa/python">
+
+import re
+
+def test_usingkeywords(keywords, code):  	
+	'''
+	validate whether the keywords are used in the code 
+	'''
+	result = True
+	try:
+		for keyword in keywords:
+			regexp = re.compile(r'\b' + keyword + r'\b')
+			matchObj = regexp.search(code)
+			if not matchObj:
+				result = False 			
+				break	
+	except ValueError:
+		result = False
+	return result
+
+
+def test_mod1(expect, ans):
+	'''
+	check the mod1 
+	expect: it is not used in the code
+	ans:	the code block learner submits
+  	'''
+	keywords	=	('print','input','in')
+	return test_usingkeywords(keywords,ans)
+
+
+def test_mod2(expect, ans):
+	'''
+	check the mod2 
+	expect: it is not used in the code
+	ans:	the code block learner submits
+  	'''
+	keywords	=	('def','return','print','input')
+	return test_usingkeywords(keywords,ans)
+
+
+def test_mod3(expect, ans):
+	'''
+	check the mod3 
+	expect: it is not used in the code
+	ans:	the code block learner submits
+  	'''
+	keywords	=	('if','elif','else','print','input')
+	return test_usingkeywords(keywords,ans)
+
+
+def test_mod4(expect, ans):
+	'''
+	check the mod4 
+	expect: it is not used in the code
+	ans:	the code block learner submits
+  	'''
+	keywords	=	('def','while','if','else','int','isdigit','isalpha','input','print')
+	return test_usingkeywords(keywords,ans)
+
+
+def test_final(expect, ans):
+	'''
+	check the final 
+	expect: it is not used in the code
+	ans:	the code block learner submits
+  	'''
+	keywords	=	('def','while','if','elif','else','int','isdigit','print','input')
+	return test_usingkeywords(keywords,ans)
+
+</script>
+    <label>Paste your code below:</label>
+    <textline size="80" label="Paste your code here"/>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>The code you submit must use below keywords:</p>
+        <ul style="padding-left:30px !important;">
+          <li>def</li>
+          <li>while</li>
+          <li>if</li>
+          <li>elif</li>
+          <li>else</li>
+          <li>int</li>
+          <li>isdigit</li>
+          <li>print</li>
+          <li>input</li>
+        </ul>
+      </div>
+    </solution>
+  </customresponse>
+  <demandhint>
+    <hint>See Required Code Description page. <strong>Code must use all Keywords</strong> listed in the area titled: <em>Some Assignment Requirements</em></hint>
+  </demandhint>
+</problem>

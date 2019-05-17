@@ -1,0 +1,22 @@
+<problem display_name="Question 3" markdown="&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;x = 0 &#10;&#10;while True:&#10;    if x &amp;lt; 10:&#10;        print('run forever')&#10;        x += 1&#10;    else:&#10;        break&#10;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;p&gt;The output of from running the above code is most like ___&lt;/p&gt;&#10;&#10;&#10;(x) &quot;run forever&quot; (10 times) &#10;( ) &quot;run forever&quot; (9 times) &#10;( ) &quot;run forever&quot;&#10;( ) No output " max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <pre>
+      <code class="language-python">x = 0 
+
+while True:
+    if x &lt; 10:
+        print('run forever')
+        x += 1
+    else:
+        break
+</code>
+    </pre>
+    <p>The output of from running the above code is most like ___</p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="true">"run forever" (10 times)</choice>
+      <choice correct="false">"run forever" (9 times)</choice>
+      <choice correct="false">"run forever"</choice>
+      <choice correct="false">No output</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

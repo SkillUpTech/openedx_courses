@@ -1,0 +1,44 @@
+{
+  "start": [
+    630, 
+    3500, 
+    7483, 
+    10855, 
+    14704, 
+    18260, 
+    23700, 
+    28051, 
+    32318, 
+    35786, 
+    39305, 
+    43191
+  ], 
+  "end": [
+    1590, 
+    7483, 
+    10855, 
+    14704, 
+    18260, 
+    21530, 
+    28051, 
+    32318, 
+    35786, 
+    39305, 
+    43191, 
+    46290
+  ], 
+  "text": [
+    "Welcome to the course.", 
+    "In this course you are gonna learn the fundamentals of", 
+    "Deep Learning and where all it is being used.", 
+    "At the end of the course you'll be able to build", 
+    "Deep Learning technology based different", 
+    "applications in an end to end fashion.", 
+    "I'll explain to you whom this course is targeted towards, and", 
+    "will also walk you through what is expected from this course,", 
+    "and then move on to explain what is Deep Learning?", 
+    "We'll relate to some of the background materials that we", 
+    "expect to be covered on machine learning, and then explaining", 
+    "what all things we want to learn in Deep Learning."
+  ]
+}

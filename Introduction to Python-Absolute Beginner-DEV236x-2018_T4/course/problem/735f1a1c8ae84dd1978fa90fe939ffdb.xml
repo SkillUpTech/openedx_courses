@@ -1,0 +1,24 @@
+<problem display_name="Question 4" markdown="&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;if True:&#10;    if False:&#10;        print(&amp;quot;Banana&amp;quot;)&#10;    else:&#10;        print(&amp;quot;Apple&amp;quot;)&#10;else:&#10;    if True:&#10;        print(&amp;quot;Dates&amp;quot;)&#10;    else:&#10;        print(&amp;quot;Corn&amp;quot;)&#10;&lt;/code&gt;&lt;/pre&gt;&#10;&lt;p&gt;The output of the above code is ___&lt;/p&gt;&#10;&#10;&#10;(x) &quot;Apple&quot; &#10;( ) &quot;Banana&quot; &#10;( ) &quot;Corn&quot; &#10;( ) &quot;Dates&quot; " max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <pre>
+      <code class="language-python">if True:
+    if False:
+        print("Banana")
+    else:
+        print("Apple")
+else:
+    if True:
+        print("Dates")
+    else:
+        print("Corn")
+</code>
+    </pre>
+    <p>The output of the above code is ___</p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="true">"Apple"</choice>
+      <choice correct="false">"Banana"</choice>
+      <choice correct="false">"Corn"</choice>
+      <choice correct="false">"Dates"</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

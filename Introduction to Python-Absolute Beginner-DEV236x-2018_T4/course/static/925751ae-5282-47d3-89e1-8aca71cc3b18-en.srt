@@ -1,0 +1,524 @@
+0
+00:00:00,640 --> 00:00:03,780
+Let's review a few popular convolutional networks.
+
+1
+00:00:05,690 --> 00:00:07,930
+The first one is LeNet.
+
+2
+00:00:07,930 --> 00:00:10,923
+This was the first successful convolutional neural net
+
+3
+00:00:10,923 --> 00:00:12,393
+by Yann LeCun in 1990.
+
+4
+00:00:12,393 --> 00:00:15,766
+So you can see that convolutional neural nets have
+
+5
+00:00:15,766 --> 00:00:18,190
+been placed for a long time.
+
+6
+00:00:18,190 --> 00:00:21,130
+So you can see here that it used a bunch of
+
+7
+00:00:21,130 --> 00:00:23,650
+convolutional operations combined with
+
+8
+00:00:23,650 --> 00:00:25,790
+sub sampling which we didn't talk about but
+
+9
+00:00:25,790 --> 00:00:31,620
+sub sampling effectively reduces the size of the image by picking
+
+10
+00:00:31,620 --> 00:00:36,590
+every alternate whatever number of pixels you want to try so
+
+11
+00:00:36,590 --> 00:00:39,960
+it's equivalent to strike but you pick every other pixel if
+
+12
+00:00:39,960 --> 00:00:42,940
+you want to down sample by a size of two.
+
+13
+00:00:42,940 --> 00:00:46,680
+And then you connect it to a whole bunch of full connections.
+
+14
+00:00:46,680 --> 00:00:49,429
+Full connections is equivalent to our dense layers and
+
+15
+00:00:49,429 --> 00:00:52,488
+you can predict the digits just like we have been doing here.
+
+16
+00:00:52,488 --> 00:00:56,700
+You can see that the output layer has, is an array of ten.
+
+17
+00:00:57,790 --> 00:00:59,290
+The next one which is AlexNet.
+
+18
+00:00:59,290 --> 00:01:04,460
+This was by far the one that really revolutionized and
+
+19
+00:01:04,460 --> 00:01:09,810
+made deep learning, popular and rotted to the forefront.
+
+20
+00:01:09,810 --> 00:01:13,458
+It was developed by Alex Krizhevsky,
+
+21
+00:01:13,458 --> 00:01:17,110
+Ilya Sutskever and Geoffrey Hinton.
+
+22
+00:01:17,110 --> 00:01:18,323
+In 2012,
+
+23
+00:01:18,323 --> 00:01:23,376
+ImageNet challenge which is challenge around every year,
+
+24
+00:01:23,376 --> 00:01:28,560
+which has a large number of images and with label data sets.
+
+25
+00:01:28,560 --> 00:01:33,080
+The original image in that data set will have 1,000 labels.
+
+26
+00:01:33,080 --> 00:01:37,000
+And you've seen that in the introductory slides how
+
+27
+00:01:37,000 --> 00:01:40,340
+using this particular network that you see, we won't go into
+
+28
+00:01:40,340 --> 00:01:44,490
+the details of it, you can take an image, a natural seen image,
+
+29
+00:01:44,490 --> 00:01:47,800
+and classify it into the corresponding categories.
+
+30
+00:01:47,800 --> 00:01:51,130
+In this case you can see the leopard is classified as the top
+
+31
+00:01:51,130 --> 00:01:55,800
+category here, so the tag for this image would be leopard.
+
+32
+00:01:55,800 --> 00:01:59,000
+This is another way of representing how you can
+
+33
+00:01:59,000 --> 00:02:00,480
+depict your final results.
+
+34
+00:02:00,480 --> 00:02:03,790
+Instead of listing just the one top label,
+
+35
+00:02:03,790 --> 00:02:06,990
+you can list the top five categories.
+
+36
+00:02:06,990 --> 00:02:11,217
+And in this case with ImageNet using AlexNet data,
+
+37
+00:02:11,217 --> 00:02:14,167
+it outperformed the state of the art
+
+38
+00:02:14,167 --> 00:02:17,920
+by reducing the error from 26% to 16%.
+
+39
+00:02:17,920 --> 00:02:22,040
+In computer vision literature this is huge huge reduction.
+
+40
+00:02:23,090 --> 00:02:26,190
+This first introduced the use deeper
+
+41
+00:02:26,190 --> 00:02:28,000
+bigger stacked convolutional layers.
+
+42
+00:02:29,990 --> 00:02:35,560
+GoogLeNet was the winner of the challenge, ILSVRC challenge,
+
+43
+00:02:35,560 --> 00:02:40,836
+the same challenge that was won by AlexNet two years before.
+
+44
+00:02:40,836 --> 00:02:47,540
+GoogLeNet won it in 2014 by Szegedy et al from Google.
+
+45
+00:02:48,650 --> 00:02:50,920
+It introduced the inception module.
+
+46
+00:02:50,920 --> 00:02:54,330
+The key contribution of this module was the dramatic
+
+47
+00:02:54,330 --> 00:02:58,330
+reduction in parameters from 60 million to 4 million.
+
+48
+00:02:58,330 --> 00:03:01,370
+It used average pooling instead of fully connected layers.
+
+49
+00:03:03,820 --> 00:03:05,900
+The next one was the VGGNet,
+
+50
+00:03:05,900 --> 00:03:07,650
+which was also very very popular.
+
+51
+00:03:07,650 --> 00:03:11,270
+It was the runner up in the same year by Simonyan and Zisserman.
+
+52
+00:03:12,510 --> 00:03:16,360
+It showed depth of network is key to performance.
+
+53
+00:03:16,360 --> 00:03:19,910
+It had 16 convolution/fully connected layers,
+
+54
+00:03:19,910 --> 00:03:21,820
+an extremely homogeneous architecture.
+
+55
+00:03:23,450 --> 00:03:29,640
+It had a repeating set of 3 by 3 convolutions and 2 by 2 pooling.
+
+56
+00:03:29,640 --> 00:03:32,157
+It's more expensive to evaluate and
+
+57
+00:03:32,157 --> 00:03:34,890
+requires a large amount of memory.
+
+58
+00:03:34,890 --> 00:03:37,650
+It has roughly 140 million
+
+59
+00:03:37,650 --> 00:03:41,165
+parameters compared to 60 million from the AlexNet.
+
+60
+00:03:42,200 --> 00:03:44,400
+Most of the parameters however are in the fully
+
+61
+00:03:44,400 --> 00:03:45,800
+connected layer.
+
+62
+00:03:45,800 --> 00:03:48,990
+And later on people have found out that if these are removed,
+
+63
+00:03:48,990 --> 00:03:51,560
+they do not cause a significant performance drop.
+
+64
+00:03:51,560 --> 00:03:54,640
+So thereby reducing the number of parameters
+
+65
+00:03:54,640 --> 00:03:56,098
+in the VGGNet module.
+
+66
+00:03:58,090 --> 00:04:03,170
+ResNet, this was a winner of the ILSVRC 2015,
+
+67
+00:04:03,170 --> 00:04:05,940
+by Kaiming He from Microsoft.
+
+68
+00:04:07,060 --> 00:04:09,207
+It was the state of-the-art,
+
+69
+00:04:09,207 --> 00:04:12,530
+as of May 2016 and a default choice.
+
+70
+00:04:12,530 --> 00:04:17,190
+The original implementation had 152 layers and
+
+71
+00:04:17,190 --> 00:04:19,700
+it introduced the concept of residual learning.
+
+72
+00:04:19,700 --> 00:04:22,490
+These concept are fairly advanced and
+
+73
+00:04:22,490 --> 00:04:26,060
+would be part of a future offerings from the course.
+
+74
+00:04:26,060 --> 00:04:29,690
+You can see that these networks that we have designed.
+
+75
+00:04:29,690 --> 00:04:31,720
+The framework that you have learned so
+
+76
+00:04:31,720 --> 00:04:35,148
+far enables us to create very, very, very deep architecture,
+
+77
+00:04:35,148 --> 00:04:38,523
+which is foundational to a lot of the practical applications.
+
+78
+00:04:38,523 --> 00:04:39,657
+So now quickly,
+
+79
+00:04:39,657 --> 00:04:44,450
+let's review some of the more advanced applications.
+
+80
+00:04:44,450 --> 00:04:48,250
+So one of the applications is coloring grayscale images.
+
+81
+00:04:48,250 --> 00:04:50,860
+You can give that net grayscale image,
+
+82
+00:04:50,860 --> 00:04:53,610
+it will automatically generate a colored version of it.
+
+83
+00:04:53,610 --> 00:04:57,300
+You can read more about this in the papers that are cited here.
+
+84
+00:04:57,300 --> 00:05:01,260
+This one generates visually indicated sounds in a video.
+
+85
+00:05:01,260 --> 00:05:04,290
+So if you hit this kettle with a stick,
+
+86
+00:05:04,290 --> 00:05:07,070
+it would emit certain sounds.
+
+87
+00:05:07,070 --> 00:05:11,410
+You can train a machine learning model using techniques we have
+
+88
+00:05:11,410 --> 00:05:15,140
+talked so far which would learn that automatically and
+
+89
+00:05:15,140 --> 00:05:18,370
+if you feed a video without sound here
+
+90
+00:05:18,370 --> 00:05:21,090
+it can automatically generate that sound that
+
+91
+00:05:21,090 --> 00:05:23,810
+would have been generated if the kettle was hit with a stick.
+
+92
+00:05:27,160 --> 00:05:30,950
+Automated image captioning is also another popular application
+
+93
+00:05:30,950 --> 00:05:37,018
+where you give the input image as this picture which is a man
+
+94
+00:05:37,018 --> 00:05:42,080
+flying a kite, and the output of the model
+
+95
+00:05:42,080 --> 00:05:47,060
+would be a text describing what is being shown in the image.
+
+96
+00:05:50,700 --> 00:05:54,200
+Another application is neuro artistic painting.
+
+97
+00:05:55,335 --> 00:05:58,850
+These allows you to take any arbitrary picture and
+
+98
+00:05:58,850 --> 00:06:02,520
+get it rendered in the style of your favourite
+
+99
+00:06:02,520 --> 00:06:06,190
+painters like Picasso or Van Gogh or whoever it might be.
+
+100
+00:06:06,190 --> 00:06:09,150
+You can learn about this technique about GitHub site
+
+101
+00:06:09,150 --> 00:06:11,580
+with the tutorial that we have, if you're curious.
+
+102
+00:06:13,420 --> 00:06:17,680
+Some more advanced applications are in generating handwriting.
+
+103
+00:06:17,680 --> 00:06:22,140
+So the first line here is the data that is provided,
+
+104
+00:06:22,140 --> 00:06:25,840
+the handwriting that is provided by a person.
+
+105
+00:06:25,840 --> 00:06:29,090
+And rest of these are the ones that are generated by
+
+106
+00:06:29,090 --> 00:06:31,400
+the machine, and some of these look pretty neat.
+
+107
+00:06:34,140 --> 00:06:39,110
+If that's not enough, there's image generation which allows
+
+108
+00:06:39,110 --> 00:06:44,220
+you to generate images that are not real,
+
+109
+00:06:44,220 --> 00:06:47,570
+that means the original image sent was
+
+110
+00:06:47,570 --> 00:06:51,640
+used to train a model in such a way that at a later state you
+
+111
+00:06:51,640 --> 00:06:55,900
+could generate this arbitrary set of images as shown here.
+
+112
+00:06:55,900 --> 00:07:00,460
+These are call GAN, general adversarial networks.
+
+113
+00:07:00,460 --> 00:07:03,800
+And you can learn about these advance techniques
+
+114
+00:07:03,800 --> 00:07:05,410
+in our Github site.
+
+115
+00:07:05,410 --> 00:07:08,770
+Tutorial where there are more advanced techniques available to
+
+116
+00:07:08,770 --> 00:07:14,360
+you however for this course these are just to kindle your
+
+117
+00:07:14,360 --> 00:07:20,540
+curiosity and build a repertoire of technologies that we will be
+
+118
+00:07:20,540 --> 00:07:24,660
+introducing at the later stage but for the foundational course,
+
+119
+00:07:24,660 --> 00:07:27,060
+we would limit ourselves to the material that we have so
+
+120
+00:07:27,060 --> 00:07:28,330
+far introduced in this video.
+
+121
+00:07:29,830 --> 00:07:34,620
+In conclusion, CNNs are widely used in computer vision
+
+122
+00:07:34,620 --> 00:07:37,480
+with increasing popularity for text processing.
+
+123
+00:07:37,480 --> 00:07:41,620
+We didn't talk about text processing at all in this video,
+
+124
+00:07:41,620 --> 00:07:44,390
+but text processing is also taking advantage of
+
+125
+00:07:44,390 --> 00:07:46,900
+convolution operations increasingly.
+
+126
+00:07:46,900 --> 00:07:49,820
+Convolutions allow for deeper architectures that
+
+127
+00:07:49,820 --> 00:07:53,700
+affects performance it improves the performance quite a bit.
+
+128
+00:07:53,700 --> 00:07:56,955
+Different CNNS of varying complexity can be easily built
+
+129
+00:07:56,955 --> 00:08:00,139
+using the toolkit that we have and you'll be using it for
+
+130
+00:08:00,139 --> 00:08:02,058
+doing your homework exercises.
+

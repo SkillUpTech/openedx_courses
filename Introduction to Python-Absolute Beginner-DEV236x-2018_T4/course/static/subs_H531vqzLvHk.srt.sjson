@@ -1,0 +1,47 @@
+{
+  "start": [
+    770, 
+    5320, 
+    6870, 
+    11470, 
+    14050, 
+    17150, 
+    19770, 
+    22480, 
+    24528, 
+    30830, 
+    33770, 
+    38840, 
+    43794
+  ], 
+  "end": [
+    5320, 
+    6870, 
+    11470, 
+    14050, 
+    17150, 
+    19770, 
+    22480, 
+    24528, 
+    27220, 
+    33770, 
+    38840, 
+    43794, 
+    44993
+  ], 
+  "text": [
+    "So welcome to the Cognitive Toolkit that we will be using", 
+    "for this course.", 
+    "You can find a lot of information at this Wiki site,", 
+    "including how to set up your machines locally.", 
+    "You'll be getting some additional", 
+    "information as a part of the course material.", 
+    "But we will be using this particular Toolkit for", 
+    "doing your homework assignments, and", 
+    "the lab exercises that come along with it.", 
+    "We also encourage you to ask questions on", 
+    "Stack Overflow with the tag CNTK as you run into issues.", 
+    "And we will be able to answer your inquiries as you go through", 
+    "this course."
+  ]
+}

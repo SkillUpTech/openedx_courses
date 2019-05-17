@@ -1,0 +1,8 @@
+<video youtube="1.00:t1Ibjp9JuG0" url_name="1489a00002ce45619b87d2146298fbdb" display_name="SyntaxError" download_track="true" download_video="true" edx_video_id="3a6f8040-1dd9-49df-9d22-8f66b1bd724a" html5_sources="[]" sub="" transcripts="{&quot;en&quot;: &quot;3a6f8040-1dd9-49df-9d22-8f66b1bd724a-en.srt&quot;}" youtube_id_1_0="t1Ibjp9JuG0">
+  <transcript language="en" src="3a6f8040-1dd9-49df-9d22-8f66b1bd724a-en.srt"/>
+  <video_asset client_video_id="Unit1_Section1.4-SyntaxNameErrors.mp4" duration="243.56">
+    <encoded_video bitrate="131" file_size="4005420" profile="mobile_low" url="https://d2f1egay8yehza.cloudfront.net/MSXIPU1X2017-V001600_MB2.mp4"/>
+    <encoded_video bitrate="227" file_size="6930258" profile="desktop_mp4" url="https://d2f1egay8yehza.cloudfront.net/MSXIPU1X2017-V001600_DTH.mp4"/>
+    <encoded_video bitrate="0" file_size="0" profile="youtube" url="t1Ibjp9JuG0"/>
+  </video_asset>
+</video>

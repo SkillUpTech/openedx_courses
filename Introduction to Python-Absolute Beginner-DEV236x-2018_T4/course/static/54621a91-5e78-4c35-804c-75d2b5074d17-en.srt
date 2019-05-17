@@ -1,0 +1,200 @@
+0
+00:00:00,990 --> 00:00:05,530
+>> Let's walk through Module 2: Required Coding.
+
+1
+00:00:05,530 --> 00:00:09,845
+And, we're going to build a fish store function.
+
+2
+00:00:09,845 --> 00:00:12,880
+And it has some requirements for the code as do
+
+3
+00:00:12,880 --> 00:00:15,220
+all of the required coding activities.
+
+4
+00:00:15,220 --> 00:00:16,360
+So we're going to have to use
+
+5
+00:00:16,360 --> 00:00:19,750
+specific keywords in order to get credit.
+
+6
+00:00:19,750 --> 00:00:21,370
+So in this one it says you're going to have
+
+7
+00:00:21,370 --> 00:00:22,840
+to define and use
+
+8
+00:00:22,840 --> 00:00:26,780
+a function that has parameters in return.
+
+9
+00:00:26,780 --> 00:00:29,275
+So that means we're going to use the def keyword,
+
+10
+00:00:29,275 --> 00:00:34,735
+that our function is going to take two arguments:
+
+11
+00:00:34,735 --> 00:00:40,925
+It's going to be the fish name and the fish price.
+
+12
+00:00:40,925 --> 00:00:44,030
+And that, it's going to return a string
+
+13
+00:00:44,030 --> 00:00:48,350
+that has a message about the fish name and price.
+
+14
+00:00:48,350 --> 00:00:50,930
+We're going to use input to get strings
+
+15
+00:00:50,930 --> 00:00:54,245
+that we'll use as the arguments for our function,
+
+16
+00:00:54,245 --> 00:00:56,420
+and we're going to print
+
+17
+00:00:56,420 --> 00:00:59,880
+the return value that comes back from the function.
+
+18
+00:00:59,880 --> 00:01:02,960
+So we'll have to do all of those things.
+
+19
+00:01:02,960 --> 00:01:07,730
+Let's look at the edX course page
+
+20
+00:01:07,730 --> 00:01:10,300
+and you can see they have those requirements there.
+
+21
+00:01:10,300 --> 00:01:13,475
+And that, we will have to go and
+
+22
+00:01:13,475 --> 00:01:17,350
+submit that when we're done with our submission tab.
+
+23
+00:01:17,350 --> 00:01:21,365
+And we should do our coding in the Jupyter Notebook,
+
+24
+00:01:21,365 --> 00:01:25,840
+or if you want to use another solution you can do that.
+
+25
+00:01:25,840 --> 00:01:27,660
+We're going to do at the Jupyter Notebook,
+
+26
+00:01:27,660 --> 00:01:30,830
+and I have preloaded a solution,
+
+27
+00:01:30,830 --> 00:01:33,845
+and I'm just going to run that code here,
+
+28
+00:01:33,845 --> 00:01:36,616
+and it ask me to enter a fish name.
+
+29
+00:01:36,616 --> 00:01:40,560
+I'm just going to say tuna.
+
+30
+00:01:40,560 --> 00:01:46,750
+And then, the price of the fish, I'll say 11.97.
+
+31
+00:01:46,750 --> 00:01:52,340
+And, we see I get this nicely formatted message back.
+
+32
+00:01:52,340 --> 00:01:54,480
+Fish type is tuna that costs
+
+33
+00:01:54,480 --> 00:01:58,770
+11.97 and that's what your code should do as well.
+
+34
+00:01:58,770 --> 00:02:04,735
+Now, let's go back to edX and paste in our code solution,
+
+35
+00:02:04,735 --> 00:02:08,720
+and we know that from our module 1 that
+
+36
+00:02:08,720 --> 00:02:13,895
+this is of primitive solution for submitting code,
+
+37
+00:02:13,895 --> 00:02:16,370
+and that it will not show you the user,
+
+38
+00:02:16,370 --> 00:02:20,210
+the indentation of the code and that's okay.
+
+39
+00:02:20,210 --> 00:02:22,255
+So it just kind of looks like that.
+
+40
+00:02:22,255 --> 00:02:24,515
+And then, when we submit it,
+
+41
+00:02:24,515 --> 00:02:28,850
+we can see, you get two attempts, I've used one.
+
+42
+00:02:28,850 --> 00:02:30,920
+So if you've missed it you've probably
+
+43
+00:02:30,920 --> 00:02:34,160
+missed one of the requirements,
+
+44
+00:02:34,160 --> 00:02:36,515
+such as a keyword like return.
+
+45
+00:02:36,515 --> 00:02:39,965
+So, go ahead, and work on that solution,
+
+46
+00:02:39,965 --> 00:02:41,800
+and submit your code.
+
+47
+00:02:41,800 --> 00:02:44,450
+But, don't forget that we're going
+
+48
+00:02:44,450 --> 00:02:47,060
+to have to use each of the keywords,
+
+49
+00:02:47,060 --> 00:02:50,730
+def return, input, and print.
+

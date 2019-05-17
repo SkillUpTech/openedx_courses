@@ -1,0 +1,140 @@
+0
+00:00:00,860 --> 00:00:04,456
+A brief recap of what we did in logistic regression.
+
+1
+00:00:04,456 --> 00:00:07,125
+In logistic regression,
+
+2
+00:00:07,125 --> 00:00:11,613
+we took the image of the handwritten digit,
+
+3
+00:00:11,613 --> 00:00:17,316
+flattened it out and then built individual classifiers
+
+4
+00:00:17,316 --> 00:00:22,666
+like ten of those tuned to detect each of the digits.
+
+5
+00:00:24,650 --> 00:00:29,554
+We did it in one go using a matrix that we learned of
+
+6
+00:00:29,554 --> 00:00:34,470
+the weights here and the corresponding biases.
+
+7
+00:00:36,400 --> 00:00:39,718
+The output of the model was passed through,
+
+8
+00:00:39,718 --> 00:00:43,306
+initially we trained with a sigmoid function,
+
+9
+00:00:43,306 --> 00:00:46,820
+which is also called an activation function.
+
+10
+00:00:47,940 --> 00:00:50,320
+And then we also tried with another one which
+
+11
+00:00:50,320 --> 00:00:51,110
+is the soft max.
+
+12
+00:00:52,270 --> 00:00:55,340
+Now the soft max one works really well,
+
+13
+00:00:55,340 --> 00:00:57,470
+especially with categorical data.
+
+14
+00:00:57,470 --> 00:00:59,500
+And we use that most often.
+
+15
+00:00:59,500 --> 00:01:03,359
+However, there is a role for these activation functions in
+
+16
+00:01:03,359 --> 00:01:07,300
+building higher-order models where we layer
+
+17
+00:01:07,300 --> 00:01:09,440
+one layer of these neurons on top of the other.
+
+18
+00:01:12,690 --> 00:01:16,140
+So, now why do you want to do logistic regression was very,
+
+19
+00:01:16,140 --> 00:01:17,550
+very clear.
+
+20
+00:01:17,550 --> 00:01:19,830
+And we were able to train a model.
+
+21
+00:01:19,830 --> 00:01:22,640
+However, if you did your assignment, and
+
+22
+00:01:22,640 --> 00:01:24,800
+you trained a logistic regression model,
+
+23
+00:01:24,800 --> 00:01:30,310
+you can use the MNIST data and see what accuracies you get.
+
+24
+00:01:30,310 --> 00:01:35,243
+You probably would get something like 7 to 8% error rate,
+
+25
+00:01:35,243 --> 00:01:37,570
+or 92 to 93% accuracy.
+
+26
+00:01:39,110 --> 00:01:42,950
+Which means if you've got 100 digits,
+
+27
+00:01:42,950 --> 00:01:46,640
+you would see about 7 or 8 of them being misclassified.
+
+28
+00:01:46,640 --> 00:01:47,140
+Is that good?
+
+29
+00:01:48,580 --> 00:01:53,350
+Well, if you are writing 100 digits on your post offices
+
+30
+00:01:53,350 --> 00:01:57,610
+using this logistic regression model to classify that
+
+31
+00:01:58,630 --> 00:02:01,560
+automatically, there's gonna be a large number
+
+32
+00:02:01,560 --> 00:02:04,030
+of letters that are gonna be delivered in the wrong place.
+
+33
+00:02:05,850 --> 00:02:08,147
+Let's see how we can fix or
+
+34
+00:02:08,147 --> 00:02:12,647
+update our model that would reduce the error rate.
+

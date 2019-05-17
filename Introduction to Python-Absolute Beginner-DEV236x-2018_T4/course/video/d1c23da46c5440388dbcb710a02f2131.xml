@@ -1,0 +1,8 @@
+<video youtube="1.00:hadVXHyBKfU" url_name="d1c23da46c5440388dbcb710a02f2131" display_name="Concept: nested conditionals " download_track="true" download_video="true" edx_video_id="040f0794-a11d-4961-9fbd-12225d1f0928" html5_sources="[]" sub="" transcripts="{&quot;en&quot;: &quot;040f0794-a11d-4961-9fbd-12225d1f0928-en.srt&quot;}" youtube_id_1_0="hadVXHyBKfU">
+  <transcript language="en" src="040f0794-a11d-4961-9fbd-12225d1f0928-en.srt"/>
+  <video_asset client_video_id="Unit1_Section6.1-nested-conditionals.mp4" duration="198.87">
+    <encoded_video bitrate="122" file_size="3057880" profile="mobile_low" url="https://d2f1egay8yehza.cloudfront.net/MSXIPU1X2017-V003900_MB2.mp4"/>
+    <encoded_video bitrate="169" file_size="4212689" profile="desktop_mp4" url="https://d2f1egay8yehza.cloudfront.net/MSXIPU1X2017-V003900_DTH.mp4"/>
+    <encoded_video bitrate="0" file_size="0" profile="youtube" url="hadVXHyBKfU"/>
+  </video_asset>
+</video>

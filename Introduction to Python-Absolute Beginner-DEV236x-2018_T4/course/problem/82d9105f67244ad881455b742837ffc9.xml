@@ -1,0 +1,10 @@
+<problem display_name="Question 1 " markdown="&lt;p&gt;&lt;code&gt;while 3 &amp;lt; 5:&lt;/code&gt; is a forever loop just like &lt;code&gt;while True:&lt;/code&gt;&lt;/p&gt;&#10;&#10;&#10;(x) True&#10;( ) False&#10;" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p><code>while 3 &lt; 5:</code> is a forever loop just like <code>while True:</code>
+</p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="true">True</choice>
+      <choice correct="false">False</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

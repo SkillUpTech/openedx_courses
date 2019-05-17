@@ -1,0 +1,9 @@
+<problem display_name="Question 1" markdown="Function names &lt;strong&gt;cannot&lt;/strong&gt; begin with a number as the first character&#10;&#10;&#10;(x) True&#10;( ) False&#10;" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p>Function names <strong>cannot</strong> begin with a number as the first character</p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="true">True</choice>
+      <choice correct="false">False</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

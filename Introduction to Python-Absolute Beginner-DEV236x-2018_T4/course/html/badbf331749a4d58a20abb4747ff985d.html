@@ -1,0 +1,45 @@
+<h3 id="int"><code>int()</code></h3>
+<p>the <strong><code>int()</code></strong> function can convert stings that represent whole counting numbers into integers and strip decimals to convert float numbers to integers</p>
+<ul>
+<li><code>int(&quot;1&quot;) = 1</code>   the string representing the integer character <code>&quot;1&quot;</code>, cast to a number</li>
+<li><code>int(5.1) = 5</code>   the decimal (float), <code>5.1</code>, truncated into a non-decimal (integer)</li>
+<li><code>int(&quot;5.1&quot;) = ValueError</code>   <code>&quot;5.1&quot;</code> isn't a string representation of integer, <code>int()</code> can cast only strings representing integer values</li>
+</ul>
+<h1 id="example">Example</h1>
+<pre><code class="language-python">weight1 = '60' # a string
+weight2 = 170 # an integer
+# add 2 integers
+total_weight = int(weight1) + weight2
+print(total_weight)
+</code></pre>
+<h1 id="task-2">Task 2</h1>
+<h2 id="casting-with-int-str">casting with <code>int()</code> &amp; <code>str()</code></h2>
+<pre><code class="language-python">str_num_1 = &quot;11&quot;
+str_num_2 = &quot;15&quot;
+int_num_3 = 10
+# [ ] Add the 3 numbers as integers and print the result
+
+
+</code></pre>
+<pre><code class="language-python">str_num_1 = &quot;11&quot;
+str_num_2 = &quot;15&quot;
+int_num_3 = 10
+# [ ] Add the 3 numbers as test strings and print the result
+
+
+</code></pre>
+<h1 id="task-2-cont">Task 2 cont...</h1>
+<h3 id="program-adding-using-int-casting">Program: adding using <code>int</code> casting</h3>
+<ul>
+<li><strong><code>[ ]</code></strong> initialize <strong><code>str_integer</code></strong> variable to a <strong>string containing characters of an integer</strong> (quotes)</li>
+<li><strong><code>[ ]</code></strong> initialize <strong><code>int_number</code></strong> variable with an <strong>integer value</strong> (no quotes)</li>
+<li><strong><code>[ ]</code></strong> initialize <strong><code>number_total</code></strong> variable and <strong>add int_number + str_integer</strong> using <strong><code>int</code></strong> casting</li>
+<li><strong><code>[ ]</code></strong> print the sum (<strong><code>number_total</code></strong>)</li>
+</ul>
+<pre><code class="language-python"># [ ] code and test: adding using int casting
+str_integer = &quot;2&quot;
+int_number = 10
+number_total = int(str_integer) + int_number
+print(number_total)
+
+</code></pre>

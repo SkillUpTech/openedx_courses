@@ -1,0 +1,160 @@
+0
+00:00:03,368 --> 00:00:06,439
+The addition operator, when used with variables,
+
+1
+00:00:06,440 --> 00:00:10,605
+is powerful because we can update and initialize new variables.
+
+2
+00:00:10,606 --> 00:00:11,105
+Let's take a look.
+
+3
+00:00:14,221 --> 00:00:21,009
+So, I'm going to assign add_two the sum of the two integers,
+
+4
+00:00:21,010 --> 00:00:25,378
+and we can run that and print the result.
+
+5
+00:00:25,379 --> 00:00:31,444
+And we can see 34+16 is 50, and we can change numbers or
+
+6
+00:00:31,445 --> 00:00:36,390
+add additional integers, and that still runs.
+
+7
+00:00:36,391 --> 00:00:42,054
+And so now I have a variable, add_two, which contains the sum, 70.
+
+8
+00:00:43,770 --> 00:00:46,137
+I can also use the string concatenation.
+
+9
+00:00:46,138 --> 00:00:51,220
+And I can have a first name in a variable as Alton.
+
+10
+00:00:51,221 --> 00:00:55,830
+And then I could have a new variable, greeting, which uses this
+
+11
+00:00:55,831 --> 00:01:01,540
+variable, Alton, and with a literal string, Happy Birthday.
+
+12
+00:01:01,541 --> 00:01:04,530
+So let's see what the print(greeting) looks like.
+
+13
+00:01:04,531 --> 00:01:05,457
+And that worked well.
+
+14
+00:01:05,458 --> 00:01:08,986
+So it's just the same as if in this spot I just put in Alton.
+
+15
+00:01:12,790 --> 00:01:17,100
+And then I can further build on that variable.
+
+16
+00:01:17,101 --> 00:01:21,841
+So, greeting, which was created by combining first_name and
+
+17
+00:01:21,842 --> 00:01:23,520
+this literal string.
+
+18
+00:01:23,521 --> 00:01:27,810
+And then I can add another literal string to that.
+
+19
+00:01:27,811 --> 00:01:30,690
+And I can say, here'ss the greeting_today, and I say,
+
+20
+00:01:30,691 --> 00:01:33,130
+today is the day, on to the end of that, and
+
+21
+00:01:33,131 --> 00:01:35,870
+we can run that and print that string.
+
+22
+00:01:35,871 --> 00:01:37,494
+Happy Birthday Alton, today is the day!
+
+23
+00:01:37,495 --> 00:01:44,388
+If I go back And I change to the first_name.
+
+24
+00:01:51,200 --> 00:01:52,653
+Now it's a Happy Birthday Colette.
+
+25
+00:01:55,592 --> 00:01:57,630
+And today is the day.
+
+26
+00:01:57,631 --> 00:02:01,180
+So, variables help us reuse the code.
+
+27
+00:02:01,181 --> 00:02:04,483
+And we can use the string concatenation
+
+28
+00:02:04,484 --> 00:02:09,085
+to build sentences that will be used in our programs and
+
+29
+00:02:09,086 --> 00:02:12,870
+inject the different variables in there.
+
+30
+00:02:12,871 --> 00:02:15,964
+So we had all these different opportunities to update
+
+31
+00:02:15,965 --> 00:02:16,932
+the variables.
+
+32
+00:02:20,215 --> 00:02:24,562
+Here's another example going back to the first, where we had add_two and
+
+33
+00:02:24,563 --> 00:02:26,287
+we saw 34 and 16 was 50.
+
+34
+00:02:26,288 --> 00:02:31,930
+And then I'm gonna reuse the add_two and combine it to itself and
+
+35
+00:02:31,931 --> 00:02:37,085
+assign that to add_four, so lets look at that.
+
+36
+00:02:37,086 --> 00:02:39,625
+Swell, so, again, this is an example,
+
+37
+00:02:39,626 --> 00:02:42,745
+same as the above with the strings but now with the integers.
+
+38
+00:02:44,135 --> 00:02:47,205
+Use the addition operator to initialize and
+
+39
+00:02:47,206 --> 00:02:48,385
+update your variables.
+
