@@ -1,0 +1,8 @@
+<video youtube="1.00:5yy8BvBzrPs" url_name="2025c4306ff14974aa7aa421c16ff90a" display_name="Video" download_track="true" download_video="true" edx_video_id="0ac371da-d2af-44a1-b6e5-3f06c7fc82ff" html5_sources="[]" sub="" transcripts="{&quot;en&quot;: &quot;0ac371da-d2af-44a1-b6e5-3f06c7fc82ff-en.srt&quot;}" youtube_id_1_0="5yy8BvBzrPs">
+  <transcript language="en" src="0ac371da-d2af-44a1-b6e5-3f06c7fc82ff-en.srt"/>
+  <video_asset client_video_id="Venn.mp4" duration="341.04">
+    <encoded_video bitrate="155" file_size="6617543" profile="mobile_low" url="https://d2f1egay8yehza.cloudfront.net/MSXLCTXX2017-V002000_MB2.mp4"/>
+    <encoded_video bitrate="175" file_size="7460460" profile="desktop_mp4" url="https://d2f1egay8yehza.cloudfront.net/MSXLCTXX2017-V002000_DTH.mp4"/>
+    <encoded_video bitrate="0" file_size="0" profile="youtube" url="5yy8BvBzrPs"/>
+  </video_asset>
+</video>

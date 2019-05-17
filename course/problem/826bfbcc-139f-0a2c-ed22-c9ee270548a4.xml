@@ -1,0 +1,15 @@
+<problem display_name="Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p/>
+    <p>Examine the following statement:<br/>
+If golf is a long walk ruined then soccer is a short run enjoyed or, all sports are hard<br/></p>
+    <label>Which of the following is the proper symbolization of that statement?<br/></label>
+    <p/>
+    <choicegroup type="MultipleChoice">
+      <choice correct="True">(G --&gt; S) v P<br/></choice>
+      <choice correct="False">G --&gt; (S &amp; P)<br/></choice>
+      <choice correct="False">(G --&gt; S) v ~P<br/></choice>
+      <choice correct="False">G v (S --&gt; P)<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

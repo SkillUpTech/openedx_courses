@@ -1,0 +1,15 @@
+<problem display_name="Checkbox" markdown="null" max_attempts="1" showanswer="never" weight="1.0">
+  <choiceresponse>
+    <p/>
+    <p/>
+    <label>Which three of the following are parts of an argument? (choose 3)<br/></label>
+    <p/>
+    <checkboxgroup>
+      <choice correct="True">Premise<br/></choice>
+      <choice correct="False">A numeral<br/></choice>
+      <choice correct="True">Conclusion<br/></choice>
+      <choice correct="False">Consequent<br/></choice>
+      <choice correct="True">Logical relation<br/></choice>
+    </checkboxgroup>
+  </choiceresponse>
+</problem>

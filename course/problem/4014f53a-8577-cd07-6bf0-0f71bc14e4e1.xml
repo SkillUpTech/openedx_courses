@@ -1,0 +1,15 @@
+<problem display_name="Checkbox" markdown="null" max_attempts="1" showanswer="never" weight="1.0">
+  <choiceresponse>
+    <p/>
+    <p/>
+    <label>Which three of the following could be a statement in logic? (choose 3)<br/></label>
+    <p/>
+    <checkboxgroup>
+      <choice correct="True">All mammals give live birth to their offspring<br/></choice>
+      <choice correct="False">Stop it!<br/></choice>
+      <choice correct="False">Would you shut the door please?<br/></choice>
+      <choice correct="True">Pluto is the third planet from the sun<br/></choice>
+      <choice correct="True">All computer programs are not created equal<br/></choice>
+    </checkboxgroup>
+  </choiceresponse>
+</problem>

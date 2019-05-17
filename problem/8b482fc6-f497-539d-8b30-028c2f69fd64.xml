@@ -1,0 +1,10 @@
+<problem display_name="2.Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p/>
+    <p>If time has no beginning, then the present moment of time is the endpoint of an infinite series of past moments of time. But it is impossible that an infinite series of things has an actual endpoint. Therefore, there must have been a first moment of time.<br/></p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">Inductive Argument<br/></choice>
+      <choice correct="True">Deductive Argument<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

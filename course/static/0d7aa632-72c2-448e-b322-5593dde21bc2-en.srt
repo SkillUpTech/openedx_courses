@@ -1,0 +1,596 @@
+0
+00:00:00,711 --> 00:00:02,700
+We've been looking at argument forms.
+
+1
+00:00:02,700 --> 00:00:05,310
+Argument forms are the structure
+
+2
+00:00:05,310 --> 00:00:07,800
+that we use to construct logical arguments.
+
+3
+00:00:07,800 --> 00:00:10,863
+In a previous lesson we looked at deductive arguments,
+
+4
+00:00:10,863 --> 00:00:13,338
+the concept of validity and invalidity, and
+
+5
+00:00:13,338 --> 00:00:14,783
+the notion of soundness.
+
+6
+00:00:14,783 --> 00:00:17,672
+Which is what we really want when we're constructing
+
+7
+00:00:17,672 --> 00:00:19,300
+deductive arguments.
+
+8
+00:00:19,300 --> 00:00:21,110
+Now we're gonna switch a little bit to look at a different
+
+9
+00:00:21,110 --> 00:00:22,030
+argument form, or
+
+10
+00:00:22,030 --> 00:00:26,100
+different argument structure, called inductive arguments.
+
+11
+00:00:26,100 --> 00:00:30,760
+Inductive arguments are not arguments of impossibility and
+
+12
+00:00:30,760 --> 00:00:33,560
+necessity, as we saw with deductive arguments, but
+
+13
+00:00:33,560 --> 00:00:35,140
+arguments of probability.
+
+14
+00:00:37,320 --> 00:00:39,170
+So these types of arguments,
+
+15
+00:00:39,170 --> 00:00:42,340
+if we assume that the premises are true.
+
+16
+00:00:42,340 --> 00:00:43,040
+All we can say
+
+17
+00:00:43,040 --> 00:00:46,450
+about the conclusion is that the conclusion is likely to be true,
+
+18
+00:00:46,450 --> 00:00:50,030
+not that it actually is true, it's likely to be true.
+
+19
+00:00:50,030 --> 00:00:52,347
+It's possible on inductive arguments,
+
+20
+00:00:52,347 --> 00:00:55,865
+given true premises that the conclusion still could be false.
+
+21
+00:00:55,865 --> 00:00:57,634
+Now inductive arguments are arguments we use all
+
+22
+00:00:57,634 --> 00:00:58,333
+the time, right?
+
+23
+00:00:58,333 --> 00:01:01,342
+These are when you're talking about what a person might like
+
+24
+00:01:01,342 --> 00:01:03,820
+or not like, what's gonna happen in the future,
+
+25
+00:01:03,820 --> 00:01:05,000
+those types of things.
+
+26
+00:01:05,000 --> 00:01:09,630
+Even certain scientific claims are inductive in nature,
+
+27
+00:01:09,630 --> 00:01:12,390
+because we cannot guarantee the truth of the conclusion even
+
+28
+00:01:12,390 --> 00:01:15,330
+though the premises are true, all right?
+
+29
+00:01:15,330 --> 00:01:18,687
+In inductive arguments as opposed to deductive arguments,
+
+30
+00:01:18,687 --> 00:01:21,260
+we talk about strength rather than validity.
+
+31
+00:01:21,260 --> 00:01:24,070
+All right, we talk about strength rather than validity.
+
+32
+00:01:24,070 --> 00:01:27,180
+Inductive arguments are all about the content
+
+33
+00:01:27,180 --> 00:01:31,000
+of the premises rather than the structure of the argument.
+
+34
+00:01:31,000 --> 00:01:33,000
+So in inductive arguments,
+
+35
+00:01:33,000 --> 00:01:34,720
+we can't tell anything by the structure.
+
+36
+00:01:34,720 --> 00:01:38,629
+In fact, the structure doesn't give us any indication
+
+37
+00:01:38,629 --> 00:01:42,537
+of the relationship of the premises to the conclusion,
+
+38
+00:01:42,537 --> 00:01:44,616
+other than the conclusion and
+
+39
+00:01:44,616 --> 00:01:48,960
+the premises being in the right relationships to each other.
+
+40
+00:01:48,960 --> 00:01:52,350
+But we can't tell anything about whether the argument is good or
+
+41
+00:01:52,350 --> 00:01:54,233
+bad solely based on the structure,
+
+42
+00:01:54,233 --> 00:01:56,600
+we have to see the content.
+
+43
+00:01:56,600 --> 00:01:59,480
+Okay, so inductive arguments then are strong or weak.
+
+44
+00:02:00,960 --> 00:02:04,810
+Again, the conclusion probably follows from the premises
+
+45
+00:02:04,810 --> 00:02:07,350
+given the fact that the premises are true.
+
+46
+00:02:07,350 --> 00:02:09,560
+Again, if we don't know whether the premises are true or false,
+
+47
+00:02:09,560 --> 00:02:12,470
+we assume they're true to see how probabilistic
+
+48
+00:02:12,470 --> 00:02:13,900
+the conclusion is.
+
+49
+00:02:13,900 --> 00:02:17,490
+And if the conclusion is likely to be false,
+
+50
+00:02:17,490 --> 00:02:18,910
+based on the truth of the premises,
+
+51
+00:02:18,910 --> 00:02:21,690
+we say the inductive argument is weak, all right?
+
+52
+00:02:21,690 --> 00:02:24,540
+So in inductive arguments we're talking about strength and
+
+53
+00:02:24,540 --> 00:02:28,100
+weakness, rather than valid or invalid.
+
+54
+00:02:28,100 --> 00:02:30,194
+You can only make a claim of strength or
+
+55
+00:02:30,194 --> 00:02:33,471
+weakness when we're talking about inductive arguments.
+
+56
+00:02:33,471 --> 00:02:34,840
+All right, so here's some examples.
+
+57
+00:02:36,280 --> 00:02:39,320
+These are obvious examples, but that's the point.
+
+58
+00:02:39,320 --> 00:02:41,860
+I wanna make the point clear to you by just giving you these
+
+59
+00:02:41,860 --> 00:02:43,160
+obvious examples.
+
+60
+00:02:43,160 --> 00:02:45,430
+This is a weak argument, a weak inductive argument.
+
+61
+00:02:45,430 --> 00:02:47,870
+This barrel contains one hundred apples.
+
+62
+00:02:47,870 --> 00:02:50,750
+Three apples selected at random were found to be ripe.
+
+63
+00:02:50,750 --> 00:02:54,130
+Therefore probably all one hundred apples are ripe.
+
+64
+00:02:54,130 --> 00:02:57,720
+Now it's possibly true that the conclusion is true,
+
+65
+00:02:57,720 --> 00:03:00,820
+it's possible that that's correct, but
+
+66
+00:03:00,820 --> 00:03:04,000
+we don't have enough data in premise two to
+
+67
+00:03:04,000 --> 00:03:07,060
+give us good reason to believe that that conclusion is true.
+
+68
+00:03:07,060 --> 00:03:10,360
+So the conclusion is only possibly true, we
+
+69
+00:03:10,360 --> 00:03:13,510
+wouldn't say it's probably true, so it's an inductive argument.
+
+70
+00:03:13,510 --> 00:03:15,641
+But it's a weak inductive argument,
+
+71
+00:03:15,641 --> 00:03:18,445
+there's just not enough samples in premise two.
+
+72
+00:03:18,445 --> 00:03:21,435
+All right, we can strengthen this up by just increasing
+
+73
+00:03:21,435 --> 00:03:22,850
+the sample size, right?
+
+74
+00:03:22,850 --> 00:03:24,345
+So in premise two now I say,
+
+75
+00:03:24,345 --> 00:03:27,525
+eighty apples selected at random were found to be ripe.
+
+76
+00:03:27,525 --> 00:03:30,119
+That now gives us a stronger reason to believe that
+
+77
+00:03:30,119 --> 00:03:33,391
+the conclusion is true, and in this inductive argument I would
+
+78
+00:03:33,391 --> 00:03:35,490
+say that the argument is in fact strong,
+
+79
+00:03:35,490 --> 00:03:38,539
+because we have increased the sample size in premise two.
+
+80
+00:03:38,539 --> 00:03:39,435
+All right, so
+
+81
+00:03:39,435 --> 00:03:42,950
+just by changing the number of apples we've reviewed,
+
+82
+00:03:42,950 --> 00:03:46,929
+we can go from a weak argument to a strong argument, all right?
+
+83
+00:03:46,929 --> 00:03:49,330
+I ask this question here, are strong arguments valid?
+
+84
+00:03:49,330 --> 00:03:53,080
+No, because validity has nothing to do with inductive arguments.
+
+85
+00:03:53,080 --> 00:03:55,173
+So when you're looking at an argument,
+
+86
+00:03:55,173 --> 00:03:58,253
+if you wanna tell whether or not the argument is inductive or
+
+87
+00:03:58,253 --> 00:04:01,087
+deductive, you have to ask yourself the question does
+
+88
+00:04:01,087 --> 00:04:04,250
+the conclusion follow with probability or with necessity?
+
+89
+00:04:04,250 --> 00:04:06,670
+Assuming the truth of the premises.
+
+90
+00:04:06,670 --> 00:04:08,696
+If the conclusion falls with probability,
+
+91
+00:04:08,696 --> 00:04:10,677
+you are looking at an inductive argument.
+
+92
+00:04:10,677 --> 00:04:13,966
+If the conclusion follows with necessity, assuming the truth of
+
+93
+00:04:13,966 --> 00:04:17,016
+the premises, then you're looking at a deductive argument
+
+94
+00:04:17,016 --> 00:04:19,912
+and you wanna check for validity and invalidity, okay?
+
+95
+00:04:19,912 --> 00:04:22,722
+Now we're looking at strength and weakness,
+
+96
+00:04:22,722 --> 00:04:26,600
+what if we wanna check for the truth value of the premises?
+
+97
+00:04:26,600 --> 00:04:28,918
+What does that give us in terms of inductive arguments?
+
+98
+00:04:28,918 --> 00:04:31,110
+Well that's the next concept here.
+
+99
+00:04:31,110 --> 00:04:34,020
+So just like we had soundness in deductive arguments,
+
+100
+00:04:34,020 --> 00:04:38,190
+in inductive arguments, we have what's called cogency.
+
+101
+00:04:38,190 --> 00:04:41,080
+This is where we have a strong inductive argument
+
+102
+00:04:41,080 --> 00:04:43,700
+that also has true premises.
+
+103
+00:04:43,700 --> 00:04:48,020
+Strong inductive argument that has true premises.
+
+104
+00:04:48,020 --> 00:04:49,810
+So let's take this argument.
+
+105
+00:04:49,810 --> 00:04:50,880
+This is strong,
+
+106
+00:04:50,880 --> 00:04:55,240
+but it's uncogent, because it has a false premise.
+
+107
+00:04:55,240 --> 00:04:58,940
+All meteorites found to this day have contained gold.
+
+108
+00:04:58,940 --> 00:05:01,790
+Conclusion, therefore probably the next
+
+109
+00:05:01,790 --> 00:05:04,750
+meteorite will contain gold, right?
+
+110
+00:05:04,750 --> 00:05:08,850
+It's a strong argument in terms of the relationship of
+
+111
+00:05:08,850 --> 00:05:13,210
+the conclusion to the premise that we have here.
+
+112
+00:05:13,210 --> 00:05:16,713
+But because the first premise is false, it's not true that all
+
+113
+00:05:16,713 --> 00:05:19,556
+meteorites found to this day have contained gold,
+
+114
+00:05:19,556 --> 00:05:22,415
+we would say that the argument is uncogent, okay.
+
+115
+00:05:22,415 --> 00:05:24,401
+But you can still see why it would be strong,
+
+116
+00:05:24,401 --> 00:05:27,030
+assuming the truth of the first premise.
+
+117
+00:05:27,030 --> 00:05:28,780
+Let's suppose we didn't know,
+
+118
+00:05:28,780 --> 00:05:31,720
+we can only evaluate that as a strong argument.
+
+119
+00:05:31,720 --> 00:05:34,530
+Once we learn the truth of the first premise,
+
+120
+00:05:34,530 --> 00:05:37,730
+then we can call it uncogent cuz we know it's false, okay?
+
+121
+00:05:39,520 --> 00:05:41,942
+So, as we're looking at our taxonomy here,
+
+122
+00:05:41,942 --> 00:05:44,958
+as at our tool kit, we have propositions true or false.
+
+123
+00:05:44,958 --> 00:05:47,373
+Deductive arguments are valid or invalid,
+
+124
+00:05:47,373 --> 00:05:49,592
+deductive arguments can also be sound or
+
+125
+00:05:49,592 --> 00:05:52,347
+unsound based on the truth value of the premises.
+
+126
+00:05:52,347 --> 00:05:54,450
+And now we have inductive arguments.
+
+127
+00:05:54,450 --> 00:05:56,330
+Inductive arguments can be strong or weak,
+
+128
+00:05:57,600 --> 00:06:02,300
+inductive arguments also can be cogent or uncogent based on
+
+129
+00:06:02,300 --> 00:06:05,350
+the truth value of the premises and inductive arguments.
+
+130
+00:06:05,350 --> 00:06:07,970
+So now we have a really strong tool kit here.
+
+131
+00:06:07,970 --> 00:06:11,100
+We're developing a really tight tool kit for
+
+132
+00:06:11,100 --> 00:06:14,490
+constructing logical arguments, you've got your premises,
+
+133
+00:06:14,490 --> 00:06:18,240
+statements, operators, symbolization.
+
+134
+00:06:18,240 --> 00:06:20,610
+We've looked at argument forms now, deductive and
+
+135
+00:06:20,610 --> 00:06:23,890
+inductive arguments, and you can now use these tools
+
+136
+00:06:23,890 --> 00:06:27,220
+to not only construct arguments, but also to analyze.
+
+137
+00:06:27,220 --> 00:06:30,210
+In anything you're reading, if someone is making an argument,
+
+138
+00:06:30,210 --> 00:06:33,450
+you can start to pull those arguments apart to look
+
+139
+00:06:33,450 --> 00:06:38,030
+at its different components, and then do a better analytic job.
+
+140
+00:06:38,030 --> 00:06:39,870
+I'm also hoping that you're starting to see some of
+
+141
+00:06:39,870 --> 00:06:43,410
+the relationships between what we're studying in formal logic,
+
+142
+00:06:43,410 --> 00:06:45,660
+in terms of natural language and
+
+143
+00:06:45,660 --> 00:06:49,120
+applying those concepts to what we do in computer science.
+
+144
+00:06:49,120 --> 00:06:50,270
+If you're a computer programmer,
+
+145
+00:06:50,270 --> 00:06:53,350
+if you ever programmed, written a computer program itself.
+
+146
+00:06:53,350 --> 00:06:55,500
+You're gonna see some of these concepts starting to
+
+147
+00:06:55,500 --> 00:06:59,810
+come through as you're constructing those programs.
+
+148
+00:06:59,810 --> 00:07:02,650
+And we'll do more of this as we get into the rest of the course.
+

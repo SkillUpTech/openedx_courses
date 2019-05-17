@@ -1,0 +1,956 @@
+0
+00:00:00,990 --> 00:00:03,680
+All right, we've been looking at how to construct logical
+
+1
+00:00:03,680 --> 00:00:04,190
+arguments.
+
+2
+00:00:04,190 --> 00:00:06,820
+We've looked at statements and propositions.
+
+3
+00:00:06,820 --> 00:00:08,410
+We've been looking at argument form,
+
+4
+00:00:08,410 --> 00:00:10,820
+the concept of validity and invalidity.
+
+5
+00:00:10,820 --> 00:00:12,710
+We've looked at simple statements, and
+
+6
+00:00:12,710 --> 00:00:16,104
+compound statements, and symbols, replacing those simple
+
+7
+00:00:16,104 --> 00:00:20,590
+and compound statements with their symbolic representation.
+
+8
+00:00:20,590 --> 00:00:23,950
+And the final tool that I wanna present to you is looking
+
+9
+00:00:23,950 --> 00:00:24,540
+at operators.
+
+10
+00:00:24,540 --> 00:00:27,900
+We wanna look at how operators work to combine
+
+11
+00:00:27,900 --> 00:00:30,750
+simple statements into compound statements.
+
+12
+00:00:30,750 --> 00:00:34,550
+And these operators are going to be used in constructing
+
+13
+00:00:34,550 --> 00:00:37,270
+arguments in your premises in your conclusion.
+
+14
+00:00:37,270 --> 00:00:38,490
+I'm gonna give you four.
+
+15
+00:00:38,490 --> 00:00:39,743
+There are others but
+
+16
+00:00:39,743 --> 00:00:43,061
+I'm gonna give four main operators that you can use to
+
+17
+00:00:43,061 --> 00:00:46,536
+construct most arguments as you need to do that, okay?
+
+18
+00:00:46,536 --> 00:00:49,910
+So let's look at the first operator.
+
+19
+00:00:49,910 --> 00:00:52,720
+This operator's called the negation, all right?
+
+20
+00:00:52,720 --> 00:00:56,400
+It has a symbol and you can find this on most keyboards.
+
+21
+00:00:56,400 --> 00:01:00,010
+The tilde symbol is the operator for negation.
+
+22
+00:01:00,010 --> 00:01:01,710
+It looks exactly like that.
+
+23
+00:01:01,710 --> 00:01:03,230
+I don't know if you can see that,
+
+24
+00:01:03,230 --> 00:01:06,480
+you'll have to zoom in [LAUGH] on your screen there and
+
+25
+00:01:06,480 --> 00:01:07,080
+the negation.
+
+26
+00:01:07,080 --> 00:01:12,030
+All the negation does is changes the truth value of
+
+27
+00:01:12,030 --> 00:01:17,000
+the proposition that follows the negation symbol, all right?
+
+28
+00:01:17,000 --> 00:01:20,840
+So the way we would symbolize a negation is using the tilde
+
+29
+00:01:22,310 --> 00:01:25,790
+with the symbol for that proposition, all right?
+
+30
+00:01:25,790 --> 00:01:28,950
+So let's say that A stands for Ann is home.
+
+31
+00:01:28,950 --> 00:01:31,004
+The tilde in front of it means,
+
+32
+00:01:31,004 --> 00:01:34,095
+it is not the case that Ann is home, all right.
+
+33
+00:01:34,095 --> 00:01:36,520
+And that's how we would phrase this.
+
+34
+00:01:36,520 --> 00:01:39,360
+That's all the negation does is it flips the truth
+
+35
+00:01:39,360 --> 00:01:41,080
+value in our argument.
+
+36
+00:01:41,080 --> 00:01:43,380
+We would write it this way symbolically or
+
+37
+00:01:43,380 --> 00:01:44,900
+we would write it out that way.
+
+38
+00:01:44,900 --> 00:01:48,800
+We could also say not, it is not the case that Ann is home,
+
+39
+00:01:48,800 --> 00:01:52,660
+or not a is the other way that you would word this.
+
+40
+00:01:52,660 --> 00:01:55,820
+Now it's really important, the way I have it structured here,
+
+41
+00:01:55,820 --> 00:01:58,860
+the way I have it worded is actually is quite important
+
+42
+00:01:58,860 --> 00:02:01,530
+when you're constructing arguments in logic.
+
+43
+00:02:01,530 --> 00:02:04,360
+We could say Ann is not home, correct?
+
+44
+00:02:04,360 --> 00:02:07,740
+This would have exactly the same meaning, right?
+
+45
+00:02:07,740 --> 00:02:10,990
+If Ann is home is true, and we wanted to reverse that and
+
+46
+00:02:10,990 --> 00:02:13,260
+say that, it's not the case that Ann is home or
+
+47
+00:02:13,260 --> 00:02:16,126
+reverse the truth value we can say that Ann is not home.
+
+48
+00:02:16,126 --> 00:02:19,380
+But the way that I have it written here it is to say,
+
+49
+00:02:19,380 --> 00:02:21,760
+it is not the case that Ann is home.
+
+50
+00:02:21,760 --> 00:02:23,520
+Why did I write it that way?
+
+51
+00:02:23,520 --> 00:02:26,100
+Well, we wanna keep our simple sentence preserved,
+
+52
+00:02:26,100 --> 00:02:29,990
+we wanna keep Ann is home as a simple sentence
+
+53
+00:02:29,990 --> 00:02:33,360
+the way that it is without adding a new word to it.
+
+54
+00:02:33,360 --> 00:02:35,990
+Ann is home is our simple statement, if you remember
+
+55
+00:02:35,990 --> 00:02:39,390
+the lesson on simple statements earlier in the course.
+
+56
+00:02:39,390 --> 00:02:42,200
+We wanna keep that simple statement preserved.
+
+57
+00:02:42,200 --> 00:02:46,420
+And we negate it by simply saying, it is not the case that.
+
+58
+00:02:46,420 --> 00:02:48,961
+Right, and that's gonna be very important when we're
+
+59
+00:02:48,961 --> 00:02:51,829
+constructing logical arguments because if you start changing
+
+60
+00:02:51,829 --> 00:02:54,654
+the sentences, if you start changing the simple sentences.
+
+61
+00:02:54,654 --> 00:02:57,572
+You're gonna lose track of what simple sentences you're
+
+62
+00:02:57,572 --> 00:02:58,870
+working with.
+
+63
+00:02:58,870 --> 00:03:03,080
+So always stated as not a or it is not the case that and
+
+64
+00:03:03,080 --> 00:03:04,030
+then your simple sentence.
+
+65
+00:03:04,030 --> 00:03:05,450
+Ann is home, Bob is home,
+
+66
+00:03:05,450 --> 00:03:07,460
+the grass is green whatever it is, right?
+
+67
+00:03:07,460 --> 00:03:09,760
+Try to keep your simple sentences preserved, so
+
+68
+00:03:09,760 --> 00:03:14,640
+the negation symbol will be structured exactly like that.
+
+69
+00:03:14,640 --> 00:03:15,980
+All right so, that's the first
+
+70
+00:03:15,980 --> 00:03:18,180
+symbol that we're gonna be concerned with, the negation.
+
+71
+00:03:19,520 --> 00:03:21,640
+The second one is called the conjunction,
+
+72
+00:03:21,640 --> 00:03:23,360
+the conjunction symbol.
+
+73
+00:03:23,360 --> 00:03:25,570
+And this is the and operator.
+
+74
+00:03:27,990 --> 00:03:31,310
+In logic, you can use an ampersand or a dot.
+
+75
+00:03:31,310 --> 00:03:35,110
+In some older logic textbooks, you'll see an ampersand used.
+
+76
+00:03:35,110 --> 00:03:37,880
+Modern textbooks tend to use the little dot symbol.
+
+77
+00:03:37,880 --> 00:03:40,480
+If you're a computer programmer, again you're gonna see some of
+
+78
+00:03:40,480 --> 00:03:44,590
+these symbols starting to show up in formal logic, ones that
+
+79
+00:03:44,590 --> 00:03:48,080
+you already are used to using in computer programming.
+
+80
+00:03:48,080 --> 00:03:51,460
+They operate exactly the same way, right?
+
+81
+00:03:51,460 --> 00:03:54,050
+So in a conjunction, I'll go back
+
+82
+00:03:54,050 --> 00:03:57,580
+to the bottom here the under the example, Ann is home.
+
+83
+00:03:57,580 --> 00:04:01,555
+A simple statement and we join it to another simple statement,
+
+84
+00:04:01,555 --> 00:04:02,381
+Bob is home.
+
+85
+00:04:02,381 --> 00:04:06,251
+We can symbolize that as A & B or A.B and we're simply
+
+86
+00:04:06,251 --> 00:04:10,560
+joining two simple statements by using that and operator.
+
+87
+00:04:12,080 --> 00:04:13,890
+This is called a conjunction.
+
+88
+00:04:13,890 --> 00:04:15,760
+Ann is home and Bob is home,
+
+89
+00:04:15,760 --> 00:04:19,258
+is called a conjunction, a compound statement.
+
+90
+00:04:19,258 --> 00:04:23,800
+And each simple
+
+91
+00:04:23,800 --> 00:04:28,300
+statement in the conjunction is called a conjunct.
+
+92
+00:04:28,300 --> 00:04:31,520
+So I'm gonna say, Ann is home is a conjunct.
+
+93
+00:04:31,520 --> 00:04:33,640
+Bob is home is a conjunct.
+
+94
+00:04:33,640 --> 00:04:36,840
+In the conjunction, Ann is home and Bob is home.
+
+95
+00:04:36,840 --> 00:04:39,595
+Right, so when you're referring to parts of a conjunction,
+
+96
+00:04:39,595 --> 00:04:42,340
+you're gonna refer to those parts as conjunct.
+
+97
+00:04:42,340 --> 00:04:44,830
+When you're referring to the simple statements,
+
+98
+00:04:44,830 --> 00:04:46,330
+each simple statements is a conjunct.
+
+99
+00:04:47,410 --> 00:04:49,960
+By the way, you can have multiple simple statements
+
+100
+00:04:49,960 --> 00:04:53,290
+conjoined using the symbols here, right?
+
+101
+00:04:53,290 --> 00:04:57,711
+You could say, Ann is home and Bob is home, and Kyle is out,
+
+102
+00:04:57,711 --> 00:04:59,880
+and John is swimming.
+
+103
+00:04:59,880 --> 00:05:04,020
+Now you've got a conjunction with four conjuncts and
+
+104
+00:05:04,020 --> 00:05:06,220
+each will have it's own truth value and
+
+105
+00:05:07,550 --> 00:05:11,360
+those will work together to give the entire conjunction
+
+106
+00:05:11,360 --> 00:05:13,960
+a single truth value of true or false, right?
+
+107
+00:05:13,960 --> 00:05:17,340
+So that's the second operator that you're going to be using.
+
+108
+00:05:17,340 --> 00:05:19,340
+Conjunction, first one was negation,
+
+109
+00:05:19,340 --> 00:05:21,563
+now let's go to our third one.
+
+110
+00:05:21,563 --> 00:05:24,796
+This is the disjunction operator.
+
+111
+00:05:24,796 --> 00:05:30,885
+This is the or operator in our tool kit,
+
+112
+00:05:30,885 --> 00:05:34,545
+so the or operator uses the v on your keyboard or
+
+113
+00:05:34,545 --> 00:05:37,195
+if you're writing it out, you just write it out like a v,
+
+114
+00:05:37,195 --> 00:05:38,615
+it's called a wedge in logic.
+
+115
+00:05:39,885 --> 00:05:43,410
+And it's constructed very similarly to the conjunction,
+
+116
+00:05:43,410 --> 00:05:46,297
+only the way that the truth value works is gonna be
+
+117
+00:05:46,297 --> 00:05:47,083
+different.
+
+118
+00:05:47,083 --> 00:05:50,560
+So here we have Ann is home or Bob is home.
+
+119
+00:05:50,560 --> 00:05:52,510
+Each will have it's own truth value.
+
+120
+00:05:52,510 --> 00:05:54,530
+It creates a compound sentence,
+
+121
+00:05:54,530 --> 00:05:57,250
+a compound statement, joined by that conjunction.
+
+122
+00:05:58,580 --> 00:06:01,450
+Sorry, joined by that disjunction symbol and
+
+123
+00:06:01,450 --> 00:06:04,090
+then, the whole thing is called a disjunction.
+
+124
+00:06:04,090 --> 00:06:07,750
+As in conjunction, each part of the disjunction
+
+125
+00:06:07,750 --> 00:06:10,210
+has a specific name called the disjunct.
+
+126
+00:06:10,210 --> 00:06:11,910
+So Ann is home.
+
+127
+00:06:11,910 --> 00:06:13,300
+Simple statement,
+
+128
+00:06:13,300 --> 00:06:17,180
+that's a disjunct in the disjunction compound sentence.
+
+129
+00:06:17,180 --> 00:06:19,140
+And Bob is home is also a disjunct.
+
+130
+00:06:19,140 --> 00:06:22,610
+And we can refer to each of those parts
+
+131
+00:06:22,610 --> 00:06:24,679
+as a disjunct when we're talking through the argument.
+
+132
+00:06:25,990 --> 00:06:28,710
+Notice that we can combine disjunction and conjunction.
+
+133
+00:06:28,710 --> 00:06:32,770
+We can say Ann is home or Bob is home and
+
+134
+00:06:32,770 --> 00:06:34,530
+Kyle is swimming, right?
+
+135
+00:06:34,530 --> 00:06:37,590
+Now, we've combined the conjunction with
+
+136
+00:06:37,590 --> 00:06:38,550
+the disjunction.
+
+137
+00:06:38,550 --> 00:06:40,640
+We can also throw in negation in there if we wanted to.
+
+138
+00:06:40,640 --> 00:06:44,860
+We could say Ann is home or Bob is home and Kyle is swimming,
+
+139
+00:06:44,860 --> 00:06:49,170
+but it is not the case that Susie is riding her bike, right?
+
+140
+00:06:49,170 --> 00:06:52,450
+So we can bring all of these operators together to
+
+141
+00:06:52,450 --> 00:06:53,970
+create more complex,
+
+142
+00:06:53,970 --> 00:06:57,973
+compound statements and each of these has its truth value.
+
+143
+00:06:57,973 --> 00:07:01,364
+Now I want to just take a moment to look at how truth value works
+
+144
+00:07:01,364 --> 00:07:03,400
+in each of these scenarios.
+
+145
+00:07:03,400 --> 00:07:05,910
+So let's took at conjunction again.
+
+146
+00:07:05,910 --> 00:07:09,140
+Suppose I said, Ann is home is true and
+
+147
+00:07:09,140 --> 00:07:12,950
+Bob is home is true, what is the truth value, do you think of
+
+148
+00:07:12,950 --> 00:07:18,260
+the entire compound statement, the conjunction as a whole?
+
+149
+00:07:18,260 --> 00:07:21,430
+Well, if both conjuncts are true,
+
+150
+00:07:21,430 --> 00:07:24,560
+doesn't it seem the entire conjunction would be true.
+
+151
+00:07:24,560 --> 00:07:26,750
+If we're gonna say Ann is home and Bob is home and
+
+152
+00:07:26,750 --> 00:07:28,250
+Ann is home is true and Bob is home is true,
+
+153
+00:07:28,250 --> 00:07:29,770
+the whole thing would be true, right?
+
+154
+00:07:29,770 --> 00:07:33,090
+Because both simple statements are true.
+
+155
+00:07:33,090 --> 00:07:35,770
+Now let's change Bob is home to false.
+
+156
+00:07:35,770 --> 00:07:38,990
+Ann is home and Bob is home but Bob is home is actually
+
+157
+00:07:38,990 --> 00:07:41,530
+false, what do you think the truth value of the entire
+
+158
+00:07:41,530 --> 00:07:43,300
+conjunction would be.
+
+159
+00:07:43,300 --> 00:07:45,950
+Intuitively, doesn't it seem it would be false because now we're
+
+160
+00:07:45,950 --> 00:07:49,450
+saying that these statements since one of them is false,
+
+161
+00:07:49,450 --> 00:07:51,580
+the whole thing has to be false.
+
+162
+00:07:51,580 --> 00:07:55,400
+So in that condition, the entire conjunction would have
+
+163
+00:07:55,400 --> 00:07:59,340
+a truth value of false because one of the conjuncts is false.
+
+164
+00:07:59,340 --> 00:08:01,990
+We can do the same thing with disjunction, right?
+
+165
+00:08:01,990 --> 00:08:04,587
+Ann is home or Bob is home.
+
+166
+00:08:04,587 --> 00:08:06,334
+Let's suppose both are true,
+
+167
+00:08:06,334 --> 00:08:09,990
+it would seem that the entire disjunction is true.
+
+168
+00:08:09,990 --> 00:08:12,420
+Now let's change Bob is home to false.
+
+169
+00:08:12,420 --> 00:08:14,040
+Ann is home or Bob is home.
+
+170
+00:08:14,040 --> 00:08:15,390
+What are your intuitions tell you?
+
+171
+00:08:16,440 --> 00:08:21,260
+Actually in a disjunction, if either disjunct is true,
+
+172
+00:08:21,260 --> 00:08:23,268
+then the entire disjunction is true still, right.
+
+173
+00:08:24,490 --> 00:08:28,080
+So in conjunction, it made the whole conjunction false.
+
+174
+00:08:28,080 --> 00:08:31,992
+In disjunction, we can have one of the disjuncts as false and
+
+175
+00:08:31,992 --> 00:08:34,995
+still the whole disjunction is true, right.
+
+176
+00:08:34,995 --> 00:08:36,860
+Cuz think about that intuitively.
+
+177
+00:08:36,860 --> 00:08:38,050
+Ann is home or Bob is home.
+
+178
+00:08:38,050 --> 00:08:39,520
+Bob is home is false.
+
+179
+00:08:39,520 --> 00:08:42,970
+Ann is home is true, the disjunction is still true.
+
+180
+00:08:42,970 --> 00:08:46,380
+Now, if we changed both to false, Ann is home is false, and
+
+181
+00:08:46,380 --> 00:08:50,190
+Bob is home is false, then the whole disjunction becomes false,
+
+182
+00:08:50,190 --> 00:08:54,250
+right, that we have an intuition that that's a false statement.
+
+183
+00:08:54,250 --> 00:08:57,740
+Right, so that's how truth value relates to our symbols, and
+
+184
+00:08:57,740 --> 00:09:02,130
+our operators in constructing logical arguments.
+
+185
+00:09:02,130 --> 00:09:06,440
+So we have negation, we have conjunction, we have disjunction
+
+186
+00:09:06,440 --> 00:09:09,390
+and I'm going to give you one more called the conditional.
+
+187
+00:09:09,390 --> 00:09:13,060
+This is a very important construct in logic and
+
+188
+00:09:13,060 --> 00:09:15,380
+you'll use it pretty heavily when you're creating arguments.
+
+189
+00:09:16,590 --> 00:09:20,660
+Under the conditional, you'll use the arrow or the horseshoe.
+
+190
+00:09:20,660 --> 00:09:23,930
+You can use either, again, modern textbooks generally
+
+191
+00:09:23,930 --> 00:09:29,200
+go with the arrow symbol for the conditional.
+
+192
+00:09:29,200 --> 00:09:31,528
+They're called horseshoe [LAUGH] and arrow,
+
+193
+00:09:31,528 --> 00:09:33,570
+obviously under the symbol name.
+
+194
+00:09:33,570 --> 00:09:36,010
+The construction is down here at the bottom,
+
+195
+00:09:36,010 --> 00:09:37,700
+if you look under the example.
+
+196
+00:09:37,700 --> 00:09:40,360
+If Ann is home then, Bob is home.
+
+197
+00:09:40,360 --> 00:09:42,720
+That's how we write a conditional.
+
+198
+00:09:42,720 --> 00:09:45,610
+The way that is symbolized is you put the first symbol
+
+199
+00:09:45,610 --> 00:09:48,150
+sentence before the operator.
+
+200
+00:09:48,150 --> 00:09:51,750
+So here we have A horseshoe B or A arrow B.
+
+201
+00:09:51,750 --> 00:09:56,290
+A is the first simple statement, B is the second.
+
+202
+00:09:56,290 --> 00:10:00,030
+And the B follows what would be essentially the then statement
+
+203
+00:10:00,030 --> 00:10:01,316
+if we were writing it out in English, okay.
+
+204
+00:10:03,320 --> 00:10:06,330
+The conjunction and the disjunction,
+
+205
+00:10:07,390 --> 00:10:12,760
+each part of the conditional has a specific label,
+
+206
+00:10:12,760 --> 00:10:15,450
+a name that logicians have given it. okay.
+
+207
+00:10:15,450 --> 00:10:17,320
+The part that follows the if or
+
+208
+00:10:17,320 --> 00:10:20,860
+the part that comes before the symbol is called the antecedent.
+
+209
+00:10:22,810 --> 00:10:26,950
+So that would be the A or Ann is home in our example here.
+
+210
+00:10:26,950 --> 00:10:29,050
+That's called the antecedent.
+
+211
+00:10:29,050 --> 00:10:32,050
+The simple statement that follows the horseshoe,
+
+212
+00:10:32,050 --> 00:10:34,010
+follows the symbol or
+
+213
+00:10:34,010 --> 00:10:38,090
+follows the then in English, is called the consequent.
+
+214
+00:10:38,090 --> 00:10:41,730
+Right, the antecedent and the consequent.
+
+215
+00:10:41,730 --> 00:10:45,730
+Right, so here Bob is home then function is in the consequent.
+
+216
+00:10:45,730 --> 00:10:48,370
+Ann is home, function as the antecedent.
+
+217
+00:10:48,370 --> 00:10:51,510
+And it's always written that way, okay?
+
+218
+00:10:51,510 --> 00:10:54,710
+Now, notice too that the simple statement does not include
+
+219
+00:10:54,710 --> 00:10:59,550
+the if, the if is a part of the symbol itself,
+
+220
+00:10:59,550 --> 00:11:01,100
+the operator itself.
+
+221
+00:11:01,100 --> 00:11:02,130
+So if I were to ask you,
+
+222
+00:11:02,130 --> 00:11:05,740
+what is the antecedent of the example down here below?
+
+223
+00:11:05,740 --> 00:11:06,390
+You would say,
+
+224
+00:11:06,390 --> 00:11:10,650
+the antecedent is, Ann is home, not if Ann is home.
+
+225
+00:11:10,650 --> 00:11:13,860
+You leave the if and the then off the simple statements.
+
+226
+00:11:13,860 --> 00:11:16,383
+The consequent of this statement here,
+
+227
+00:11:16,383 --> 00:11:20,400
+this conditional is Bob is home not then Bob is home, all right?
+
+228
+00:11:20,400 --> 00:11:23,275
+The if and the then are a part of the operator,
+
+229
+00:11:23,275 --> 00:11:27,390
+they don't get included in the simple statements, all right?
+
+230
+00:11:27,390 --> 00:11:29,580
+Now again, you can add other operators here.
+
+231
+00:11:29,580 --> 00:11:34,100
+And say if Ann is home then Bob is home and Kyle is swimming,
+
+232
+00:11:34,100 --> 00:11:38,625
+right, you can group those together to use the symbols and
+
+233
+00:11:38,625 --> 00:11:42,336
+the operators in conjunction with each other.
+
+234
+00:11:42,336 --> 00:11:44,490
+All right, so those are four operators.
+
+235
+00:11:44,490 --> 00:11:47,660
+You can use these operators to build compound statements
+
+236
+00:11:47,660 --> 00:11:50,200
+that then you can use in your logical arguments.
+
+237
+00:11:50,200 --> 00:11:52,880
+As we get further into the course, your gonna see how these
+
+238
+00:11:52,880 --> 00:11:57,110
+operators are used to build arguments.
+

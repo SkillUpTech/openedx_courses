@@ -1,0 +1,26 @@
+<problem display_name="Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p/>
+    <p>Examine the following statement:<br/>
+If pepper is a spice and butter is a fat, then either this dish is too spicy or it needs more butter and then it will be perfect.<br/></p>
+    <label>How many simple statements are in the compound statement above?<br/></label>
+    <p/>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">2<br/></choice>
+      <choice correct="False">3<br/></choice>
+      <choice correct="False">4<br/></choice>
+      <choice correct="True">5<br/></choice>
+      <choice correct="False">6<br/></choice>
+    </choicegroup>
+    <p/>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p/>
+        <p>The simple statements are:<br/>
+<ol><li>pepper is a spice</li><li>butter is a fat</li><li>this dish is too spicy</li><li>it needs more butter</li><li>it will be perfect</li></ol>
+</p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

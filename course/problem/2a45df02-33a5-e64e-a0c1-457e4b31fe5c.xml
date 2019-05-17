@@ -1,0 +1,15 @@
+<problem display_name="3.Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p>Consider this colloquial (common) statement:<br/>
+"Any critical thinker accepts criticism calmly and rationally"<br/></p>
+    <label>Which one of the following is the proper translation of the above statement into <strong>standard A form</strong><br/></label>
+    <p/>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">Some critical thinkers are calm and rational<br/></choice>
+      <choice correct="False">All critical thinkers are calm and rational when faced with criticism<br/></choice>
+      <choice correct="True">All critical thinkers are persons who accept criticism calmly and rationally<br/></choice>
+      <choice correct="False">Any calm and rational person when faced with criticism is a critical thinker<br/></choice>
+    </choicegroup>
+    <p/>
+  </multiplechoiceresponse>
+</problem>

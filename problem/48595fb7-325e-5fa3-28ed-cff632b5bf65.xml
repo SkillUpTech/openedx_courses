@@ -1,0 +1,16 @@
+<problem display_name="Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p/>
+    <p>Consider the following argument:<br/>
+Premise 1: If the dog has fleas, the dog scratches itself<br/>
+Premise 2:<br/>
+Conclusion: Therefore, the dog scratches itself<br/></p>
+    <label>Which of the following would be the most likely second proposition to complete the argument?<br/></label>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">Fleas are biting the dog<br/></choice>
+      <choice correct="False">Dogs like to scratch fleas<br/></choice>
+      <choice correct="True">The dog has fleas<br/></choice>
+      <choice correct="False">The dog does not have fleas<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

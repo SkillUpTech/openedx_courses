@@ -1,0 +1,9 @@
+<problem display_name="8.Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p>Under the test conditions, blue litmus paper only turns red in the presence of an acid; never otherwise. We just dipped blue litmus paper into the unknown substance S, and the paper turned red. Therefore, substance S must be an acid.<br/></p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">Inductive Argument<br/></choice>
+      <choice correct="True">Deductive Argument<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

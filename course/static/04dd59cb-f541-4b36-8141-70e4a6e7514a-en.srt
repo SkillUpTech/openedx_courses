@@ -1,0 +1,988 @@
+0
+00:00:01,898 --> 00:00:02,725
+In this video,
+
+1
+00:00:02,725 --> 00:00:06,550
+I'm going to show you how to constructing user truth table.
+
+2
+00:00:06,550 --> 00:00:10,420
+You recall from a previous topic that truth tables are used
+
+3
+00:00:10,420 --> 00:00:14,150
+to determine whether an overall argument is true or false.
+
+4
+00:00:14,150 --> 00:00:16,692
+So when you're making a declarative statement and
+
+5
+00:00:16,692 --> 00:00:19,351
+statement of truth, for example something simple,
+
+6
+00:00:19,351 --> 00:00:22,201
+the sky is blue, that statement is either true or false.
+
+7
+00:00:22,201 --> 00:00:24,616
+And you can assign it a truth value of t or f and
+
+8
+00:00:24,616 --> 00:00:28,010
+that's pretty clear, we understand what that means.
+
+9
+00:00:28,010 --> 00:00:30,460
+You wanna do the same thing for entire arguments.
+
+10
+00:00:30,460 --> 00:00:32,921
+And so, what we're gonna do is look at a truth table and
+
+11
+00:00:32,921 --> 00:00:35,489
+how a truth table can help you determine the overall truth
+
+12
+00:00:35,489 --> 00:00:37,430
+value of an argument.
+
+13
+00:00:37,430 --> 00:00:39,792
+I did also describe this in written form in a previous
+
+14
+00:00:39,792 --> 00:00:42,313
+topic, so if you wanna see the written version of this,
+
+15
+00:00:42,313 --> 00:00:44,314
+you can go back and take a look at that topic.
+
+16
+00:00:44,314 --> 00:00:46,368
+There are also some concepts in here,
+
+17
+00:00:46,368 --> 00:00:49,320
+we're gonna look at compound statements, and how you
+
+18
+00:00:49,320 --> 00:00:53,060
+determine the overall truth value of a compound statement.
+
+19
+00:00:53,060 --> 00:00:54,680
+I'm assuming that you know what that means.
+
+20
+00:00:54,680 --> 00:00:56,800
+We've looked at this in previous lesson, so
+
+21
+00:00:56,800 --> 00:00:58,700
+if you need to go back and review that.
+
+22
+00:00:58,700 --> 00:01:00,310
+Before you watch the video,
+
+23
+00:01:00,310 --> 00:01:02,930
+I'd take some time to look at those concepts first and
+
+24
+00:01:02,930 --> 00:01:05,200
+then the video will make a lot more sense.
+
+25
+00:01:05,200 --> 00:01:07,523
+But as we look at this truth table, what we're gonna do is,
+
+26
+00:01:07,523 --> 00:01:09,060
+this is our argument here on the right.
+
+27
+00:01:09,060 --> 00:01:13,038
+And we're gonna look at how you can get to a single truth value
+
+28
+00:01:13,038 --> 00:01:16,860
+for that over all argument by breaking the pieces down into
+
+29
+00:01:16,860 --> 00:01:19,200
+individual components.
+
+30
+00:01:19,200 --> 00:01:21,010
+And as you can see in the argument,
+
+31
+00:01:21,010 --> 00:01:22,990
+we're using a number of variables.
+
+32
+00:01:22,990 --> 00:01:26,451
+Our variables are listed in the table on the left-hand side.
+
+33
+00:01:26,451 --> 00:01:29,300
+And the left-hand side is sort of like a ledger.
+
+34
+00:01:29,300 --> 00:01:32,610
+Just tells us what variables we're using and
+
+35
+00:01:32,610 --> 00:01:35,400
+what truth values those variables we're gonna have.
+
+36
+00:01:35,400 --> 00:01:40,489
+Then we're gonna use those values in the argument itself.
+
+37
+00:01:40,489 --> 00:01:42,352
+So that's really what a truth table looks like.
+
+38
+00:01:42,352 --> 00:01:45,204
+We're gonna have one more row in this truth table, and
+
+39
+00:01:45,204 --> 00:01:47,932
+you'll see how those rows can help us determine what
+
+40
+00:01:47,932 --> 00:01:50,590
+the overall truth value of the argument is.
+
+41
+00:01:50,590 --> 00:01:52,060
+So let's get started.
+
+42
+00:01:52,060 --> 00:01:56,260
+The first thing we wanna do is assign our variables values,
+
+43
+00:01:56,260 --> 00:01:57,605
+our truth values.
+
+44
+00:01:57,605 --> 00:02:02,360
+We wanna sign each variable a specific truth value.
+
+45
+00:02:02,360 --> 00:02:04,990
+Now in this example, all of this is completely arbitrary.
+
+46
+00:02:04,990 --> 00:02:08,890
+These values, these variables aren't referencing or
+
+47
+00:02:08,890 --> 00:02:11,510
+pointing to any specific propositions.
+
+48
+00:02:11,510 --> 00:02:14,440
+I just picked the letters p, q, r, s, and t.
+
+49
+00:02:14,440 --> 00:02:17,154
+And I'm gonna randomly assign them truth values.
+
+50
+00:02:17,154 --> 00:02:19,077
+When you're analyzing an argument,
+
+51
+00:02:19,077 --> 00:02:22,200
+you're gonna assign your propositions variables.
+
+52
+00:02:22,200 --> 00:02:24,490
+And you're gonna work to determine what the truth value
+
+53
+00:02:24,490 --> 00:02:28,480
+or possible truth value is of those propositions.
+
+54
+00:02:28,480 --> 00:02:31,730
+And that's how you'll proceed to analyze your argument.
+
+55
+00:02:31,730 --> 00:02:33,590
+But this this argument is completely arbitrary and
+
+56
+00:02:33,590 --> 00:02:36,220
+just used for the purposes of this example.
+
+57
+00:02:36,220 --> 00:02:37,771
+So let's take a look at what this will look like.
+
+58
+00:02:40,442 --> 00:02:44,100
+So here I have assigned truth values to each of our variables.
+
+59
+00:02:44,100 --> 00:02:47,030
+Again, this is some arbitrary, I just assigned true
+
+60
+00:02:47,030 --> 00:02:51,300
+to the variable p, false to the variable q and so forth.
+
+61
+00:02:51,300 --> 00:02:53,870
+And these truth values are gonna get us started with this whole
+
+62
+00:02:53,870 --> 00:02:56,660
+process of using a truth table to determine the truth
+
+63
+00:02:56,660 --> 00:02:57,410
+value of the argument.
+
+64
+00:02:57,410 --> 00:03:00,310
+We have to have a way to kinda prime the pump and
+
+65
+00:03:00,310 --> 00:03:03,870
+that's what we're doing by assigning these values, okay?
+
+66
+00:03:03,870 --> 00:03:07,280
+Now the next step that I'm gonna do is carry those values
+
+67
+00:03:07,280 --> 00:03:08,380
+into the argument itself.
+
+68
+00:03:08,380 --> 00:03:11,520
+Since we know what each variable is assigned,
+
+69
+00:03:11,520 --> 00:03:13,280
+the truth value of each variable,
+
+70
+00:03:13,280 --> 00:03:17,710
+we can then use those values to look at our argument itself.
+
+71
+00:03:17,710 --> 00:03:20,630
+So let's do that next, let's carry these values over
+
+72
+00:03:20,630 --> 00:03:22,945
+into the argument and that will allow us to get started.
+
+73
+00:03:24,735 --> 00:03:28,200
+So there you have it, so now I've just taken the values for
+
+74
+00:03:28,200 --> 00:03:29,685
+each of the variables and
+
+75
+00:03:29,685 --> 00:03:33,165
+put them under the variable in the argument itself.
+
+76
+00:03:33,165 --> 00:03:36,675
+So here I've taken obviously the T from p and
+
+77
+00:03:36,675 --> 00:03:38,675
+put that under the p in the argument.
+
+78
+00:03:38,675 --> 00:03:40,625
+I've taken the false from q and
+
+79
+00:03:40,625 --> 00:03:44,320
+put the false under the q in the argument itself.
+
+80
+00:03:44,320 --> 00:03:47,077
+Now what we've done here is since we know what the variable
+
+81
+00:03:47,077 --> 00:03:47,696
+values are,
+
+82
+00:03:47,696 --> 00:03:50,298
+that allows us to now work on the compound statements.
+
+83
+00:03:50,298 --> 00:03:52,952
+And again if you don't know what that means, you'll need to go
+
+84
+00:03:52,952 --> 00:03:55,405
+back into a previous lesson and take a look at that lesson so
+
+85
+00:03:55,405 --> 00:03:58,180
+you understand what we're talking about there.
+
+86
+00:03:58,180 --> 00:04:01,276
+But now that we know the values for the variables,
+
+87
+00:04:01,276 --> 00:04:03,783
+we can start to break apart the values for
+
+88
+00:04:03,783 --> 00:04:06,305
+the individual compounds statements.
+
+89
+00:04:07,400 --> 00:04:09,409
+When you're working on an argument, or
+
+90
+00:04:09,409 --> 00:04:12,245
+when you're working on a truth table, liking algebra,
+
+91
+00:04:12,245 --> 00:04:14,843
+or other mathematics, you're gonna look at the way
+
+92
+00:04:14,843 --> 00:04:17,920
+that the parenthesis, and brackets are assigned.
+
+93
+00:04:17,920 --> 00:04:19,680
+And you're gonna work from the inside out.
+
+94
+00:04:19,680 --> 00:04:21,690
+You wanna work on what's called the operator
+
+95
+00:04:21,690 --> 00:04:23,370
+of the smallest scope.
+
+96
+00:04:23,370 --> 00:04:25,730
+Another way to think about the operator of the smallest scope
+
+97
+00:04:25,730 --> 00:04:28,010
+is that, it's the operator that has the least
+
+98
+00:04:28,010 --> 00:04:31,030
+impact on the other variables in the argument.
+
+99
+00:04:31,030 --> 00:04:35,920
+So as we look at this argument, obviously there's a disjunction,
+
+100
+00:04:35,920 --> 00:04:37,180
+we can see here.
+
+101
+00:04:37,180 --> 00:04:40,920
+There's two conjunctions, and there's a conditional.
+
+102
+00:04:40,920 --> 00:04:43,760
+Right, so we have four compound statements that we're gonna have
+
+103
+00:04:43,760 --> 00:04:44,770
+to work on.
+
+104
+00:04:44,770 --> 00:04:46,570
+And we can see that the parentheses and the brackets
+
+105
+00:04:46,570 --> 00:04:49,620
+help us determine which is the operator of the small scope.
+
+106
+00:04:49,620 --> 00:04:52,560
+And hopefully, your eyes went to this guy right here,
+
+107
+00:04:52,560 --> 00:04:55,450
+this innermost disjunction.
+
+108
+00:04:55,450 --> 00:04:58,010
+So that's the one that we'll start to work on
+
+109
+00:04:58,010 --> 00:05:00,070
+as we work through this argument, okay?
+
+110
+00:05:00,070 --> 00:05:02,730
+So we're gonna work on the operator of the small scope and
+
+111
+00:05:02,730 --> 00:05:05,320
+then work outward to help us figure out what the overall
+
+112
+00:05:05,320 --> 00:05:06,090
+argument is.
+
+113
+00:05:06,090 --> 00:05:08,490
+All right, so let me get rid of some of the text here.
+
+114
+00:05:08,490 --> 00:05:12,203
+So now let's work on that first argument, or sorry,
+
+115
+00:05:12,203 --> 00:05:14,570
+that first compound statement.
+
+116
+00:05:14,570 --> 00:05:16,510
+So we have a false for r and
+
+117
+00:05:16,510 --> 00:05:20,100
+a T for s, and those of the are variables which
+
+118
+00:05:20,100 --> 00:05:22,400
+the truth now is being assign to the variables.
+
+119
+00:05:22,400 --> 00:05:25,100
+And now we need to figure out with the overall truth value is
+
+120
+00:05:25,100 --> 00:05:26,850
+for that disjunction.
+
+121
+00:05:26,850 --> 00:05:31,861
+Now you remember that the rule for disjunction says, that if
+
+122
+00:05:31,861 --> 00:05:37,176
+at least one disjunct is true, the entire disjunction is true.
+
+123
+00:05:37,176 --> 00:05:37,738
+If at least one disjunct is true,
+
+124
+00:05:37,738 --> 00:05:38,770
+the entire disjunction is true.
+
+125
+00:05:38,770 --> 00:05:41,240
+If both are false, the entire thing is false.
+
+126
+00:05:41,240 --> 00:05:42,884
+So if we look at our disjunction,
+
+127
+00:05:42,884 --> 00:05:44,248
+we have r is false but s is T.
+
+128
+00:05:44,248 --> 00:05:48,810
+So that gives us, that follows the rule one disjunct is true,
+
+129
+00:05:48,810 --> 00:05:52,740
+so we can assign the entire disjunction as true.
+
+130
+00:05:52,740 --> 00:05:56,833
+And that looks like this So
+
+131
+00:05:56,833 --> 00:06:00,977
+you can see, because we followed our rule,
+
+132
+00:06:00,977 --> 00:06:06,913
+we're gonna assign the disjunct, as a whole, the value of T,
+
+133
+00:06:06,913 --> 00:06:12,540
+or true based on the values in the disjunction, all right?
+
+134
+00:06:12,540 --> 00:06:15,910
+So that now we have our first compound statement solved for.
+
+135
+00:06:15,910 --> 00:06:17,850
+We know what the truth value of that is.
+
+136
+00:06:17,850 --> 00:06:20,000
+But we need to still continue to work on the other compound
+
+137
+00:06:20,000 --> 00:06:23,920
+statements to get to our overall argument value, truth value,
+
+138
+00:06:23,920 --> 00:06:24,630
+all right?
+
+139
+00:06:24,630 --> 00:06:25,390
+So how do we do that?
+
+140
+00:06:25,390 --> 00:06:28,130
+Well, the next one, we're gonna work outwards,
+
+141
+00:06:28,130 --> 00:06:29,340
+as I said earlier.
+
+142
+00:06:29,340 --> 00:06:33,850
+The next compound statement is gonna be this ampersand,
+
+143
+00:06:33,850 --> 00:06:35,810
+this convention.
+
+144
+00:06:35,810 --> 00:06:39,760
+And, we're gonna end up with two conjuncts in this convention.
+
+145
+00:06:39,760 --> 00:06:42,352
+The first one should be easy for you to see,
+
+146
+00:06:42,352 --> 00:06:45,520
+it's gonna be T here, and it has a value of true, but
+
+147
+00:06:45,520 --> 00:06:47,420
+what is the second conjunct?
+
+148
+00:06:47,420 --> 00:06:50,380
+Well since we solved the disjunction as a whole,
+
+149
+00:06:50,380 --> 00:06:53,840
+we no longer have to worry about these two variables.
+
+150
+00:06:53,840 --> 00:06:57,770
+We can now only focus on the value of the disjunction
+
+151
+00:06:57,770 --> 00:06:58,740
+as a whole.
+
+152
+00:06:58,740 --> 00:07:03,490
+So this disjunction value is our second conjunct
+
+153
+00:07:03,490 --> 00:07:05,680
+in the conjunction, all right?
+
+154
+00:07:05,680 --> 00:07:07,820
+And again, that follows the rules and
+
+155
+00:07:07,820 --> 00:07:09,850
+the setup that we talked about earlier.
+
+156
+00:07:09,850 --> 00:07:11,740
+So now that we have those established,
+
+157
+00:07:11,740 --> 00:07:14,540
+we know what the truth values are for both the conjuncts,
+
+158
+00:07:14,540 --> 00:07:16,570
+we can solve for the conjunction.
+
+159
+00:07:16,570 --> 00:07:19,810
+And our rule for conjunction says that if both conjuncts
+
+160
+00:07:19,810 --> 00:07:22,730
+are true, the conjunction, as a whole, is true.
+
+161
+00:07:22,730 --> 00:07:26,080
+If one or more conjuncts is false, then the conjunction,
+
+162
+00:07:26,080 --> 00:07:27,450
+as a whole, is false.
+
+163
+00:07:27,450 --> 00:07:32,160
+So as we look at our conjunction, we have a T for
+
+164
+00:07:32,160 --> 00:07:35,130
+the first conjunct and a T for the second conjunct, so
+
+165
+00:07:35,130 --> 00:07:37,850
+that means both conjuncts are true.
+
+166
+00:07:37,850 --> 00:07:39,680
+So that makes our whole conjunction true.
+
+167
+00:07:41,410 --> 00:07:43,720
+And so that's gonna look like this.
+
+168
+00:07:43,720 --> 00:07:47,140
+And now we have our value for our second conjunction.
+
+169
+00:07:47,140 --> 00:07:50,510
+So as we continue to work outwards, we're solving for
+
+170
+00:07:50,510 --> 00:07:53,250
+each of the compound statements based on the values of
+
+171
+00:07:53,250 --> 00:07:55,690
+the previous compound statements we solved for.
+
+172
+00:07:55,690 --> 00:07:56,500
+And that's why it was so
+
+173
+00:07:56,500 --> 00:07:59,960
+important to have truth values for our variables,
+
+174
+00:07:59,960 --> 00:08:02,860
+because that allows us to work on these compound statements.
+
+175
+00:08:02,860 --> 00:08:05,190
+Now again, we still don't have the overall argument yet,
+
+176
+00:08:05,190 --> 00:08:07,900
+we're still working on our statements here.
+
+177
+00:08:07,900 --> 00:08:11,624
+So we've gotta work on the next conjunction which is the next
+
+178
+00:08:11,624 --> 00:08:14,836
+one out in terms of our layers, so if we look at this,
+
+179
+00:08:14,836 --> 00:08:16,673
+we have two conjuncts again.
+
+180
+00:08:16,673 --> 00:08:19,380
+So the q is the first conjunct.
+
+181
+00:08:19,380 --> 00:08:22,416
+Again, since we solve now for the second of the first
+
+182
+00:08:22,416 --> 00:08:25,866
+conjunction, we're gonna use the overall truth value for
+
+183
+00:08:25,866 --> 00:08:28,011
+that as the second conjunct, okay.
+
+184
+00:08:28,011 --> 00:08:33,510
+So these two now become the conjuncts for this conjunction.
+
+185
+00:08:34,770 --> 00:08:35,833
+Right, so again, let's look at our rule.
+
+186
+00:08:35,833 --> 00:08:38,211
+Our rule says, if both conjuncts are true,
+
+187
+00:08:38,211 --> 00:08:40,589
+the conjunction as a whole is true, if one or
+
+188
+00:08:40,589 --> 00:08:43,690
+more is false the conjunction as a whole is false.
+
+189
+00:08:43,690 --> 00:08:47,510
+So since the q has a value of false, or F, then it
+
+190
+00:08:47,510 --> 00:08:50,980
+follows the rule that the whole conjunction has been false.
+
+191
+00:08:50,980 --> 00:08:53,610
+So we're gonna assign an F to the conjunction as a whole.
+
+192
+00:08:55,970 --> 00:08:57,920
+And that looks like this.
+
+193
+00:08:57,920 --> 00:09:01,860
+So now we've solved for the truth value of the second
+
+194
+00:09:01,860 --> 00:09:05,950
+conjunction, and that's here, and that has a value of false.
+
+195
+00:09:05,950 --> 00:09:06,800
+So we're not quite there yet.
+
+196
+00:09:06,800 --> 00:09:08,908
+We still don't have the truth value for the overall argument,
+
+197
+00:09:08,908 --> 00:09:10,310
+we still have to look at the conditional.
+
+198
+00:09:10,310 --> 00:09:13,900
+So we're gonna solve for that next.
+
+199
+00:09:13,900 --> 00:09:17,720
+As we look at our conditional, we have our antecedent
+
+200
+00:09:17,720 --> 00:09:19,960
+which is the part that comes before the if.
+
+201
+00:09:19,960 --> 00:09:24,210
+Remember this says F, p, then the rest of the statement.
+
+202
+00:09:24,210 --> 00:09:27,280
+So the part that come before the F is antecedent,
+
+203
+00:09:27,280 --> 00:09:30,430
+that's the p and it has a T or true.
+
+204
+00:09:30,430 --> 00:09:33,880
+And then the consequent of our conditional is gonna be this
+
+205
+00:09:33,880 --> 00:09:37,920
+whole phrase here we just solved for.
+
+206
+00:09:37,920 --> 00:09:40,947
+The conjunction, the value of the conjunction is gonna be
+
+207
+00:09:40,947 --> 00:09:43,866
+the consequent of this conditional and that's false.
+
+208
+00:09:43,866 --> 00:09:49,550
+So T for the antecedent, and false or F for the consequent.
+
+209
+00:09:49,550 --> 00:09:54,130
+Now a rule says for conditional, if the antecedent is true and
+
+210
+00:09:54,130 --> 00:09:56,010
+the consequent is false,
+
+211
+00:09:56,010 --> 00:09:57,980
+then the conditional as a whole is false.
+
+212
+00:09:57,980 --> 00:10:01,090
+And remember the rules says that, that's only conditions
+
+213
+00:10:01,090 --> 00:10:03,850
+under which the entire conditional would be false.
+
+214
+00:10:03,850 --> 00:10:06,570
+So that follows this pattern, so
+
+215
+00:10:06,570 --> 00:10:09,710
+we have overall false conditional.
+
+216
+00:10:11,320 --> 00:10:15,660
+And so we assign the conditional as a whole as false.
+
+217
+00:10:15,660 --> 00:10:17,288
+Now what we've done is, we've solved now for
+
+218
+00:10:17,288 --> 00:10:18,090
+the entire argument.
+
+219
+00:10:18,090 --> 00:10:21,210
+We have our final value, and this final value,
+
+220
+00:10:21,210 --> 00:10:25,560
+we assign to the operator which is a conditional operator.
+
+221
+00:10:25,560 --> 00:10:27,440
+And because it's the last in line,
+
+222
+00:10:27,440 --> 00:10:30,600
+it's the furthest out, it has the largest scope.
+
+223
+00:10:30,600 --> 00:10:33,180
+We call it the operator of the largest scope.
+
+224
+00:10:33,180 --> 00:10:35,493
+This is the operator of the largest scope because it impacts
+
+225
+00:10:35,493 --> 00:10:36,381
+the entire argument.
+
+226
+00:10:36,381 --> 00:10:38,542
+This is the final compound statement,
+
+227
+00:10:38,542 --> 00:10:42,110
+we would need to solve for once we solve for all the others.
+
+228
+00:10:42,110 --> 00:10:45,480
+So if we're looking for the truth value of the overall
+
+229
+00:10:45,480 --> 00:10:48,790
+argument, this is it, it's false.
+
+230
+00:10:48,790 --> 00:10:52,440
+The truth value of this entire argument here turns out to be
+
+231
+00:10:52,440 --> 00:10:57,830
+false based on how we structure the argument,
+
+232
+00:10:57,830 --> 00:10:59,130
+and how we worked on our truth table.
+
+233
+00:11:01,197 --> 00:11:02,613
+So if someone would ask you,
+
+234
+00:11:02,613 --> 00:11:05,040
+what is the truth value of this entire argument?
+
+235
+00:11:05,040 --> 00:11:07,669
+You would point to the operator of the largest scope,
+
+236
+00:11:07,669 --> 00:11:08,779
+the conditional, and
+
+237
+00:11:08,779 --> 00:11:11,720
+you would say the entire argument is false.
+
+238
+00:11:11,720 --> 00:11:13,880
+Okay, and that's how you use a truth value, sorry,
+
+239
+00:11:13,880 --> 00:11:16,990
+this is how you use a truth table to determine the truth
+
+240
+00:11:16,990 --> 00:11:18,880
+value of an overall argument,
+
+241
+00:11:18,880 --> 00:11:21,950
+by assigning the individual variables' values.
+
+242
+00:11:21,950 --> 00:11:25,287
+You can then plug those truth values into the argument as
+
+243
+00:11:25,287 --> 00:11:28,908
+a whole, and then work on your compound statements until you
+
+244
+00:11:28,908 --> 00:11:30,479
+get the operative scope.
+
+245
+00:11:30,479 --> 00:11:33,283
+And the truth value of the operator of the largest scope is
+
+246
+00:11:33,283 --> 00:11:35,276
+the truth value of the entire argument.
+

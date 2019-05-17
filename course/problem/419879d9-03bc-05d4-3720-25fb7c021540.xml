@@ -1,0 +1,6 @@
+<problem display_name="9.8 Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse><p/><p>Examine the following scenario.</p><p>You take your car to Latka’s Total Car Care on three different occasions, and each time your car is fixed. You conclude that this time your car will again be fixed.</p><p>Does the addition of the item below strengthen the argument (S), weaken the argument (W), or leave the strength of the argument unchanged (U)? </p>
+You conclude instead that you will probably be satisfied. [Note: this conclusion <i>replaces</i> the conclusion above.]<br/><br/>
+    <choicegroup type="MultipleChoice"><choice correct="True">Strengthen the argument<br/></choice><choice correct="False">Weaken the argument<br/></choice><choice correct="False">Unchanged<br/></choice></choicegroup>
+  </multiplechoiceresponse>
+</problem>

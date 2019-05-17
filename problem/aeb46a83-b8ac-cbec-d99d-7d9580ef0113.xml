@@ -1,0 +1,14 @@
+<problem display_name="16. Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="2.0">
+  <multiplechoiceresponse>
+    <p>Examine the following argument:<br/>
+<ol><li>Amber jogs today, or Barbara jogs today.</li><li>It is not the case that Sue jogs today.</li><li>Therefore, it is not the case that Ed jogs today.</li></ol>
+Identify the argument above as an instance of one of the following forms. (Choose one)<br/></p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">Modus Ponens<br/></choice>
+      <choice correct="False">Modus Tollens<br/></choice>
+      <choice correct="False">Disjunctive Syllogism<br/></choice>
+      <choice correct="False">Hypothetical Syllogism<br/></choice>
+      <choice correct="True">None<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

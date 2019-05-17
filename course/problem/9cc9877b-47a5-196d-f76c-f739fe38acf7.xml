@@ -1,0 +1,23 @@
+<problem display_name="10.Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p/>
+    <p/>
+    <label>Which of the following combinations will you <em>not</em> find in an invalid deductive argument? (Choose one)<br/></label>
+    <p/>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">true premises and a false conclusion<br/></choice>
+      <choice correct="False">true premises and a true conclusion<br/></choice>
+      <choice correct="False">false premises and a false conclusion<br/></choice>
+      <choice correct="False">false premises and a true conclusion<br/></choice>
+      <choice correct="True">none of the above, for <em>any</em> combination is possible in an invalid argument<br/></choice>
+    </choicegroup>
+    <p/>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p/>
+        <p>An invalid form can have any combination of truth values for the premises because an invalid form communicates nothing about the relationship of the premises to the conclusion. To test this for yourself, create invalid arguments using each of the combinations in the answer choices.<br/></p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

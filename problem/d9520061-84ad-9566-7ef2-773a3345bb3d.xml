@@ -1,0 +1,15 @@
+<problem display_name="Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p/>
+    <p>Examine the following statement:<br/>
+Either the fountain needs water, or my eyes are deceiving me and I need glasses<br/></p>
+    <label>Which of the following is the proper symbolization of that statement?<br/></label>
+    <p/>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">F v E<br/></choice>
+      <choice correct="False">F v (E v D &amp; G)<br/></choice>
+      <choice correct="True">F v (E &amp; G)<br/></choice>
+      <choice correct="False">F v (E &amp; D &amp; G)<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

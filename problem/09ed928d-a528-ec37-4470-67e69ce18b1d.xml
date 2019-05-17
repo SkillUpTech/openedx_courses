@@ -1,0 +1,12 @@
+<problem display_name="5.Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p/>
+    <p>The Monterey Pop Festival (1967) featured some of the greatest bands of the 1960s. The Beatles did not perform at Monterey. So, the Beatles must not have been among the greatest bands of the 1960s.<br/></p>
+    <label>Using the intuitive test for validity, decide if the statement above is valid or invalid.<br/></label>
+    <p/>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">Valid<br/></choice>
+      <choice correct="True">Invalid<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

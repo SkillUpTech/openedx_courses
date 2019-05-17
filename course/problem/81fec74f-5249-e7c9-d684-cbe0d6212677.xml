@@ -1,0 +1,16 @@
+<problem display_name="Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p/>
+    <p>The following is not an argument.<br/>
+Premise 1: If Tuesday is bagel day, then I will eat a bagel tomorrow<br/>
+Premise 2: Wednesday is taco day<br/>
+Conclusion: Therefore, I will have pizza<br/></p>
+    <label>What is it missing?<br/></label>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">A premise<br/></choice>
+      <choice correct="True">A logical relation between the premises and conclusion<br/></choice>
+      <choice correct="False">Statements<br/></choice>
+      <choice correct="False">Premises with truth value<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

@@ -1,0 +1,8 @@
+<video youtube="1.00:QSvWcG3lhKw" url_name="1b95c7f5bab1492ab7495b83ed8e442a" display_name="Video" download_track="true" download_video="true" edx_video_id="f7a905c8-114a-467c-9bc7-27d9d57aabf6" html5_sources="[]" sub="" transcripts="{&quot;en&quot;: &quot;f7a905c8-114a-467c-9bc7-27d9d57aabf6-en.srt&quot;}" youtube_id_1_0="QSvWcG3lhKw">
+  <transcript language="en" src="f7a905c8-114a-467c-9bc7-27d9d57aabf6-en.srt"/>
+  <video_asset client_video_id="2017-09-25-69166-edx-logic-and-computational-thinking_publish.mp4" duration="2045.95">
+    <encoded_video bitrate="0" file_size="0" profile="youtube" url="QSvWcG3lhKw"/>
+    <encoded_video bitrate="245" file_size="62707776" profile="mobile_low" url="https://d2f1egay8yehza.cloudfront.net/MSXLCTXX2017-V001900_MB2.mp4"/>
+    <encoded_video bitrate="468" file_size="119908589" profile="desktop_mp4" url="https://d2f1egay8yehza.cloudfront.net/MSXLCTXX2017-V001900_DTH.mp4"/>
+  </video_asset>
+</video>

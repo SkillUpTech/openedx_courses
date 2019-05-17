@@ -1,0 +1,15 @@
+<problem display_name="Checkbox" markdown="null" max_attempts="1" showanswer="never" weight="1.0">
+  <choiceresponse>
+    <p/>
+    <p/>
+    <label>Which two of the following statements could represent the proposition: <strong>All your data is in the cloud</strong><br/></label>
+    <p/>
+    <checkboxgroup>
+      <choice correct="False">All data is somewhere above the Empire State Building<br/></choice>
+      <choice correct="True">All your data is stored in large collections of servers accessible over the internet<br/></choice>
+      <choice correct="False">How your data is stored is ambiguous and unclear<br/></choice>
+      <choice correct="True">All the data you manage is stored in data storage services on systems like Microsoft's Azure or Amazon's AWS<br/></choice>
+      <choice correct="False">All data you manage is stored on your computer<br/></choice>
+    </checkboxgroup>
+  </choiceresponse>
+</problem>

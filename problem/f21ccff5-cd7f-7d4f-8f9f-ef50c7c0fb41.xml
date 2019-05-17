@@ -1,0 +1,10 @@
+<problem display_name="3.Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p/>
+    <p>It is true today, right now, that tomorrow either you will eat a burrito for lunch or you will not eat a burrito for lunch. If it is true (right now) that tomorrow you will eat a burrito for lunch, then tomorrow at lunch you must eat a burrito; you cannot do anything else but that, for nobody can alter the truth. On the other hand, if it is true (right now) that tomorrow you will not eat a burrito for lunch, then tomorrow at lunch you won’t and can’t eat a burrito, for nobody can change the truth. Either way then, what you do tomorrow at lunch has already been determined or fixed ahead of time, and there is nothing you can do about it; there is no way you can deviate from what must be. But this reasoning applies to every moment of the future. Therefore, it follows with complete certainty that the future has already been fixed or determined and nobody has free will.<br/></p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">Inductive Argument<br/></choice>
+      <choice correct="True">Deductive Argument<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

@@ -1,0 +1,10 @@
+<problem display_name="4.Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p/>
+    <p>Drug X cures heart disease in monkeys. But monkey hearts are similar in many relevant ways to human hearts. Therefore, drug X will probably cure heart disease in humans<br/></p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="True">Inductive Argument<br/></choice>
+      <choice correct="False">Deductive Argument<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

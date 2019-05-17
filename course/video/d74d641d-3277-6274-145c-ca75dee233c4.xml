@@ -1,0 +1,9 @@
+<video youtube="1.00:76dpiBQgpHg" url_name="d74d641d-3277-6274-145c-ca75dee233c4" display_name="" download_track="true" download_video="true" edx_video_id="3b15ddf4-b986-4bce-90ef-5dc865b3266d" html5_sources="[&quot;https://d2f1egay8yehza.cloudfront.net/MSXLCTXX2017-V001700_DTH.mp4&quot;]" show_captions="true" sub="" transcripts="{&quot;en&quot;: &quot;3b15ddf4-b986-4bce-90ef-5dc865b3266d-en.srt&quot;}" youtube_id_0_75="" youtube_id_1_0="76dpiBQgpHg" youtube_id_1_25="" youtube_id_1_5="">
+  <source src="https://d2f1egay8yehza.cloudfront.net/MSXLCTXX2017-V001700_DTH.mp4"/>
+  <transcript language="en" src="3b15ddf4-b986-4bce-90ef-5dc865b3266d-en.srt"/>
+  <video_asset client_video_id="logicandcode2.mp4" duration="689.4">
+    <encoded_video bitrate="162" file_size="14035652" profile="mobile_low" url="https://d2f1egay8yehza.cloudfront.net/MSXLCTXX2017-V001700_MB2.mp4"/>
+    <encoded_video bitrate="201" file_size="17378021" profile="desktop_mp4" url="https://d2f1egay8yehza.cloudfront.net/MSXLCTXX2017-V001700_DTH.mp4"/>
+    <encoded_video bitrate="0" file_size="0" profile="youtube" url="76dpiBQgpHg"/>
+  </video_asset>
+</video>

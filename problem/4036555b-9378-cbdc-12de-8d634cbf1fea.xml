@@ -1,0 +1,13 @@
+<problem display_name="1. Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p/>
+    <p>Use a Venn diagram to test the argument below for validity.<br/>
+Some logicians are lawyers. All lawyers are extemporaneous speakers. So, some extemporaneous speakers are logicians.<br/></p>
+    <label>According to the Venn diagram, is this argument valid or invalid?<br/></label>
+    <p/>
+    <choicegroup type="MultipleChoice">
+      <choice correct="True">Valid<br/></choice>
+      <choice correct="False">Invalid<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

@@ -1,0 +1,14 @@
+<problem display_name="6.Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p>Consider this colloquial (common) statement:<br/>
+"Several citizens voted"<br/></p>
+    <label>Which one of the following is the proper translation of the above statement into <strong>standard I form</strong><br/></label>
+    <p/>
+    <choicegroup type="MultipleChoice">
+      <choice correct="True">Some citizens are people that voted<br/></choice>
+      <choice correct="False">Some people are voting citizens<br/></choice>
+      <choice correct="False">All citizens are people that voted<br/></choice>
+      <choice correct="False">Some citizens are people that did not vote<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

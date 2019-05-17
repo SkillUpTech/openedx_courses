@@ -1,0 +1,14 @@
+<problem display_name="5.Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p>Consider this colloquial (common) statement:<br/>
+"Rocks are not a good source of cooking oil"<br/></p>
+    <label>Which one of the following is the proper translation of the above statement into <strong>standard E form</strong><br/></label>
+    <p/>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">No rocks are a good source of cooking oil<br/></choice>
+      <choice correct="True">No rocks are things that are a good source of cooking oil<br/></choice>
+      <choice correct="False">No rocks are things and no rocks are a good source of cooking oil<br/></choice>
+      <choice correct="False">Some rocks are not things that are a good source of cooking oil<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

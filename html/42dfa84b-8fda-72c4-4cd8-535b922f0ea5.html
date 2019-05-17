@@ -1,0 +1,49 @@
+<link rel="stylesheet" href="http://openbox-ficus.cloudapp.net:18010/asset-v1:Microsoft+DEV262x+3T2017+type@asset+block@highlight.css"/>
+<script src="http://openbox-ficus.cloudapp.net:18010/asset-v1:Microsoft+DEV262x+3T2017+type@asset+block@prism.js"></script>
+<p>Now that we have a basic understanding of how computers work and the relationship of that model to algorithms, we can begin to look at how computer science and the system of formal logic used by humans every day (as well as in formal disciplines like philosophy, law, and science).</p>
+<p>Logic is a science that analyzes concepts and ideas and attempts to provide rules for ordered thinking and find fallacies for improper thinking. Computers use programs to process data and produce some kind of output like images, music, spreadsheets, and online courses. So how are these two things related?</p>
+<h2 id="consider-the-following">Consider the following</h2>
+<p>Here's a simple computer program (written in pseudo code -- not a real programming language but a teaching device we can use to resemble one):</p>
+<pre><code>for (x=0; x &lt; 7; x++){
+    If x is Even Then
+        print &quot;Eat pasta for dinner&quot;
+    Else
+        print &quot;Eat salad for dinner&quot;
+}
+</code></pre>
+<blockquote>
+<p>This program routine is what is called a &quot;for loop&quot; and will increment the value of the letter x by 1 each time through the loop. To use the language of the previous lesson, this is an <em>algorithm</em>.</p>
+</blockquote>
+<p>You can think of how this particular algorithm functions like going around a merry-go-round 6 times carrying a bucket that starts out with a single coin in it. Each time you pass a certain point, a coin is added to the bucket until you have 7 coins in your bucket. During the rest of the trip around the merry-go-round, you're doing something interesting like taking pictures, waving at friends and family, and eating popcorn. When you have the 7th coin, the merry-go-round takes one more trip around and stops before you get the 8th coin.</p>
+<p>In this particular program, the for loop will check the value of the variable x which changes (it's incremented by 1) each time through the loop. If the value of x on its trip around the loop is even, then the program will print the sentence &quot;Eat pasta for dinner&quot;. If the value of x is anything other than even--the &quot;else&quot; condition--then the program will print the sentence &quot;Eat salad for dinner&quot;. Since the number assigned to x is a whole number, it can only be odd or even so we know the <em>else</em> condition for x will always be odd. We just made our very first program: a very rudimentary meal planner!</p>
+<h2 id="from-programs-to-logic">From programs to logic</h2>
+<p>We'll look more closely at exactly what logic is in the next lesson. But let's start to explore how logic functions &quot;algorithmically&quot; by briefly looking at the relationship between what a computer program does and how it relates to a logical argument.</p>
+<p>We can translate this computer program into an argument of formal logic very easily. Instead of a for loop, we'll use the physical calendar as the &quot;iterator&quot;-- the real-world object that will change the value we care about. In other words, the days of the week become the <em>x</em> of our argument and as each day passes, we have a new value for <em>x</em>. We now can write a logical argument that tells us what to eat on a given day.</p>
+<p>For the example, we'll start with a deductive syllogism called a <em>disjunctive syllogism</em>. We'll learn more about this later on in the course. But put simply, the disjunctive syllogism takes any two values and tells us that when given those two values, if its not the first value, it must be the second. We can write our syllogism this way:</p>
+<pre><code>Premise 1: Either the day is odd or the day is even
+Premise 2: it's not the case that the day is even
+Conclusion: Therefore, the day is odd
+</code></pre>
+<p>This is a good start but this argument doesn't tell us what we will eat on each day. So we need to add another syllogism called a <em>modus ponens</em> to help us with that problem. This syllogism for our argument looks like this:</p>
+<pre><code>Premise 1: If the day is even, then we eat pasta
+Premise 2: The day is even
+Conclusion: Therefore, we eat pasta
+</code></pre>
+<p>Of course we need another syllogism for the odd days:</p>
+<pre><code>Premise 1: If the day is odd, then we eat salad
+Premise 2: The day is odd
+Conclusion: Therefore, we eat salad
+</code></pre>
+<p>We can now combine these into a single argument:</p>
+<pre><code>Given: The current day of the week
+Premise 1: Either the day is odd or the day is even
+Premise 2: If the day is even, then we eat pasta
+Premise 3: If the day is odd, then we eat salad
+Premise 4: It is not the case that the day is [odd/even]
+Premise 5: The day is [even/odd]
+Conclusion: Therefore we eat [pasta/salad]
+</code></pre>
+<blockquote>
+<p>Because our disjunctive syllogism rule says that if one of the options isn't true, the other must be true, we can combine the days of the week in premises 4 and 5 and the meal we eat in the conclusion and let the day of the week determine which we choose.</p>
+</blockquote>
+<p>You'll notice that the computer program routine is much simpler. But the point we're illustrating is that the computer program can be translated into standard logical form and vice versa. We'll see why this works as we move throughout the course but you can see the tight relationship between computer logic and formal logic. If you can learn to apply a logical framework to your thinking in everyday life, it will help you think through how to write better computer programs--and vice versa! Apple founder Steve Jobs has been quoted as saying, &quot;I think everyone should learn how to program a computer, because it teaches you how to think.&quot; Now we can start to see why!</p>

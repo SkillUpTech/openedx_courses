@@ -1,0 +1,15 @@
+<problem display_name="Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p/>
+    <p>Examine this statement:<br/>
+Either we're all going to the concert or, if Bob is sick then Susan will stay home or, Chris will go and Maria will go.<br/></p>
+    <label>Which of the following is the proper symbolization of the statement?<br/></label>
+    <p/>
+    <choicegroup type="MultipleChoice">
+      <choice correct="True">A v (B --&gt; (S v (C &amp; M)))<br/></choice>
+      <choice correct="False">A v B --&gt; (S &amp; C)<br/></choice>
+      <choice correct="False">A v (B --&gt; S)<br/></choice>
+      <choice correct="False">A v (((B --&gt; S) &amp; C v M) &amp; G)<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

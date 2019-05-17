@@ -1,8 +1,0 @@
-<video youtube="1.00:7zcCZEIAyhw" url_name="2658a3a34d8b4cf7bedce0c6fa324aef" display_name="Altering Notebook Structure" download_track="true" download_video="true" edx_video_id="f2078d68-6aba-492f-a2cc-5fc0504cd316" html5_sources="[]" sub="" transcripts="{&quot;en&quot;: &quot;f2078d68-6aba-492f-a2cc-5fc0504cd316-en.srt&quot;}" youtube_id_1_0="7zcCZEIAyhw">
-  <transcript language="en" src="f2078d68-6aba-492f-a2cc-5fc0504cd316-en.srt"/>
-  <video_asset client_video_id="Unit1_Section1.1-Language_Cells.mp4" duration="183.83">
-    <encoded_video bitrate="178" file_size="4105593" profile="desktop_mp4" url="https://d2f1egay8yehza.cloudfront.net/MSXIPU1X2017-V000400_DTH.mp4"/>
-    <encoded_video bitrate="104" file_size="2394865" profile="mobile_low" url="https://d2f1egay8yehza.cloudfront.net/MSXIPU1X2017-V000400_MB2.mp4"/>
-    <encoded_video bitrate="0" file_size="0" profile="youtube" url="7zcCZEIAyhw"/>
-  </video_asset>
-</video>

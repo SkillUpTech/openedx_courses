@@ -1,0 +1,10 @@
+<problem display_name="6.Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p/>
+    <p>We’ve observed one hundred possums at random, and each one had a short, pointy tail. Thus, it is probable that the next possum we observe will have a short, pointy tail.<br/></p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="True">Inductive Argument<br/></choice>
+      <choice correct="False">Deductive Argument<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

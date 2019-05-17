@@ -1,0 +1,13 @@
+<problem display_name="3.Multiple choice" markdown="null" max_attempts="1" weight="1.0">
+  <multiplechoiceresponse>
+    <p/>
+    <p>Examine this argument:<br/>
+It was sunny in Seattle yesterday for the first time in four weeks. Therefore, it will probably be sunny in Seattle all next week.<br/></p>
+    <label>Does this inductive argument seem to be strong or weak?<br/></label>
+    <p/>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">Strong<br/></choice>
+      <choice correct="True">Weak<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

@@ -1,0 +1,22 @@
+<problem display_name="6.Multiple choice" markdown="null" max_attempts="1" weight="1.0">
+  <multiplechoiceresponse>
+    <p/>
+    <p>Examine this argument:<br/>
+A Purdue University study found that rats consumed many more calories and put on weight when they were fed artificial sweeteners before meals. The sweeteners were found to cause powerful urges to eat—urges the rats could not control. The
+study was repeated five times, with the same results each time. Humans and rats have similar digestive systems. Therefore, artificial sweeteners probably increase weight in humans as well.<br/></p>
+    <label>Does this inductive argument seem to be strong or weak?<br/></label>
+    <p/>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">Strong<br/></choice>
+      <choice correct="True">Weak<br/></choice>
+    </choicegroup>
+    <p/>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p/>
+        <p>The data in the argument only gives us grounds to believe that further experimentation on humans is warranted but not that artificial sweeteners have any negative effect on humans.<br/></p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

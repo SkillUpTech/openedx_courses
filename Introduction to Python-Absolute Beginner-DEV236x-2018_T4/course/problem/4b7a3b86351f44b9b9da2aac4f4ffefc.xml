@@ -1,9 +1,0 @@
-<problem display_name="Question 1" markdown="Using comma separation we can combine strings and numbers (int &amp;amp; float) in a single Python &lt;code&gt;print()&lt;/code&gt; function without a TypeError &#10;&#10;(x) True&#10;( ) False&#10;" max_attempts="1" showanswer="never" weight="1.0">
-  <multiplechoiceresponse>
-    <p>Using comma separation we can combine strings and numbers (int &amp; float) in a single Python <code>print()</code> function without a TypeError </p>
-    <choicegroup type="MultipleChoice">
-      <choice correct="true">True</choice>
-      <choice correct="false">False</choice>
-    </choicegroup>
-  </multiplechoiceresponse>
-</problem>

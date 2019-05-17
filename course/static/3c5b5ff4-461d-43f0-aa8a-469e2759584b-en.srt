@@ -1,0 +1,268 @@
+0
+00:00:00,760 --> 00:00:03,526
+In this lesson, we're going to be looking at arguments.
+
+1
+00:00:03,526 --> 00:00:05,306
+As I said in a previous lesson,
+
+2
+00:00:05,306 --> 00:00:08,600
+logic is the science of studying something.
+
+3
+00:00:08,600 --> 00:00:11,350
+Like any science, there is an object of study, and
+
+4
+00:00:11,350 --> 00:00:13,200
+in logic what we study is arguments.
+
+5
+00:00:13,200 --> 00:00:16,045
+So we're gonna walk through what an argument is and
+
+6
+00:00:16,045 --> 00:00:17,963
+this is gonna be the focal point for
+
+7
+00:00:17,963 --> 00:00:21,240
+developing sound reasoning through logic.
+
+8
+00:00:21,240 --> 00:00:23,940
+So let me talk to you about what a logical argument is.
+
+9
+00:00:23,940 --> 00:00:27,028
+When you think of the word argument, sometimes you think of
+
+10
+00:00:27,028 --> 00:00:29,805
+a bunch of angry people, or two or more angry people,
+
+11
+00:00:29,805 --> 00:00:32,338
+in a conversation kinda yelling at each other and
+
+12
+00:00:32,338 --> 00:00:34,166
+getting on each other's nerves.
+
+13
+00:00:34,166 --> 00:00:36,170
+A logical argument obviously is not that.
+
+14
+00:00:36,170 --> 00:00:40,043
+The formal definition of an argument is to offer a reason or
+
+15
+00:00:40,043 --> 00:00:44,530
+a set of reasons to get somebody to believe something.
+
+16
+00:00:44,530 --> 00:00:47,586
+So the goal of an argument is to convince or change somebody's
+
+17
+00:00:47,586 --> 00:00:50,369
+mind, that's really what we're talking about here.
+
+18
+00:00:50,369 --> 00:00:54,748
+So, a logical argument then consists of three main things.
+
+19
+00:00:54,748 --> 00:00:56,588
+And you're gonna see two in bold here, but
+
+20
+00:00:56,588 --> 00:00:58,285
+there's actually three components.
+
+21
+00:00:58,285 --> 00:01:01,581
+So the argument consists of something that you're offering,
+
+22
+00:01:01,581 --> 00:01:03,430
+a reason or a set of reasons.
+
+23
+00:01:03,430 --> 00:01:06,197
+And these reasons are called premises and
+
+24
+00:01:06,197 --> 00:01:10,149
+they lead to another idea, another thing that you wanna get
+
+25
+00:01:10,149 --> 00:01:14,352
+somebody to believe, which is called the conclusion, okay?
+
+26
+00:01:14,352 --> 00:01:17,862
+So the premises lead to the conclusion and that lead to or
+
+27
+00:01:17,862 --> 00:01:21,370
+as you see in the slide here, the offered in support of,
+
+28
+00:01:21,370 --> 00:01:24,950
+is the third component of a logical argument.
+
+29
+00:01:24,950 --> 00:01:29,170
+So the premises should provide reasons to believe
+
+30
+00:01:29,170 --> 00:01:31,270
+that the conclusion is true.
+
+31
+00:01:31,270 --> 00:01:34,540
+The premises should provide reasons to believe
+
+32
+00:01:34,540 --> 00:01:36,400
+that the conclusion is true.
+
+33
+00:01:36,400 --> 00:01:37,960
+Now why is this third component,
+
+34
+00:01:37,960 --> 00:01:41,370
+this offered in support of, important?
+
+35
+00:01:41,370 --> 00:01:44,420
+Well, if you think about something that might be
+
+36
+00:01:44,420 --> 00:01:46,770
+structured like an argument,
+
+37
+00:01:46,770 --> 00:01:49,720
+not everything that's structured like an argument
+
+38
+00:01:49,720 --> 00:01:51,690
+gives you reason to believe that something is true.
+
+39
+00:01:51,690 --> 00:01:55,140
+So if I said, the sun will rise tomorrow morning,
+
+40
+00:01:55,140 --> 00:02:00,730
+Britney Spears is a famous pop star, therefore, grass is green.
+
+41
+00:02:00,730 --> 00:02:02,390
+It sounds sorta like an argument, right?
+
+42
+00:02:02,390 --> 00:02:05,540
+I'm giving you premises and then I'm saying therefore something
+
+43
+00:02:05,540 --> 00:02:08,560
+is true, but there's no logical relation.
+
+44
+00:02:08,560 --> 00:02:10,890
+That's why this logical relation, this third component,
+
+45
+00:02:10,890 --> 00:02:12,150
+is so important.
+
+46
+00:02:12,150 --> 00:02:15,080
+The premises have to give you a reason to believe
+
+47
+00:02:15,080 --> 00:02:16,970
+that the conclusion is true.
+
+48
+00:02:16,970 --> 00:02:19,420
+The main focal point of arguments though,
+
+49
+00:02:19,420 --> 00:02:20,470
+is this conclusion.
+
+50
+00:02:20,470 --> 00:02:23,090
+This is the thing you want the person to walk away with and
+
+51
+00:02:23,090 --> 00:02:25,460
+say yes, I think that's true now.
+
+52
+00:02:25,460 --> 00:02:29,730
+So your premises have to be strong enough to
+
+53
+00:02:29,730 --> 00:02:32,450
+convince the person that the conclusion is true.
+
+54
+00:02:32,450 --> 00:02:34,290
+And this is really all there is to an argument,
+
+55
+00:02:34,290 --> 00:02:35,550
+to a logical argument.
+
+56
+00:02:35,550 --> 00:02:37,830
+As long as you have those three components,
+
+57
+00:02:37,830 --> 00:02:40,630
+then you're constructing the argument in the right way.
+
+58
+00:02:40,630 --> 00:02:42,262
+Now as we move throughout the course,
+
+59
+00:02:42,262 --> 00:02:43,796
+you're gonna see how this is done.
+
+60
+00:02:43,796 --> 00:02:47,115
+I'm gonna show you and give you the tools to do this in
+
+61
+00:02:47,115 --> 00:02:50,667
+the right way and to do this in a way that's convincing.
+
+62
+00:02:50,667 --> 00:02:53,210
+Some arguments are strong, some arguments are weak.
+
+63
+00:02:53,210 --> 00:02:55,663
+You can build good arguments and poor arguments.
+
+64
+00:02:55,663 --> 00:02:59,150
+What I'm gonna do in this course is show you how to construct
+
+65
+00:02:59,150 --> 00:03:02,170
+good arguments using exactly this format.
+
+66
+00:03:02,170 --> 00:03:04,782
+And that's what we'll start to do in the next few lessons.
+

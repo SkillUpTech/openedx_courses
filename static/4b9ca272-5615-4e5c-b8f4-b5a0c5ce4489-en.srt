@@ -1,0 +1,708 @@
+0
+00:00:00,900 --> 00:00:04,130
+In previous lessons we were looking at argument form.
+
+1
+00:00:04,130 --> 00:00:07,220
+Argument form is the structure of a logical argument
+
+2
+00:00:07,220 --> 00:00:09,470
+in which we place premises and
+
+3
+00:00:09,470 --> 00:00:14,180
+conclusions that are made up of statements and propositions.
+
+4
+00:00:14,180 --> 00:00:15,240
+What we're gonna do in this lesson,
+
+5
+00:00:15,240 --> 00:00:16,920
+and in subsequent lessons,
+
+6
+00:00:16,920 --> 00:00:20,760
+is dive a little bit deeper into specific argument forms.
+
+7
+00:00:20,760 --> 00:00:23,650
+Specifically we're gonna look at deductive arguments and
+
+8
+00:00:23,650 --> 00:00:26,415
+inductive arguments and how you construct these.
+
+9
+00:00:26,415 --> 00:00:29,035
+We talked a little bit about validity in a previous lesson.
+
+10
+00:00:29,035 --> 00:00:32,110
+We're gonna go a little bit more deeper into those concepts.
+
+11
+00:00:32,110 --> 00:00:33,710
+So, just to remind you,
+
+12
+00:00:33,710 --> 00:00:36,410
+we've already talked about propositions and
+
+13
+00:00:36,410 --> 00:00:40,280
+as we worked through the structure of arguments,
+
+14
+00:00:40,280 --> 00:00:42,190
+as we worked through the toolkit,
+
+15
+00:00:42,190 --> 00:00:45,610
+remember that it's propositions that are true or false.
+
+16
+00:00:45,610 --> 00:00:47,050
+If you need a reminder on this,
+
+17
+00:00:47,050 --> 00:00:50,250
+I would encourage you to go back to a previous lesson and
+
+18
+00:00:50,250 --> 00:00:53,290
+then just get a quick review on what propositions are.
+
+19
+00:00:53,290 --> 00:00:55,790
+But in our taxonomy, in our overall structure,
+
+20
+00:00:55,790 --> 00:00:58,720
+in our toolkit, remember that propositions are true and
+
+21
+00:00:58,720 --> 00:01:02,260
+false in logic, and that's going to be very important as we
+
+22
+00:01:02,260 --> 00:01:03,829
+work on constructing these arguments.
+
+23
+00:01:04,870 --> 00:01:07,330
+Now what I wanna do is talk about deductive syllogism.
+
+24
+00:01:07,330 --> 00:01:10,230
+I introduced the term syllogism in a previous lesson.
+
+25
+00:01:10,230 --> 00:01:12,350
+A syllogism is just an argument form,
+
+26
+00:01:12,350 --> 00:01:13,975
+a structure of an argument.
+
+27
+00:01:13,975 --> 00:01:18,996
+Syllogisms have two premises and that's followed by a conclusion.
+
+28
+00:01:18,996 --> 00:01:22,410
+And we're gonna look at the form of argument called
+
+29
+00:01:22,410 --> 00:01:24,130
+deductive arguments.
+
+30
+00:01:24,130 --> 00:01:28,010
+Deductive arguments, simply put, are arguments where
+
+31
+00:01:28,010 --> 00:01:33,070
+if the premises are true, assuming the premises are true,
+
+32
+00:01:33,070 --> 00:01:36,660
+the conclusion must follow with logical necessity.
+
+33
+00:01:36,660 --> 00:01:40,590
+Or, to put differently, if the premises are true,
+
+34
+00:01:40,590 --> 00:01:44,140
+it's impossible that the conclusion is false.
+
+35
+00:01:44,140 --> 00:01:46,923
+That's what a deductive argument means.
+
+36
+00:01:46,923 --> 00:01:49,388
+So when you're looking at deductive arguments,
+
+37
+00:01:49,388 --> 00:01:51,150
+we're gonna look at validity in just a moment,
+
+38
+00:01:51,150 --> 00:01:52,920
+but when you're looking at deductive arguments,
+
+39
+00:01:52,920 --> 00:01:58,380
+you're gonna look at the form and you're gonna always assume,
+
+40
+00:01:58,380 --> 00:02:01,410
+in determining whether or not the argument is valid,
+
+41
+00:02:01,410 --> 00:02:04,830
+if the premises are true does the conclusion follow?
+
+42
+00:02:04,830 --> 00:02:06,210
+Now, notice you don't have to know whether
+
+43
+00:02:06,210 --> 00:02:07,390
+the premises are true
+
+44
+00:02:07,390 --> 00:02:10,450
+in order to determine whether the argument has a valid form.
+
+45
+00:02:10,450 --> 00:02:12,665
+You're just gonna ask yourself if they were true,
+
+46
+00:02:12,665 --> 00:02:17,280
+is it possible that the conclusion's false?
+
+47
+00:02:17,280 --> 00:02:21,190
+I say here that deductive arguments are the strongest type
+
+48
+00:02:21,190 --> 00:02:23,950
+of argument because it's impossible to for
+
+49
+00:02:23,950 --> 00:02:26,980
+the conclusion to be false given true premises.
+
+50
+00:02:28,390 --> 00:02:32,290
+Now, let's go back and revisit this notion of validity again.
+
+51
+00:02:32,290 --> 00:02:35,490
+If you'll recall from an earlier lesson,
+
+52
+00:02:35,490 --> 00:02:38,880
+validity only talks about the structure.
+
+53
+00:02:38,880 --> 00:02:42,040
+It talks about the relationship between the premises of
+
+54
+00:02:42,040 --> 00:02:45,880
+an argument and the conclusion of the argument.
+
+55
+00:02:45,880 --> 00:02:48,740
+It has nothing to do with whether or
+
+56
+00:02:48,740 --> 00:02:51,840
+not the premises are true or false.
+
+57
+00:02:53,310 --> 00:02:57,010
+So a deductive argument is constructed in such a way that,
+
+58
+00:02:57,010 --> 00:03:00,900
+again, if the premises are true, it is not possible for
+
+59
+00:03:00,900 --> 00:03:01,979
+the conclusion to be false.
+
+60
+00:03:03,080 --> 00:03:05,725
+That's the definition of a deductive argument.
+
+61
+00:03:05,725 --> 00:03:09,839
+It's not possible that the conclusion is false.
+
+62
+00:03:09,839 --> 00:03:15,310
+As I said earlier, validity only applies to deductive arguments.
+
+63
+00:03:15,310 --> 00:03:17,835
+Validity only applies to deductive arguments.
+
+64
+00:03:17,835 --> 00:03:22,590
+So we can only tell whether the conclusion is necessary given
+
+65
+00:03:22,590 --> 00:03:27,896
+true premises if the argument is in deductive form.
+
+66
+00:03:27,896 --> 00:03:31,770
+So validity, again, has to do with the form of the argument
+
+67
+00:03:31,770 --> 00:03:33,419
+not with the truth value of the premises.
+
+68
+00:03:35,260 --> 00:03:37,675
+Let's look at a couple of arguments here.
+
+69
+00:03:37,675 --> 00:03:40,885
+Suppose I make the claim, all shrews are nocturnal,
+
+70
+00:03:40,885 --> 00:03:41,750
+premise one.
+
+71
+00:03:42,760 --> 00:03:46,220
+Premise two, all shrews are insectivores.
+
+72
+00:03:46,220 --> 00:03:48,622
+The conclusion therefore,
+
+73
+00:03:48,622 --> 00:03:52,332
+at least some insectivores are nocturnal.
+
+74
+00:03:52,332 --> 00:03:55,088
+This is a valid argument form.
+
+75
+00:03:55,088 --> 00:03:57,929
+Now suppose you don't know what shrews are, or you don't know
+
+76
+00:03:57,929 --> 00:04:01,220
+the meaning of nocturnal, it doesn't really matter does it?
+
+77
+00:04:01,220 --> 00:04:04,340
+Because we can tell that this is a valid form
+
+78
+00:04:04,340 --> 00:04:05,610
+by looking at the structure.
+
+79
+00:04:05,610 --> 00:04:07,600
+We can say if it's true,
+
+80
+00:04:07,600 --> 00:04:09,580
+we don't know cuz we don't know the meaning of the terms, but
+
+81
+00:04:09,580 --> 00:04:12,350
+if it is true that all shrews are nocturnal, and
+
+82
+00:04:12,350 --> 00:04:16,420
+if it is true that all shrews are insectivores, then it's
+
+83
+00:04:16,420 --> 00:04:20,130
+absolutely certain that at least some insectivores are nocturnal.
+
+84
+00:04:21,210 --> 00:04:23,939
+We don't have to know what nocturnal and
+
+85
+00:04:23,939 --> 00:04:26,588
+insectivores or shrews are to know that
+
+86
+00:04:26,588 --> 00:04:29,972
+the conclusion follows with logical necessity.
+
+87
+00:04:29,972 --> 00:04:32,134
+So that is a valid deductive argument and
+
+88
+00:04:32,134 --> 00:04:34,020
+it's in a valid form.
+
+89
+00:04:34,020 --> 00:04:37,111
+As we learned earlier we can symbolize all of this.
+
+90
+00:04:37,111 --> 00:04:42,270
+We can put symbols in place of these actual terms.
+
+91
+00:04:42,270 --> 00:04:46,340
+So we can replace shrews with S, nocturnal with N,
+
+92
+00:04:46,340 --> 00:04:48,160
+insectivores with I.
+
+93
+00:04:48,160 --> 00:04:52,430
+And we can get our same argument structure, All S are N,
+
+94
+00:04:52,430 --> 00:04:55,540
+All S are I, therefore, at least some I are N.
+
+95
+00:04:55,540 --> 00:04:57,660
+This is a valid form.
+
+96
+00:04:57,660 --> 00:05:00,790
+And you can even see with just using symbols,
+
+97
+00:05:00,790 --> 00:05:03,790
+that if we assume the premises are true,
+
+98
+00:05:03,790 --> 00:05:06,820
+the conclusion must follow with logical necessity.
+
+99
+00:05:06,820 --> 00:05:08,766
+That's what a deductive argument does.
+
+100
+00:05:08,766 --> 00:05:11,766
+And we can determine that validity just based on
+
+101
+00:05:11,766 --> 00:05:13,610
+the structure.
+
+102
+00:05:13,610 --> 00:05:15,490
+So as you are looking at arguments,
+
+103
+00:05:15,490 --> 00:05:19,127
+as you are constructing them, as you're analyzing them, the first
+
+104
+00:05:19,127 --> 00:05:22,450
+step in looking at a deductive argument is to determine whether
+
+105
+00:05:22,450 --> 00:05:24,981
+or not the deductive argument is in valid form.
+
+106
+00:05:24,981 --> 00:05:26,150
+That's the first step.
+
+107
+00:05:26,150 --> 00:05:28,990
+It doesn't mean that you've done everything you need to do, but
+
+108
+00:05:28,990 --> 00:05:31,510
+you at least need to do that part.
+
+109
+00:05:31,510 --> 00:05:35,250
+If the argument is not in valid form, then you can stop.
+
+110
+00:05:35,250 --> 00:05:39,220
+The analysis is over, you can say it's now a bad argument.
+
+111
+00:05:39,220 --> 00:05:42,110
+You don't need to really do any further analysis because it's
+
+112
+00:05:42,110 --> 00:05:43,578
+not in the right form.
+
+113
+00:05:43,578 --> 00:05:46,700
+If it is in a valid form, then you're gonna want to go on
+
+114
+00:05:46,700 --> 00:05:51,400
+to the next step and take a look at
+
+115
+00:05:51,400 --> 00:05:55,630
+how the form actually relates to the truth value of the premises.
+
+116
+00:05:57,030 --> 00:05:59,940
+So valid form is where the argument
+
+117
+00:05:59,940 --> 00:06:01,460
+is in the proper structure.
+
+118
+00:06:01,460 --> 00:06:02,990
+And then an invalid argument,
+
+119
+00:06:02,990 --> 00:06:06,520
+an invalid form, is where the conclusion
+
+120
+00:06:06,520 --> 00:06:09,398
+does not necessarily follow from the truth of the premises.
+
+121
+00:06:09,398 --> 00:06:14,290
+Put another way, even if you assume the premises are true,
+
+122
+00:06:14,290 --> 00:06:16,990
+if its possible that the conclusion is false,
+
+123
+00:06:16,990 --> 00:06:18,240
+then the argument is invalid.
+
+124
+00:06:19,470 --> 00:06:20,940
+So let's look at this argument.
+
+125
+00:06:20,940 --> 00:06:22,010
+All in symbolic form,
+
+126
+00:06:22,010 --> 00:06:24,500
+we're not gonna put any terms in here just now.
+
+127
+00:06:24,500 --> 00:06:30,120
+Let's suppose we said all a are b, all a are c, therefore,
+
+128
+00:06:30,120 --> 00:06:31,140
+all b are c.
+
+129
+00:06:32,930 --> 00:06:36,100
+This is an invalid form because it could be true that
+
+130
+00:06:36,100 --> 00:06:38,140
+both of the premises are true but
+
+131
+00:06:38,140 --> 00:06:41,510
+it's also possible that the conclusion is false.
+
+132
+00:06:41,510 --> 00:06:46,130
+We cannot derive this conclusion from those premises.
+
+133
+00:06:46,130 --> 00:06:47,140
+It's possible for
+
+134
+00:06:47,140 --> 00:06:50,440
+the conclusion to be false, even given true premises.
+
+135
+00:06:51,470 --> 00:06:54,160
+If you're following along, you'll notice that there was one
+
+136
+00:06:54,160 --> 00:06:56,240
+minor change between this argument and
+
+137
+00:06:56,240 --> 00:06:58,030
+the argument we just looked at.
+
+138
+00:06:58,030 --> 00:06:59,170
+What is that change?
+
+139
+00:06:59,170 --> 00:07:04,210
+Well, we changed in the conclusion the sum to all and
+
+140
+00:07:04,210 --> 00:07:06,580
+that makes the argument invalid.
+
+141
+00:07:06,580 --> 00:07:09,410
+Just by changing that one word it makes the argument
+
+142
+00:07:09,410 --> 00:07:12,350
+invalid because this conclusion
+
+143
+00:07:12,350 --> 00:07:15,900
+does not follow with logical necessity from those premises.
+
+144
+00:07:15,900 --> 00:07:19,506
+Let's illustrate it by looking at it with actual terms in it.
+
+145
+00:07:19,506 --> 00:07:21,583
+All crayons are colored.
+
+146
+00:07:21,583 --> 00:07:24,300
+All crayons are pigmented.
+
+147
+00:07:24,300 --> 00:07:27,340
+Therefore, all colored things and pigmented things.
+
+148
+00:07:27,340 --> 00:07:30,240
+All right that is an invalid argument.
+
+149
+00:07:30,240 --> 00:07:33,850
+Now you might be saying but, wait Paul, hold on a second.
+
+150
+00:07:33,850 --> 00:07:35,690
+That conclusion is true.
+
+151
+00:07:35,690 --> 00:07:36,550
+Yes, it is, right?
+
+152
+00:07:36,550 --> 00:07:39,110
+Just assuming we're not gonna quibble with language,
+
+153
+00:07:39,110 --> 00:07:40,920
+all colored things are pigmented things.
+
+154
+00:07:40,920 --> 00:07:43,440
+So how come this is an invalid argument?
+
+155
+00:07:43,440 --> 00:07:47,740
+The reason it's invalid is because we cannot get this
+
+156
+00:07:47,740 --> 00:07:51,150
+conclusion from the premises I've given you.
+
+157
+00:07:51,150 --> 00:07:53,160
+From the premises all crayons are colored and
+
+158
+00:07:53,160 --> 00:07:56,730
+all crayons are pigmented, we cannot derive the conclusion
+
+159
+00:07:56,730 --> 00:07:59,391
+all colors things are pigmented things,
+
+160
+00:07:59,391 --> 00:08:01,860
+even though that conclusion is true.
+
+161
+00:08:01,860 --> 00:08:03,754
+We don't get it from the premises.
+
+162
+00:08:03,754 --> 00:08:04,495
+In order for
+
+163
+00:08:04,495 --> 00:08:07,833
+an argument to work the premises have to give us reason
+
+164
+00:08:07,833 --> 00:08:11,940
+to believe the conclusion is true and that's not true here.
+
+165
+00:08:11,940 --> 00:08:13,180
+It's still possible,
+
+166
+00:08:13,180 --> 00:08:16,270
+given our premises, that that conclusion is false.
+
+167
+00:08:16,270 --> 00:08:18,940
+Therefore, it's an invalid form.
+
+168
+00:08:18,940 --> 00:08:22,870
+So validity has to do with the structure of the argument.
+
+169
+00:08:22,870 --> 00:08:25,940
+Based on the possible truth of the premises,
+
+170
+00:08:25,940 --> 00:08:28,480
+it's impossible that the conclusion is false.
+
+171
+00:08:28,480 --> 00:08:30,355
+If it is possible that conclusion is false
+
+172
+00:08:30,355 --> 00:08:31,020
+it's invalid.
+
+173
+00:08:31,020 --> 00:08:33,230
+If it's impossible the conclusion is false,
+
+174
+00:08:33,230 --> 00:08:34,190
+then it's valid.
+
+175
+00:08:34,190 --> 00:08:36,980
+And that's what validity has to do with in terms of
+
+176
+00:08:36,980 --> 00:08:38,050
+deductive arguments.
+

@@ -1,0 +1,10 @@
+<problem display_name="9.Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p/>
+    <p>If Sue’s hypothesis is true, then we can expect to see the solution turn green when we add boric acid to it. We just added the acid, and the solution turned green. Therefore, Sue’s hypothesis is probably true.<br/></p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="True">Inductive Argument<br/></choice>
+      <choice correct="False">Deductive Argument<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

@@ -1,0 +1,22 @@
+<problem display_name="1.Multiple choice" markdown="null" max_attempts="1" weight="1.0">
+  <multiplechoiceresponse>
+    <p/>
+    <p>Examine this argument:<br/>
+The bank robber accidentally left behind his checkbook. He also dropped his wallet that contained his driver’s license. Both items were traced to Joe Doakes, who was trying to hide $10,000 in his coat when the police arrived. The bank robber escaped with $10,000 but was also covered with red dye when the dye pack
+exploded. Joe Doakes was found to be covered with red dye. The obvious conclusion is that Joe robbed the bank.<br/></p>
+    <label>Does this inductive argument seem to be strong or weak?<br/></label>
+    <p/>
+    <choicegroup type="MultipleChoice">
+      <choice correct="True">Strong<br/></choice>
+      <choice correct="False">Weak<br/></choice>
+    </choicegroup>
+    <p/>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p/>
+        <p>The evidence here is not conclusive but it does strongly point to Doakes as the perpetrator. While it's possible Doakes didn't rob the bank, the question to ask is whether it's more probable than not that he did given the evidence.</p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

@@ -1,0 +1,12 @@
+<problem display_name="7.Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p/>
+    <p>All the members of the Ohio Southpaw Club are left-handed. Joe is left-handed. So, Joe must be a member of the Ohio Southpaw Club.<br/></p>
+    <label>Using the intuitive test for validity, decide if the statement above is valid or invalid.<br/></label>
+    <p/>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">Valid<br/></choice>
+      <choice correct="True">Invalid<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

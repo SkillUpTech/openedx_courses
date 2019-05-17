@@ -1,0 +1,3025 @@
+{
+    "00_grading.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "00_grading.png", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "00_grading.png", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@00_grading.png", 
+        "import_path": "00_grading.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "PartnerFY19JAN", 
+            "DEV262x", 
+            "thumbnail", 
+            "00_grading-png.jpg", 
+            null
+        ]
+    }, 
+    "00_gradingbreakdown.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "00_gradingbreakdown.png", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "00_gradingbreakdown.png", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@00_gradingbreakdown.png", 
+        "import_path": "00_gradingbreakdown.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "PartnerFY19JAN", 
+            "DEV262x", 
+            "thumbnail", 
+            "00_gradingbreakdown-png.jpg", 
+            null
+        ]
+    }, 
+    "00_passinggrade.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "00_passinggrade.png", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "00_passinggrade.png", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@00_passinggrade.png", 
+        "import_path": "00_passinggrade.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "PartnerFY19JAN", 
+            "DEV262x", 
+            "thumbnail", 
+            "00_passinggrade-png.jpg", 
+            null
+        ]
+    }, 
+    "01_consistencylevels.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "01_consistencylevels.png", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "01_consistencylevels.png", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@01_consistencylevels.png", 
+        "import_path": "01_consistencylevels.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "PartnerFY19JAN", 
+            "DEV262x", 
+            "thumbnail", 
+            "01_consistencylevels-png.jpg", 
+            null
+        ]
+    }, 
+    "01_multiplecollections.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "01_multiplecollections.png", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "01_multiplecollections.png", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@01_multiplecollections.png", 
+        "import_path": "01_multiplecollections.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "PartnerFY19JAN", 
+            "DEV262x", 
+            "thumbnail", 
+            "01_multiplecollections-png.jpg", 
+            null
+        ]
+    }, 
+    "024a4504-d47c-44b9-8afd-30cc1fc7be1b-en.srt": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "024a4504-d47c-44b9-8afd-30cc1fc7be1b-en.srt", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "024a4504-d47c-44b9-8afd-30cc1fc7be1b-en.srt", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@024a4504-d47c-44b9-8afd-30cc1fc7be1b-en.srt", 
+        "import_path": "024a4504-d47c-44b9-8afd-30cc1fc7be1b-en.srt", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "02_relationalstructure.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "02_relationalstructure.png", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "02_relationalstructure.png", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@02_relationalstructure.png", 
+        "import_path": "02_relationalstructure.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "PartnerFY19JAN", 
+            "DEV262x", 
+            "thumbnail", 
+            "02_relationalstructure-png.jpg", 
+            null
+        ]
+    }, 
+    "03_complexgraph.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "03_complexgraph.png", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "03_complexgraph.png", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@03_complexgraph.png", 
+        "import_path": "03_complexgraph.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "PartnerFY19JAN", 
+            "DEV262x", 
+            "thumbnail", 
+            "03_complexgraph-png.jpg", 
+            null
+        ]
+    }, 
+    "03_simplegraph.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "03_simplegraph.png", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "03_simplegraph.png", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@03_simplegraph.png", 
+        "import_path": "03_simplegraph.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "PartnerFY19JAN", 
+            "DEV262x", 
+            "thumbnail", 
+            "03_simplegraph-png.jpg", 
+            null
+        ]
+    }, 
+    "04dd59cb-f541-4b36-8141-70e4a6e7514a-en.srt": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "04dd59cb-f541-4b36-8141-70e4a6e7514a-en.srt", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "04dd59cb-f541-4b36-8141-70e4a6e7514a-en.srt", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@04dd59cb-f541-4b36-8141-70e4a6e7514a-en.srt", 
+        "import_path": "04dd59cb-f541-4b36-8141-70e4a6e7514a-en.srt", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "0ac371da-d2af-44a1-b6e5-3f06c7fc82ff-en.srt": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "0ac371da-d2af-44a1-b6e5-3f06c7fc82ff-en.srt", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "0ac371da-d2af-44a1-b6e5-3f06c7fc82ff-en.srt", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@0ac371da-d2af-44a1-b6e5-3f06c7fc82ff-en.srt", 
+        "import_path": "0ac371da-d2af-44a1-b6e5-3f06c7fc82ff-en.srt", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "0cedd684-3776-4221-bc2e-577b0b2b3407-en.srt": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "0cedd684-3776-4221-bc2e-577b0b2b3407-en.srt", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "0cedd684-3776-4221-bc2e-577b0b2b3407-en.srt", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@0cedd684-3776-4221-bc2e-577b0b2b3407-en.srt", 
+        "import_path": "0cedd684-3776-4221-bc2e-577b0b2b3407-en.srt", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "0d7aa632-72c2-448e-b322-5593dde21bc2-en.srt": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "0d7aa632-72c2-448e-b322-5593dde21bc2-en.srt", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "0d7aa632-72c2-448e-b322-5593dde21bc2-en.srt", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@0d7aa632-72c2-448e-b322-5593dde21bc2-en.srt", 
+        "import_path": "0d7aa632-72c2-448e-b322-5593dde21bc2-en.srt", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "1c6bc64a-229e-48e8-b756-7a3c9cfb5381-en.srt": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "1c6bc64a-229e-48e8-b756-7a3c9cfb5381-en.srt", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "1c6bc64a-229e-48e8-b756-7a3c9cfb5381-en.srt", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@1c6bc64a-229e-48e8-b756-7a3c9cfb5381-en.srt", 
+        "import_path": "1c6bc64a-229e-48e8-b756-7a3c9cfb5381-en.srt", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "1c84736e-ff6a-4875-90ce-e4b991ac6ed8-en.srt": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "1c84736e-ff6a-4875-90ce-e4b991ac6ed8-en.srt", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "1c84736e-ff6a-4875-90ce-e4b991ac6ed8-en.srt", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@1c84736e-ff6a-4875-90ce-e4b991ac6ed8-en.srt", 
+        "import_path": "1c84736e-ff6a-4875-90ce-e4b991ac6ed8-en.srt", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "1ff82c4b-6591-4f60-8ef9-73904e7d9bf2-en.srt": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "1ff82c4b-6591-4f60-8ef9-73904e7d9bf2-en.srt", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "1ff82c4b-6591-4f60-8ef9-73904e7d9bf2-en.srt", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@1ff82c4b-6591-4f60-8ef9-73904e7d9bf2-en.srt", 
+        "import_path": "1ff82c4b-6591-4f60-8ef9-73904e7d9bf2-en.srt", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "2b2a1b06-dc51-4275-95ae-6e5321dfe685-en.srt": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "2b2a1b06-dc51-4275-95ae-6e5321dfe685-en.srt", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "2b2a1b06-dc51-4275-95ae-6e5321dfe685-en.srt", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@2b2a1b06-dc51-4275-95ae-6e5321dfe685-en.srt", 
+        "import_path": "2b2a1b06-dc51-4275-95ae-6e5321dfe685-en.srt", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "3b15ddf4-b986-4bce-90ef-5dc865b3266d-en.srt": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "3b15ddf4-b986-4bce-90ef-5dc865b3266d-en.srt", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "3b15ddf4-b986-4bce-90ef-5dc865b3266d-en.srt", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@3b15ddf4-b986-4bce-90ef-5dc865b3266d-en.srt", 
+        "import_path": "3b15ddf4-b986-4bce-90ef-5dc865b3266d-en.srt", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "3c5b5ff4-461d-43f0-aa8a-469e2759584b-en.srt": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "3c5b5ff4-461d-43f0-aa8a-469e2759584b-en.srt", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "3c5b5ff4-461d-43f0-aa8a-469e2759584b-en.srt", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@3c5b5ff4-461d-43f0-aa8a-469e2759584b-en.srt", 
+        "import_path": "3c5b5ff4-461d-43f0-aa8a-469e2759584b-en.srt", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "463c5676-ce63-4297-ad41-b4de7897b935-en.srt": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "463c5676-ce63-4297-ad41-b4de7897b935-en.srt", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "463c5676-ce63-4297-ad41-b4de7897b935-en.srt", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@463c5676-ce63-4297-ad41-b4de7897b935-en.srt", 
+        "import_path": "463c5676-ce63-4297-ad41-b4de7897b935-en.srt", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "497a1273-925f-420d-8543-5e0d1c18c650-en.srt": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "497a1273-925f-420d-8543-5e0d1c18c650-en.srt", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "497a1273-925f-420d-8543-5e0d1c18c650-en.srt", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@497a1273-925f-420d-8543-5e0d1c18c650-en.srt", 
+        "import_path": "497a1273-925f-420d-8543-5e0d1c18c650-en.srt", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "4b9ca272-5615-4e5c-b8f4-b5a0c5ce4489-en.srt": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "4b9ca272-5615-4e5c-b8f4-b5a0c5ce4489-en.srt", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "4b9ca272-5615-4e5c-b8f4-b5a0c5ce4489-en.srt", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@4b9ca272-5615-4e5c-b8f4-b5a0c5ce4489-en.srt", 
+        "import_path": "4b9ca272-5615-4e5c-b8f4-b5a0c5ce4489-en.srt", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "52c5d972-6d01-439a-805f-225cf1415da9-en.srt": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "52c5d972-6d01-439a-805f-225cf1415da9-en.srt", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "52c5d972-6d01-439a-805f-225cf1415da9-en.srt", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@52c5d972-6d01-439a-805f-225cf1415da9-en.srt", 
+        "import_path": "52c5d972-6d01-439a-805f-225cf1415da9-en.srt", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "610ceabf-f258-4572-b58e-7eaba191ec6a-en.srt": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "610ceabf-f258-4572-b58e-7eaba191ec6a-en.srt", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "610ceabf-f258-4572-b58e-7eaba191ec6a-en.srt", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@610ceabf-f258-4572-b58e-7eaba191ec6a-en.srt", 
+        "import_path": "610ceabf-f258-4572-b58e-7eaba191ec6a-en.srt", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "7b60dc52-e6f3-4e88-8bbd-9d4fb1bce3e7-en.srt": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "7b60dc52-e6f3-4e88-8bbd-9d4fb1bce3e7-en.srt", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "7b60dc52-e6f3-4e88-8bbd-9d4fb1bce3e7-en.srt", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@7b60dc52-e6f3-4e88-8bbd-9d4fb1bce3e7-en.srt", 
+        "import_path": "7b60dc52-e6f3-4e88-8bbd-9d4fb1bce3e7-en.srt", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "7ea6b851-3f6d-417f-b4b5-2428919dad41-en.srt": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "7ea6b851-3f6d-417f-b4b5-2428919dad41-en.srt", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "7ea6b851-3f6d-417f-b4b5-2428919dad41-en.srt", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@7ea6b851-3f6d-417f-b4b5-2428919dad41-en.srt", 
+        "import_path": "7ea6b851-3f6d-417f-b4b5-2428919dad41-en.srt", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "8d4d424f-6cff-4baa-990c-1d05b20efbb4-en.srt": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "8d4d424f-6cff-4baa-990c-1d05b20efbb4-en.srt", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "8d4d424f-6cff-4baa-990c-1d05b20efbb4-en.srt", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@8d4d424f-6cff-4baa-990c-1d05b20efbb4-en.srt", 
+        "import_path": "8d4d424f-6cff-4baa-990c-1d05b20efbb4-en.srt", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "917df792-603b-4c68-9ccf-863813c801fc-en.srt": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "917df792-603b-4c68-9ccf-863813c801fc-en.srt", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "917df792-603b-4c68-9ccf-863813c801fc-en.srt", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@917df792-603b-4c68-9ccf-863813c801fc-en.srt", 
+        "import_path": "917df792-603b-4c68-9ccf-863813c801fc-en.srt", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "DEV262x_course_image.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "DEV262x_course_image.png", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "DEV262x course image.png", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@DEV262x_course_image.png", 
+        "import_path": "DEV262x course image.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "PartnerFY19JAN", 
+            "DEV262x", 
+            "thumbnail", 
+            "DEV262x_course_image-png.jpg", 
+            null
+        ]
+    }, 
+    "Dev262x.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "Dev262x.png", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Dev262x.png", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@Dev262x.png", 
+        "import_path": "Dev262x.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "PartnerFY19JAN", 
+            "DEV262x", 
+            "thumbnail", 
+            "Dev262x-png.jpg", 
+            null
+        ]
+    }, 
+    "Fundamentals.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "Fundamentals.png", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Fundamentals.png", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@Fundamentals.png", 
+        "import_path": "Fundamentals.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "PartnerFY19JAN", 
+            "DEV262x", 
+            "thumbnail", 
+            "Fundamentals-png.jpg", 
+            null
+        ]
+    }, 
+    "Logic_and_Computational_Thinking_Outline.pdf": {
+        "contentType": "application/pdf", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "Logic_and_Computational_Thinking_Outline.pdf", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Logic and Computational Thinking Outline.pdf", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@Logic_and_Computational_Thinking_Outline.pdf", 
+        "import_path": "Logic and Computational Thinking Outline.pdf", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "M0-L2-T5.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "M0-L2-T5.png", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "M0-L2-T5.png", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@M0-L2-T5.png", 
+        "import_path": "M0-L2-T5.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "PartnerFY19JAN", 
+            "DEV262x", 
+            "thumbnail", 
+            "M0-L2-T5-png.jpg", 
+            null
+        ]
+    }, 
+    "M0-L2-T6.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "M0-L2-T6.png", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "M0-L2-T6.png", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@M0-L2-T6.png", 
+        "import_path": "M0-L2-T6.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "PartnerFY19JAN", 
+            "DEV262x", 
+            "thumbnail", 
+            "M0-L2-T6-png.jpg", 
+            null
+        ]
+    }, 
+    "M0-L2-T8.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "M0-L2-T8.png", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "M0-L2-T8.png", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@M0-L2-T8.png", 
+        "import_path": "M0-L2-T8.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "PartnerFY19JAN", 
+            "DEV262x", 
+            "thumbnail", 
+            "M0-L2-T8-png.jpg", 
+            null
+        ]
+    }, 
+    "Paul_Pardi.jpg": {
+        "contentType": "image/jpeg", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "Paul_Pardi.jpg", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Paul_Pardi.jpg", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@Paul_Pardi.jpg", 
+        "import_path": null, 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "PartnerFY19JAN", 
+            "DEV262x", 
+            "thumbnail", 
+            "Paul_Pardi.jpg", 
+            null
+        ]
+    }, 
+    "Propositions.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "Propositions.png", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Propositions.png", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@Propositions.png", 
+        "import_path": "Propositions.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "PartnerFY19JAN", 
+            "DEV262x", 
+            "thumbnail", 
+            "Propositions-png.jpg", 
+            null
+        ]
+    }, 
+    "README.txt": {
+        "contentType": "text/plain", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "README.txt", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "README.txt", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@README.txt", 
+        "import_path": "README.txt", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "Satya_Nadella.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "Satya_Nadella.png", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Satya Nadella.png", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@Satya_Nadella.png", 
+        "import_path": "Satya Nadella.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "PartnerFY19JAN", 
+            "DEV262x", 
+            "thumbnail", 
+            "Satya_Nadella-png.jpg", 
+            null
+        ]
+    }, 
+    "UnitPublish.JPG": {
+        "contentType": "image/jpeg", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "UnitPublish.JPG", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "UnitPublish.JPG", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@UnitPublish.JPG", 
+        "import_path": "UnitPublish.JPG", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "PartnerFY19JAN", 
+            "DEV262x", 
+            "thumbnail", 
+            "UnitPublish-JPG.jpg", 
+            null
+        ]
+    }, 
+    "VennAAA1.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "VennAAA1.png", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "VennAAA1.png", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@VennAAA1.png", 
+        "import_path": "VennAAA1.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "PartnerFY19JAN", 
+            "DEV262x", 
+            "thumbnail", 
+            "VennAAA1-png.jpg", 
+            null
+        ]
+    }, 
+    "VennAAA2.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "VennAAA2.png", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "VennAAA2.png", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@VennAAA2.png", 
+        "import_path": "VennAAA2.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "PartnerFY19JAN", 
+            "DEV262x", 
+            "thumbnail", 
+            "VennAAA2-png.jpg", 
+            null
+        ]
+    }, 
+    "VennAAA3.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "VennAAA3.png", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "VennAAA3.png", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@VennAAA3.png", 
+        "import_path": "VennAAA3.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "PartnerFY19JAN", 
+            "DEV262x", 
+            "thumbnail", 
+            "VennAAA3-png.jpg", 
+            null
+        ]
+    }, 
+    "VennAStatement.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "VennAStatement.png", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "VennAStatement.png", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@VennAStatement.png", 
+        "import_path": "VennAStatement.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "PartnerFY19JAN", 
+            "DEV262x", 
+            "thumbnail", 
+            "VennAStatement-png.jpg", 
+            null
+        ]
+    }, 
+    "VennEStatement.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "VennEStatement.png", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "VennEStatement.png", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@VennEStatement.png", 
+        "import_path": "VennEStatement.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "PartnerFY19JAN", 
+            "DEV262x", 
+            "thumbnail", 
+            "VennEStatement-png.jpg", 
+            null
+        ]
+    }, 
+    "VennIStatement.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "VennIStatement.png", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "VennIStatement.png", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@VennIStatement.png", 
+        "import_path": "VennIStatement.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "PartnerFY19JAN", 
+            "DEV262x", 
+            "thumbnail", 
+            "VennIStatement-png.jpg", 
+            null
+        ]
+    }, 
+    "VennInvalid1.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "VennInvalid1.png", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "VennInvalid1.png", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@VennInvalid1.png", 
+        "import_path": "VennInvalid1.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "PartnerFY19JAN", 
+            "DEV262x", 
+            "thumbnail", 
+            "VennInvalid1-png.jpg", 
+            null
+        ]
+    }, 
+    "VennInvalid2.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "VennInvalid2.png", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "VennInvalid2.png", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@VennInvalid2.png", 
+        "import_path": "VennInvalid2.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "PartnerFY19JAN", 
+            "DEV262x", 
+            "thumbnail", 
+            "VennInvalid2-png.jpg", 
+            null
+        ]
+    }, 
+    "VennInvalid3.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "VennInvalid3.png", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "VennInvalid3.png", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@VennInvalid3.png", 
+        "import_path": "VennInvalid3.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "PartnerFY19JAN", 
+            "DEV262x", 
+            "thumbnail", 
+            "VennInvalid3-png.jpg", 
+            null
+        ]
+    }, 
+    "VennOStatement.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "VennOStatement.png", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "VennOStatement.png", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@VennOStatement.png", 
+        "import_path": "VennOStatement.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "PartnerFY19JAN", 
+            "DEV262x", 
+            "thumbnail", 
+            "VennOStatement-png.jpg", 
+            null
+        ]
+    }, 
+    "VennRegions.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "VennRegions.png", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "VennRegions.png", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@VennRegions.png", 
+        "import_path": "VennRegions.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "PartnerFY19JAN", 
+            "DEV262x", 
+            "thumbnail", 
+            "VennRegions-png.jpg", 
+            null
+        ]
+    }, 
+    "VennRegionsAll.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "VennRegionsAll.png", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "VennRegionsAll.png", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@VennRegionsAll.png", 
+        "import_path": "VennRegionsAll.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "PartnerFY19JAN", 
+            "DEV262x", 
+            "thumbnail", 
+            "VennRegionsAll-png.jpg", 
+            null
+        ]
+    }, 
+    "WhatIsLogic.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "WhatIsLogic.png", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "WhatIsLogic.png", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@WhatIsLogic.png", 
+        "import_path": "WhatIsLogic.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "PartnerFY19JAN", 
+            "DEV262x", 
+            "thumbnail", 
+            "WhatIsLogic-png.jpg", 
+            null
+        ]
+    }, 
+    "c1a99268-ae62-4850-a481-8a1a86b7a33f-en.srt": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "c1a99268-ae62-4850-a481-8a1a86b7a33f-en.srt", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "c1a99268-ae62-4850-a481-8a1a86b7a33f-en.srt", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@c1a99268-ae62-4850-a481-8a1a86b7a33f-en.srt", 
+        "import_path": "c1a99268-ae62-4850-a481-8a1a86b7a33f-en.srt", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "c7af538c-de35-43de-84ae-e9c7710b3a9f-en.srt": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "c7af538c-de35-43de-84ae-e9c7710b3a9f-en.srt", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "c7af538c-de35-43de-84ae-e9c7710b3a9f-en.srt", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@c7af538c-de35-43de-84ae-e9c7710b3a9f-en.srt", 
+        "import_path": "c7af538c-de35-43de-84ae-e9c7710b3a9f-en.srt", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "course_image.jpg": {
+        "contentType": "image/jpeg", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "course_image.jpg", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "course_image.jpg", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@course_image.jpg", 
+        "import_path": "course_image.jpg", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "PartnerFY19JAN", 
+            "DEV262x", 
+            "thumbnail", 
+            "course_image.jpg", 
+            null
+        ]
+    }, 
+    "d354d071-29b6-4b60-9588-73f22224a61b-en.srt": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "d354d071-29b6-4b60-9588-73f22224a61b-en.srt", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "d354d071-29b6-4b60-9588-73f22224a61b-en.srt", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@d354d071-29b6-4b60-9588-73f22224a61b-en.srt", 
+        "import_path": "d354d071-29b6-4b60-9588-73f22224a61b-en.srt", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "e833db3e-0cd6-445d-9c49-803f39c4a7b9-en.srt": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "e833db3e-0cd6-445d-9c49-803f39c4a7b9-en.srt", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "e833db3e-0cd6-445d-9c49-803f39c4a7b9-en.srt", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@e833db3e-0cd6-445d-9c49-803f39c4a7b9-en.srt", 
+        "import_path": "e833db3e-0cd6-445d-9c49-803f39c4a7b9-en.srt", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "f557adb0-03ba-42af-b8f3-b3dd22b7e8e3-en.srt": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "f557adb0-03ba-42af-b8f3-b3dd22b7e8e3-en.srt", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "f557adb0-03ba-42af-b8f3-b3dd22b7e8e3-en.srt", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@f557adb0-03ba-42af-b8f3-b3dd22b7e8e3-en.srt", 
+        "import_path": "f557adb0-03ba-42af-b8f3-b3dd22b7e8e3-en.srt", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "f7a905c8-114a-467c-9bc7-27d9d57aabf6-en.srt": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "f7a905c8-114a-467c-9bc7-27d9d57aabf6-en.srt", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "f7a905c8-114a-467c-9bc7-27d9d57aabf6-en.srt", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@f7a905c8-114a-467c-9bc7-27d9d57aabf6-en.srt", 
+        "import_path": "f7a905c8-114a-467c-9bc7-27d9d57aabf6-en.srt", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "f7fea07d-dcde-43fd-a7b8-3555e65dbab2-en.srt": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "f7fea07d-dcde-43fd-a7b8-3555e65dbab2-en.srt", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "f7fea07d-dcde-43fd-a7b8-3555e65dbab2-en.srt", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@f7fea07d-dcde-43fd-a7b8-3555e65dbab2-en.srt", 
+        "import_path": "f7fea07d-dcde-43fd-a7b8-3555e65dbab2-en.srt", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "highlight.css": {
+        "contentType": "text/css", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "highlight.css", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "highlight.css", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@highlight.css", 
+        "import_path": "highlight.css", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "karen.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "karen.png", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "karen.png", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@karen.png", 
+        "import_path": "karen.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "PartnerFY19JAN", 
+            "DEV262x", 
+            "thumbnail", 
+            "karen-png.jpg", 
+            null
+        ]
+    }, 
+    "prism.js": {
+        "contentType": "text/javascript", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "prism.js", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "prism.js", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@prism.js", 
+        "import_path": "prism.js", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "sig-Bjorn-prod.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "sig-Bjorn-prod.png", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "sig-Bjorn-prod.png", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@sig-Bjorn-prod.png", 
+        "import_path": "sig-Bjorn-prod.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "PartnerFY19JAN", 
+            "DEV262x", 
+            "thumbnail", 
+            "sig-Bjorn-prod-png.jpg", 
+            null
+        ]
+    }, 
+    "sig-satya-nadella-prod.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "sig-satya-nadella-prod.png", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "sig-satya-nadella-prod.png", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@sig-satya-nadella-prod.png", 
+        "import_path": "sig-satya-nadella-prod.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "PartnerFY19JAN", 
+            "DEV262x", 
+            "thumbnail", 
+            "sig-satya-nadella-prod-png.jpg", 
+            null
+        ]
+    }, 
+    "subs_00.01.1-2017-05-26-Logic-Comp-Thinking-1.srt.sjson": {
+        "contentType": "application/json", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_00.01.1-2017-05-26-Logic-Comp-Thinking-1.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_00.01.1-2017-05-26-Logic-Comp-Thinking-1.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_00.01.1-2017-05-26-Logic-Comp-Thinking-1.srt.sjson", 
+        "import_path": "subs_00.01.1-2017-05-26-Logic-Comp-Thinking-1.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_01.02.1-2017-05-26-Logic-Comp-Thinking-WhatIsLogic.srt.sjson": {
+        "contentType": "application/json", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_01.02.1-2017-05-26-Logic-Comp-Thinking-WhatIsLogic.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_01.02.1-2017-05-26-Logic-Comp-Thinking-WhatIsLogic.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_01.02.1-2017-05-26-Logic-Comp-Thinking-WhatIsLogic.srt.sjson", 
+        "import_path": "subs_01.02.1-2017-05-26-Logic-Comp-Thinking-WhatIsLogic.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_01.02.2-2017-05-26-Logic-Comp-Thinking-Arguments.srt.sjson": {
+        "contentType": "application/json", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_01.02.2-2017-05-26-Logic-Comp-Thinking-Arguments.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_01.02.2-2017-05-26-Logic-Comp-Thinking-Arguments.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_01.02.2-2017-05-26-Logic-Comp-Thinking-Arguments.srt.sjson", 
+        "import_path": "subs_01.02.2-2017-05-26-Logic-Comp-Thinking-Arguments.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_01.02.3-2017-05-26-Logic-Comp-Thinking-Statements.srt.sjson": {
+        "contentType": "application/json", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_01.02.3-2017-05-26-Logic-Comp-Thinking-Statements.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_01.02.3-2017-05-26-Logic-Comp-Thinking-Statements.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_01.02.3-2017-05-26-Logic-Comp-Thinking-Statements.srt.sjson", 
+        "import_path": "subs_01.02.3-2017-05-26-Logic-Comp-Thinking-Statements.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_01.02.4-2017-05-26-Logic-Comp-Thinking-Propositions.srt.sjson": {
+        "contentType": "application/json", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_01.02.4-2017-05-26-Logic-Comp-Thinking-Propositions.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_01.02.4-2017-05-26-Logic-Comp-Thinking-Propositions.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_01.02.4-2017-05-26-Logic-Comp-Thinking-Propositions.srt.sjson", 
+        "import_path": "subs_01.02.4-2017-05-26-Logic-Comp-Thinking-Propositions.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_01.02.5-2017-05-26-Logic-Comp-Thinking-TruthValue.srt.sjson": {
+        "contentType": "application/json", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_01.02.5-2017-05-26-Logic-Comp-Thinking-TruthValue.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_01.02.5-2017-05-26-Logic-Comp-Thinking-TruthValue.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_01.02.5-2017-05-26-Logic-Comp-Thinking-TruthValue.srt.sjson", 
+        "import_path": "subs_01.02.5-2017-05-26-Logic-Comp-Thinking-TruthValue.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_01.03.1-2017-05-26-Logic-Comp-Thinking-Symbolization.srt.sjson": {
+        "contentType": "application/json", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_01.03.1-2017-05-26-Logic-Comp-Thinking-Symbolization.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_01.03.1-2017-05-26-Logic-Comp-Thinking-Symbolization.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_01.03.1-2017-05-26-Logic-Comp-Thinking-Symbolization.srt.sjson", 
+        "import_path": "subs_01.03.1-2017-05-26-Logic-Comp-Thinking-Symbolization.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_01.03.2-2017-05-26-Logic-Comp-Thinking-Operators.srt.sjson": {
+        "contentType": "application/json", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_01.03.2-2017-05-26-Logic-Comp-Thinking-Operators.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_01.03.2-2017-05-26-Logic-Comp-Thinking-Operators.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_01.03.2-2017-05-26-Logic-Comp-Thinking-Operators.srt.sjson", 
+        "import_path": "subs_01.03.2-2017-05-26-Logic-Comp-Thinking-Operators.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_01.03.3-2017-05-26-Logic-Comp-Thinking-ConditionalStatements.srt.sjson": {
+        "contentType": "application/json", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_01.03.3-2017-05-26-Logic-Comp-Thinking-ConditionalStatements.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_01.03.3-2017-05-26-Logic-Comp-Thinking-ConditionalStatements.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_01.03.3-2017-05-26-Logic-Comp-Thinking-ConditionalStatements.srt.sjson", 
+        "import_path": "subs_01.03.3-2017-05-26-Logic-Comp-Thinking-ConditionalStatements.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_02.02.1-2017-05-26-Logic-Comp-Thinking-ArgumentForm.srt.sjson": {
+        "contentType": "application/json", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_02.02.1-2017-05-26-Logic-Comp-Thinking-ArgumentForm.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_02.02.1-2017-05-26-Logic-Comp-Thinking-ArgumentForm.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_02.02.1-2017-05-26-Logic-Comp-Thinking-ArgumentForm.srt.sjson", 
+        "import_path": "subs_02.02.1-2017-05-26-Logic-Comp-Thinking-ArgumentForm.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_02.02.2-2017-05-26-Logic-Comp-Thinking-DeductiveArgument.srt.sjson": {
+        "contentType": "application/json", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_02.02.2-2017-05-26-Logic-Comp-Thinking-DeductiveArgument.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_02.02.2-2017-05-26-Logic-Comp-Thinking-DeductiveArgument.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_02.02.2-2017-05-26-Logic-Comp-Thinking-DeductiveArgument.srt.sjson", 
+        "import_path": "subs_02.02.2-2017-05-26-Logic-Comp-Thinking-DeductiveArgument.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_02.02.3-2017-05-26-Logic-Comp-Thinking-Soundness.srt.sjson": {
+        "contentType": "application/json", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_02.02.3-2017-05-26-Logic-Comp-Thinking-Soundness.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_02.02.3-2017-05-26-Logic-Comp-Thinking-Soundness.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_02.02.3-2017-05-26-Logic-Comp-Thinking-Soundness.srt.sjson", 
+        "import_path": "subs_02.02.3-2017-05-26-Logic-Comp-Thinking-Soundness.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_02.02.4-2017-05-26-Logic-Comp-Thinking-FourSyllogisms.srt.sjson": {
+        "contentType": "application/json", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_02.02.4-2017-05-26-Logic-Comp-Thinking-FourSyllogisms.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_02.02.4-2017-05-26-Logic-Comp-Thinking-FourSyllogisms.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_02.02.4-2017-05-26-Logic-Comp-Thinking-FourSyllogisms.srt.sjson", 
+        "import_path": "subs_02.02.4-2017-05-26-Logic-Comp-Thinking-FourSyllogisms.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_02.03.1-2017-05-26-Logic-Comp-Thinking-InductiveArguments.srt.sjson": {
+        "contentType": "application/json", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_02.03.1-2017-05-26-Logic-Comp-Thinking-InductiveArguments.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_02.03.1-2017-05-26-Logic-Comp-Thinking-InductiveArguments.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_02.03.1-2017-05-26-Logic-Comp-Thinking-InductiveArguments.srt.sjson", 
+        "import_path": "subs_02.03.1-2017-05-26-Logic-Comp-Thinking-InductiveArguments.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_0NY4yv4M-7k.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_0NY4yv4M-7k.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_0NY4yv4M-7k.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_0NY4yv4M-7k.srt.sjson", 
+        "import_path": "subs_0NY4yv4M-7k.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_1TK2ys1mfHk.srt.sjson": {
+        "contentType": "application/json", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_1TK2ys1mfHk.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_1TK2ys1mfHk.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_1TK2ys1mfHk.srt.sjson", 
+        "import_path": "subs_1TK2ys1mfHk.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_2017-09-25-69166-edx-logic-and-computational-thinking__1__publish.srt.sjson": {
+        "contentType": "application/json", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_2017-09-25-69166-edx-logic-and-computational-thinking__1__publish.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_2017-09-25-69166-edx-logic-and-computational-thinking_(1)_publish.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_2017-09-25-69166-edx-logic-and-computational-thinking__1__publish.srt.sjson", 
+        "import_path": "subs_2017-09-25-69166-edx-logic-and-computational-thinking_(1)_publish.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_2017-09-25-69166-edx-logic-and-computational-thinking_publish.srt.sjson": {
+        "contentType": "application/json", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_2017-09-25-69166-edx-logic-and-computational-thinking_publish.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_2017-09-25-69166-edx-logic-and-computational-thinking_publish.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_2017-09-25-69166-edx-logic-and-computational-thinking_publish.srt.sjson", 
+        "import_path": "subs_2017-09-25-69166-edx-logic-and-computational-thinking_publish.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_3_yD_cEKoCk.srt.sjson": {
+        "contentType": "application/json", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_3_yD_cEKoCk.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_3_yD_cEKoCk.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_3_yD_cEKoCk.srt.sjson", 
+        "import_path": "subs_3_yD_cEKoCk.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_3iLIxTKiUsY.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_3iLIxTKiUsY.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_3iLIxTKiUsY.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_3iLIxTKiUsY.srt.sjson", 
+        "import_path": "subs_3iLIxTKiUsY.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_5by3knHRF_o.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_5by3knHRF_o.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_5by3knHRF_o.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_5by3knHRF_o.srt.sjson", 
+        "import_path": "subs_5by3knHRF_o.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_5yy8BvBzrPs.srt.sjson": {
+        "contentType": "application/json", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_5yy8BvBzrPs.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_5yy8BvBzrPs.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_5yy8BvBzrPs.srt.sjson", 
+        "import_path": "subs_5yy8BvBzrPs.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_6wJA_Nr7YfM.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_6wJA_Nr7YfM.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_6wJA_Nr7YfM.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_6wJA_Nr7YfM.srt.sjson", 
+        "import_path": "subs_6wJA_Nr7YfM.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_6zESyrEoqGo.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_6zESyrEoqGo.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_6zESyrEoqGo.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_6zESyrEoqGo.srt.sjson", 
+        "import_path": "subs_6zESyrEoqGo.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_76dpiBQgpHg.srt.sjson": {
+        "contentType": "application/json", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_76dpiBQgpHg.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_76dpiBQgpHg.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_76dpiBQgpHg.srt.sjson", 
+        "import_path": "subs_76dpiBQgpHg.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_7UissvzX__8.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_7UissvzX__8.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_7UissvzX__8.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_7UissvzX__8.srt.sjson", 
+        "import_path": "subs_7UissvzX__8.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_7gvzCv3xfDE.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_7gvzCv3xfDE.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_7gvzCv3xfDE.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_7gvzCv3xfDE.srt.sjson", 
+        "import_path": "subs_7gvzCv3xfDE.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_8BZiVmh974c.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_8BZiVmh974c.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_8BZiVmh974c.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_8BZiVmh974c.srt.sjson", 
+        "import_path": "subs_8BZiVmh974c.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_9Zu3VJuTLGI.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_9Zu3VJuTLGI.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_9Zu3VJuTLGI.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_9Zu3VJuTLGI.srt.sjson", 
+        "import_path": "subs_9Zu3VJuTLGI.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_Aj2UHbfy3cU.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_Aj2UHbfy3cU.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_Aj2UHbfy3cU.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_Aj2UHbfy3cU.srt.sjson", 
+        "import_path": "subs_Aj2UHbfy3cU.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_B9l17uxYzwM.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_B9l17uxYzwM.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_B9l17uxYzwM.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_B9l17uxYzwM.srt.sjson", 
+        "import_path": "subs_B9l17uxYzwM.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_CPdRUHf0GPs.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_CPdRUHf0GPs.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_CPdRUHf0GPs.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_CPdRUHf0GPs.srt.sjson", 
+        "import_path": "subs_CPdRUHf0GPs.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_D6YvjCH19lA.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_D6YvjCH19lA.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_D6YvjCH19lA.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_D6YvjCH19lA.srt.sjson", 
+        "import_path": "subs_D6YvjCH19lA.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_Dm_jN1SFoh4.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_Dm_jN1SFoh4.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_Dm_jN1SFoh4.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_Dm_jN1SFoh4.srt.sjson", 
+        "import_path": "subs_Dm_jN1SFoh4.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_DunUj6cdemM.srt.sjson": {
+        "contentType": "application/json", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_DunUj6cdemM.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_DunUj6cdemM.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_DunUj6cdemM.srt.sjson", 
+        "import_path": "subs_DunUj6cdemM.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_EMWmR17JIYM.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_EMWmR17JIYM.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_EMWmR17JIYM.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_EMWmR17JIYM.srt.sjson", 
+        "import_path": "subs_EMWmR17JIYM.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_EezDnbIC_LU.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_EezDnbIC_LU.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_EezDnbIC_LU.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_EezDnbIC_LU.srt.sjson", 
+        "import_path": "subs_EezDnbIC_LU.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_FOYmVzekMME.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_FOYmVzekMME.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_FOYmVzekMME.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_FOYmVzekMME.srt.sjson", 
+        "import_path": "subs_FOYmVzekMME.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_Fs80wTFs4XI.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_Fs80wTFs4XI.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_Fs80wTFs4XI.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_Fs80wTFs4XI.srt.sjson", 
+        "import_path": "subs_Fs80wTFs4XI.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_GswKuSfrm-M.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_GswKuSfrm-M.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_GswKuSfrm-M.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_GswKuSfrm-M.srt.sjson", 
+        "import_path": "subs_GswKuSfrm-M.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_GwPbMf-X_r4.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_GwPbMf-X_r4.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_GwPbMf-X_r4.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_GwPbMf-X_r4.srt.sjson", 
+        "import_path": "subs_GwPbMf-X_r4.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_Hc_0h-txTUQ.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_Hc_0h-txTUQ.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_Hc_0h-txTUQ.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_Hc_0h-txTUQ.srt.sjson", 
+        "import_path": "subs_Hc_0h-txTUQ.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_Interview_Part_1-2017-12-18-69166-Logic_and_Computational_Thinking_Publish.srt.sjson": {
+        "contentType": "application/json", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_Interview_Part_1-2017-12-18-69166-Logic_and_Computational_Thinking_Publish.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_Interview_Part_1-2017-12-18-69166-Logic_and_Computational_Thinking_Publish.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_Interview_Part_1-2017-12-18-69166-Logic_and_Computational_Thinking_Publish.srt.sjson", 
+        "import_path": "subs_Interview_Part_1-2017-12-18-69166-Logic_and_Computational_Thinking_Publish.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_Interview_Part_2-2017-12-18-69166-Logic_and_Computational_Thinking_Publish.srt.sjson": {
+        "contentType": "application/json", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_Interview_Part_2-2017-12-18-69166-Logic_and_Computational_Thinking_Publish.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_Interview_Part_2-2017-12-18-69166-Logic_and_Computational_Thinking_Publish.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_Interview_Part_2-2017-12-18-69166-Logic_and_Computational_Thinking_Publish.srt.sjson", 
+        "import_path": "subs_Interview_Part_2-2017-12-18-69166-Logic_and_Computational_Thinking_Publish.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_LyZipWK9lnA.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_LyZipWK9lnA.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_LyZipWK9lnA.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_LyZipWK9lnA.srt.sjson", 
+        "import_path": "subs_LyZipWK9lnA.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_MSXLCTXX2017-V001600_DTH.srt.sjson": {
+        "contentType": "application/json", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_MSXLCTXX2017-V001600_DTH.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_MSXLCTXX2017-V001600_DTH.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_MSXLCTXX2017-V001600_DTH.srt.sjson", 
+        "import_path": "subs_MSXLCTXX2017-V001600_DTH.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_MSXLCTXX2017-V001700_DTH.srt.sjson": {
+        "contentType": "application/json", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_MSXLCTXX2017-V001700_DTH.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_MSXLCTXX2017-V001700_DTH.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_MSXLCTXX2017-V001700_DTH.srt.sjson", 
+        "import_path": "subs_MSXLCTXX2017-V001700_DTH.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_MSXLCTXX2017-V001800_DTH.srt.sjson": {
+        "contentType": "application/json", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_MSXLCTXX2017-V001800_DTH.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_MSXLCTXX2017-V001800_DTH.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_MSXLCTXX2017-V001800_DTH.srt.sjson", 
+        "import_path": "subs_MSXLCTXX2017-V001800_DTH.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_MYBo0kyFdOs.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_MYBo0kyFdOs.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_MYBo0kyFdOs.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_MYBo0kyFdOs.srt.sjson", 
+        "import_path": "subs_MYBo0kyFdOs.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_NRsNoLlRNYM.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_NRsNoLlRNYM.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_NRsNoLlRNYM.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_NRsNoLlRNYM.srt.sjson", 
+        "import_path": "subs_NRsNoLlRNYM.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_Ov__Gjfo8dQ.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_Ov__Gjfo8dQ.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_Ov__Gjfo8dQ.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_Ov__Gjfo8dQ.srt.sjson", 
+        "import_path": "subs_Ov__Gjfo8dQ.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_PSzjHO06QEs.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_PSzjHO06QEs.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_PSzjHO06QEs.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_PSzjHO06QEs.srt.sjson", 
+        "import_path": "subs_PSzjHO06QEs.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_PbxFRdmlikk.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_PbxFRdmlikk.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_PbxFRdmlikk.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_PbxFRdmlikk.srt.sjson", 
+        "import_path": "subs_PbxFRdmlikk.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_QLImMPAfGeo.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_QLImMPAfGeo.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_QLImMPAfGeo.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_QLImMPAfGeo.srt.sjson", 
+        "import_path": "subs_QLImMPAfGeo.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_QSvWcG3lhKw.srt.sjson": {
+        "contentType": "application/json", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_QSvWcG3lhKw.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_QSvWcG3lhKw.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_QSvWcG3lhKw.srt.sjson", 
+        "import_path": "subs_QSvWcG3lhKw.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_Rv5DsFCQX_A.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_Rv5DsFCQX_A.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_Rv5DsFCQX_A.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_Rv5DsFCQX_A.srt.sjson", 
+        "import_path": "subs_Rv5DsFCQX_A.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_S1K0RvixaF4.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_S1K0RvixaF4.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_S1K0RvixaF4.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_S1K0RvixaF4.srt.sjson", 
+        "import_path": "subs_S1K0RvixaF4.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_TAQtrJ_xORs.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_TAQtrJ_xORs.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_TAQtrJ_xORs.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_TAQtrJ_xORs.srt.sjson", 
+        "import_path": "subs_TAQtrJ_xORs.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_TYS-Q42o5s0.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_TYS-Q42o5s0.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_TYS-Q42o5s0.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_TYS-Q42o5s0.srt.sjson", 
+        "import_path": "subs_TYS-Q42o5s0.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_U-83UxUq0t0.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_U-83UxUq0t0.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_U-83UxUq0t0.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_U-83UxUq0t0.srt.sjson", 
+        "import_path": "subs_U-83UxUq0t0.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_UbW72MCTbyg.srt.sjson": {
+        "contentType": "application/json", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_UbW72MCTbyg.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_UbW72MCTbyg.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_UbW72MCTbyg.srt.sjson", 
+        "import_path": "subs_UbW72MCTbyg.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_Venn.srt.sjson": {
+        "contentType": "application/json", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_Venn.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_Venn.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_Venn.srt.sjson", 
+        "import_path": "subs_Venn.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_WdKRdCbtzfg.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_WdKRdCbtzfg.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_WdKRdCbtzfg.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_WdKRdCbtzfg.srt.sjson", 
+        "import_path": "subs_WdKRdCbtzfg.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_Whiteboard_Part_1-2017-12-18-69166-Logic_and_Computational_Thinking_Publish.srt.sjson": {
+        "contentType": "application/json", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_Whiteboard_Part_1-2017-12-18-69166-Logic_and_Computational_Thinking_Publish.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_Whiteboard_Part_1-2017-12-18-69166-Logic_and_Computational_Thinking_Publish.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_Whiteboard_Part_1-2017-12-18-69166-Logic_and_Computational_Thinking_Publish.srt.sjson", 
+        "import_path": "subs_Whiteboard_Part_1-2017-12-18-69166-Logic_and_Computational_Thinking_Publish.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_Whiteboard_Part_2-2017-12-18-69166-Logic_and_Computational_Thinking_Publish.srt.sjson": {
+        "contentType": "application/json", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_Whiteboard_Part_2-2017-12-18-69166-Logic_and_Computational_Thinking_Publish.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_Whiteboard_Part_2-2017-12-18-69166-Logic_and_Computational_Thinking_Publish.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_Whiteboard_Part_2-2017-12-18-69166-Logic_and_Computational_Thinking_Publish.srt.sjson", 
+        "import_path": "subs_Whiteboard_Part_2-2017-12-18-69166-Logic_and_Computational_Thinking_Publish.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_Z1uLR1KzahY.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_Z1uLR1KzahY.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_Z1uLR1KzahY.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_Z1uLR1KzahY.srt.sjson", 
+        "import_path": "subs_Z1uLR1KzahY.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_Zoo2u3ekVr8.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_Zoo2u3ekVr8.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_Zoo2u3ekVr8.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_Zoo2u3ekVr8.srt.sjson", 
+        "import_path": "subs_Zoo2u3ekVr8.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_aIbyK5d5NPU.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_aIbyK5d5NPU.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_aIbyK5d5NPU.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_aIbyK5d5NPU.srt.sjson", 
+        "import_path": "subs_aIbyK5d5NPU.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_aR9jcJp1FII.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_aR9jcJp1FII.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_aR9jcJp1FII.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_aR9jcJp1FII.srt.sjson", 
+        "import_path": "subs_aR9jcJp1FII.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_ak1UT8ayoDg.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_ak1UT8ayoDg.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_ak1UT8ayoDg.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_ak1UT8ayoDg.srt.sjson", 
+        "import_path": "subs_ak1UT8ayoDg.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_ciArbVAq0Uo.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_ciArbVAq0Uo.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_ciArbVAq0Uo.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_ciArbVAq0Uo.srt.sjson", 
+        "import_path": "subs_ciArbVAq0Uo.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_eJ7rcFacOeM.srt.sjson": {
+        "contentType": "application/json", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_eJ7rcFacOeM.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_eJ7rcFacOeM.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_eJ7rcFacOeM.srt.sjson", 
+        "import_path": "subs_eJ7rcFacOeM.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_e_8doyb3Rcs.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_e_8doyb3Rcs.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_e_8doyb3Rcs.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_e_8doyb3Rcs.srt.sjson", 
+        "import_path": "subs_e_8doyb3Rcs.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_edX_intro_final.srt.sjson": {
+        "contentType": "application/json", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_edX_intro_final.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_edX_intro_final.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_edX_intro_final.srt.sjson", 
+        "import_path": "subs_edX_intro_final.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_fOWcA6XPEXM.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_fOWcA6XPEXM.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_fOWcA6XPEXM.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_fOWcA6XPEXM.srt.sjson", 
+        "import_path": "subs_fOWcA6XPEXM.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_g2iC0hu-rO0.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_g2iC0hu-rO0.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_g2iC0hu-rO0.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_g2iC0hu-rO0.srt.sjson", 
+        "import_path": "subs_g2iC0hu-rO0.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_gGmjYo2f8k4.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_gGmjYo2f8k4.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_gGmjYo2f8k4.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_gGmjYo2f8k4.srt.sjson", 
+        "import_path": "subs_gGmjYo2f8k4.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_goTya2MJV-4.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_goTya2MJV-4.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_goTya2MJV-4.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_goTya2MJV-4.srt.sjson", 
+        "import_path": "subs_goTya2MJV-4.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_jBPju1AevKs.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_jBPju1AevKs.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_jBPju1AevKs.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_jBPju1AevKs.srt.sjson", 
+        "import_path": "subs_jBPju1AevKs.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_jRYPFWnfvgQ.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_jRYPFWnfvgQ.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_jRYPFWnfvgQ.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_jRYPFWnfvgQ.srt.sjson", 
+        "import_path": "subs_jRYPFWnfvgQ.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_kmkVHFzsav4.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_kmkVHFzsav4.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_kmkVHFzsav4.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_kmkVHFzsav4.srt.sjson", 
+        "import_path": "subs_kmkVHFzsav4.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_logicandcode2.srt.sjson": {
+        "contentType": "application/json", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_logicandcode2.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_logicandcode2.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_logicandcode2.srt.sjson", 
+        "import_path": "subs_logicandcode2.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_m9s9qMW0uuk.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_m9s9qMW0uuk.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_m9s9qMW0uuk.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_m9s9qMW0uuk.srt.sjson", 
+        "import_path": "subs_m9s9qMW0uuk.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_mUBjO1G_LrY.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_mUBjO1G_LrY.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_mUBjO1G_LrY.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_mUBjO1G_LrY.srt.sjson", 
+        "import_path": "subs_mUBjO1G_LrY.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_pJ6n0li3388.srt.sjson": {
+        "contentType": "application/json", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_pJ6n0li3388.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_pJ6n0li3388.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_pJ6n0li3388.srt.sjson", 
+        "import_path": "subs_pJ6n0li3388.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_pLWqbgMISXE.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_pLWqbgMISXE.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_pLWqbgMISXE.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_pLWqbgMISXE.srt.sjson", 
+        "import_path": "subs_pLWqbgMISXE.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_sXfWOfms5CA.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_sXfWOfms5CA.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_sXfWOfms5CA.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_sXfWOfms5CA.srt.sjson", 
+        "import_path": "subs_sXfWOfms5CA.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_t5TFtBCnSP0.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_t5TFtBCnSP0.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_t5TFtBCnSP0.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_t5TFtBCnSP0.srt.sjson", 
+        "import_path": "subs_t5TFtBCnSP0.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_tJ-ayjwiNeE.srt.sjson": {
+        "contentType": "application/json", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_tJ-ayjwiNeE.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_tJ-ayjwiNeE.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_tJ-ayjwiNeE.srt.sjson", 
+        "import_path": "subs_tJ-ayjwiNeE.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_tLap7z1NyDo.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_tLap7z1NyDo.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_tLap7z1NyDo.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_tLap7z1NyDo.srt.sjson", 
+        "import_path": "subs_tLap7z1NyDo.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_tejn0QOgyic.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_tejn0QOgyic.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_tejn0QOgyic.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_tejn0QOgyic.srt.sjson", 
+        "import_path": "subs_tejn0QOgyic.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_truthtable2.srt.sjson": {
+        "contentType": "application/json", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_truthtable2.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_truthtable2.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_truthtable2.srt.sjson", 
+        "import_path": "subs_truthtable2.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_xEZQClfprUQ.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_xEZQClfprUQ.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_xEZQClfprUQ.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_xEZQClfprUQ.srt.sjson", 
+        "import_path": "subs_xEZQClfprUQ.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_xzpp4D2vXHE.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_xzpp4D2vXHE.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_xzpp4D2vXHE.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_xzpp4D2vXHE.srt.sjson", 
+        "import_path": "subs_xzpp4D2vXHE.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_y4-FSsc6Zhs.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_y4-FSsc6Zhs.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_y4-FSsc6Zhs.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_y4-FSsc6Zhs.srt.sjson", 
+        "import_path": "subs_y4-FSsc6Zhs.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "subs_zv2v5UsJCLU.srt.sjson": {
+        "contentType": "application/octet-stream", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "subs_zv2v5UsJCLU.srt.sjson", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "subs_zv2v5UsJCLU.srt.sjson", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@subs_zv2v5UsJCLU.srt.sjson", 
+        "import_path": "subs_zv2v5UsJCLU.srt.sjson", 
+        "locked": false, 
+        "thumbnail_location": null
+    }, 
+    "untitled.png": {
+        "contentType": "image/png", 
+        "content_son": {
+            "category": "asset", 
+            "course": "DEV262x", 
+            "name": "untitled.png", 
+            "org": "PartnerFY19JAN", 
+            "revision": null, 
+            "run": "2019_T1", 
+            "tag": "c4x"
+        }, 
+        "displayname": "untitled.png", 
+        "filename": "asset-v1:PartnerFY19JAN+DEV262x+2019_T1+type@asset+block@untitled.png", 
+        "import_path": "untitled.png", 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "PartnerFY19JAN", 
+            "DEV262x", 
+            "thumbnail", 
+            "untitled-png.jpg", 
+            null
+        ]
+    }
+}

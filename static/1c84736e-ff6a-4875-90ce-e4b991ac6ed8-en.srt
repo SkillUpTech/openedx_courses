@@ -1,0 +1,348 @@
+0
+00:00:00,860 --> 00:00:04,280
+In this lesson we're gonna be looking at what logic is.
+
+1
+00:00:04,280 --> 00:00:06,790
+So this is gonna start from the very very basics and
+
+2
+00:00:06,790 --> 00:00:09,670
+we're gonna talk about the discipline of formal logic.
+
+3
+00:00:09,670 --> 00:00:14,140
+So logic is a science that was discovered by Aristotle
+
+4
+00:00:14,140 --> 00:00:17,270
+in the early 400 BC timeframe.
+
+5
+00:00:18,380 --> 00:00:22,680
+Aristotle was one of the three major Greek thinkers
+
+6
+00:00:22,680 --> 00:00:23,730
+of that period.
+
+7
+00:00:24,770 --> 00:00:28,290
+The three thinkers were Aristotle, Plato, and Socrates,
+
+8
+00:00:28,290 --> 00:00:31,760
+and the way that I generally remember those three men
+
+9
+00:00:31,760 --> 00:00:36,810
+is that Socrates came first and his name starts with the letter
+
+10
+00:00:36,810 --> 00:00:40,110
+of the alphabet that's furthest down in the In the list, so
+
+11
+00:00:40,110 --> 00:00:43,190
+we have S for Socrates and he came first.
+
+12
+00:00:43,190 --> 00:00:46,610
+In the middle was Plato and P is somewhere in the middle of
+
+13
+00:00:46,610 --> 00:00:50,860
+the alphabet and Socrates was Plato's teacher.
+
+14
+00:00:50,860 --> 00:00:52,710
+And then Plato taught Aristotle and
+
+15
+00:00:52,710 --> 00:00:54,740
+Aristotle is at the beginning of the alphabet in terms of
+
+16
+00:00:54,740 --> 00:00:56,590
+the first letter of his name.
+
+17
+00:00:56,590 --> 00:00:57,960
+And he came last in line.
+
+18
+00:00:57,960 --> 00:01:01,950
+So Socrates, Plato, Aristotle in its reverse alphabetical order.
+
+19
+00:01:01,950 --> 00:01:04,970
+So Aristotle really was the person that we credit with
+
+20
+00:01:04,970 --> 00:01:07,480
+discovering formal logic.
+
+21
+00:01:07,480 --> 00:01:10,730
+And the way that I'm describing logic here is that
+
+22
+00:01:10,730 --> 00:01:13,040
+it's a system of right reasoning.
+
+23
+00:01:13,040 --> 00:01:15,380
+It's a system of right reasoning.
+
+24
+00:01:15,380 --> 00:01:17,690
+Now, the term right sometimes throws people off.
+
+25
+00:01:17,690 --> 00:01:21,410
+What does it mean to reason rightly or reason properly?
+
+26
+00:01:21,410 --> 00:01:24,030
+And I guess the best way to think about this is that
+
+27
+00:01:24,030 --> 00:01:25,820
+when I talk about right reasoning,
+
+28
+00:01:25,820 --> 00:01:27,920
+it's sorta like doing mathematics, right?
+
+29
+00:01:27,920 --> 00:01:29,410
+There's a right way to do mathematics and
+
+30
+00:01:29,410 --> 00:01:30,810
+a wrong way to do mathematics.
+
+31
+00:01:30,810 --> 00:01:34,780
+1 plus 1 does not equal 5 and it will never equal 5.
+
+32
+00:01:34,780 --> 00:01:37,900
+So what logic tries to teach us is that there's a right way that
+
+33
+00:01:37,900 --> 00:01:40,730
+idea should relate to one another particularly when you're
+
+34
+00:01:40,730 --> 00:01:42,880
+trying to make an argument which we'll look at later.
+
+35
+00:01:42,880 --> 00:01:45,160
+And that's what logic really studies and
+
+36
+00:01:45,160 --> 00:01:46,260
+released the discovery of.
+
+37
+00:01:46,260 --> 00:01:47,750
+All right, so
+
+38
+00:01:47,750 --> 00:01:52,640
+logic then is a form of science and it really tries to
+
+39
+00:01:52,640 --> 00:01:56,470
+capture the ways that idea should relate to one another.
+
+40
+00:01:56,470 --> 00:02:00,110
+So to put in other way, when we're studying logic,
+
+41
+00:02:00,110 --> 00:02:01,440
+we're studying rules.
+
+42
+00:02:01,440 --> 00:02:04,680
+We're studying rules of the ways that ideas should relate.
+
+43
+00:02:04,680 --> 00:02:06,490
+These rules, at least for our purposes,
+
+44
+00:02:06,490 --> 00:02:07,860
+are going to be called syllogisms.
+
+45
+00:02:07,860 --> 00:02:11,090
+This is the name that logicians have given these rules, and
+
+46
+00:02:11,090 --> 00:02:14,139
+they again describe the correct way that ideas should relate.
+
+47
+00:02:15,370 --> 00:02:18,220
+The other thing that logic studies is what's called
+
+48
+00:02:18,220 --> 00:02:19,160
+truth values.
+
+49
+00:02:19,160 --> 00:02:21,960
+We'll spend some more time on this later in the course.
+
+50
+00:02:21,960 --> 00:02:25,380
+But all truth value means is the role that truth
+
+51
+00:02:25,380 --> 00:02:27,235
+plays in correct reasoning.
+
+52
+00:02:27,235 --> 00:02:29,835
+Some ideas are true, some ideas are false.
+
+53
+00:02:29,835 --> 00:02:32,795
+And the goal as thinkers is to try to figure out
+
+54
+00:02:32,795 --> 00:02:33,655
+which is which.
+
+55
+00:02:33,655 --> 00:02:36,545
+We wanna have more true beliefs than false beliefs.
+
+56
+00:02:36,545 --> 00:02:38,815
+And logic helps us get to truth value.
+
+57
+00:02:38,815 --> 00:02:42,505
+It helps us determine whether some ideas are truthful and
+
+58
+00:02:42,505 --> 00:02:43,359
+some ideas are false.
+
+59
+00:02:45,320 --> 00:02:49,440
+Syllogisms then are the rules that we use to construct
+
+60
+00:02:49,440 --> 00:02:52,640
+the arguments that help us determine which ideas are true
+
+61
+00:02:52,640 --> 00:02:53,670
+and false.
+
+62
+00:02:53,670 --> 00:02:55,670
+And you're gonna see how this works as we move throughout
+
+63
+00:02:55,670 --> 00:02:58,860
+the course as we construct these syllogisms, we're gonna
+
+64
+00:02:58,860 --> 00:03:01,880
+gain some insight into the truthfulness of the arguments
+
+65
+00:03:01,880 --> 00:03:04,410
+that we're making or the arguments that we're hearing.
+
+66
+00:03:04,410 --> 00:03:08,810
+So the rules themselves actually can help us understand
+
+67
+00:03:08,810 --> 00:03:10,850
+whether we're dealing with truth of falsity.
+
+68
+00:03:11,870 --> 00:03:16,460
+There's also a whole field of study in logic that studies
+
+69
+00:03:16,460 --> 00:03:19,830
+incorrect reasoning, and these are called fallacies.
+
+70
+00:03:19,830 --> 00:03:21,880
+We're not gonna spend a ton of time on fallacies in
+
+71
+00:03:21,880 --> 00:03:25,830
+this course, but fallacious reasoning is improper reasoning.
+
+72
+00:03:25,830 --> 00:03:27,920
+This is the other side of the correct reasoning that
+
+73
+00:03:27,920 --> 00:03:29,040
+we've talked about.
+
+74
+00:03:29,040 --> 00:03:31,799
+And when you're reasoning in properly you're reasoning
+
+75
+00:03:31,799 --> 00:03:33,730
+fallaciously according to logicians.
+
+76
+00:03:33,730 --> 00:03:37,480
+So there's a feel of study where you can learn to recognize
+
+77
+00:03:37,480 --> 00:03:38,590
+false arguments.
+
+78
+00:03:38,590 --> 00:03:41,270
+I'll talk about a few fallacies and a course and you'll see how
+
+79
+00:03:41,270 --> 00:03:45,800
+these work, but we're not gonna spend a ton of time on that.
+
+80
+00:03:45,800 --> 00:03:49,940
+So logic is a science, logic is research,
+
+81
+00:03:49,940 --> 00:03:52,570
+it's discovery, it's not invention.
+
+82
+00:03:52,570 --> 00:03:55,970
+Aristotle discovered the rules of logic, wrote them down,
+
+83
+00:03:55,970 --> 00:03:57,630
+and we've been studying them ever since.
+
+84
+00:03:57,630 --> 00:03:59,520
+So that is essentially what logic is and
+
+85
+00:03:59,520 --> 00:04:02,387
+throughout this course you're going to learn some of those
+
+86
+00:04:02,387 --> 00:04:04,350
+rules and how to apply them to problems.
+

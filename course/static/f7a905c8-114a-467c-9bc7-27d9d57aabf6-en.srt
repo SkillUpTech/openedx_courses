@@ -1,0 +1,2832 @@
+0
+00:00:01,060 --> 00:00:03,800
+Hi, and welcome to this module on categorical logic.
+
+1
+00:00:03,800 --> 00:00:06,880
+We've been looking at traditional syllogistic
+
+2
+00:00:06,880 --> 00:00:09,480
+logic and we're gonna transition now into what is called
+
+3
+00:00:09,480 --> 00:00:11,080
+categorical logic.
+
+4
+00:00:11,080 --> 00:00:15,670
+Which was largely developed by Aristotle back in the 400
+
+5
+00:00:15,670 --> 00:00:16,940
+BC era.
+
+6
+00:00:16,940 --> 00:00:19,590
+And categorical logic has a very specific
+
+7
+00:00:19,590 --> 00:00:22,080
+approach that Aristotle took.
+
+8
+00:00:22,080 --> 00:00:26,600
+And to introduce this topic, I'm gonna talk a little bit
+
+9
+00:00:26,600 --> 00:00:29,670
+about Aristotle's metaphysics, or ontology.
+
+10
+00:00:29,670 --> 00:00:33,404
+Those terms simply mean the way that Aristotle looked at
+
+11
+00:00:33,404 --> 00:00:34,202
+the world.
+
+12
+00:00:34,202 --> 00:00:40,489
+And his ontology really set up philosophy for the West.
+
+13
+00:00:40,489 --> 00:00:44,007
+Even to this day, we still use a lot of Aristotle's approach and
+
+14
+00:00:44,007 --> 00:00:45,180
+categories.
+
+15
+00:00:45,180 --> 00:00:48,060
+As I say in the module itself, in the written part of
+
+16
+00:00:48,060 --> 00:00:51,870
+the module, Aristotle really invented or discovered or
+
+17
+00:00:51,870 --> 00:00:55,430
+however you want to term it the methodology that we use for
+
+18
+00:00:55,430 --> 00:00:58,680
+modern science today and modern scientific discovery.
+
+19
+00:00:58,680 --> 00:01:03,090
+And so what he did as he developed his ontology is he
+
+20
+00:01:03,090 --> 00:01:04,740
+defined terms that we use.
+
+21
+00:01:04,740 --> 00:01:07,210
+He defined the vocabulary that we're gonna use and
+
+22
+00:01:07,210 --> 00:01:09,660
+he also helped us to categorize things.
+
+23
+00:01:09,660 --> 00:01:13,530
+And that's sort of where we get this idea of categorical logic,
+
+24
+00:01:13,530 --> 00:01:17,390
+is that Aristotle really helped us to come up with the buckets
+
+25
+00:01:17,390 --> 00:01:20,910
+that we're gonna use in which we wanna place different things.
+
+26
+00:01:20,910 --> 00:01:23,780
+So I thought it would be helpful to go through Aristotle's
+
+27
+00:01:23,780 --> 00:01:26,830
+basic ontology as we get into this module, and
+
+28
+00:01:26,830 --> 00:01:29,240
+this gonna provide largely background.
+
+29
+00:01:29,240 --> 00:01:32,400
+As I talk through this and then you go through the lessons in
+
+30
+00:01:32,400 --> 00:01:34,840
+this module, you'll see how the two are connected.
+
+31
+00:01:34,840 --> 00:01:38,060
+If you understand this ontology it's gonna help you understand
+
+32
+00:01:38,060 --> 00:01:41,730
+why Aristotle developed a logic and a way of talking about
+
+33
+00:01:41,730 --> 00:01:45,080
+the categories that he developed in a very specific way.
+
+34
+00:01:45,080 --> 00:01:47,140
+You'll see the connection between these two.
+
+35
+00:01:47,140 --> 00:01:49,780
+And by the way, ontology comes from the Greek,
+
+36
+00:01:49,780 --> 00:01:51,410
+literally means being.
+
+37
+00:01:51,410 --> 00:01:55,120
+So the study of being, onto, being, logic,
+
+38
+00:01:55,120 --> 00:02:00,410
+or logos is the Greek term, a study of, a discourse on.
+
+39
+00:02:00,410 --> 00:02:02,013
+So it's really the study of being and
+
+40
+00:02:02,013 --> 00:02:03,778
+that's really what we're looking at.
+
+41
+00:02:03,778 --> 00:02:06,152
+All right, let's get into some of what Aristotle and
+
+42
+00:02:06,152 --> 00:02:07,010
+the early Greeks.
+
+43
+00:02:07,010 --> 00:02:10,772
+We're gonna actually look at the early Greeks a little bit as
+
+44
+00:02:10,772 --> 00:02:13,428
+well, including Plato and Socrates, and
+
+45
+00:02:13,428 --> 00:02:15,666
+what they thought about ontology.
+
+46
+00:02:15,666 --> 00:02:18,200
+What they thought about how the world was structured.
+
+47
+00:02:18,200 --> 00:02:21,413
+All right, the first thing I wanna talk about is
+
+48
+00:02:21,413 --> 00:02:24,430
+this topic called properties.
+
+49
+00:02:24,430 --> 00:02:26,985
+This word cloud represents a bunch of nouns and
+
+50
+00:02:26,985 --> 00:02:29,985
+adjectives that we see and use everyday.
+
+51
+00:02:29,985 --> 00:02:34,795
+And, when we're talking about ontology, the building blocks of
+
+52
+00:02:34,795 --> 00:02:37,765
+that discussion really starts with properties.
+
+53
+00:02:37,765 --> 00:02:41,939
+Properties are the things that all of ontology, particularly
+
+54
+00:02:41,939 --> 00:02:45,572
+Aristotle and Plato's ontology, are built up from.
+
+55
+00:02:45,572 --> 00:02:46,230
+And so we wanna just
+
+56
+00:02:46,230 --> 00:02:49,180
+spend a couple of minutes looking at what properties are.
+
+57
+00:02:49,180 --> 00:02:52,190
+Right., so properties again are the basic
+
+58
+00:02:52,190 --> 00:02:54,725
+building blocks of things in the world.
+
+59
+00:02:54,725 --> 00:02:57,950
+They're the fundamental concept that we're gonna
+
+60
+00:02:57,950 --> 00:03:01,050
+use to talk about all these other topics.
+
+61
+00:03:01,050 --> 00:03:01,982
+All right, so
+
+62
+00:03:01,982 --> 00:03:06,080
+the best way to define a property is it's an attribute.
+
+63
+00:03:06,080 --> 00:03:11,421
+A characteristic of something or a component of what makes
+
+64
+00:03:11,421 --> 00:03:16,332
+that thing what it is and not something else, right?
+
+65
+00:03:16,332 --> 00:03:20,908
+So we can put it very simply, a property is the respect in which
+
+66
+00:03:20,908 --> 00:03:23,820
+things are the same or differ.
+
+67
+00:03:23,820 --> 00:03:27,304
+A property is the respect in which things are the same or
+
+68
+00:03:27,304 --> 00:03:27,923
+differ.
+
+69
+00:03:27,923 --> 00:03:30,820
+As we get into categorical logic, you're gonna see how
+
+70
+00:03:30,820 --> 00:03:34,283
+important properties are when you're starting to define terms.
+
+71
+00:03:34,283 --> 00:03:37,506
+As you move through the module we'll talk about how to use
+
+72
+00:03:37,506 --> 00:03:39,924
+the logic of the categorical syllogism and
+
+73
+00:03:39,924 --> 00:03:42,949
+the categorical statement to earmark properties and
+
+74
+00:03:42,949 --> 00:03:46,270
+to put them into classes or categories of things, okay.
+
+75
+00:03:46,270 --> 00:03:50,140
+So when you think about a property, think about redness or
+
+76
+00:03:50,140 --> 00:03:54,170
+think about something that makes a thing what it is.
+
+77
+00:03:54,170 --> 00:03:56,440
+I'm wearing a black shirt, right.
+
+78
+00:03:56,440 --> 00:03:59,000
+This is infused with properties.
+
+79
+00:03:59,000 --> 00:04:01,510
+You can talk about the property of the fabric it's made up,
+
+80
+00:04:01,510 --> 00:04:04,050
+the color, the shape, the size.
+
+81
+00:04:04,050 --> 00:04:08,260
+All of those things would be the properties of the shirt, okay.
+
+82
+00:04:08,260 --> 00:04:10,195
+So that's a very simple definition of what
+
+83
+00:04:10,195 --> 00:04:11,370
+a property is.
+
+84
+00:04:11,370 --> 00:04:15,189
+Let's get in to a little bit more specificity as we talk
+
+85
+00:04:15,189 --> 00:04:16,275
+through this.
+
+86
+00:04:16,275 --> 00:04:19,286
+Philosophers and logicians distinguish between simple
+
+87
+00:04:19,286 --> 00:04:21,820
+properties and complex properties.
+
+88
+00:04:21,820 --> 00:04:26,290
+A simple property is a property that cannot be reduced
+
+89
+00:04:26,290 --> 00:04:27,590
+to other properties.
+
+90
+00:04:27,590 --> 00:04:30,053
+Sounds simple enough, right.
+
+91
+00:04:30,053 --> 00:04:34,147
+Some philosophers believe that properties like evenness, size,
+
+92
+00:04:34,147 --> 00:04:38,095
+and shape are irreducible, you can't break them down into other
+
+93
+00:04:38,095 --> 00:04:41,120
+simpler, more primary properties.
+
+94
+00:04:41,120 --> 00:04:42,715
+There are philosophers, obviously,
+
+95
+00:04:42,715 --> 00:04:45,237
+that disagree with that, and so you have that conversation.
+
+96
+00:04:45,237 --> 00:04:47,296
+But when you think about a simple property,
+
+97
+00:04:47,296 --> 00:04:50,135
+if you can't break it down into other constituent parts then
+
+98
+00:04:50,135 --> 00:04:52,753
+you're kind of dealing with the basic property that you
+
+99
+00:04:52,753 --> 00:04:54,225
+wanna talk about, all right?
+
+100
+00:04:54,225 --> 00:04:56,537
+So think about something like color.
+
+101
+00:04:56,537 --> 00:05:00,245
+Is redness a simple property or a complex property?
+
+102
+00:05:00,245 --> 00:05:02,725
+When you think about redness you can talk about its hue,
+
+103
+00:05:02,725 --> 00:05:07,015
+you can talk about what type of red it is, how bright it is,
+
+104
+00:05:07,015 --> 00:05:07,825
+things like that.
+
+105
+00:05:07,825 --> 00:05:10,855
+So it might be actually not a simple property.
+
+106
+00:05:10,855 --> 00:05:13,055
+It might be something that we're gonna talk about next,
+
+107
+00:05:13,055 --> 00:05:14,815
+which is called a complex property.
+
+108
+00:05:16,050 --> 00:05:18,120
+Now, given this definition of a simple property,
+
+109
+00:05:18,120 --> 00:05:20,670
+then, a complex property is just a property that
+
+110
+00:05:20,670 --> 00:05:23,690
+has other properties that are part of it, okay?
+
+111
+00:05:23,690 --> 00:05:29,110
+One that you can talk about in terms of other things.
+
+112
+00:05:29,110 --> 00:05:32,150
+If you have other adjectives or nouns that apply to the property
+
+113
+00:05:32,150 --> 00:05:35,572
+you're talking about, then it's not a simple property.
+
+114
+00:05:35,572 --> 00:05:37,720
+All right I used the example here of a mammal.
+
+115
+00:05:37,720 --> 00:05:40,850
+A mammal can be reduced to other properties.
+
+116
+00:05:40,850 --> 00:05:43,920
+So that means it itself is not simple.
+
+117
+00:05:43,920 --> 00:05:46,521
+It's in the class of things that are alive,
+
+118
+00:05:46,521 --> 00:05:50,247
+it's in the class of things that give birth to live offspring,
+
+119
+00:05:50,247 --> 00:05:53,764
+right, those are all the other properties that we would put
+
+120
+00:05:53,764 --> 00:05:55,820
+into this idea of a mammal.
+
+121
+00:05:55,820 --> 00:05:57,220
+All right, so, properties,
+
+122
+00:05:57,220 --> 00:06:01,480
+simple and complex, these are fairly straightforward ideas.
+
+123
+00:06:01,480 --> 00:06:04,870
+And again, as you get into the module on categorical logic,
+
+124
+00:06:04,870 --> 00:06:08,200
+you're gonna see how these concepts play into how Aristotle
+
+125
+00:06:08,200 --> 00:06:11,020
+thought about constructing his logical system.
+
+126
+00:06:11,020 --> 00:06:13,780
+And then I would like you to think about how you relate that
+
+127
+00:06:13,780 --> 00:06:16,210
+to the syllogistic logic,
+
+128
+00:06:16,210 --> 00:06:19,260
+the propositional logic we looked at earlier in the course.
+
+129
+00:06:19,260 --> 00:06:21,840
+And there are similarities, but you can see that Aristotle's
+
+130
+00:06:21,840 --> 00:06:26,380
+approach takes a very distinctive perspective and
+
+131
+00:06:26,380 --> 00:06:29,040
+this idea of properties plays into that
+
+132
+00:06:29,040 --> 00:06:30,169
+heavily as you'll go through this.
+
+133
+00:06:31,210 --> 00:06:34,300
+I'm gonna give you one more lesson on properties and
+
+134
+00:06:34,300 --> 00:06:36,090
+how properties are used.
+
+135
+00:06:36,090 --> 00:06:39,980
+We tend to use properties in a very important concept in
+
+136
+00:06:39,980 --> 00:06:43,390
+philosophy and logic called the Theory of Identity, or
+
+137
+00:06:43,390 --> 00:06:45,540
+the Philosophy of Identity.
+
+138
+00:06:45,540 --> 00:06:48,500
+Identity is important because it helps you distinguish
+
+139
+00:06:48,500 --> 00:06:49,480
+between things.
+
+140
+00:06:49,480 --> 00:06:52,560
+It helps you figure out whether two things that you're
+
+141
+00:06:52,560 --> 00:06:55,610
+considering are the same thing or if they're individualistic.
+
+142
+00:06:55,610 --> 00:06:57,772
+And I'll give you some examples of where this is really
+
+143
+00:06:57,772 --> 00:06:59,100
+important in just a moment.
+
+144
+00:06:59,100 --> 00:07:01,070
+But let's talk through this idea of identity and
+
+145
+00:07:01,070 --> 00:07:02,300
+how properties are used.
+
+146
+00:07:04,230 --> 00:07:05,240
+All right, so
+
+147
+00:07:05,240 --> 00:07:11,780
+how do we tell if two things are the same or if they differ?
+
+148
+00:07:11,780 --> 00:07:15,810
+There was a debate in early astronomy
+
+149
+00:07:15,810 --> 00:07:18,020
+over the morning star and the evening star.
+
+150
+00:07:18,020 --> 00:07:20,790
+Hesperus and Phosphorus were their names.
+
+151
+00:07:20,790 --> 00:07:23,494
+And for a long time astronomers believed that they were actually
+
+152
+00:07:23,494 --> 00:07:24,457
+two different stars.
+
+153
+00:07:24,457 --> 00:07:27,742
+The morning star you'd see just after sunrise or just
+
+154
+00:07:27,742 --> 00:07:32,270
+before sunrise, the evening star you'd see just after sunset.
+
+155
+00:07:32,270 --> 00:07:35,210
+And astronomers didn't know that they were
+
+156
+00:07:35,210 --> 00:07:37,090
+actually the same star.
+
+157
+00:07:37,090 --> 00:07:39,830
+So they ended up being the same star.
+
+158
+00:07:39,830 --> 00:07:42,320
+They ended up being a planet, I think it's the planet Venus.
+
+159
+00:07:42,320 --> 00:07:43,660
+I have to check on that, but
+
+160
+00:07:43,660 --> 00:07:47,460
+it was essentially the same celestial body and
+
+161
+00:07:47,460 --> 00:07:50,450
+they had two different names, two different identities, but
+
+162
+00:07:50,450 --> 00:07:55,170
+at the end of the day it ended up being the same planet.
+
+163
+00:07:55,170 --> 00:07:56,880
+So when they talked about it,
+
+164
+00:07:56,880 --> 00:07:59,570
+they had to change their thinking, they had to change
+
+165
+00:07:59,570 --> 00:08:02,470
+the way that they referred to that celestial body.
+
+166
+00:08:02,470 --> 00:08:03,490
+So how do you tell?
+
+167
+00:08:03,490 --> 00:08:05,301
+How do you know if a thing is the same,
+
+168
+00:08:05,301 --> 00:08:07,766
+two things are the same or if they're different?
+
+169
+00:08:10,395 --> 00:08:13,575
+So identity does serve this role in our philosophy, right.
+
+170
+00:08:13,575 --> 00:08:16,708
+If we can come up with a criterion If we can come up with
+
+171
+00:08:16,708 --> 00:08:19,914
+a rule that helps us distinguish between two things,
+
+172
+00:08:19,914 --> 00:08:23,760
+then it's gonna allow us to have that conversation in a much more
+
+173
+00:08:23,760 --> 00:08:25,430
+profitable way.
+
+174
+00:08:25,430 --> 00:08:26,400
+We can now,
+
+175
+00:08:26,400 --> 00:08:29,810
+as we're debating over whether two things are the same or
+
+176
+00:08:29,810 --> 00:08:32,630
+different, we have a rule that we can put into play here.
+
+177
+00:08:33,980 --> 00:08:37,120
+Here's some areas of philosophy where this ends up being
+
+178
+00:08:37,120 --> 00:08:38,250
+very important.
+
+179
+00:08:38,250 --> 00:08:40,180
+Are the mind and the brain the same thing?
+
+180
+00:08:40,180 --> 00:08:42,255
+Philosophers debate this all the time, and
+
+181
+00:08:42,255 --> 00:08:44,790
+this is a very interesting, even current, debate.
+
+182
+00:08:44,790 --> 00:08:46,735
+When we're talking about the brain,
+
+183
+00:08:46,735 --> 00:08:49,298
+are we talking about the mind, and vice-versa?
+
+184
+00:08:49,298 --> 00:08:53,365
+Is color the same thing as a bandwidth of light hitting your
+
+185
+00:08:53,365 --> 00:08:54,980
+retina?
+
+186
+00:08:54,980 --> 00:08:58,580
+There's a science behind visualizing color.
+
+187
+00:08:58,580 --> 00:09:03,340
+But is the color that you see, the redness that you see,
+
+188
+00:09:03,340 --> 00:09:07,392
+the same thing as that science of light waves and
+
+189
+00:09:07,392 --> 00:09:11,154
+retinas and how those two things interact?
+
+190
+00:09:11,154 --> 00:09:13,510
+Then we can talk about things even like this.
+
+191
+00:09:13,510 --> 00:09:15,550
+This is a great philosophical topic.
+
+192
+00:09:15,550 --> 00:09:20,480
+How do we talk about equality when it comes to humans?
+
+193
+00:09:20,480 --> 00:09:23,704
+Is the humanist that the person sitting next to you or
+
+194
+00:09:23,704 --> 00:09:26,342
+your family member or a loved one, is their
+
+195
+00:09:26,342 --> 00:09:29,876
+humanness the same as your humanness or is it different?
+
+196
+00:09:29,876 --> 00:09:31,480
+Everybody's certainly different.
+
+197
+00:09:31,480 --> 00:09:34,805
+We all have a variety of different properties.
+
+198
+00:09:34,805 --> 00:09:36,740
+We've that term that we looked at earlier.
+
+199
+00:09:36,740 --> 00:09:38,020
+We're all different heights and
+
+200
+00:09:38,020 --> 00:09:41,110
+weights and different skin color and hair color.
+
+201
+00:09:41,110 --> 00:09:42,360
+So what makes us equal?
+
+202
+00:09:42,360 --> 00:09:47,690
+What part of our humanness is equal, if any part?
+
+203
+00:09:47,690 --> 00:09:50,710
+And the philosophy of identity helps us talk through that.
+
+204
+00:09:50,710 --> 00:09:55,365
+So there was a philosopher named Gottfried Wilhelm Leibniz
+
+205
+00:09:55,365 --> 00:09:58,714
+that gave us a rule, gave us a pattern, for
+
+206
+00:09:58,714 --> 00:10:03,570
+talking about identity and we're gonna look at his rule now.
+
+207
+00:10:03,570 --> 00:10:07,050
+This rule is widely accepted across both science and
+
+208
+00:10:07,050 --> 00:10:10,698
+philosophy and so it's a good thing to learn and know.
+
+209
+00:10:10,698 --> 00:10:14,450
+So let's talk about Leibniz identity.
+
+210
+00:10:15,565 --> 00:10:18,075
+So Leibniz said, take any two things that you're talking
+
+211
+00:10:18,075 --> 00:10:22,425
+about, the mind and the brain or Hesperus and Phosphorus.
+
+212
+00:10:22,425 --> 00:10:24,935
+Each of these things has a set of properties that
+
+213
+00:10:24,935 --> 00:10:25,495
+are true of them.
+
+214
+00:10:25,495 --> 00:10:27,915
+Complex and simple properties that are true of them.
+
+215
+00:10:27,915 --> 00:10:30,351
+So we're gonna take both things, the mind and the brain.
+
+216
+00:10:30,351 --> 00:10:35,420
+And he said take all of the properties of those two things.
+
+217
+00:10:35,420 --> 00:10:37,950
+So let's take the mind in the brain.
+
+218
+00:10:37,950 --> 00:10:41,254
+Well, actually that's probably a too complicated of entity.
+
+219
+00:10:41,254 --> 00:10:43,330
+So we wanna talk about it.
+
+220
+00:10:43,330 --> 00:10:45,920
+Let's talk about Hesperus and Phosphorus.
+
+221
+00:10:45,920 --> 00:10:47,590
+These are the morning star and the evening star.
+
+222
+00:10:48,620 --> 00:10:52,180
+So if we take those two objects, and we list their properties,
+
+223
+00:10:52,180 --> 00:10:55,230
+their brightness, their location in the sky,
+
+224
+00:10:55,230 --> 00:11:00,890
+the movement of the planet through the sky over time.
+
+225
+00:11:00,890 --> 00:11:04,210
+We look at all of those properties that are true of each
+
+226
+00:11:04,210 --> 00:11:06,530
+body, each of the celestial bodies, Hesperus and
+
+227
+00:11:06,530 --> 00:11:08,070
+Phosphorus and
+
+228
+00:11:08,070 --> 00:11:11,070
+we ask, is there any property that's different between them?
+
+229
+00:11:12,680 --> 00:11:13,540
+That's the rule.
+
+230
+00:11:13,540 --> 00:11:15,550
+Is there any single property?
+
+231
+00:11:15,550 --> 00:11:18,010
+It doesn't matter how small it is.
+
+232
+00:11:18,010 --> 00:11:21,270
+Is there any single property that's different between the two
+
+233
+00:11:21,270 --> 00:11:23,710
+bodies and we look at that list?
+
+234
+00:11:25,570 --> 00:11:28,240
+If there is a property that's different
+
+235
+00:11:28,240 --> 00:11:30,760
+then the two objects are different.
+
+236
+00:11:30,760 --> 00:11:33,390
+It's the property that distinguishes between the two
+
+237
+00:11:33,390 --> 00:11:34,340
+objects.
+
+238
+00:11:34,340 --> 00:11:35,950
+It's a property difference.
+
+239
+00:11:35,950 --> 00:11:39,370
+If there's a single property, it doesn't matter how small it is,
+
+240
+00:11:39,370 --> 00:11:41,370
+that it's different between Hesperus and
+
+241
+00:11:41,370 --> 00:11:45,240
+Phosphorus, we're talking about two different planetary bodies.
+
+242
+00:11:45,240 --> 00:11:48,163
+If there is no difference between the two celestial bodies
+
+243
+00:11:48,163 --> 00:11:50,371
+then we're talking about the same object,
+
+244
+00:11:50,371 --> 00:11:52,293
+we're talking about the same thing.
+
+245
+00:11:52,293 --> 00:11:56,408
+And what we would say is those two objects are identical to
+
+246
+00:11:56,408 --> 00:11:57,840
+each other.
+
+247
+00:11:57,840 --> 00:11:59,760
+They're not two objects,
+
+248
+00:11:59,760 --> 00:12:04,109
+they're only two in name rather than in reality or ontology.
+
+249
+00:12:04,109 --> 00:12:07,146
+They're all wrongly referring to them as two things,
+
+250
+00:12:07,146 --> 00:12:09,200
+when in reality there's one thing.
+
+251
+00:12:09,200 --> 00:12:11,260
+And that's the distinction.
+
+252
+00:12:11,260 --> 00:12:14,510
+Are we making what's called a semantic difference, or
+
+253
+00:12:14,510 --> 00:12:16,260
+is the difference a real difference?
+
+254
+00:12:16,260 --> 00:12:17,930
+Are they actually different objects?
+
+255
+00:12:19,120 --> 00:12:22,130
+And so this is kind of a formal way of writing this out.
+
+256
+00:12:22,130 --> 00:12:25,425
+The way this reads is a is equal to b,
+
+257
+00:12:25,425 --> 00:12:28,350
+Hesperus is equal to Phosphorus.
+
+258
+00:12:28,350 --> 00:12:29,090
+If and only if,
+
+259
+00:12:29,090 --> 00:12:32,700
+that double arrow means this is a necessary condition.
+
+260
+00:12:32,700 --> 00:12:34,860
+We talked about this earlier in the course.
+
+261
+00:12:34,860 --> 00:12:37,430
+It's necessarily true that for any property,
+
+262
+00:12:37,430 --> 00:12:41,090
+that's what the P means here, for any property, if P
+
+263
+00:12:41,090 --> 00:12:45,380
+is true of a and P is true of b, then a and b are identical.
+
+264
+00:12:45,380 --> 00:12:49,890
+If there's a single property difference, then a and
+
+265
+00:12:49,890 --> 00:12:51,710
+b are not identical.
+
+266
+00:12:51,710 --> 00:12:53,065
+So start thinking about this and
+
+267
+00:12:53,065 --> 00:12:54,955
+all the things that you care about,
+
+268
+00:12:54,955 --> 00:12:59,265
+this is a good way to come up with definitions for things.
+
+269
+00:12:59,265 --> 00:13:02,185
+Is your humanness the same as the humanness of the person
+
+270
+00:13:02,185 --> 00:13:03,165
+next to you?
+
+271
+00:13:03,165 --> 00:13:04,731
+Is the mind and the brain the same thing?
+
+272
+00:13:04,731 --> 00:13:07,689
+Is the color red and the wavelength of light that is
+
+273
+00:13:07,689 --> 00:13:10,985
+hitting your retina, are those identical?
+
+274
+00:13:10,985 --> 00:13:13,185
+Are there any property difference between those objects
+
+275
+00:13:13,185 --> 00:13:14,290
+that we're talking about?
+
+276
+00:13:14,290 --> 00:13:16,484
+And that at least gives us a starting point for
+
+277
+00:13:16,484 --> 00:13:19,430
+talking about whether there are different things.
+
+278
+00:13:19,430 --> 00:13:21,340
+Again, this is not necessarily a proof,
+
+279
+00:13:21,340 --> 00:13:23,920
+it doesn't necessarily prove that they're identical, but
+
+280
+00:13:23,920 --> 00:13:26,480
+it gives us a reason to believe that they're not.
+
+281
+00:13:26,480 --> 00:13:28,980
+And it gives us a good starting point with which
+
+282
+00:13:28,980 --> 00:13:32,070
+to discuss that.
+
+283
+00:13:32,070 --> 00:13:33,790
+That's the philosophy of identity.
+
+284
+00:13:33,790 --> 00:13:35,821
+As I studied philosophy, this has been one of
+
+285
+00:13:35,821 --> 00:13:38,570
+the most important principles that I've learned.
+
+286
+00:13:38,570 --> 00:13:40,960
+It's really helped me make important distinctions.
+
+287
+00:13:40,960 --> 00:13:44,050
+And, again, you're gonna see this idea as you move through
+
+288
+00:13:44,050 --> 00:13:46,170
+the module on categorical syllogisms.
+
+289
+00:13:46,170 --> 00:13:47,690
+You're gonna see this idea and
+
+290
+00:13:47,690 --> 00:13:51,180
+the relevance of it permeate the material and how Aristotle
+
+291
+00:13:51,180 --> 00:13:54,369
+developed his logical system using concepts like this.
+
+292
+00:13:55,690 --> 00:13:57,430
+So let's continue to talk about properties.
+
+293
+00:13:57,430 --> 00:14:00,944
+We have just a couple of more ideas here I wanna give you.
+
+294
+00:14:00,944 --> 00:14:04,053
+And the next concept that we wanna look at and this directly
+
+295
+00:14:04,053 --> 00:14:07,671
+relates to categorical logic, is the philosophy of universals and
+
+296
+00:14:07,671 --> 00:14:10,810
+particulars when it comes to properties.
+
+297
+00:14:10,810 --> 00:14:13,070
+And we're gonna go a little bit off topic and
+
+298
+00:14:13,070 --> 00:14:16,050
+talk about the Greeks in general here.
+
+299
+00:14:16,050 --> 00:14:19,920
+The Greeks had a very specific way of viewing properties in
+
+300
+00:14:19,920 --> 00:14:23,890
+terms of their universality or their particularness.
+
+301
+00:14:23,890 --> 00:14:27,030
+And so it's important to understand this and when you get
+
+302
+00:14:27,030 --> 00:14:29,790
+the idea here when we see what Aristotle and Plato were trying
+
+303
+00:14:29,790 --> 00:14:32,560
+to do, it's gonna help you understand why Aristotle
+
+304
+00:14:32,560 --> 00:14:36,500
+developed his categorical logic in the way that he did.
+
+305
+00:14:36,500 --> 00:14:39,920
+So one question that the the early Greeks asked is,
+
+306
+00:14:39,920 --> 00:14:42,440
+how do properties exist in the world?
+
+307
+00:14:42,440 --> 00:14:44,530
+Where is humanness after all?
+
+308
+00:14:44,530 --> 00:14:46,120
+Where is redness?
+
+309
+00:14:46,120 --> 00:14:48,460
+Where are these properties that we talk about each and
+
+310
+00:14:48,460 --> 00:14:50,210
+every day, multiple times a day?
+
+311
+00:14:50,210 --> 00:14:51,650
+How do they exist?
+
+312
+00:14:51,650 --> 00:14:54,260
+Do they exist in the things that have them or
+
+313
+00:14:54,260 --> 00:14:55,750
+do they exist in a different way?
+
+314
+00:14:56,760 --> 00:15:00,000
+And the way that the early Greek's talked about it is
+
+315
+00:15:00,000 --> 00:15:02,910
+they can exist in two different ways.
+
+316
+00:15:02,910 --> 00:15:04,749
+They can exist as a universal, or
+
+317
+00:15:04,749 --> 00:15:08,298
+they can exist as a particular, and again this directly relates
+
+318
+00:15:08,298 --> 00:15:11,140
+to this categorical logic that we're looking at.
+
+319
+00:15:11,140 --> 00:15:13,717
+Let me go to the next section here.
+
+320
+00:15:13,717 --> 00:15:17,053
+So the early Greek philosophers talked about
+
+321
+00:15:17,053 --> 00:15:18,896
+the individual things,
+
+322
+00:15:18,896 --> 00:15:23,900
+the redness of the apple, the blackness of this shirt.
+
+323
+00:15:23,900 --> 00:15:26,210
+They talked about these individual parts.
+
+324
+00:15:26,210 --> 00:15:27,412
+And then they said,
+
+325
+00:15:27,412 --> 00:15:30,460
+it's clearly that there's redness in the apple.
+
+326
+00:15:30,460 --> 00:15:32,880
+The redness appears to be a part of the apple.
+
+327
+00:15:32,880 --> 00:15:35,080
+But there's a lot of red things in the world.
+
+328
+00:15:35,080 --> 00:15:38,660
+So the idea of red seems to be abstracted
+
+329
+00:15:38,660 --> 00:15:41,330
+out of the individual things that have them.
+
+330
+00:15:41,330 --> 00:15:43,200
+There's redness.
+
+331
+00:15:43,200 --> 00:15:45,460
+And there in there are red objects.
+
+332
+00:15:45,460 --> 00:15:47,900
+And that's how the Greeks thought about these types of
+
+333
+00:15:47,900 --> 00:15:49,230
+properties.
+
+334
+00:15:49,230 --> 00:15:53,837
+So the way that they thought about the individual things,
+
+335
+00:15:53,837 --> 00:15:58,351
+as they said the individual red apple is a particular, or
+
+336
+00:15:58,351 --> 00:16:02,596
+what they called an instance of this property of red.
+
+337
+00:16:02,596 --> 00:16:06,610
+That red object is a particular red thing.
+
+338
+00:16:06,610 --> 00:16:09,210
+And we can talk about this at the macro level,
+
+339
+00:16:09,210 --> 00:16:12,429
+complex properties, things that chairs, trees, and
+
+340
+00:16:12,429 --> 00:16:14,482
+rocks have a whole set of complex and
+
+341
+00:16:14,482 --> 00:16:17,310
+individual properties and those are instance.
+
+342
+00:16:17,310 --> 00:16:22,049
+Those are particular instances of those properties.
+
+343
+00:16:22,049 --> 00:16:27,381
+But the properties themselves, the abstract version of them,
+
+344
+00:16:27,381 --> 00:16:30,651
+exists as what are called universals.
+
+345
+00:16:30,651 --> 00:16:33,961
+And not everybody buys this idea of universals,
+
+346
+00:16:33,961 --> 00:16:36,555
+sometimes called abstract objects.
+
+347
+00:16:36,555 --> 00:16:39,502
+This is heavily debated in philosophy.
+
+348
+00:16:39,502 --> 00:16:43,126
+But even if you don't buy that universals exist somewhere,
+
+349
+00:16:43,126 --> 00:16:46,679
+there's this idea of redness somewhere, you can still buy
+
+350
+00:16:46,679 --> 00:16:50,444
+into the idea that there is an abstract, even if it's mental,
+
+351
+00:16:50,444 --> 00:16:54,060
+even if it's a cognitive trick that we're playing.
+
+352
+00:16:54,060 --> 00:16:57,022
+There is this idea of red that stands over and
+
+353
+00:16:57,022 --> 00:17:00,318
+above the individual things that have redness.
+
+354
+00:17:00,318 --> 00:17:03,030
+So we can talk about redness as a category.
+
+355
+00:17:03,030 --> 00:17:05,540
+And that's where this whole idea of categorical logic comes
+
+356
+00:17:05,540 --> 00:17:06,450
+from, right?
+
+357
+00:17:06,450 --> 00:17:09,200
+We have these categories, we have these universals
+
+358
+00:17:09,200 --> 00:17:13,000
+that we can talk about in broad classes of things, okay?
+
+359
+00:17:13,000 --> 00:17:16,120
+So let's take this simple apple.
+
+360
+00:17:16,120 --> 00:17:19,730
+This is just kind of a corny example of how this works.
+
+361
+00:17:19,730 --> 00:17:22,673
+We have the form, right, or the universal.
+
+362
+00:17:22,673 --> 00:17:27,126
+The other term for this is a form and token or
+
+363
+00:17:27,126 --> 00:17:29,361
+form an individual.
+
+364
+00:17:29,361 --> 00:17:31,030
+We have the form apple, right?
+
+365
+00:17:31,030 --> 00:17:34,810
+It exists as a universal.
+
+366
+00:17:34,810 --> 00:17:36,742
+And then we have all the instances.
+
+367
+00:17:36,742 --> 00:17:41,735
+We have all the individual apples that exemplify
+
+368
+00:17:41,735 --> 00:17:45,650
+the properties of that thing, okay?
+
+369
+00:17:45,650 --> 00:17:49,194
+So that's how Aristotle thought about, and
+
+370
+00:17:49,194 --> 00:17:53,578
+Plato thought about the relationship between forms and
+
+371
+00:17:53,578 --> 00:17:56,948
+tokens, or universals and particulars.
+
+372
+00:17:56,948 --> 00:17:59,981
+All right, let's talk a little bit more about universals cuz
+
+373
+00:17:59,981 --> 00:18:03,014
+it's gonna be very important to understand this concept as we
+
+374
+00:18:03,014 --> 00:18:04,494
+get into categorical logic.
+
+375
+00:18:04,494 --> 00:18:08,218
+All right, for some of the Greeks, Plato in particular,
+
+376
+00:18:08,218 --> 00:18:12,018
+Plato thought that universals actually existed outside of
+
+377
+00:18:12,018 --> 00:18:16,090
+the instances, outside of the things that had them.
+
+378
+00:18:16,090 --> 00:18:19,470
+So for example, if every red object in the world were to
+
+379
+00:18:19,470 --> 00:18:24,110
+disappear, redness, as a universal, would still exist.
+
+380
+00:18:24,110 --> 00:18:27,030
+That's what Plato thought, okay?
+
+381
+00:18:27,030 --> 00:18:30,469
+So he thought that universals were neither temporal nor
+
+382
+00:18:30,469 --> 00:18:31,133
+spatial.
+
+383
+00:18:31,133 --> 00:18:33,460
+They did have to exist in the physical world.
+
+384
+00:18:34,920 --> 00:18:37,370
+He also had very specific views.
+
+385
+00:18:37,370 --> 00:18:39,980
+And by the way Aristotle didn't share a lot of these.
+
+386
+00:18:39,980 --> 00:18:45,440
+He also thought that universals could be thought
+
+387
+00:18:45,440 --> 00:18:48,930
+of as a type or an archetype of the thing.
+
+388
+00:18:48,930 --> 00:18:52,630
+So if you wanna understand what the properties of a universal
+
+389
+00:18:52,630 --> 00:18:57,440
+are, you have to take all of the instances, and think about
+
+390
+00:18:57,440 --> 00:19:01,720
+what those instances share, right, in terms of identity.
+
+391
+00:19:01,720 --> 00:19:04,620
+And then you can come up with all the properties of
+
+392
+00:19:04,620 --> 00:19:06,150
+that universal, right?
+
+393
+00:19:06,150 --> 00:19:11,310
+So the type informs what each of the tokens,
+
+394
+00:19:11,310 --> 00:19:14,570
+what each of the individual, particular things, have.
+
+395
+00:19:15,880 --> 00:19:19,340
+Right, the universe can be thought of a property,
+
+396
+00:19:19,340 --> 00:19:21,740
+particularly if you have, obviously, a simple property.
+
+397
+00:19:21,740 --> 00:19:24,522
+But you can have complex properties also that
+
+398
+00:19:24,522 --> 00:19:25,625
+are universals.
+
+399
+00:19:25,625 --> 00:19:31,982
+And one way to talk about these things is to talk about them as
+
+400
+00:19:31,982 --> 00:19:37,080
+abstract objects, and we use the suffix ness.
+
+401
+00:19:37,080 --> 00:19:40,610
+We put ness after it, like redness, blackness.
+
+402
+00:19:40,610 --> 00:19:44,110
+You can even have the property of humanness, right?
+
+403
+00:19:44,110 --> 00:19:46,440
+Or appleness, whatever the thing's nature is.
+
+404
+00:19:46,440 --> 00:19:48,520
+So when you are talking about a thing's nature,
+
+405
+00:19:48,520 --> 00:19:52,391
+you really are talking about that universal abstraction,
+
+406
+00:19:52,391 --> 00:19:53,640
+all right?
+
+407
+00:19:53,640 --> 00:19:55,740
+So universals then are the starting point.
+
+408
+00:19:55,740 --> 00:19:58,170
+That's how the Greeks thought about properties,
+
+409
+00:19:58,170 --> 00:20:00,380
+as these abstract objects.
+
+410
+00:20:00,380 --> 00:20:00,880
+And then again,
+
+411
+00:20:00,880 --> 00:20:03,710
+the particulars are the things that possess them.
+
+412
+00:20:03,710 --> 00:20:05,030
+So if you have the property,
+
+413
+00:20:05,030 --> 00:20:07,680
+the universal property of redness and you have a red
+
+414
+00:20:07,680 --> 00:20:12,740
+apple, the red apple, the instance that particular
+
+415
+00:20:12,740 --> 00:20:17,470
+thing participates in the universal by having red, okay?
+
+416
+00:20:17,470 --> 00:20:19,780
+So let's talk about these particulars.
+
+417
+00:20:19,780 --> 00:20:22,815
+Particulars then are instances or instantiations.
+
+418
+00:20:22,815 --> 00:20:24,940
+Don' t let these big words bother you.
+
+419
+00:20:24,940 --> 00:20:29,000
+It just means the particular takes the universal and
+
+420
+00:20:29,000 --> 00:20:30,230
+it exemplifies it.
+
+421
+00:20:30,230 --> 00:20:33,900
+It has it as a part of what it is, okay?
+
+422
+00:20:33,900 --> 00:20:35,560
+It instantiates it.
+
+423
+00:20:35,560 --> 00:20:38,540
+Particulars themselves are in time and space.
+
+424
+00:20:38,540 --> 00:20:39,590
+They're in the real world, right?
+
+425
+00:20:39,590 --> 00:20:41,300
+They're things that we can touch.
+
+426
+00:20:41,300 --> 00:20:43,030
+You can hold an apple, you can eat an apple.
+
+427
+00:20:43,030 --> 00:20:45,770
+You can taste an apple, you can participate in all of its
+
+428
+00:20:45,770 --> 00:20:47,440
+properties in a physical way.
+
+429
+00:20:47,440 --> 00:20:53,450
+So they have being in time and space, the Greeks thought, okay?
+
+430
+00:20:53,450 --> 00:20:55,880
+The word that the Greeks used for particulars is token.
+
+431
+00:20:55,880 --> 00:21:00,170
+Again, type is used for universal, token is used for
+
+432
+00:21:00,170 --> 00:21:04,420
+particular and it's the concrete instance of that thing, right?
+
+433
+00:21:04,420 --> 00:21:07,760
+Now this last concept is important for the Greeks.
+
+434
+00:21:07,760 --> 00:21:10,370
+Again, as I mentioned earlier, the Greeks thought that
+
+435
+00:21:10,370 --> 00:21:14,960
+the individual particular thing participates in the universal.
+
+436
+00:21:14,960 --> 00:21:16,590
+Plato particularly thought this.
+
+437
+00:21:16,590 --> 00:21:20,620
+He thought that if the universal went away, all the instances,
+
+438
+00:21:20,620 --> 00:21:22,790
+all the particulars would go away with it.
+
+439
+00:21:22,790 --> 00:21:25,740
+If redness, if God got rid of redness,
+
+440
+00:21:25,740 --> 00:21:29,300
+he thought, as a universal,
+
+441
+00:21:29,300 --> 00:21:33,170
+then all the particular red things would cease to exist.
+
+442
+00:21:33,170 --> 00:21:35,110
+Aristotle had a little bit of a different take.
+
+443
+00:21:35,110 --> 00:21:38,950
+His view was that the particular things, all the red apples and
+
+444
+00:21:38,950 --> 00:21:40,680
+the red objects in the world,
+
+445
+00:21:40,680 --> 00:21:42,980
+are what made the universal what it is.
+
+446
+00:21:42,980 --> 00:21:45,660
+So the universal in a sense is created by the fact that
+
+447
+00:21:45,660 --> 00:21:47,550
+the particulars exist.
+
+448
+00:21:47,550 --> 00:21:50,310
+And that's where we kinda get this idea that the universal is
+
+449
+00:21:50,310 --> 00:21:54,140
+an abstraction or an idea that's created out of all
+
+450
+00:21:54,140 --> 00:21:55,880
+the particulars that we see in the world.
+
+451
+00:21:55,880 --> 00:21:57,800
+But those details aren't terribly important for
+
+452
+00:21:57,800 --> 00:22:01,530
+understanding how categories work in categorical logic.
+
+453
+00:22:01,530 --> 00:22:04,490
+The important part is that we have these distinctions between
+
+454
+00:22:04,490 --> 00:22:06,850
+the universal, the category, the class.
+
+455
+00:22:06,850 --> 00:22:08,460
+Sometimes we use class.
+
+456
+00:22:08,460 --> 00:22:10,270
+You have classes of mammals, right?
+
+457
+00:22:10,270 --> 00:22:13,820
+You have classes of birds, you have classes of human, right?
+
+458
+00:22:13,820 --> 00:22:17,490
+Those classes exist, and then you have the particular things
+
+459
+00:22:17,490 --> 00:22:20,140
+in that class, the particular instances,
+
+460
+00:22:20,140 --> 00:22:21,790
+the individual humans walking around,
+
+461
+00:22:21,790 --> 00:22:24,940
+the individual birds flying around, those kinds of things.
+
+462
+00:22:24,940 --> 00:22:27,454
+Right, so that's the relationship between
+
+463
+00:22:27,454 --> 00:22:29,446
+the universal and the particular.
+
+464
+00:22:29,446 --> 00:22:32,020
+All right, all of this background again is to help
+
+465
+00:22:32,020 --> 00:22:35,420
+inform how Aristotle thought about categorical logic.
+
+466
+00:22:35,420 --> 00:22:37,560
+And he uses these concepts and
+
+467
+00:22:37,560 --> 00:22:40,440
+builds a logical system around these concepts.
+
+468
+00:22:40,440 --> 00:22:43,650
+And the more you understand how these concepts work, the better
+
+469
+00:22:43,650 --> 00:22:46,950
+you're gonna be at understanding how categorical logic works.
+
+470
+00:22:46,950 --> 00:22:50,060
+And when you get to the section on how categorical statements
+
+471
+00:22:50,060 --> 00:22:54,300
+are designed and developed, these ideas should make a lot
+
+472
+00:22:54,300 --> 00:22:57,490
+more sense to you as you put those statements together.
+
+473
+00:22:58,632 --> 00:23:01,010
+All right, I wanna give you one more lesson on Aristotle's
+
+474
+00:23:01,010 --> 00:23:04,230
+ontology and then we'll be done with this topic and we
+
+475
+00:23:04,230 --> 00:23:08,580
+can move on to actually working with categorical statements.
+
+476
+00:23:10,290 --> 00:23:14,290
+Aristotle's ontology included a methodology.
+
+477
+00:23:14,290 --> 00:23:17,659
+And that methodology, the method that he used to examine
+
+478
+00:23:17,659 --> 00:23:21,376
+the world and study the world, the scientific method we know it
+
+479
+00:23:21,376 --> 00:23:25,025
+as today, and we're gonna talk about how Aristotle actually
+
+480
+00:23:25,025 --> 00:23:27,293
+developed that method in the course.
+
+481
+00:23:27,293 --> 00:23:31,350
+But Aristotle came out with this idea of four causes.
+
+482
+00:23:31,350 --> 00:23:34,200
+And what he said is, you really can't understand something
+
+483
+00:23:34,200 --> 00:23:37,060
+unless you understand its four causes.
+
+484
+00:23:37,060 --> 00:23:40,130
+Now he doesn't mean causes in a way that we mean cause and
+
+485
+00:23:40,130 --> 00:23:43,450
+effect, the thing that created it or the thing that started it.
+
+486
+00:23:43,450 --> 00:23:47,249
+What he means is when we wanna understand its four causes,
+
+487
+00:23:47,249 --> 00:23:50,049
+we wanna understand its four components.
+
+488
+00:23:50,049 --> 00:23:52,157
+Everything has four components,
+
+489
+00:23:52,157 --> 00:23:55,800
+and those components are what inform how we understand it.
+
+490
+00:23:55,800 --> 00:23:57,185
+That's what he meant by cause.
+
+491
+00:23:57,185 --> 00:24:00,210
+Iit's more of an informational idea
+
+492
+00:24:00,210 --> 00:24:02,420
+rather than a cause effect idea.
+
+493
+00:24:02,420 --> 00:24:05,190
+All right, and he said understand these four causes
+
+494
+00:24:05,190 --> 00:24:06,960
+if you wanna understand how anything is made up.
+
+495
+00:24:08,040 --> 00:24:09,740
+The way that he categorizes these
+
+496
+00:24:09,740 --> 00:24:10,980
+is really really fascinating, and
+
+497
+00:24:10,980 --> 00:24:13,510
+I wanna try to show you why it's fascinating in a moment.
+
+498
+00:24:13,510 --> 00:24:16,580
+But again, this directly informs categorical logic, and
+
+499
+00:24:16,580 --> 00:24:18,850
+why his logic was developed in the way that it was.
+
+500
+00:24:19,910 --> 00:24:22,670
+His first cause, he said, is the material cause.
+
+501
+00:24:22,670 --> 00:24:24,960
+So let's take our red apple again.
+
+502
+00:24:24,960 --> 00:24:25,920
+We've got a red apple, and
+
+503
+00:24:25,920 --> 00:24:28,740
+we want to understand what that red apple is.
+
+504
+00:24:28,740 --> 00:24:31,420
+We want to scientifically study it, all right?
+
+505
+00:24:31,420 --> 00:24:35,610
+One thing we have to understand first is what is it made up of?
+
+506
+00:24:35,610 --> 00:24:37,240
+We wanna tear it apart scientifically.
+
+507
+00:24:37,240 --> 00:24:41,220
+And now we can do really complex chemical analyses
+
+508
+00:24:41,220 --> 00:24:42,740
+of these objects, right?
+
+509
+00:24:42,740 --> 00:24:44,480
+So we can look at the chemical make up.
+
+510
+00:24:44,480 --> 00:24:45,660
+We can weigh it.
+
+511
+00:24:45,660 --> 00:24:47,184
+We can measure its size.
+
+512
+00:24:47,184 --> 00:24:49,047
+We can look at all the other apples and
+
+513
+00:24:49,047 --> 00:24:51,763
+talk about what's identical between them, right?
+
+514
+00:24:51,763 --> 00:24:53,952
+But we have to understand the stuff of the thing.
+
+515
+00:24:53,952 --> 00:24:56,942
+We have to understand the material Make up of the object
+
+516
+00:24:56,942 --> 00:24:58,244
+that we're studying.
+
+517
+00:24:58,244 --> 00:25:00,790
+And he said this is true of anything that we want to study.
+
+518
+00:25:00,790 --> 00:25:02,720
+We have to understand the material cause.
+
+519
+00:25:02,720 --> 00:25:03,440
+All right, simple enough.
+
+520
+00:25:04,580 --> 00:25:08,295
+The next one relates directly to our topic of universals in
+
+521
+00:25:08,295 --> 00:25:09,740
+particulars.
+
+522
+00:25:09,740 --> 00:25:12,900
+So Aristotle said, if you want to understand something,
+
+523
+00:25:12,900 --> 00:25:15,460
+you have to understand what class it belongs to.
+
+524
+00:25:16,990 --> 00:25:20,570
+You have to understand what he called its formal cause, or,
+
+525
+00:25:20,570 --> 00:25:24,300
+remember we used the term the form of the thing, right?
+
+526
+00:25:24,300 --> 00:25:28,730
+The ideal, the necessary properties that that thing has.
+
+527
+00:25:28,730 --> 00:25:30,820
+And this goes back to identity, right?
+
+528
+00:25:30,820 --> 00:25:32,880
+The identity and property talk.
+
+529
+00:25:32,880 --> 00:25:37,010
+You have to understand what property or what properties
+
+530
+00:25:37,010 --> 00:25:41,310
+the object has that's identical to other things in its class.
+
+531
+00:25:41,310 --> 00:25:43,700
+So let's take the idea of a chair,
+
+532
+00:25:44,990 --> 00:25:47,400
+you're probably sitting in one right now.
+
+533
+00:25:47,400 --> 00:25:48,870
+If not, you can look around the room and
+
+534
+00:25:48,870 --> 00:25:51,930
+probably see a couple of different types of chairs.
+
+535
+00:25:51,930 --> 00:25:54,720
+All right, now, when I use the term chair,
+
+536
+00:25:54,720 --> 00:25:57,110
+I'm using a categorical term, aren't I?
+
+537
+00:25:57,110 --> 00:25:59,090
+I'm using a class of things,
+
+538
+00:25:59,090 --> 00:26:04,020
+I'm saying this individual object belongs to a class
+
+539
+00:26:04,020 --> 00:26:08,610
+of things that also participate in that class, all right?
+
+540
+00:26:08,610 --> 00:26:11,340
+The individuals participate in that class.
+
+541
+00:26:11,340 --> 00:26:14,020
+So what Aristotle would ask is,
+
+542
+00:26:14,020 --> 00:26:17,920
+what are the properties that all, and only chairs,
+
+543
+00:26:17,920 --> 00:26:21,740
+possess that makes them a part of that class?
+
+544
+00:26:21,740 --> 00:26:23,470
+Let's think about that for a moment.
+
+545
+00:26:23,470 --> 00:26:27,779
+If we have an object and it has a round thing at the top and
+
+546
+00:26:27,779 --> 00:26:32,183
+three legs coming out, we tend not to call that a chair,
+
+547
+00:26:32,183 --> 00:26:34,551
+we call that a stool, right?
+
+548
+00:26:34,551 --> 00:26:36,825
+There's something missing we might say,
+
+549
+00:26:36,825 --> 00:26:38,220
+it's not really a chair.
+
+550
+00:26:38,220 --> 00:26:41,320
+So we would say that a chair has to have probably something
+
+551
+00:26:41,320 --> 00:26:41,910
+to sit on.
+
+552
+00:26:42,910 --> 00:26:46,520
+Most of us would probably define a chair as having a back, so
+
+553
+00:26:46,520 --> 00:26:48,720
+something to rest your back against.
+
+554
+00:26:48,720 --> 00:26:52,210
+And most chairs that people sit in have four legs.
+
+555
+00:26:52,210 --> 00:26:55,760
+Let's just start there, so we have something to sit on,
+
+556
+00:26:55,760 --> 00:26:58,920
+something to support the back and four legs, and
+
+557
+00:26:58,920 --> 00:27:01,640
+we'll say those are the necessary properties
+
+558
+00:27:01,640 --> 00:27:04,220
+that chairs have and all chairs have.
+
+559
+00:27:04,220 --> 00:27:07,270
+There's not a single exception to our definition.
+
+560
+00:27:07,270 --> 00:27:09,190
+Now, we can debate this, this is just for
+
+561
+00:27:09,190 --> 00:27:11,550
+the purpose of giving you an example.
+
+562
+00:27:12,570 --> 00:27:14,280
+Let's talk about some other properties that chairs
+
+563
+00:27:14,280 --> 00:27:15,740
+must have.
+
+564
+00:27:15,740 --> 00:27:16,790
+Can they be this big?
+
+565
+00:27:17,950 --> 00:27:21,460
+Can they be two inches tall, in other words?
+
+566
+00:27:21,460 --> 00:27:23,680
+Probably not gonna work as a chair, right?
+
+567
+00:27:23,680 --> 00:27:26,500
+Because now it doesn't perform its function,
+
+568
+00:27:26,500 --> 00:27:28,552
+it's not functioning as a chair.
+
+569
+00:27:28,552 --> 00:27:32,444
+So we would say a chair has to be at least as big to hold up
+
+570
+00:27:32,444 --> 00:27:35,657
+a human person, either a child or an adult.
+
+571
+00:27:35,657 --> 00:27:39,150
+Can the chair be made out of whipped cream or
+
+572
+00:27:39,150 --> 00:27:41,398
+something solid, jello?
+
+573
+00:27:41,398 --> 00:27:44,340
+Probably not, right?
+
+574
+00:27:44,340 --> 00:27:46,940
+Again, chairs have to accomplish some goal,
+
+575
+00:27:46,940 --> 00:27:49,260
+they have to do something, and
+
+576
+00:27:49,260 --> 00:27:51,730
+a chair made up of whipped cream is a gonna function as a chair.
+
+577
+00:27:51,730 --> 00:27:54,240
+Can be shape like a chair, can look like a chair, but
+
+578
+00:27:54,240 --> 00:27:56,080
+it's not going to be a chair.
+
+579
+00:27:56,080 --> 00:27:57,480
+Okay, hopefully you see the idea.
+
+580
+00:27:57,480 --> 00:28:00,810
+So chairs have necessary properties,
+
+581
+00:28:00,810 --> 00:28:02,920
+all chairs have to have them.
+
+582
+00:28:02,920 --> 00:28:05,870
+And then individual chairs have those properties
+
+583
+00:28:05,870 --> 00:28:08,275
+as a part of that instance, that particular thing.
+
+584
+00:28:08,275 --> 00:28:12,640
+But we can abstract all those universal properties of a chair
+
+585
+00:28:12,640 --> 00:28:15,900
+and say now this is what is in the class of chair.
+
+586
+00:28:15,900 --> 00:28:17,630
+And philosophers, and logicians, and
+
+587
+00:28:17,630 --> 00:28:21,090
+scientist spend a lot of time debating what should be in and
+
+588
+00:28:21,090 --> 00:28:23,000
+what should be out of these classes.
+
+589
+00:28:23,000 --> 00:28:25,380
+This is how we come up with classifications in
+
+590
+00:28:25,380 --> 00:28:26,950
+biology, right?
+
+591
+00:28:26,950 --> 00:28:29,880
+You figure out what a species has to have, and then you say
+
+592
+00:28:29,880 --> 00:28:32,710
+if something doesn't have it, it's not a part of that species.
+
+593
+00:28:32,710 --> 00:28:36,780
+That classification exercise is being done all the time.
+
+594
+00:28:36,780 --> 00:28:39,535
+And so the formal cause was really, really important for
+
+595
+00:28:39,535 --> 00:28:42,138
+Aristotle, if you truly wanna understand something.
+
+596
+00:28:42,138 --> 00:28:44,430
+And he spends a lot of time emphasizing and
+
+597
+00:28:44,430 --> 00:28:47,310
+play the do as well, the importance of the formal cause.
+
+598
+00:28:48,470 --> 00:28:51,580
+So the formal cause is the ideal the form of the thing,
+
+599
+00:28:51,580 --> 00:28:52,909
+it's necessary properties.
+
+600
+00:28:54,410 --> 00:28:57,390
+Aristotle said, we also need to understand its efficient cause,
+
+601
+00:28:57,390 --> 00:29:01,040
+and put simply, this is just what brings the thing about.
+
+602
+00:29:01,040 --> 00:29:03,260
+So think about any object that you want to study.
+
+603
+00:29:03,260 --> 00:29:05,420
+It's always helpful to know how it came about,
+
+604
+00:29:05,420 --> 00:29:08,650
+how it came to be, what brought it about.
+
+605
+00:29:08,650 --> 00:29:11,700
+And this could be a human maker,
+
+606
+00:29:11,700 --> 00:29:15,990
+if I hold up this mouse, if you look at this mouse, we would say
+
+607
+00:29:15,990 --> 00:29:19,960
+engineers build this mouse, they're the efficient cause.
+
+608
+00:29:19,960 --> 00:29:23,420
+The engineers are what brought the thing into being.
+
+609
+00:29:23,420 --> 00:29:26,872
+The term that logicians like to use is that by means of which
+
+610
+00:29:26,872 --> 00:29:28,073
+something exists.
+
+611
+00:29:28,073 --> 00:29:31,220
+What brought it into existence?
+
+612
+00:29:31,220 --> 00:29:37,705
+And then finally, ironically, we have the final cause.
+
+613
+00:29:37,705 --> 00:29:40,826
+And this is the last thing that Aristotle said,
+
+614
+00:29:40,826 --> 00:29:44,886
+you needed to understand if you want to understand everything
+
+615
+00:29:44,886 --> 00:29:46,890
+about the object.
+
+616
+00:29:46,890 --> 00:29:50,410
+The final cause is the why that that for
+
+617
+00:29:50,410 --> 00:29:53,240
+the sake of which something exists.
+
+618
+00:29:53,240 --> 00:29:54,840
+Now this might strike you as a little odd.
+
+619
+00:29:54,840 --> 00:29:56,570
+Why do we care about the why?
+
+620
+00:29:56,570 --> 00:29:58,542
+The purpose of the thing?
+
+621
+00:29:58,542 --> 00:30:02,198
+The term that the early Greeks used was teleology,
+
+622
+00:30:02,198 --> 00:30:05,599
+or the goal for why the thing was brought about,
+
+623
+00:30:05,599 --> 00:30:09,952
+why did the efficient cause bring the thing into existence.
+
+624
+00:30:09,952 --> 00:30:14,355
+Now notice the important relationship between final cause
+
+625
+00:30:14,355 --> 00:30:15,770
+and formal cause.
+
+626
+00:30:16,800 --> 00:30:19,500
+We cannot come up with the necessary properties of
+
+627
+00:30:19,500 --> 00:30:23,690
+the thing until we understand why the thing exist.
+
+628
+00:30:23,690 --> 00:30:26,550
+Remember we said that whipped cream would be a really bad
+
+629
+00:30:26,550 --> 00:30:28,390
+material for a chair?
+
+630
+00:30:28,390 --> 00:30:31,120
+And the reason for that is because the chair exist for
+
+631
+00:30:31,120 --> 00:30:34,380
+the purpose of holding someone's weight,
+
+632
+00:30:34,380 --> 00:30:36,240
+allowing someone to sit down.
+
+633
+00:30:36,240 --> 00:30:39,730
+So if we didn't know that, we couldn't tell
+
+634
+00:30:39,730 --> 00:30:41,930
+that the chair could not be made out of wood frame.
+
+635
+00:30:41,930 --> 00:30:44,990
+We couldn't make that statement because we would have no idea
+
+636
+00:30:44,990 --> 00:30:47,550
+for the purpose of the chair.
+
+637
+00:30:47,550 --> 00:30:50,040
+So the final cause, Aristotle and
+
+638
+00:30:50,040 --> 00:30:52,880
+Plato thought, is super important to understand if
+
+639
+00:30:52,880 --> 00:30:55,970
+you're gonna understand what the formal cause is all about,
+
+640
+00:30:55,970 --> 00:30:59,220
+what its necessary properties are for that thing.
+
+641
+00:30:59,220 --> 00:31:03,274
+So Aristotle said, if you wanna understand something fully,
+
+642
+00:31:03,274 --> 00:31:05,881
+you have to understand its final cause.
+
+643
+00:31:05,881 --> 00:31:06,382
+And again,
+
+644
+00:31:06,382 --> 00:31:08,896
+this is gonna be important as you study categorical logic.
+
+645
+00:31:08,896 --> 00:31:11,385
+Cuz as you come up with categories of things,
+
+646
+00:31:11,385 --> 00:31:14,399
+as you make universal all and particular statements,
+
+647
+00:31:14,399 --> 00:31:17,676
+all statements and some statements, you're gonna have to
+
+648
+00:31:17,676 --> 00:31:21,085
+understand the relationship of the particular properties to
+
+649
+00:31:21,085 --> 00:31:24,210
+the categories of the things that you're discussing.
+
+650
+00:31:24,210 --> 00:31:27,720
+So this is Aristotle's four cause model.
+
+651
+00:31:27,720 --> 00:31:31,740
+And again, this informed a lot of Western philosophy in modern
+
+652
+00:31:31,740 --> 00:31:34,930
+scientific methodology.
+
+653
+00:31:34,930 --> 00:31:37,580
+So a lot of the methods that we use in modern science
+
+654
+00:31:37,580 --> 00:31:40,590
+were built up from Aristotle's basic model.
+
+655
+00:31:40,590 --> 00:31:41,700
+Now, to close out this section,
+
+656
+00:31:41,700 --> 00:31:43,940
+I just wanna give you a quick illustration.
+
+657
+00:31:43,940 --> 00:31:47,000
+I've been talking about different ideas and ways to
+
+658
+00:31:47,000 --> 00:31:50,100
+think about this, but let's talk about Aristotle's four causes
+
+659
+00:31:50,100 --> 00:31:52,170
+as we apply them to a house.
+
+660
+00:31:52,170 --> 00:31:55,090
+So if we're gonna describe the material cause of a house,
+
+661
+00:31:55,090 --> 00:31:57,610
+we would say things that make it up.
+
+662
+00:31:57,610 --> 00:32:00,820
+The wood, bricks, windows, all the material pieces,
+
+663
+00:32:00,820 --> 00:32:03,500
+all the stuff that the house is made up of.
+
+664
+00:32:03,500 --> 00:32:05,520
+Now, the formal cause gets a little tricky.
+
+665
+00:32:05,520 --> 00:32:08,490
+Remember we have to keep the final cause in mind
+
+666
+00:32:08,490 --> 00:32:11,120
+in order to talk about the formal cause.
+
+667
+00:32:11,120 --> 00:32:13,910
+So we're gonna say that the house has to have some essential
+
+668
+00:32:13,910 --> 00:32:15,930
+components, like walls.
+
+669
+00:32:15,930 --> 00:32:18,330
+It probably should have a roof and
+
+670
+00:32:18,330 --> 00:32:21,230
+it should have a door, why does it need a roof?
+
+671
+00:32:21,230 --> 00:32:23,630
+Well we would say the purpose of a house is shelter.
+
+672
+00:32:24,770 --> 00:32:27,290
+So if you have a house with no roof, it's not
+
+673
+00:32:27,290 --> 00:32:30,040
+providing that function, it's not meeting that purpose.
+
+674
+00:32:30,040 --> 00:32:32,850
+And therefore, fails to fit the category of house,
+
+675
+00:32:32,850 --> 00:32:33,639
+if it doesn't have a roof.
+
+676
+00:32:34,760 --> 00:32:35,970
+Why do you need doors?
+
+677
+00:32:35,970 --> 00:32:39,410
+Well, again, the purpose of a house is to provide shelter for
+
+678
+00:32:39,410 --> 00:32:40,720
+humans, right?
+
+679
+00:32:40,720 --> 00:32:44,000
+We're talking about obviously human built homes here.
+
+680
+00:32:44,000 --> 00:32:46,310
+It has to provide shelter for humans.
+
+681
+00:32:46,310 --> 00:32:47,850
+And so if the humans don't have a way to get in and
+
+682
+00:32:47,850 --> 00:32:49,850
+out, it seizes to function as a house.
+
+683
+00:32:49,850 --> 00:32:52,490
+Now, it's just a big box with a roof on it.
+
+684
+00:32:52,490 --> 00:32:57,360
+So our final cause, the purpose, has to inform our formal cause,
+
+685
+00:32:57,360 --> 00:32:58,620
+which is the things that make it up.
+
+686
+00:32:59,960 --> 00:33:01,400
+And then we have our efficient cause,
+
+687
+00:33:01,400 --> 00:33:03,460
+we would say builders, architects,
+
+688
+00:33:03,460 --> 00:33:05,590
+builders, everybody that goes into putting the house up.
+
+689
+00:33:05,590 --> 00:33:11,250
+And then of course the final cause is a dwelling or shelter.
+
+690
+00:33:11,250 --> 00:33:14,100
+Once we know that the house needs to function as a dwelling
+
+691
+00:33:14,100 --> 00:33:15,030
+a shelter,
+
+692
+00:33:15,030 --> 00:33:18,450
+then we can come up with a list of the unnecessary properties.
+
+693
+00:33:18,450 --> 00:33:21,920
+So this is how we might think, this is obviously a very crude,
+
+694
+00:33:21,920 --> 00:33:24,330
+very high level example of what we're talking about.
+
+695
+00:33:24,330 --> 00:33:26,980
+But you can apply this methodology to anything.
+
+696
+00:33:26,980 --> 00:33:28,780
+And that's where it becomes really magical,
+
+697
+00:33:28,780 --> 00:33:31,740
+you can take that method and tear something apart, and
+
+698
+00:33:31,740 --> 00:33:35,680
+really understand it by applying Aristotle's four causes to it.
+
+699
+00:33:37,020 --> 00:33:42,000
+All right, this provides us with some background with some ideas
+
+700
+00:33:42,000 --> 00:33:46,340
+of why Aristotle developed this categorical system of logic.
+
+701
+00:33:46,340 --> 00:33:49,244
+And as you go through this module, look for these ideas,
+
+702
+00:33:49,244 --> 00:33:52,028
+look at how these ideas informed how Aristotle thought
+
+703
+00:33:52,028 --> 00:33:52,764
+about logic.
+
+704
+00:33:52,764 --> 00:33:55,964
+And it will help you better understand putting categorical
+
+705
+00:33:55,964 --> 00:33:59,164
+statements together, and then when you get to categorical
+
+706
+00:33:59,164 --> 00:34:01,724
+syllogisms, this philosophy will help you and
+
+707
+00:34:01,724 --> 00:34:04,042
+help inform how you do that in a richer way.
+

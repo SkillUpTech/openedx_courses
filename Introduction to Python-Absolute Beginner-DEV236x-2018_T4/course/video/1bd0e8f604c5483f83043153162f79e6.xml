@@ -1,8 +1,0 @@
-<video youtube="1.00:fAGA025ArJs" url_name="1bd0e8f604c5483f83043153162f79e6" display_name="Return a string: &quot;correct&quot; or incorrect&quot;" download_track="true" download_video="true" edx_video_id="c7b2fbd4-bf0c-41f6-9d36-56a97871167f" html5_sources="[]" sub="" transcripts="{&quot;en&quot;: &quot;c7b2fbd4-bf0c-41f6-9d36-56a97871167f-en.srt&quot;}" youtube_id_1_0="fAGA025ArJs">
-  <transcript language="en" src="c7b2fbd4-bf0c-41f6-9d36-56a97871167f-en.srt"/>
-  <video_asset client_video_id="Unit1_Section4.3-TF-quiz.mp4" duration="130.05">
-    <encoded_video bitrate="190" file_size="3095677" profile="desktop_mp4" url="https://d2f1egay8yehza.cloudfront.net/MSXIPU1X2017-V003500_DTH.mp4"/>
-    <encoded_video bitrate="110" file_size="1794292" profile="mobile_low" url="https://d2f1egay8yehza.cloudfront.net/MSXIPU1X2017-V003500_MB2.mp4"/>
-    <encoded_video bitrate="0" file_size="0" profile="youtube" url="fAGA025ArJs"/>
-  </video_asset>
-</video>

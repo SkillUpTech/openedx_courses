@@ -1,0 +1,21 @@
+{
+    "GRADER": [
+        {
+            "drop_count": 0, 
+            "min_count": 8, 
+            "short_label": "Assessment", 
+            "type": "Assessment", 
+            "weight": 0.49
+        }, 
+        {
+            "drop_count": 0, 
+            "min_count": 1, 
+            "short_label": "Final", 
+            "type": "Final exam", 
+            "weight": 0.51
+        }
+    ], 
+    "GRADE_CUTOFFS": {
+        "Pass": 0.7
+    }
+}

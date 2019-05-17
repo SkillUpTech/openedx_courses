@@ -1,0 +1,12 @@
+<problem display_name="2.Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p/>
+    <p>The United States House of Representatives has more members than there are calendar days in a leap year. Therefore, at least two members of the House must have the same birthday.<br/></p>
+    <label>Using the intuitive test for validity, decide if the statement above is valid or invalid.<br/></label>
+    <p/>
+    <choicegroup type="MultipleChoice">
+      <choice correct="True">Valid<br/></choice>
+      <choice correct="False">Invalid<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

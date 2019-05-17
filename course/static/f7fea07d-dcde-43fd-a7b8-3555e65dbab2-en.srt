@@ -1,0 +1,388 @@
+0
+00:00:00,910 --> 00:00:02,990
+So we've been looking at deductive arguments and
+
+1
+00:00:02,990 --> 00:00:04,560
+constructing deductive arguments.
+
+2
+00:00:04,560 --> 00:00:06,710
+Deductive arguments are arguments where,
+
+3
+00:00:06,710 --> 00:00:10,110
+given the truth of the premises, the conclusion must follow.
+
+4
+00:00:10,110 --> 00:00:13,048
+We looked at validity as an important concept in that
+
+5
+00:00:13,048 --> 00:00:13,590
+notion.
+
+6
+00:00:13,590 --> 00:00:16,333
+If the conclusion does follow from the premises,
+
+7
+00:00:16,333 --> 00:00:17,648
+the argument is valid.
+
+8
+00:00:17,648 --> 00:00:21,587
+If not, then the argument is invalid.
+
+9
+00:00:21,587 --> 00:00:24,242
+But that's not all we wanna do when we're looking at deductive
+
+10
+00:00:24,242 --> 00:00:25,190
+arguments.
+
+11
+00:00:25,190 --> 00:00:27,780
+Once we know that the argument is in the right structure
+
+12
+00:00:27,780 --> 00:00:31,470
+we still have to look at whether the premises are true or not.
+
+13
+00:00:31,470 --> 00:00:34,200
+We still wanna do that next investigative tasks.
+
+14
+00:00:34,200 --> 00:00:36,300
+So once we understand the structure of the argument
+
+15
+00:00:36,300 --> 00:00:38,980
+then we have to actually look at the premises themselves
+
+16
+00:00:38,980 --> 00:00:40,640
+to see whether they're true, and
+
+17
+00:00:40,640 --> 00:00:43,260
+that gives us our concept of soundness.
+
+18
+00:00:43,260 --> 00:00:45,830
+So really in a deductive argument what you're after is
+
+19
+00:00:45,830 --> 00:00:48,780
+a sound argument, not merely a valid one.
+
+20
+00:00:48,780 --> 00:00:51,950
+Validity is only the first step in constructing good deductive
+
+21
+00:00:51,950 --> 00:00:53,010
+arguments.
+
+22
+00:00:53,010 --> 00:00:55,790
+So let's take an argument that we looked at earlier.
+
+23
+00:00:56,830 --> 00:00:59,240
+We're gonna use the same
+
+24
+00:01:00,240 --> 00:01:03,090
+general terms that we used in an earlier arguments, but
+
+25
+00:01:03,090 --> 00:01:06,200
+we're gonna put it in a little bit of a different format here.
+
+26
+00:01:06,200 --> 00:01:08,793
+This argument I'm gonna say is valid.
+
+27
+00:01:08,793 --> 00:01:10,756
+And we'll look at the structure in a moment.
+
+28
+00:01:10,756 --> 00:01:12,908
+And then it also has true premises so
+
+29
+00:01:12,908 --> 00:01:14,427
+it's a sound argument.
+
+30
+00:01:14,427 --> 00:01:16,791
+All crayons are colored.
+
+31
+00:01:16,791 --> 00:01:19,852
+All colored things are pigmented things.
+
+32
+00:01:19,852 --> 00:01:23,804
+Therefore all crayons are pigmented things.
+
+33
+00:01:23,804 --> 00:01:25,146
+We can look at the structure.
+
+34
+00:01:25,146 --> 00:01:28,812
+We can say it is impossible, given these two premises,
+
+35
+00:01:28,812 --> 00:01:30,845
+that the conclusion is false.
+
+36
+00:01:30,845 --> 00:01:33,519
+Therefore, it's a valid form.
+
+37
+00:01:33,519 --> 00:01:36,843
+But we also can look at the premises themselves and
+
+38
+00:01:36,843 --> 00:01:39,225
+say yes, those are true premises.
+
+39
+00:01:39,225 --> 00:01:41,280
+The premises themselves are true.
+
+40
+00:01:41,280 --> 00:01:46,262
+Now notice I don't have to analyze the conclusion to see
+
+41
+00:01:46,262 --> 00:01:48,702
+if the conclusion is true.
+
+42
+00:01:48,702 --> 00:01:51,800
+Because our definition of a deductive argument says,
+
+43
+00:01:51,800 --> 00:01:55,247
+if the premises are true, the conclusion must also be true.
+
+44
+00:01:55,247 --> 00:01:57,371
+It's impossible for it not to be true.
+
+45
+00:01:57,371 --> 00:01:59,474
+If it's a valid deductive argument and
+
+46
+00:01:59,474 --> 00:02:02,416
+you have true premises, the conclusion must follow.
+
+47
+00:02:02,416 --> 00:02:05,485
+So given the fact that it's a valid form, given the fact
+
+48
+00:02:05,485 --> 00:02:09,630
+that the premises are true, the conclusion must be true.
+
+49
+00:02:09,630 --> 00:02:12,410
+Now notice if you were listening to this argument,
+
+50
+00:02:12,410 --> 00:02:14,820
+if you agreed with the premises,
+
+51
+00:02:14,820 --> 00:02:17,490
+then you'd have to also agree with the conclusion.
+
+52
+00:02:17,490 --> 00:02:20,200
+It's not possible for you to be rational and
+
+53
+00:02:20,200 --> 00:02:23,240
+disagree with the conclusion if you agree with the premises.
+
+54
+00:02:23,240 --> 00:02:25,040
+And so you would then buy or
+
+55
+00:02:25,040 --> 00:02:28,370
+accept or take my argument as true.
+
+56
+00:02:28,370 --> 00:02:31,160
+And what I've just done is convinced you
+
+57
+00:02:31,160 --> 00:02:35,400
+of this conclusion by giving you true premises in a valid form.
+
+58
+00:02:35,400 --> 00:02:37,410
+That's what arguments are designed to do.
+
+59
+00:02:37,410 --> 00:02:39,250
+And now you're thinking logically.
+
+60
+00:02:39,250 --> 00:02:42,410
+You're accepting the truth of the premises and
+
+61
+00:02:42,410 --> 00:02:45,110
+then you actually learn something new.
+
+62
+00:02:45,110 --> 00:02:47,670
+You learn that all crayons are pigmented things
+
+63
+00:02:47,670 --> 00:02:49,270
+based on this valid deductive argument.
+
+64
+00:02:50,590 --> 00:02:54,757
+So if the argument's valid, if the argument has true premises
+
+65
+00:02:54,757 --> 00:02:57,125
+then we say it's a sound argument.
+
+66
+00:02:57,125 --> 00:03:00,408
+All right, let's look at where we are in terms of our taxonomy
+
+67
+00:03:00,408 --> 00:03:01,300
+in our toolkit.
+
+68
+00:03:01,300 --> 00:03:06,913
+We've learned that propositions are true or false.
+
+69
+00:03:06,913 --> 00:03:08,777
+We've learned that in an earlier lesson.
+
+70
+00:03:08,777 --> 00:03:12,546
+And now we've added this concept of deductive argument forms,
+
+71
+00:03:12,546 --> 00:03:16,526
+which leverages propositions, the truth value of propositions,
+
+72
+00:03:16,526 --> 00:03:18,846
+when we're talking about soundness.
+
+73
+00:03:18,846 --> 00:03:20,645
+So we have deductive arguments,
+
+74
+00:03:20,645 --> 00:03:23,550
+deductive arguments can be either valid or invalid.
+
+75
+00:03:23,550 --> 00:03:26,659
+All invalid arguments are automatically unsound.
+
+76
+00:03:26,659 --> 00:03:30,091
+So you don't need to do any further investigation if you
+
+77
+00:03:30,091 --> 00:03:32,580
+know you have an invalid argument form.
+
+78
+00:03:32,580 --> 00:03:34,519
+If you do have a valid argument form,
+
+79
+00:03:34,519 --> 00:03:37,280
+you'll wanna check whether the premises are true.
+
+80
+00:03:37,280 --> 00:03:39,555
+If the premises are true, the argument is sound.
+
+81
+00:03:39,555 --> 00:03:43,697
+If the premises are false, then you have an unsound argument.
+
+82
+00:03:43,697 --> 00:03:46,587
+So just because you have a valid argument doesn't mean you have
+
+83
+00:03:46,587 --> 00:03:47,131
+a good one,
+
+84
+00:03:47,131 --> 00:03:49,706
+you still have to check the truth value of the premises.
+
+85
+00:03:49,706 --> 00:03:52,782
+And if they are true, then you have a sound argument.
+
+86
+00:03:52,782 --> 00:03:55,555
+So now you have the basic structure of a deductive
+
+87
+00:03:55,555 --> 00:03:59,142
+argument and you can construct these deductive arguments once
+
+88
+00:03:59,142 --> 00:04:00,846
+you know the argument forms.
+
+89
+00:04:00,846 --> 00:04:05,647
+And if you have true premises, you can plug them in and
+
+90
+00:04:05,647 --> 00:04:08,004
+create sound arguments.
+
+91
+00:04:08,004 --> 00:04:11,062
+This is again only one form of argument and in a subsequent
+
+92
+00:04:11,062 --> 00:04:13,929
+lesson we're gonna look at what are called inductive
+
+93
+00:04:13,929 --> 00:04:17,003
+arguments and these are gonna be a little bit different.
+
+94
+00:04:17,003 --> 00:04:18,439
+They're structured similarly,
+
+95
+00:04:18,439 --> 00:04:20,962
+but they're gonna have a very different, we're gonna take
+
+96
+00:04:20,962 --> 00:04:23,249
+a very different approach when we put these together.
+

@@ -1,0 +1,21 @@
+<problem display_name="3. Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="2.0">
+  <multiplechoiceresponse>
+    <p>Examine this argument:<br/>
+Polar bear attacks on humans have been increasing over the past several years in certain parts of the Arctic. Scientists studying the attacks have discovered only one common variable present in each case: the animals had been disturbed by certain
+specific noises emanating from large cargo airplanes and scientific research stations. Moreover, these specific noises do not seem to be present in areas where the attacks are not increasing. Therefore, the attacks are probably caused by the
+disturbances in question.<br/>
+Does this inductive argument seem to be strong or weak?<br/></p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="True">Strong<br/></choice>
+      <choice correct="False">Weak<br/></choice>
+    </choicegroup>
+    <p/>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p/>
+        <p>This argument is weak because the only commonality we can claim between attack sites is the <em>presence</em> of the stations. We don't really know if it's the noise that's causing the problem or something else, like an odor that comes from the planes that is associated with the noise. There's insufficient data to conclude its the noise itself.<br/></p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

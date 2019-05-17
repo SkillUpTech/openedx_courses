@@ -1,0 +1,10 @@
+<problem display_name="7.Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p/>
+    <p>If it rains, then the roof gets wet. But it is raining. Therefore, certainly the roof must be getting wet.<br/></p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">Inductive Argument<br/></choice>
+      <choice correct="True">Deductive Argument<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

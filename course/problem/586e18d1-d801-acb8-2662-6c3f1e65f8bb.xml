@@ -1,0 +1,10 @@
+<problem display_name="5.Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p/>
+    <p>We polled one thousand people at random around the city of Centerville and asked them if they approve or disapprove of the job the mayor is doing. We questioned people from all walks of life, all ethnic and racial groups, and all genders, at all times of the day. Over 80 percent said they disapprove. Therefore, it is very likely that most citizens of Centerville disapprove of the job the mayor is doing<br/></p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="True">Inductive Argument<br/></choice>
+      <choice correct="False">Deductive Argument<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

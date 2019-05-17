@@ -1,0 +1,22 @@
+<problem display_name="1.Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p>Consider this colloquial (common) statement:<br/>
+"Any drop of seawater is salty"<br/></p>
+    <label>Which one of the following is the proper translation of the above statement into <strong>standard A form</strong><br/></label>
+    <p/>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">Some drops of seawater are salty things<br/></choice>
+      <choice correct="False">Most drops of seawater are salty<br/></choice>
+      <choice correct="True">All drops of seawater are salty things<br/></choice>
+      <choice correct="False">A drop of seawater is salty thing<br/></choice>
+    </choicegroup>
+    <p/>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p/>
+        <p>The term "any" indicates that every drop you encounter will be salty. So we use the term "all" to signify that in standard form. Be sure to use "are" as the copula and specify the object in the predicate; in this case we use "things" as the predicate.<br/></p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

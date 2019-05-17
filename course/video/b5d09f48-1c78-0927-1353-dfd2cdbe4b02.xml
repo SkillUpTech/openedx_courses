@@ -1,0 +1,9 @@
+<video youtube="1.00:7gvzCv3xfDE" url_name="b5d09f48-1c78-0927-1353-dfd2cdbe4b02" display_name="" download_track="true" download_video="true" edx_video_id="4b9ca272-5615-4e5c-b8f4-b5a0c5ce4489" html5_sources="[&quot;https://d2f1egay8yehza.cloudfront.net/MSXLCTXX2017-V000900_DTH.mp4&quot;]" show_captions="true" sub="" transcripts="{&quot;en&quot;: &quot;4b9ca272-5615-4e5c-b8f4-b5a0c5ce4489-en.srt&quot;}" youtube_id_0_75="" youtube_id_1_0="7gvzCv3xfDE" youtube_id_1_25="" youtube_id_1_5="">
+  <source src="https://d2f1egay8yehza.cloudfront.net/MSXLCTXX2017-V000900_DTH.mp4"/>
+  <transcript language="en" src="4b9ca272-5615-4e5c-b8f4-b5a0c5ce4489-en.srt"/>
+  <video_asset client_video_id="02.02.2-2017-05-26-Logic-Comp-Thinking-DeductiveArgument.mp4" duration="519.94">
+    <encoded_video bitrate="0" file_size="0" profile="youtube" url="7gvzCv3xfDE"/>
+    <encoded_video bitrate="294" file_size="19150634" profile="desktop_mp4" url="https://d2f1egay8yehza.cloudfront.net/MSXLCTXX2017-V000900_DTH.mp4"/>
+    <encoded_video bitrate="196" file_size="12774189" profile="mobile_low" url="https://d2f1egay8yehza.cloudfront.net/MSXLCTXX2017-V000900_MB2.mp4"/>
+  </video_asset>
+</video>

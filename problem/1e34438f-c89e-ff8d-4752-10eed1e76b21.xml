@@ -1,0 +1,8 @@
+<problem display_name="8.6 Multiple choice" markdown="null" max_attempts="1" weight="1.0">
+  <multiplechoiceresponse><p/><p>Examine the following scenario.</p><p>Ailee is attempting to figure out why her houseplant isn't doing well. According to the expert she consulted, the breed of houseplant she has needs water once a week, plant food once a month, and needs plenty of sunlight. Ailee is following these instructions precisely giving the plant all these things but the plant is not flourishing. She concludes that the plant has a disease.</p><p>Does the addition of the item below strengthen the argument (S), weaken the argument (W), or leave the strength of the argument unchanged (U)? </p>
+The plant food Ailee has was designed for outdoor plants<br/><br/>
+    <choicegroup type="MultipleChoice"><choice correct="False">Strengthen the argument<br/></choice><choice correct="True">Weaken the argument<br/></choice><choice correct="False">Unchanged<br/></choice></choicegroup>
+    <p/>
+    <solution><div class="detailed-solution"><p>Explanation</p><p/><p>While some may want their candidate to be all-consumed with politics, a candidate choosing to watch soccer over a senate hearing on CSPAN typically has very little relationship to one's ability to lead.<br/></p></div></solution>
+  </multiplechoiceresponse>
+</problem>

@@ -1,0 +1,14 @@
+<problem display_name="7.Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p>Consider this colloquial (common) statement:<br/>
+"There are fashionable computer programmers"<br/></p>
+    <label>Which one of the following is the proper translation of the above statement into <strong>standard I form</strong><br/></label>
+    <p/>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">All computer programmers are fashionable<br/></choice>
+      <choice correct="False">Some fashionable people program computers<br/></choice>
+      <choice correct="False">Some computer programmers are fashionable<br/></choice>
+      <choice correct="True">Some computer programmers are fashionable people<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

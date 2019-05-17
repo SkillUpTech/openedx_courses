@@ -1,0 +1,12 @@
+<problem display_name="36. Multiple Choice" markdown="Classify the statement below as A, E, I, or O.&#10;&#10;&gt;&gt;No fizznits are spambots.&lt;&lt;&#10;&#10;( ) A (Universal Affirmative)&#10;&#10;(x) E (Universal Negative)&#10;&#10;( ) I (Particular Affirmative)&#10;&#10;( ) O (Particular Negative)&#10;" max_attempts="1" showanswer="never" weight="2.0">
+  <multiplechoiceresponse>
+    <p>Classify the statement below as A, E, I, or O.</p>
+    <label>No fizznits are spambots.</label>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">A (Universal Affirmative)</choice>
+      <choice correct="true">E (Universal Negative)</choice>
+      <choice correct="false">I (Particular Affirmative)</choice>
+      <choice correct="false">O (Particular Negative)</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

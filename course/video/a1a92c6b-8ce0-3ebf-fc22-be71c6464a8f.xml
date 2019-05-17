@@ -1,0 +1,9 @@
+<video youtube="1.00:EezDnbIC_LU" url_name="a1a92c6b-8ce0-3ebf-fc22-be71c6464a8f" display_name="" download_track="true" download_video="true" edx_video_id="f7fea07d-dcde-43fd-a7b8-3555e65dbab2" html5_sources="[&quot;https://d2f1egay8yehza.cloudfront.net/MSXLCTXX2017-V001400_DTH.mp4&quot;]" show_captions="true" sub="" transcripts="{&quot;en&quot;: &quot;f7fea07d-dcde-43fd-a7b8-3555e65dbab2-en.srt&quot;}" youtube_id_0_75="" youtube_id_1_0="EezDnbIC_LU" youtube_id_1_25="" youtube_id_1_5="">
+  <source src="https://d2f1egay8yehza.cloudfront.net/MSXLCTXX2017-V001400_DTH.mp4"/>
+  <transcript language="en" src="f7fea07d-dcde-43fd-a7b8-3555e65dbab2-en.srt"/>
+  <video_asset client_video_id="02.02.3-2017-05-26-Logic-Comp-Thinking-Soundness.mp4" duration="265.07">
+    <encoded_video bitrate="0" file_size="0" profile="youtube" url="EezDnbIC_LU"/>
+    <encoded_video bitrate="205" file_size="6805428" profile="mobile_low" url="https://d2f1egay8yehza.cloudfront.net/MSXLCTXX2017-V001400_MB2.mp4"/>
+    <encoded_video bitrate="327" file_size="10840234" profile="desktop_mp4" url="https://d2f1egay8yehza.cloudfront.net/MSXLCTXX2017-V001400_DTH.mp4"/>
+  </video_asset>
+</video>

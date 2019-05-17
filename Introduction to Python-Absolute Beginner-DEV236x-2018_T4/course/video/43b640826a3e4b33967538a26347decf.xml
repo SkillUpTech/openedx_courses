@@ -1,8 +1,0 @@
-<video youtube="1.00:0kHTbrkkdNk" url_name="43b640826a3e4b33967538a26347decf" display_name="increment a variable" download_track="true" download_video="true" edx_video_id="cd86f982-b9a0-4d70-b521-858e0eb0f365" html5_sources="[]" sub="" transcripts="{&quot;en&quot;: &quot;cd86f982-b9a0-4d70-b521-858e0eb0f365-en.srt&quot;}" youtube_id_1_0="0kHTbrkkdNk">
-  <transcript language="en" src="cd86f982-b9a0-4d70-b521-858e0eb0f365-en.srt"/>
-  <video_asset client_video_id="Unit1_Section7.1-increment.mp4" duration="193.3">
-    <encoded_video bitrate="102" file_size="2469612" profile="mobile_low" url="https://d2f1egay8yehza.cloudfront.net/MSXIPU1X2017-V004100_MB2.mp4"/>
-    <encoded_video bitrate="137" file_size="3331979" profile="desktop_mp4" url="https://d2f1egay8yehza.cloudfront.net/MSXIPU1X2017-V004100_DTH.mp4"/>
-    <encoded_video bitrate="0" file_size="0" profile="youtube" url="0kHTbrkkdNk"/>
-  </video_asset>
-</video>

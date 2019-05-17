@@ -1,0 +1,25 @@
+<problem display_name="Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p/>
+    <p>Examine the following statement:<br/>
+If it is not the case that JavaScript is type safe and JavaScript is interpreted, then programmers should be extra careful or they should use a different language.<br/></p>
+    <label>How many operators are used in the statement above?<br/></label>
+    <p/>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">3<br/></choice>
+      <choice correct="True">4<br/></choice>
+      <choice correct="False">5<br/></choice>
+      <choice correct="False">6<br/></choice>
+    </choicegroup>
+    <p/>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p/>
+        <p>The four operators are:<br/>
+<ol><li>Conditional (if-then)</li><li>Negation (it is not the case that)</li><li>Conjunction (and)</li><li>Disjunction (or)</li></ol>
+</p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

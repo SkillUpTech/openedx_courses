@@ -1,0 +1,14 @@
+<problem display_name="8.Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p>Consider this colloquial (common) statement:<br/>
+"There are critical thinkers who aren’t artists"<br/></p>
+    <label>Which one of the following is the proper translation of the above statement into <strong>standard O form</strong><br/></label>
+    <p/>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">No critical thinkers are artists<br/></choice>
+      <choice correct="False">Some non-artists are critical thinkers<br/></choice>
+      <choice correct="True">Some critical thinkers are not artistic people<br/></choice>
+      <choice correct="False">Some artists are not critical thinkers<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

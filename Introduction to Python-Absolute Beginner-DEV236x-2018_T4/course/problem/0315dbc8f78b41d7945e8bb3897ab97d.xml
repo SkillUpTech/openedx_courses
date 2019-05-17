@@ -1,9 +1,0 @@
-<problem display_name="Question 1" markdown="&lt;p&gt;escape sequences start with a backslash (&lt;strong&gt;&lt;code&gt;\&lt;/code&gt;&lt;/strong&gt;)&lt;/p&gt;&#10;&#10;&#10;(x) True&#10;( ) False&#10;" max_attempts="1" showanswer="never" weight="1.0">
-  <multiplechoiceresponse>
-    <p>escape sequences start with a backslash (<strong><code>\</code></strong>)</p>
-    <choicegroup type="MultipleChoice">
-      <choice correct="true">True</choice>
-      <choice correct="false">False</choice>
-    </choicegroup>
-  </multiplechoiceresponse>
-</problem>

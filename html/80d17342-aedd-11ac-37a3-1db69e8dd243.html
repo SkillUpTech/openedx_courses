@@ -1,0 +1,241 @@
+<p>Before we leave this topic, we have one more important concept to cover. As we've seen, it's possible to combine operators and simple statements together to build rather complex compound statements. When you combine operators, it may be difficult to tell what type of statement the <em>statement as a whole</em> is. For example, what kind of statement is this:</p>
+<ol>
+<li>p --&gt; q &amp; r v s &amp; t</li>
+</ol>
+<p>There are four operators but it's not possible to tell which is the <em>main</em> operator. It's important to know which is the main operator because that's how we determine the truth value of the statement as a whole.</p>
+<p>Now let's write it this way:</p>
+<ol start="2">
+<li>p --&gt; (q &amp; ((r v s) &amp; t))</li>
+</ol>
+<p>Some logicians don't like parentheses next to each other so prefer to use brackets and would write the statement 2 as:</p>
+<ol start="3">
+<li>p --&gt; (q &amp; [(r v s) &amp; t])</li>
+</ol>
+<p>Now can you tell what kind of a statement this is? If you said &quot;conditional&quot; you're right. Similar to mathematics, we solve for the truth value of the statements in the innermost parentheses first working out and then can solve for the statement as a whole. The last operator you solve for is the <em>operator of the largest scope</em> and determines what kind of compound statement you're working with. To see this, let's assign the following truth values to our variables:</p>
+<p>p = true; q = false; r = false; s = true and t = true</p>
+<p>If we want to determine the truth value of the statement as a whole we would start with the innermost disjunction since that's the innermost compound statement.</p>
+<ul>
+<li>If r is false or s is true then the disjunction as a whole is true.</li>
+<li>Now we can solve for the conjunction involving the 't' since that's at the second &quot;layer&quot;. Since the disjunction is true and t is true, then the conjunction as a whole ((r v s) &amp; t) is true.</li>
+<li>Now we can solve for the next conjunction involving the q. Since the first conjunction is true and q is false, the conjunction as a whole is false.</li>
+<li>Finally, we can solve for our conditional. Since the second conjunction (which makes up the consequent of the conditional) is false and p (which makes up the antecedent) is true, our conditional rule tells us that the conditional as a whole is false.</li>
+</ul>
+<p>So the statement as a whole is false. This is why knowing the operator of the largest scope is important and using parentheses and brackets can help. By the way, you use the same device in computer programs to help determine which operations must be performed first.</p>
+<h2 id="truth-tables">Truth Tables</h2>
+<p>We're not going to cover truth tables at any length in this course but we can briefly mention them in this context because they apply to helping with this problem. A truth table is, as the name implies, a table by which you can organize statements and operators to determine the truth value of the operator of the largest scope. When trying to solve for the operator of the largest scope, we &quot;build&quot; a truth table by starting with what you know and slowly filling in the blanks. For example, a truth table where we'd solve for the truth of the compound statement above would start out like this (the first columns &quot;declare&quot; the variables and their values and are there mainly for reference):</p>
+<ol>
+<li>Fill in the variable values</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>p</th>
+<th>q</th>
+<th>r</th>
+<th>s</th>
+<th>t</th>
+<th></th>
+<th>p</th>
+<th>--&gt;</th>
+<th>(q</th>
+<th>&amp;</th>
+<th>[(r</th>
+<th>v</th>
+<th>s)</th>
+<th>&amp;</th>
+<th>t])</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>T</td>
+<td>F</td>
+<td>F</td>
+<td>T</td>
+<td>T</td>
+<td></td>
+<td>T</td>
+<td></td>
+<td>F</td>
+<td></td>
+<td>F</td>
+<td></td>
+<td>T</td>
+<td></td>
+<td>T</td>
+</tr>
+</tbody>
+</table>
+<ol start="2">
+<li>Fill in the value for the compound statement of the smallest scope: the disjunction.</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>p</th>
+<th>q</th>
+<th>r</th>
+<th>s</th>
+<th>t</th>
+<th></th>
+<th>p</th>
+<th>--&gt;</th>
+<th>(q</th>
+<th>&amp;</th>
+<th>[(r</th>
+<th>v</th>
+<th>s)</th>
+<th>&amp;</th>
+<th>t])</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>T</td>
+<td>F</td>
+<td>F</td>
+<td>T</td>
+<td>T</td>
+<td></td>
+<td>T</td>
+<td></td>
+<td>F</td>
+<td></td>
+<td>F</td>
+<td><em>T</em></td>
+<td>T</td>
+<td></td>
+<td>T</td>
+</tr>
+</tbody>
+</table>
+<ol start="3">
+<li>Fill in the truth value for the compound statement next in line: the conjunction involving the t. Notice we use the truth value of the disjunction we just solved for in order to solve for the value of the conjunction as a whole.</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>p</th>
+<th>q</th>
+<th>r</th>
+<th>s</th>
+<th>t</th>
+<th></th>
+<th>p</th>
+<th>--&gt;</th>
+<th>(q</th>
+<th>&amp;</th>
+<th>[(r</th>
+<th>v</th>
+<th>s)</th>
+<th>&amp;</th>
+<th>t])</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>T</td>
+<td>F</td>
+<td>F</td>
+<td>T</td>
+<td>T</td>
+<td></td>
+<td>T</td>
+<td></td>
+<td>F</td>
+<td></td>
+<td></td>
+<td>T</td>
+<td></td>
+<td><em>T</em></td>
+<td>T</td>
+</tr>
+</tbody>
+</table>
+<ol start="4">
+<li>And next</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>p</th>
+<th>q</th>
+<th>r</th>
+<th>s</th>
+<th>t</th>
+<th></th>
+<th>p</th>
+<th>--&gt;</th>
+<th>(q</th>
+<th>&amp;</th>
+<th>[(r</th>
+<th>v</th>
+<th>s)</th>
+<th>&amp;</th>
+<th>t])</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>T</td>
+<td>F</td>
+<td>F</td>
+<td>T</td>
+<td>T</td>
+<td></td>
+<td>T</td>
+<td></td>
+<td>F</td>
+<td><em>F</em></td>
+<td></td>
+<td></td>
+<td></td>
+<td>T</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ol start="5">
+<li>And finally, the operator of the largest scope which is our conditional!</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>p</th>
+<th>q</th>
+<th>r</th>
+<th>s</th>
+<th>t</th>
+<th></th>
+<th>p</th>
+<th>--&gt;</th>
+<th>(q</th>
+<th>&amp;</th>
+<th>[(r</th>
+<th>v</th>
+<th>s)</th>
+<th>&amp;</th>
+<th>t])</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>T</td>
+<td>F</td>
+<td>F</td>
+<td>T</td>
+<td>T</td>
+<td></td>
+<td>T</td>
+<td><em>F</em></td>
+<td></td>
+<td>F</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>In each stage I removed the values for the individual variables once we solved for the operator just to show you how to think through the process. In real truth tables, you'd leave them in place so you can work backward to see how each value was derived. Using truth tables can help you visualize the work you need to do to find the truth value of the operator of the largest scope.</p>

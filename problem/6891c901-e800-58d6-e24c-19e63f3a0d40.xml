@@ -1,0 +1,12 @@
+<problem display_name="5. Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="2.0">
+  <multiplechoiceresponse>
+    <p>Which of the following is true in a valid deductive argument? (Choose one)<br/></p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">if at least one premise is true, the conclusion must be true<br/></choice>
+      <choice correct="False">if the premises are all true, then the conclusion is very probably true but not certain<br/></choice>
+      <choice correct="False">if the premises are all false, then the conclusion must be false<br/></choice>
+      <choice correct="False">the premises must all be true<br/></choice>
+      <choice correct="True">none of the above<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

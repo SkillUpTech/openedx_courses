@@ -1,0 +1,900 @@
+0
+00:00:01,940 --> 00:00:03,098
+In this video,
+
+1
+00:00:03,098 --> 00:00:07,730
+I'm going to show you how you can translate a standard logical
+
+2
+00:00:07,730 --> 00:00:12,913
+argument into a computer-based representation of that argument.
+
+3
+00:00:12,913 --> 00:00:15,690
+Again, what I wanna do here is lock in some of those concepts
+
+4
+00:00:15,690 --> 00:00:18,689
+that we've been talking about, where you can take essentially
+
+5
+00:00:18,689 --> 00:00:21,354
+the logical constructs that we've been working with and
+
+6
+00:00:21,354 --> 00:00:24,810
+apply them directly to the work that you do in computer science.
+
+7
+00:00:24,810 --> 00:00:27,030
+So I'm gonna use two programs to do that.
+
+8
+00:00:27,030 --> 00:00:29,900
+The first, you see up here on screen now is called Scratch.
+
+9
+00:00:29,900 --> 00:00:32,600
+It's developed by MIT.
+
+10
+00:00:32,600 --> 00:00:34,809
+It's a fairly complex application, but
+
+11
+00:00:34,809 --> 00:00:36,707
+it's very easy to use for anybody.
+
+12
+00:00:36,707 --> 00:00:38,427
+So it's a good training tool.
+
+13
+00:00:38,427 --> 00:00:42,127
+It's good visual representation of how the logical flow of
+
+14
+00:00:42,127 --> 00:00:43,870
+the program works.
+
+15
+00:00:43,870 --> 00:00:46,340
+And it's a great way to learn how to put programs together.
+
+16
+00:00:46,340 --> 00:00:47,750
+So if you're interested,
+
+17
+00:00:47,750 --> 00:00:51,270
+I put a link up to this application in the course.
+
+18
+00:00:51,270 --> 00:00:52,890
+And you can play with it on your own.
+
+19
+00:00:52,890 --> 00:00:55,750
+I'm not gonna show you how to use Scratch fully today,
+
+20
+00:00:55,750 --> 00:00:58,860
+I'm just gonna use it to illustrate the concepts.
+
+21
+00:00:58,860 --> 00:01:01,670
+And then we'll open up Visual Studio Code and I'll write some
+
+22
+00:01:01,670 --> 00:01:05,150
+JavaScript, and show you how to do the same thing we're doing in
+
+23
+00:01:05,150 --> 00:01:08,460
+Scratch, we'll do the same thing in JavaScript in a little bit.
+
+24
+00:01:08,460 --> 00:01:12,030
+So what you're looking at is the Scratch Canvas.
+
+25
+00:01:12,030 --> 00:01:15,950
+Scratch defaults to using this little cat glyph here,
+
+26
+00:01:15,950 --> 00:01:19,580
+this little cat character, and this character's gonna
+
+27
+00:01:19,580 --> 00:01:22,790
+help us as we work through this exercise.
+
+28
+00:01:22,790 --> 00:01:25,660
+What I've also done is put up a standard modus ponens argument,
+
+29
+00:01:25,660 --> 00:01:26,300
+two premises and
+
+30
+00:01:26,300 --> 00:01:29,640
+a conclusion, conditional obviously in the first premise.
+
+31
+00:01:29,640 --> 00:01:33,150
+We assert the antecedent of that premise, of premise one and
+
+32
+00:01:33,150 --> 00:01:35,670
+premise two, and then we conclude the consequent of
+
+33
+00:01:35,670 --> 00:01:38,520
+premise one at the end of the argument there, okay?
+
+34
+00:01:38,520 --> 00:01:41,610
+So what we're gonna do now is, I'm gonna represent
+
+35
+00:01:41,610 --> 00:01:46,180
+this modus ponens argument in the Scratch program.
+
+36
+00:01:46,180 --> 00:01:48,810
+And we'll see how all this works, okay?
+
+37
+00:01:48,810 --> 00:01:51,170
+So to get started, we have to create some variables,
+
+38
+00:01:51,170 --> 00:01:52,650
+which I've got started on.
+
+39
+00:01:52,650 --> 00:01:55,600
+So I've created two variables, x and y here.
+
+40
+00:01:55,600 --> 00:01:58,947
+And if you're not familiar with computer programing,
+
+41
+00:01:58,947 --> 00:02:01,508
+you can think of a variable as a container,
+
+42
+00:02:01,508 --> 00:02:04,200
+it's just gonna hold a value for us.
+
+43
+00:02:04,200 --> 00:02:07,160
+And those values are gonna be the statements that we
+
+44
+00:02:07,160 --> 00:02:10,860
+would use in the premise one in the conditional
+
+45
+00:02:10,860 --> 00:02:13,940
+of this argument over here on the left hand side, right?
+
+46
+00:02:13,940 --> 00:02:16,520
+So what I'm gonna do first then is actually set
+
+47
+00:02:16,520 --> 00:02:21,050
+the value of those variables using this little thing here,
+
+48
+00:02:21,050 --> 00:02:22,990
+this little tool.
+
+49
+00:02:22,990 --> 00:02:26,475
+This is the set tool, and I'm gonna set y to a value and
+
+50
+00:02:26,475 --> 00:02:27,337
+x to a value.
+
+51
+00:02:27,337 --> 00:02:33,280
+I'm gonna make y equal to Kelsey goes to school.
+
+52
+00:02:35,360 --> 00:02:38,250
+And you can see that's the equivalent of the consequent of
+
+53
+00:02:38,250 --> 00:02:41,610
+our conditional here in the left, in the modus ponens.
+
+54
+00:02:41,610 --> 00:02:47,145
+And then x is of course gonna be equal to John goes to school,
+
+55
+00:02:47,145 --> 00:02:47,825
+okay?
+
+56
+00:02:47,825 --> 00:02:52,578
+So now we got our two variables that we're setting through
+
+57
+00:02:52,578 --> 00:02:54,590
+this one puzzle piece.
+
+58
+00:02:54,590 --> 00:02:57,710
+The metaphor that they're using here is that of a puzzle, and
+
+59
+00:02:57,710 --> 00:02:59,590
+you put all the pieces together, and
+
+60
+00:02:59,590 --> 00:03:02,130
+then you can run the application.
+
+61
+00:03:02,130 --> 00:03:04,090
+Right, so now that we've got our variable set,
+
+62
+00:03:04,090 --> 00:03:05,540
+we actually need our conditional.
+
+63
+00:03:05,540 --> 00:03:07,490
+We're gonna construct premise one,
+
+64
+00:03:07,490 --> 00:03:10,230
+if you will, in the application.
+
+65
+00:03:10,230 --> 00:03:14,040
+So I wanna go to the control panel, the control tab and
+
+66
+00:03:14,040 --> 00:03:18,920
+drag the if then block over to the canvas.
+
+67
+00:03:18,920 --> 00:03:22,470
+And then we got to tell our if then block what to look for.
+
+68
+00:03:22,470 --> 00:03:26,890
+So essentially what we're gonna do now is say, if the variable
+
+69
+00:03:26,890 --> 00:03:32,180
+equals our antecedent of our conditional in the modus ponens.
+
+70
+00:03:32,180 --> 00:03:35,890
+So I need to grab the operator.
+
+71
+00:03:35,890 --> 00:03:37,630
+It's gonna be the equivalent operator, and
+
+72
+00:03:37,630 --> 00:03:40,020
+I'll drop that into this control.
+
+73
+00:03:40,020 --> 00:03:45,028
+And then what we're gonna say is if x is equal to the value,
+
+74
+00:03:45,028 --> 00:03:46,880
+John goes to school.
+
+75
+00:03:50,496 --> 00:03:51,204
+All right, so
+
+76
+00:03:51,204 --> 00:03:54,600
+this is the antecedent essentially of our conditional.
+
+77
+00:03:54,600 --> 00:03:55,780
+And we're saying if that's true,
+
+78
+00:03:55,780 --> 00:03:57,560
+then we're gonna do something else.
+
+79
+00:03:57,560 --> 00:04:00,590
+And that something else is that we're gonna have the cat
+
+80
+00:04:00,590 --> 00:04:02,206
+say something to us.
+
+81
+00:04:02,206 --> 00:04:05,380
+So where the cat's essentially gonna repeat back
+
+82
+00:04:05,380 --> 00:04:08,070
+the consequence of our argument,
+
+83
+00:04:08,070 --> 00:04:11,150
+of our conditional in our first premise.
+
+84
+00:04:11,150 --> 00:04:16,440
+So if x equals John goes to school, then say the consequent,
+
+85
+00:04:16,440 --> 00:04:18,750
+and we'll have him say the consequent for
+
+86
+00:04:18,750 --> 00:04:20,240
+five seconds, all right?
+
+87
+00:04:20,240 --> 00:04:23,770
+We'll plug that into our set statements there.
+
+88
+00:04:23,770 --> 00:04:25,600
+And now we have our conditional set up.
+
+89
+00:04:25,600 --> 00:04:27,990
+So if John goes to school, then Kelsey does.
+
+90
+00:04:27,990 --> 00:04:31,760
+If x equals John goes to school, which essentially means,
+
+91
+00:04:31,760 --> 00:04:35,160
+if x is equal to the value of that, if that's true,
+
+92
+00:04:35,160 --> 00:04:39,650
+then repeat back the consequent, Kelsey goes to school, right?
+
+93
+00:04:39,650 --> 00:04:40,950
+Now we need one more thing,
+
+94
+00:04:40,950 --> 00:04:43,420
+we need an event to kick off the process.
+
+95
+00:04:43,420 --> 00:04:46,490
+So we're gonna essentially say when the go button,
+
+96
+00:04:46,490 --> 00:04:49,640
+the flag is the go button, when the go button is clicked,
+
+97
+00:04:49,640 --> 00:04:52,320
+run this program, set the two values, and
+
+98
+00:04:52,320 --> 00:04:54,850
+then see if the condition matches.
+
+99
+00:04:54,850 --> 00:04:59,710
+If it is, then repeat back the consequent.
+
+100
+00:04:59,710 --> 00:05:00,780
+So let's go ahead and do that.
+
+101
+00:05:02,180 --> 00:05:04,377
+So you can see our little cat over here on the left said,
+
+102
+00:05:04,377 --> 00:05:07,370
+Kelsey goes to school, because the condition was met.
+
+103
+00:05:07,370 --> 00:05:10,460
+And therefore, essentially what we're doing is we're saying
+
+104
+00:05:10,460 --> 00:05:12,260
+premise two is true.
+
+105
+00:05:12,260 --> 00:05:14,950
+x does equal John goes to school.
+
+106
+00:05:14,950 --> 00:05:18,610
+Therefore, we can then repeat back the consequent,
+
+107
+00:05:18,610 --> 00:05:19,590
+Kelsey goes to school.
+
+108
+00:05:20,820 --> 00:05:22,960
+Now to illustrate this further, let's go and
+
+109
+00:05:22,960 --> 00:05:25,880
+change this last value to work.
+
+110
+00:05:27,820 --> 00:05:31,550
+So what this is essentially does is changes the truth value of
+
+111
+00:05:31,550 --> 00:05:33,430
+the antecedent, John goes to school,
+
+112
+00:05:33,430 --> 00:05:38,790
+to false in this conditional here, in the program itself.
+
+113
+00:05:38,790 --> 00:05:39,960
+So now if you click the go button,
+
+114
+00:05:39,960 --> 00:05:42,910
+you'll see the cat doesn't say anything.
+
+115
+00:05:42,910 --> 00:05:44,951
+That's because the condition wasn't met,
+
+116
+00:05:44,951 --> 00:05:47,106
+so it's not gonna repeat back that statement.
+
+117
+00:05:47,106 --> 00:05:51,357
+So this is just a nice visual representation of
+
+118
+00:05:51,357 --> 00:05:53,866
+logical flow in a program.
+
+119
+00:05:53,866 --> 00:05:57,062
+And what I wanna illustrate here is that we can represent
+
+120
+00:05:57,062 --> 00:05:59,442
+the modus ponens argument very nicely and
+
+121
+00:05:59,442 --> 00:06:03,240
+very easily in logical flow in a computer program.
+
+122
+00:06:03,240 --> 00:06:07,177
+And this program, Scratch, allows us to illustrate that.
+
+123
+00:06:07,177 --> 00:06:09,182
+And you can even play around with this, and
+
+124
+00:06:09,182 --> 00:06:11,965
+build your own applications, using a lot of the constructs
+
+125
+00:06:11,965 --> 00:06:14,090
+that we've already studied in the project.
+
+126
+00:06:18,324 --> 00:06:21,293
+All right, I wanna switch gears a little bit, and go from this
+
+127
+00:06:21,293 --> 00:06:23,704
+visual tool to actually looking at a code editor.
+
+128
+00:06:23,704 --> 00:06:26,310
+And we'll look at some JavaScript code.
+
+129
+00:06:26,310 --> 00:06:29,200
+This is Visual Studio Code, is the name of the program, and
+
+130
+00:06:29,200 --> 00:06:31,905
+it's a software development editor,
+
+131
+00:06:31,905 --> 00:06:35,430
+a code editor that we can use to write software.
+
+132
+00:06:35,430 --> 00:06:38,010
+And it's not important that you understand
+
+133
+00:06:38,010 --> 00:06:39,420
+either Visual Studio Code or
+
+134
+00:06:39,420 --> 00:06:41,030
+JavaScript, that's not the point of this.
+
+135
+00:06:41,030 --> 00:06:44,260
+It's just merely to illustrate how we can translate
+
+136
+00:06:44,260 --> 00:06:47,530
+arguments like the modus ponens that we've been looking at
+
+137
+00:06:47,530 --> 00:06:50,290
+to computer code, to see how the two are related.
+
+138
+00:06:50,290 --> 00:06:53,490
+So I've got the code editor open here, and
+
+139
+00:06:53,490 --> 00:06:54,850
+I have a very simple website.
+
+140
+00:06:54,850 --> 00:06:56,970
+I've got an index.html.
+
+141
+00:06:56,970 --> 00:07:00,917
+And in the body of that, I'm loading this logicStatements.js
+
+142
+00:07:00,917 --> 00:07:02,903
+file, which is this file here.
+
+143
+00:07:02,903 --> 00:07:07,161
+And this program, this script does something very simple,
+
+144
+00:07:07,161 --> 00:07:07,750
+right?
+
+145
+00:07:07,750 --> 00:07:10,060
+So we're gonna take a quick look at this and see how this goes.
+
+146
+00:07:10,060 --> 00:07:13,780
+Now, like in the Scratch editor, I have two variables,
+
+147
+00:07:13,780 --> 00:07:15,330
+I got an x and a y.
+
+148
+00:07:15,330 --> 00:07:17,700
+I've set y to Kelsey goes to school,
+
+149
+00:07:17,700 --> 00:07:20,530
+I've set x to John goes to school.
+
+150
+00:07:20,530 --> 00:07:21,640
+And then we have our conditional,
+
+151
+00:07:21,640 --> 00:07:23,410
+our if then essentially.
+
+152
+00:07:23,410 --> 00:07:26,610
+So the braces here represent the then.
+
+153
+00:07:26,610 --> 00:07:29,120
+This only executes if the if statement,
+
+154
+00:07:29,120 --> 00:07:32,690
+if the statement inside the parenthesis, if that is met,
+
+155
+00:07:32,690 --> 00:07:34,030
+if that condition is met.
+
+156
+00:07:34,030 --> 00:07:35,250
+And then we get this alert,
+
+157
+00:07:35,250 --> 00:07:38,210
+which essentially pops up a little message box.
+
+158
+00:07:38,210 --> 00:07:42,390
+And in this case will pop up, Kelsey goes to school, right?
+
+159
+00:07:42,390 --> 00:07:43,830
+So what this program is saying is,
+
+160
+00:07:43,830 --> 00:07:47,320
+if the value of x is equal to this phrase, John goes to
+
+161
+00:07:47,320 --> 00:07:52,130
+school, then show a message that says that Kelsey goes to school.
+
+162
+00:07:52,130 --> 00:07:54,726
+Okay, so let's run it and we'll see what it does here.
+
+163
+00:07:56,523 --> 00:07:58,211
+We run our web server.
+
+164
+00:07:58,211 --> 00:08:01,928
+It'll load the web server here, and then we should see a little
+
+165
+00:08:01,928 --> 00:08:04,890
+message pop up that says Kelsey goes to school.
+
+166
+00:08:04,890 --> 00:08:06,989
+So the condition was met, so we get our message.
+
+167
+00:08:06,989 --> 00:08:09,396
+That's all that's going on here, right?
+
+168
+00:08:09,396 --> 00:08:12,019
+Let's go back to code, and I'll go ahead and
+
+169
+00:08:12,019 --> 00:08:13,270
+stop the web server.
+
+170
+00:08:14,735 --> 00:08:17,344
+Now this is essentially a conditional,
+
+171
+00:08:17,344 --> 00:08:20,810
+just like we have in our modus ponens argument.
+
+172
+00:08:20,810 --> 00:08:22,960
+We can also add other compound statements.
+
+173
+00:08:22,960 --> 00:08:26,650
+So let me go ahead and add a new variable, we'll call this z, and
+
+174
+00:08:26,650 --> 00:08:29,180
+we'll make this equals to Bob goes to work.
+
+175
+00:08:30,618 --> 00:08:33,120
+So let's go ahead and add a conjunction.
+
+176
+00:08:33,120 --> 00:08:38,564
+So I'm gonna say and include it in our conditional,
+
+177
+00:08:38,564 --> 00:08:42,273
+and if z is equal to Bob goes to work,
+
+178
+00:08:42,273 --> 00:08:47,580
+then we're gonna show Kelsey goes to school.
+
+179
+00:08:47,580 --> 00:08:53,250
+So now we have a conjunction in our conditional statement.
+
+180
+00:08:53,250 --> 00:08:55,050
+And we saw a conjunction, obviously
+
+181
+00:08:55,050 --> 00:08:58,070
+we can use a conjunction in our logical arguments as well.
+
+182
+00:08:58,070 --> 00:08:59,920
+So let's go ahead and run this and see what happens.
+
+183
+00:09:05,208 --> 00:09:07,782
+And again, because both conditions are met,
+
+184
+00:09:07,782 --> 00:09:10,488
+we should be able to see a little alert again, and
+
+185
+00:09:10,488 --> 00:09:13,020
+that says Kelsey goes to school.
+
+186
+00:09:13,020 --> 00:09:15,367
+Now let's go ahead and change our program and
+
+187
+00:09:15,367 --> 00:09:16,363
+see what happens.
+
+188
+00:09:16,363 --> 00:09:22,320
+We'll actually change the phrasing of this second phrase.
+
+189
+00:09:22,320 --> 00:09:26,240
+We'll say Bob goes to the gym.
+
+190
+00:09:26,240 --> 00:09:31,360
+And we should no longer see our message, our alert.
+
+191
+00:09:31,360 --> 00:09:34,330
+Because remember, the way a conditional works
+
+192
+00:09:34,330 --> 00:09:37,830
+is that both conjuncts have to be true in order for
+
+193
+00:09:37,830 --> 00:09:39,920
+the conjunction as a whole to be true.
+
+194
+00:09:39,920 --> 00:09:41,957
+So the if statement will essentially fail,
+
+195
+00:09:41,957 --> 00:09:43,394
+the condition will not be met.
+
+196
+00:09:43,394 --> 00:09:46,680
+So let's go ahead and start that and see what this looks like.
+
+197
+00:09:52,912 --> 00:09:55,740
+Notice we get our local host running.
+
+198
+00:09:55,740 --> 00:09:57,380
+We have our web server running,
+
+199
+00:09:57,380 --> 00:10:00,580
+I just have a test message in here to show that it's running.
+
+200
+00:10:00,580 --> 00:10:03,551
+But we don't get our message, the alert never popped up,
+
+201
+00:10:03,551 --> 00:10:05,990
+because the condition was not met, all right?
+
+202
+00:10:05,990 --> 00:10:08,000
+So it works the same way.
+
+203
+00:10:08,000 --> 00:10:10,110
+Let's go back now and do a disjunction,
+
+204
+00:10:10,110 --> 00:10:14,700
+just to test our concept here.
+
+205
+00:10:14,700 --> 00:10:16,478
+So we'll go ahead and change this to OR.
+
+206
+00:10:21,240 --> 00:10:25,000
+And, in JavaScript, the pipe symbol is used for the OR.
+
+207
+00:10:25,000 --> 00:10:29,590
+So now this says if John goes to school is true, OR
+
+208
+00:10:29,590 --> 00:10:34,700
+Bob goes to the gym is true, then pop up our alert.
+
+209
+00:10:34,700 --> 00:10:38,090
+Now remember in a disjunction, either disjunct can be true for
+
+210
+00:10:38,090 --> 00:10:39,630
+the disjunction to be true.
+
+211
+00:10:39,630 --> 00:10:43,730
+So because x does equal the value that we're looking for,
+
+212
+00:10:43,730 --> 00:10:46,320
+even though z doesn't, we still should see our alert.
+
+213
+00:10:46,320 --> 00:10:50,753
+So let's go ahead and run this, and we'll see how that works.
+
+214
+00:10:50,753 --> 00:10:54,322
+Start up our web server and then I will switch over to
+
+215
+00:10:54,322 --> 00:10:58,649
+the browser and we'll see our alert, Kelsey goes to school.
+
+216
+00:10:58,649 --> 00:11:01,404
+All right, because one of the discjuncts is true, so
+
+217
+00:11:01,404 --> 00:11:04,539
+the whole disjunction, the disjunction as a whole is true.
+
+218
+00:11:04,539 --> 00:11:07,901
+All right, so this is just a quick illustration to show
+
+219
+00:11:07,901 --> 00:11:11,044
+how you can take the logical constructs that we're
+
+220
+00:11:11,044 --> 00:11:13,164
+dealing with in formal logic, and
+
+221
+00:11:13,164 --> 00:11:15,594
+translate them to computer programs.
+
+222
+00:11:15,594 --> 00:11:17,721
+And as you learn how to think this way,
+
+223
+00:11:17,721 --> 00:11:21,247
+as you learn how to apply these concepts, you're gonna be much
+
+224
+00:11:21,247 --> 00:11:24,321
+better at writing programs when you get to that point.
+

@@ -1,0 +1,9 @@
+<video youtube="1.00:eJ7rcFacOeM" url_name="1be4f15b-f9e0-b6a6-e846-8af5dfaeb23f" display_name="" download_track="true" download_video="true" edx_video_id="52c5d972-6d01-439a-805f-225cf1415da9" html5_sources="[&quot;https://d2f1egay8yehza.cloudfront.net/MSXLCTXX2017-V001800_DTH.mp4&quot;]" show_captions="true" sub="" transcripts="{&quot;en&quot;: &quot;52c5d972-6d01-439a-805f-225cf1415da9-en.srt&quot;}" youtube_id_0_75="" youtube_id_1_0="eJ7rcFacOeM" youtube_id_1_25="" youtube_id_1_5="">
+  <source src="https://d2f1egay8yehza.cloudfront.net/MSXLCTXX2017-V001800_DTH.mp4"/>
+  <transcript language="en" src="52c5d972-6d01-439a-805f-225cf1415da9-en.srt"/>
+  <video_asset client_video_id="2017-09-25-69166-edx-logic-and-computational-thinking (1)_publish.mp4" duration="1220.14">
+    <encoded_video bitrate="235" file_size="35935310" profile="mobile_low" url="https://d2f1egay8yehza.cloudfront.net/MSXLCTXX2017-V001800_MB2.mp4"/>
+    <encoded_video bitrate="457" file_size="69751155" profile="desktop_mp4" url="https://d2f1egay8yehza.cloudfront.net/MSXLCTXX2017-V001800_DTH.mp4"/>
+    <encoded_video bitrate="0" file_size="0" profile="youtube" url="eJ7rcFacOeM"/>
+  </video_asset>
+</video>

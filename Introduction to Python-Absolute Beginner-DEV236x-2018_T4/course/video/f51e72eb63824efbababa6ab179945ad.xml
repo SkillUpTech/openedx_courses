@@ -1,8 +1,0 @@
-<video youtube="1.00:BYWG9UmGnYY" url_name="f51e72eb63824efbababa6ab179945ad" display_name="call function with multi-parameters" download_track="true" download_video="true" edx_video_id="1411bfe5-c60f-482d-9862-115da2f30b8c" html5_sources="[]" sub="" transcripts="{&quot;en&quot;: &quot;1411bfe5-c60f-482d-9862-115da2f30b8c-en.srt&quot;}" youtube_id_1_0="BYWG9UmGnYY">
-  <transcript language="en" src="1411bfe5-c60f-482d-9862-115da2f30b8c-en.srt"/>
-  <video_asset client_video_id="Unit1_Section3.2-MultiParam_Function.mp4" duration="137.22">
-    <encoded_video bitrate="111" file_size="1908527" profile="mobile_low" url="https://d2f1egay8yehza.cloudfront.net/MSXIPU1X2017-V002900_MB2.mp4"/>
-    <encoded_video bitrate="168" file_size="2889432" profile="desktop_mp4" url="https://d2f1egay8yehza.cloudfront.net/MSXIPU1X2017-V002900_DTH.mp4"/>
-    <encoded_video bitrate="0" file_size="0" profile="youtube" url="BYWG9UmGnYY"/>
-  </video_asset>
-</video>

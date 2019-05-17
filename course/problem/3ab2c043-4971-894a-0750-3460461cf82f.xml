@@ -1,0 +1,11 @@
+<problem display_name="2. Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="2.0">
+  <multiplechoiceresponse>
+    <p>Examine this argument:<br/>
+Eight people at the Army recruiting center were interviewed, and all of them said they believe the war is justified. Therefore, probably everyone believes the war is justified.<br/>
+Does this inductive argument seem to be strong or weak?<br/></p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">Strong<br/></choice>
+      <choice correct="True">Weak<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

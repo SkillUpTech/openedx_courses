@@ -1,8 +1,0 @@
-<video youtube="1.00:HpuQrNUp38s" url_name="1524635e50ee4b53aba40472e983703a" display_name="Variable Addition" download_track="true" download_video="true" edx_video_id="f2918975-e974-485c-ab39-9c789f9ea074" html5_sources="[]" sub="" transcripts="{&quot;en&quot;: &quot;f2918975-e974-485c-ab39-9c789f9ea074-en.srt&quot;}" youtube_id_1_0="HpuQrNUp38s">
-  <transcript language="en" src="f2918975-e974-485c-ab39-9c789f9ea074-en.srt"/>
-  <video_asset client_video_id="Unit1_Section1.4-Assignment.mp4" duration="169.69">
-    <encoded_video bitrate="126" file_size="2688328" profile="mobile_low" url="https://d2f1egay8yehza.cloudfront.net/MSXIPU1X2017-V001200_MB2.mp4"/>
-    <encoded_video bitrate="237" file_size="5041755" profile="desktop_mp4" url="https://d2f1egay8yehza.cloudfront.net/MSXIPU1X2017-V001200_DTH.mp4"/>
-    <encoded_video bitrate="0" file_size="0" profile="youtube" url="HpuQrNUp38s"/>
-  </video_asset>
-</video>

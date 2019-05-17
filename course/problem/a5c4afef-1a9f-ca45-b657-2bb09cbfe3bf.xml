@@ -1,0 +1,21 @@
+<problem display_name="5.Multiple choice" markdown="null" max_attempts="1" weight="1.0">
+  <multiplechoiceresponse>
+    <p/>
+    <p>Examine this argument:<br/>
+Few cats are orange colored. I hear a cat meowing across the street. The cat meowing is probably not orange.<br/></p>
+    <label>Does this inductive argument seem to be strong or weak?<br/></label>
+    <p/>
+    <choicegroup type="MultipleChoice">
+      <choice correct="True">Strong<br/></choice>
+      <choice correct="False">Weak<br/></choice>
+    </choicegroup>
+    <p/>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p/>
+        <p>Without any further information, assuming a particular thing is a member of the largest population of that thing (the cat is a member of the class of cats that are not orange given that it's much bigger than the class of cats that are orange) typically is a safe bet.<br/></p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

@@ -1,0 +1,156 @@
+0
+00:00:05,388 --> 00:00:09,227
+Hi, and welcome to Logic and Computational Thinking.
+
+1
+00:00:09,227 --> 00:00:12,220
+I'm so glad that you were able to join us for this course.
+
+2
+00:00:12,220 --> 00:00:16,150
+My name is Paul Pardi, I have been at Microsoft for
+
+3
+00:00:16,150 --> 00:00:20,118
+about 20 years and programming computers since I was about 12.
+
+4
+00:00:20,118 --> 00:00:22,330
+I'm not gonna tell you how old I am now, but
+
+5
+00:00:22,330 --> 00:00:23,900
+it's been a long time.
+
+6
+00:00:23,900 --> 00:00:27,519
+In addition to working for Microsoft, I teach at a local
+
+7
+00:00:27,519 --> 00:00:30,909
+university here in Seattle and I teach philosophy.
+
+8
+00:00:30,909 --> 00:00:34,321
+So these subjects really are a part of the things that I do on
+
+9
+00:00:34,321 --> 00:00:36,280
+a daily basis and I really enjoy.
+
+10
+00:00:37,430 --> 00:00:38,515
+In this course,
+
+11
+00:00:38,515 --> 00:00:42,082
+we're gonna learn the fundamentals of formal logic.
+
+12
+00:00:42,082 --> 00:00:44,764
+I'm gonna teach you what logic is all about,
+
+13
+00:00:44,764 --> 00:00:48,648
+how to think logically, and then how to apply logical principles
+
+14
+00:00:48,648 --> 00:00:52,380
+to problems that you may encounter each and every day.
+
+15
+00:00:52,380 --> 00:00:55,340
+So you're going to learn life skills in some important
+
+16
+00:00:55,340 --> 00:00:56,780
+way in this course.
+
+17
+00:00:56,780 --> 00:01:00,615
+But we're also going to apply the things that we learn in
+
+18
+00:01:00,615 --> 00:01:03,630
+formal logic to computer science.
+
+19
+00:01:03,630 --> 00:01:06,890
+As you may know, computers are very logical machines,
+
+20
+00:01:06,890 --> 00:01:08,570
+they operate on a logical model.
+
+21
+00:01:08,570 --> 00:01:11,210
+So there's a very close relationship to
+
+22
+00:01:11,210 --> 00:01:12,950
+the way that you can think logically and
+
+23
+00:01:12,950 --> 00:01:15,800
+then apply that to writing computer programs.
+
+24
+00:01:15,800 --> 00:01:18,813
+So the main premise of this course is that by thinking
+
+25
+00:01:18,813 --> 00:01:21,962
+logically, by learning how to think more logically,
+
+26
+00:01:21,962 --> 00:01:25,322
+you're gonna be able to write better computer programs.
+
+27
+00:01:25,322 --> 00:01:27,140
+And that's what we're gonna do in this course.
+
+28
+00:01:27,140 --> 00:01:29,940
+We're also gonna touch on the subject of critical thinking.
+
+29
+00:01:29,940 --> 00:01:34,150
+Critical thinking is the ability to ask the right questions at
+
+30
+00:01:34,150 --> 00:01:36,710
+the right time, to ask questions that no
+
+31
+00:01:36,710 --> 00:01:39,560
+one else is thinking about, and then to apply the answers to
+
+32
+00:01:39,560 --> 00:01:41,670
+those questions to the problems that you're trying to solve.
+
+33
+00:01:41,670 --> 00:01:43,864
+So we're gonna touch on that as well in this course.
+
+34
+00:01:43,864 --> 00:01:47,823
+And you'll see how that topic applies to computer science
+
+35
+00:01:47,823 --> 00:01:49,110
+as well.
+
+36
+00:01:49,110 --> 00:01:51,411
+So again, I'm really pleased that you're here.
+
+37
+00:01:51,411 --> 00:01:54,987
+Settle in, enjoy the topic, and I'll look forward to working
+
+38
+00:01:54,987 --> 00:01:57,290
+with you as we work through this course.
+

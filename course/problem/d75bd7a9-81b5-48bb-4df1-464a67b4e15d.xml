@@ -1,0 +1,13 @@
+<problem display_name="1. Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="2.0">
+  <multiplechoiceresponse>
+    <p/>
+    <p>Examine this argument:<br/>
+One thousand coffee drinkers selected randomly from all walks of life, from all ages, and from spots all around the city, were interviewed, and 10 percent said they add sugar to their coffee. Therefore, probably 10 percent of the city’s coffee drinkers
+add sugar to their coffee.<br/>
+Does this inductive argument seem to be strong or weak?<br/></p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="True">Strong<br/></choice>
+      <choice correct="False">Weak<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

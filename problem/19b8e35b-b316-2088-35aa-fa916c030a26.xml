@@ -1,0 +1,12 @@
+<problem display_name="6.Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p/>
+    <p>Figure A has four equal sides. Therefore, figure A must be a square.<br/></p>
+    <label>Using the intuitive test for validity, decide if the statement above is valid or invalid.<br/></label>
+    <p/>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">Valid<br/></choice>
+      <choice correct="True">Invalid<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

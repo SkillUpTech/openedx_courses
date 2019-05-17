@@ -1,0 +1,10 @@
+<problem display_name="10.Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p/>
+    <p>Four students got sick after lunch. The health department interviewed the students, and hot dogs were the only item they all ate in common. Therefore, the cause of the illness was probably the hotdogs or something in the hotdogs.<br/></p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="True">Inductive Argument<br/></choice>
+      <choice correct="False">Deductive Argument<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

@@ -1,0 +1,16 @@
+<problem display_name="Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p/>
+    <p>Examine this argument:<br/>
+Premise 1: All programmers are coders<br/>
+Premise 2: All coders are math specialists<br/>
+Therefore<br/>
+Which one of the following statements would most likely be the conclusion of this argument (the word 'some' means 'at least one'):<br/></p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">All programmers use computers<br/></choice>
+      <choice correct="False">Some math specialists code<br/></choice>
+      <choice correct="False">No math specialists are JavaScript programmers<br/></choice>
+      <choice correct="True">All programmers are math specialists<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

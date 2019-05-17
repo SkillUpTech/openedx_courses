@@ -1,0 +1,14 @@
+<problem display_name="13. Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="2.0">
+  <multiplechoiceresponse>
+    <p>Examine the following argument:<br/>
+<ol><li>If Amber works today, then Barbara works today.</li><li>Barbara does not work today.</li><li>Therefore, Amber does work today.</li></ol>
+Identify the argument above as an instance of one of the following forms. (Choose one)<br/></p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">Modus Ponens<br/></choice>
+      <choice correct="False">Modus Tollens<br/></choice>
+      <choice correct="False">Disjunctive Syllogism<br/></choice>
+      <choice correct="False">Hypothetical Syllogism<br/></choice>
+      <choice correct="True">None<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

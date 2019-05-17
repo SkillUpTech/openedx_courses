@@ -1,0 +1,9 @@
+<video youtube="1.00:g2iC0hu-rO0" url_name="0174d630-5dd1-e24c-5ea6-b25a92ec333c" display_name="" download_track="true" download_video="true" edx_video_id="1ff82c4b-6591-4f60-8ef9-73904e7d9bf2" html5_sources="[&quot;https://d2f1egay8yehza.cloudfront.net/MSXLCTXX2017-V000500_DTH.mp4&quot;]" show_captions="true" sub="" transcripts="{&quot;en&quot;: &quot;1ff82c4b-6591-4f60-8ef9-73904e7d9bf2-en.srt&quot;}" youtube_id_0_75="" youtube_id_1_0="g2iC0hu-rO0" youtube_id_1_25="" youtube_id_1_5="">
+  <source src="https://d2f1egay8yehza.cloudfront.net/MSXLCTXX2017-V000500_DTH.mp4"/>
+  <transcript language="en" src="1ff82c4b-6591-4f60-8ef9-73904e7d9bf2-en.srt"/>
+  <video_asset client_video_id="01.03.1-2017-05-26-Logic-Comp-Thinking-Symbolization.mp4" duration="238.14">
+    <encoded_video bitrate="0" file_size="0" profile="youtube" url="g2iC0hu-rO0"/>
+    <encoded_video bitrate="210" file_size="6258324" profile="mobile_low" url="https://d2f1egay8yehza.cloudfront.net/MSXLCTXX2017-V000500_MB2.mp4"/>
+    <encoded_video bitrate="391" file_size="11659704" profile="desktop_mp4" url="https://d2f1egay8yehza.cloudfront.net/MSXLCTXX2017-V000500_DTH.mp4"/>
+  </video_asset>
+</video>

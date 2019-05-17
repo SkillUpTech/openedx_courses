@@ -1,0 +1,9 @@
+<video youtube="1.00:D6YvjCH19lA" url_name="6c7479c1-df2a-fd8d-d932-101f49061106" display_name="" download_track="true" download_video="true" edx_video_id="1c6bc64a-229e-48e8-b756-7a3c9cfb5381" html5_sources="[&quot;https://d2f1egay8yehza.cloudfront.net/MSXLCTXX2017-V000400_DTH.mp4&quot;]" show_captions="true" sub="" transcripts="{&quot;en&quot;: &quot;1c6bc64a-229e-48e8-b756-7a3c9cfb5381-en.srt&quot;}" youtube_id_0_75="" youtube_id_1_0="D6YvjCH19lA" youtube_id_1_25="" youtube_id_1_5="">
+  <source src="https://d2f1egay8yehza.cloudfront.net/MSXLCTXX2017-V000400_DTH.mp4"/>
+  <transcript language="en" src="1c6bc64a-229e-48e8-b756-7a3c9cfb5381-en.srt"/>
+  <video_asset client_video_id="01.03.2-2017-05-26-Logic-Comp-Thinking-Operators.mp4" duration="719.06">
+    <encoded_video bitrate="0" file_size="0" profile="youtube" url="D6YvjCH19lA"/>
+    <encoded_video bitrate="215" file_size="19368199" profile="mobile_low" url="https://d2f1egay8yehza.cloudfront.net/MSXLCTXX2017-V000400_MB2.mp4"/>
+    <encoded_video bitrate="357" file_size="32172277" profile="desktop_mp4" url="https://d2f1egay8yehza.cloudfront.net/MSXLCTXX2017-V000400_DTH.mp4"/>
+  </video_asset>
+</video>

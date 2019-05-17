@@ -1,0 +1,9 @@
+<video youtube="1.00:8BZiVmh974c" url_name="e61ce312-5847-1538-8f15-c6a49a379119" display_name="" download_track="true" download_video="true" edx_video_id="8d4d424f-6cff-4baa-990c-1d05b20efbb4" html5_sources="[&quot;https://d2f1egay8yehza.cloudfront.net/MSXLCTXX2017-V001100_DTH.mp4&quot;]" show_captions="true" sub="" transcripts="{&quot;en&quot;: &quot;8d4d424f-6cff-4baa-990c-1d05b20efbb4-en.srt&quot;}" youtube_id_0_75="" youtube_id_1_0="8BZiVmh974c" youtube_id_1_25="" youtube_id_1_5="">
+  <source src="https://d2f1egay8yehza.cloudfront.net/MSXLCTXX2017-V001100_DTH.mp4"/>
+  <transcript language="en" src="8d4d424f-6cff-4baa-990c-1d05b20efbb4-en.srt"/>
+  <video_asset client_video_id="01.02.4-2017-05-26-Logic-Comp-Thinking-Propositions.mp4" duration="463.53">
+    <encoded_video bitrate="0" file_size="0" profile="youtube" url="8BZiVmh974c"/>
+    <encoded_video bitrate="237" file_size="13733156" profile="mobile_low" url="https://d2f1egay8yehza.cloudfront.net/MSXLCTXX2017-V001100_MB2.mp4"/>
+    <encoded_video bitrate="476" file_size="27612855" profile="desktop_mp4" url="https://d2f1egay8yehza.cloudfront.net/MSXLCTXX2017-V001100_DTH.mp4"/>
+  </video_asset>
+</video>

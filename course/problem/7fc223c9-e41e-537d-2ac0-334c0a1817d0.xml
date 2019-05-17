@@ -1,0 +1,14 @@
+<problem display_name="7. Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="2.0">
+  <multiplechoiceresponse>
+    <p>Examine the following argument:<br/>
+<ol><li>If Amber goes jogging, then Barbara goes jogging with her.</li><li>It is not the case that Barbara will jog with Amber.</li><li>Therefore, it is not the case that Amber will jog.</li></ol>
+Identify the argument above as an instance of one of the following forms. (Choose one)<br/></p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">Modus Ponens<br/></choice>
+      <choice correct="True">Modus Tollens<br/></choice>
+      <choice correct="False">Disjunctive Syllogism<br/></choice>
+      <choice correct="False">Hypothetical Syllogism<br/></choice>
+      <choice correct="False">None<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

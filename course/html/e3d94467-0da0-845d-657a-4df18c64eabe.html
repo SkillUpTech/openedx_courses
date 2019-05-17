@@ -1,0 +1,69 @@
+<link rel="stylesheet" href="http://openbox-ficus.cloudapp.net:18010/asset-v1:Microsoft+DEV262x+3T2017+type@asset+block@highlight.css"/>
+<script src="http://openbox-ficus.cloudapp.net:18010/asset-v1:Microsoft+DEV262x+3T2017+type@asset+block@prism.js"></script>
+<p>If you've written a computer program before, you have recognize some of the argument forms that we've been looking at. Since computer programs are instructions that tell the CPU and other components what to do, the &quot;flow&quot; of the program is very similar to the flow of a logical argument. To see how this works, let's look at a couple of programs in different languages and compare them to our deductive argument forms.</p>
+<h2 id="testing-for-login">Testing for Login</h2>
+<p>The code in the function below, written in the JavaScript programming language, tests to see if a user is logged in and then presents a message on the screen welcoming them to the program.</p>
+<pre><code class="language-javascript">function ProgramWelcome()
+{
+    //check the user.loggedIn value to see if its true or false
+    if (user.loggedIn === true){
+        //if it's true, show the message
+        alert (&quot;Welcome to the Program!);
+    }
+}
+</code></pre>
+<p>Even if you've never seen JavaScript before, you may be able to make out what is going on. The function statement is just a wrapper for the code that does the real work. You can see a conditional statement in there, can't you? The statement says, if a variable is true (think of a variable as a container that holds a value), then show an alert. We can write the same &quot;program&quot; in logic:</p>
+<ol>
+<li>If the user is logged in, then show the alert</li>
+<li>The user is logged in</li>
+<li>Therefore, show the alert</li>
+</ol>
+<p>The computer program implements that same logical flow! Now let's add another statement to our program.</p>
+<pre><code class="language-javascript">function ProgramWelcome()
+{
+    //check the user.loggedIn value to see if its true or false
+    if (user.loggedIn === true || user.isFreeUser === true){
+        //if it's true, show the message
+        alert (&quot;Welcome to the Program!);
+    }
+}
+</code></pre>
+<p>The double pipe symbol (||) means &quot;or&quot; in many programming languages. Can you tell what that additional statement added to our program? We can write it out in logical form this way:</p>
+<ol>
+<li>If the user is logged in or the user is a free user, then show the alert</li>
+<li>The user is a free user</li>
+<li>Therefore, show the alert</li>
+</ol>
+<p>The argument would be symbolized this way:</p>
+<ol>
+<li>(p v q) --&gt; r</li>
+<li>~p</li>
+<li>q</li>
+<li>Therefore, r</li>
+</ol>
+<p>In the first premise we have a disjunction as the antecedent and deny one of the disjuncts in the second premise. This allows us to assert the other disjunct in premise 3 and combine that with the conditional in premise 1 gives us our conclusion. Remember too that in a disjunction, if either disjunct is true, the whole disjunction is true. It works the same in the JavaScript program.</p>
+<h2 id="test-for-a-number">Test for a number</h2>
+<p>Now let's look at a program in another language: C# (pronounced C sharp).</p>
+<pre><code class="language-cs">public bool isNumber (string p)
+{
+    double num; 
+    if(double.TryParse(value, out num)){
+        return true;
+    }
+return false; 
+}
+</code></pre>
+<p>This program is a little harder to read if you're not familiar with C#. It simply tries to convert the string value we pass in (p) to a numeric value. If it parses properly (can convert the string to a number), then we know the string value <em>p</em> actually is a number. If it doesn't we know it's not a number.</p>
+<p>We could write the same program using logical form:</p>
+<ol>
+<li>if p can be parsed as a number, then p is a number</li>
+<li>p can be parsed as a number</li>
+<li>therefore, p is a number</li>
+</ol>
+<p>AND</p>
+<ol>
+<li>if p is a number, then p can be parsed as a number</li>
+<li>it is not the case that p can be parsed as a number</li>
+<li>therefore, it is not the case that p is a number</li>
+</ol>
+<p>Notice that our computer program accounts for both the modus ponens and the modus tollens: the modus ponens is the &quot;true&quot; condition and the modus tollens is the &quot;false&quot; condition. Logic at work in C#!</p>

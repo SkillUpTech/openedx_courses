@@ -1,0 +1,1664 @@
+0
+00:00:00,000 --> 00:00:04,760
+>> Hi and welcome to Logic and Computational Thinking.
+
+1
+00:00:04,760 --> 00:00:06,745
+If you haven't gone through the course yet,
+
+2
+00:00:06,745 --> 00:00:09,350
+we're really excited for you to dump into
+
+3
+00:00:09,350 --> 00:00:12,765
+the material and before you get started in that material,
+
+4
+00:00:12,765 --> 00:00:15,080
+I wanted to spend some time here with Dr. Paul Herrick.
+
+5
+00:00:15,080 --> 00:00:16,580
+Thank you for joining us today Paul.
+
+6
+00:00:16,580 --> 00:00:17,290
+>> Thank you, Paul.
+
+7
+00:00:17,290 --> 00:00:19,280
+>> Dr. Herrick's book is
+
+8
+00:00:19,280 --> 00:00:21,784
+the book called Think with Socrates.
+
+9
+00:00:21,784 --> 00:00:24,530
+A lot of the content that you're going to experience in
+
+10
+00:00:24,530 --> 00:00:27,500
+the course actually comes from Paul's book.
+
+11
+00:00:27,500 --> 00:00:29,180
+So, I thought it would be a lot of fun to
+
+12
+00:00:29,180 --> 00:00:31,480
+spend a few minutes just chatting with Paul.
+
+13
+00:00:31,480 --> 00:00:34,730
+He's had a long career teaching logic.
+
+14
+00:00:34,730 --> 00:00:37,040
+He's written a couple of textbooks and so,
+
+15
+00:00:37,040 --> 00:00:38,570
+I thought it'd be good to get some background.
+
+16
+00:00:38,570 --> 00:00:40,670
+Logic can be a little stodgy for
+
+17
+00:00:40,670 --> 00:00:42,965
+some people and seem very academic.
+
+18
+00:00:42,965 --> 00:00:44,390
+So, I thought I would give a little bit of
+
+19
+00:00:44,390 --> 00:00:47,930
+a human face to talk about what goes into logic.
+
+20
+00:00:47,930 --> 00:00:50,350
+So, again, were are going
+
+21
+00:00:50,350 --> 00:00:53,015
+to talk a little bit about this book in a minute.
+
+22
+00:00:53,015 --> 00:00:55,100
+I want to talk a little bit about your career.
+
+23
+00:00:55,100 --> 00:00:58,295
+So you graduated from the University of Washington.
+
+24
+00:00:58,295 --> 00:00:59,645
+I don't want to maybe date you here,
+
+25
+00:00:59,645 --> 00:01:01,340
+but how long ago?
+
+26
+00:01:01,340 --> 00:01:02,760
+>> Quite a few years ago.
+
+27
+00:01:02,760 --> 00:01:03,847
+>> Quite a few? Good.
+
+28
+00:01:03,847 --> 00:01:04,847
+>> Yeah.
+
+29
+00:01:04,847 --> 00:01:07,330
+>> So you have your Ph.D. in philosophy,
+
+30
+00:01:07,330 --> 00:01:09,350
+and you've taught philosophy and logic
+
+31
+00:01:09,350 --> 00:01:10,160
+now from many years?
+
+32
+00:01:10,160 --> 00:01:12,660
+>> 35 years.
+
+33
+00:01:12,660 --> 00:01:15,140
+>> Wow. You're in your thirty-fifth year. That's amazing.
+
+34
+00:01:15,140 --> 00:01:16,590
+So Paul and I have been friends
+
+35
+00:01:16,590 --> 00:01:18,570
+for a decade and a half, just about.
+
+36
+00:01:18,570 --> 00:01:20,575
+>> Well, I met you 18 years ago.
+
+37
+00:01:20,575 --> 00:01:21,510
+>> Okay, Yes. Just about.
+
+38
+00:01:21,510 --> 00:01:23,760
+>> At the philosopher's talk.
+
+39
+00:01:23,760 --> 00:01:24,320
+>> That's right.
+
+40
+00:01:24,320 --> 00:01:24,640
+>> Yeah.
+
+41
+00:01:24,640 --> 00:01:27,815
+>> I remember exactly where we were.
+
+42
+00:01:27,815 --> 00:01:29,960
+And so, we've been talking logic
+
+43
+00:01:29,960 --> 00:01:33,095
+and philosophy for those 18 years.
+
+44
+00:01:33,095 --> 00:01:36,585
+You have two texts published, logic texts.
+
+45
+00:01:36,585 --> 00:01:38,565
+One with Harcourt Brace
+
+46
+00:01:38,565 --> 00:01:40,140
+was called The Many Worlds Of Logic,
+
+47
+00:01:40,140 --> 00:01:41,220
+which was a great book, I use
+
+48
+00:01:41,220 --> 00:01:43,540
+that in many of the courses that I taught.
+
+49
+00:01:43,540 --> 00:01:45,855
+And now, you have a new logic texted out with
+
+50
+00:01:45,855 --> 00:01:48,410
+Oxford University Press which is no small feet.
+
+51
+00:01:48,410 --> 00:01:50,205
+Oxford University Press is
+
+52
+00:01:50,205 --> 00:01:53,575
+probably the premier publisher of philosophy.
+
+53
+00:01:53,575 --> 00:01:55,140
+So it's quite an accomplishment
+
+54
+00:01:55,140 --> 00:01:56,595
+to get that book published.
+
+55
+00:01:56,595 --> 00:01:59,545
+So, let's talk about both those logic texts.
+
+56
+00:01:59,545 --> 00:02:01,290
+As I look through
+
+57
+00:02:01,290 --> 00:02:03,495
+textbooks like the ones that you've written,
+
+58
+00:02:03,495 --> 00:02:06,900
+I just can see an enormous amount of work there.
+
+59
+00:02:06,900 --> 00:02:09,335
+Why did you write your first logic book
+
+60
+00:02:09,335 --> 00:02:11,975
+or your logic text with Harcourt Brace?
+
+61
+00:02:11,975 --> 00:02:18,270
+>> Well, I taught logic for
+
+62
+00:02:18,270 --> 00:02:22,615
+10 or 12 years with various textbooks
+
+63
+00:02:22,615 --> 00:02:28,280
+and they were wonderful books but every book I use,
+
+64
+00:02:28,280 --> 00:02:30,470
+there were features of
+
+65
+00:02:30,470 --> 00:02:33,815
+logic I wanted to include that the book didn't include
+
+66
+00:02:33,815 --> 00:02:37,980
+and the textbooks that I
+
+67
+00:02:37,980 --> 00:02:40,350
+used didn't explain things as
+
+68
+00:02:40,350 --> 00:02:43,360
+thoroughly as I wanted to explain them.
+
+69
+00:02:43,360 --> 00:02:46,380
+And a lot of students these days are so
+
+70
+00:02:46,380 --> 00:02:50,035
+busy that they'll attend class just a few times a week.
+
+71
+00:02:50,035 --> 00:02:52,380
+And I wanted a textbook that
+
+72
+00:02:52,380 --> 00:02:55,080
+explained everything more thoroughly so
+
+73
+00:02:55,080 --> 00:02:57,960
+that a student could learn it at home and not
+
+74
+00:02:57,960 --> 00:03:01,640
+have to come to class every day.
+
+75
+00:03:01,640 --> 00:03:04,400
+And I wanted the textbook to include certain topics
+
+76
+00:03:04,400 --> 00:03:07,400
+that weren't in the books I was using.
+
+77
+00:03:07,400 --> 00:03:10,210
+So, I began writing my own.
+
+78
+00:03:10,210 --> 00:03:13,050
+And I spent five years
+
+79
+00:03:13,050 --> 00:03:16,670
+trying to incorporate modal logic
+
+80
+00:03:16,670 --> 00:03:19,310
+into the introductory logic textbook.
+
+81
+00:03:19,310 --> 00:03:20,835
+I thought this was an important branch of
+
+82
+00:03:20,835 --> 00:03:23,000
+logic that isn't covered very often.
+
+83
+00:03:23,000 --> 00:03:24,554
+>> Why don't we take a quick tangent.
+
+84
+00:03:24,554 --> 00:03:26,420
+We don't cover modal logic in this course.
+
+85
+00:03:26,420 --> 00:03:28,670
+Can you just briefly explain what modal logic is?
+
+86
+00:03:28,670 --> 00:03:31,130
+>> So, modal logic is the logic
+
+87
+00:03:31,130 --> 00:03:34,635
+of possibility and necessity.
+
+88
+00:03:34,635 --> 00:03:37,490
+And it turns out that a lot of
+
+89
+00:03:37,490 --> 00:03:40,005
+the great philosophical arguments
+
+90
+00:03:40,005 --> 00:03:43,705
+employ modal logic in their reasoning.
+
+91
+00:03:43,705 --> 00:03:46,900
+So it's a fascinating branch of logic.
+
+92
+00:03:46,900 --> 00:03:50,115
+It actually goes back to the beginning of the discipline.
+
+93
+00:03:50,115 --> 00:03:52,010
+Aristotle, the founder of logic
+
+94
+00:03:52,010 --> 00:03:54,320
+is also the founder of modal logic.
+
+95
+00:03:54,320 --> 00:03:56,030
+But in this branch of logic,
+
+96
+00:03:56,030 --> 00:03:57,860
+philosophers study necessity and
+
+97
+00:03:57,860 --> 00:04:02,430
+possibility with respect to propositions.
+
+98
+00:04:02,430 --> 00:04:04,100
+So propositions can be
+
+99
+00:04:04,100 --> 00:04:06,620
+necessarily true or necessarily false,
+
+100
+00:04:06,620 --> 00:04:08,770
+possibly true, possibly false,
+
+101
+00:04:08,770 --> 00:04:11,090
+with respect to properties.
+
+102
+00:04:11,090 --> 00:04:12,620
+So an entity can possess
+
+103
+00:04:12,620 --> 00:04:16,545
+a property necessarily or contingently.
+
+104
+00:04:16,545 --> 00:04:21,485
+And with respect to existence,
+
+105
+00:04:21,485 --> 00:04:25,510
+which is the most controversial part of modal logic.
+
+106
+00:04:25,510 --> 00:04:29,030
+But modal logicians believe that
+
+107
+00:04:29,030 --> 00:04:31,370
+some things can exist necessarily
+
+108
+00:04:31,370 --> 00:04:34,115
+and other things can exist on a contingent basis.
+
+109
+00:04:34,115 --> 00:04:35,815
+And so, that's part of modal logic.
+
+110
+00:04:35,815 --> 00:04:38,270
+So, I wanted to incorporate modal logic into
+
+111
+00:04:38,270 --> 00:04:41,510
+the introductory course and I wanted to explain
+
+112
+00:04:41,510 --> 00:04:43,580
+things as more thoroughly
+
+113
+00:04:43,580 --> 00:04:45,950
+than usual and that's what led me to write
+
+114
+00:04:45,950 --> 00:04:49,810
+my first book and I
+
+115
+00:04:49,810 --> 00:04:55,650
+developed a passion for putting everything into a system.
+
+116
+00:04:55,650 --> 00:05:00,540
+It was exciting to try to get all the right elements in,
+
+117
+00:05:00,540 --> 00:05:04,015
+in all the right places in a systematic form
+
+118
+00:05:04,015 --> 00:05:08,410
+that would flow and the students would follow.
+
+119
+00:05:08,410 --> 00:05:10,600
+And so, that was exciting for me.
+
+120
+00:05:10,600 --> 00:05:13,090
+>> Is that where the title "Many Worlds" came from?
+
+121
+00:05:13,090 --> 00:05:14,495
+As you had all these different systems?
+
+122
+00:05:14,495 --> 00:05:16,285
+>> Actually, Many Worlds of Logic
+
+123
+00:05:16,285 --> 00:05:19,100
+was an illusion to modal logic.
+
+124
+00:05:19,100 --> 00:05:19,327
+>> I see. Okay.
+
+125
+00:05:19,327 --> 00:05:23,630
+>> And I don't know if I should go into why it was,
+
+126
+00:05:23,630 --> 00:05:25,840
+But modal logicians refer to
+
+127
+00:05:25,840 --> 00:05:28,600
+things they call possible worlds.
+
+128
+00:05:28,600 --> 00:05:32,380
+And the semantics of
+
+129
+00:05:32,380 --> 00:05:34,450
+modal logic is all defined in terms of
+
+130
+00:05:34,450 --> 00:05:37,300
+theoretical entities called possible worlds.
+
+131
+00:05:37,300 --> 00:05:41,416
+Ways the universe could have been or could be,
+
+132
+00:05:41,416 --> 00:05:43,945
+and so, it was an allusion to that.
+
+133
+00:05:43,945 --> 00:05:47,883
+Very interesting aspect of modal logic.
+
+134
+00:05:47,883 --> 00:05:49,630
+>> So that was a big distinguishing factor
+
+135
+00:05:49,630 --> 00:05:51,250
+of your book relative to other that you wrote.
+
+136
+00:05:51,250 --> 00:05:52,810
+>> Well, that's I think why it
+
+137
+00:05:52,810 --> 00:05:54,490
+was published because it integrated
+
+138
+00:05:54,490 --> 00:05:58,125
+modal logic into the standard logic course.
+
+139
+00:05:58,125 --> 00:06:00,780
+And as far as I know, only one other book did that.
+
+140
+00:06:00,780 --> 00:06:01,040
+>> Yeah.
+
+141
+00:06:01,040 --> 00:06:05,950
+>> And so, it's exciting because I could bring in
+
+142
+00:06:05,950 --> 00:06:11,620
+arguments about free will and about time and fatalism.
+
+143
+00:06:11,620 --> 00:06:14,170
+Whether their future's already been fated
+
+144
+00:06:14,170 --> 00:06:16,790
+to happen into the logic course
+
+145
+00:06:16,790 --> 00:06:19,470
+and develop those arguments
+
+146
+00:06:19,470 --> 00:06:21,120
+using the symbols of modal logic.
+
+147
+00:06:21,120 --> 00:06:22,020
+And that was kind of fun.
+
+148
+00:06:22,020 --> 00:06:22,830
+>> Sure.
+
+149
+00:06:22,830 --> 00:06:23,040
+>> Yes.
+
+150
+00:06:23,040 --> 00:06:24,955
+>> So, how do you do research for a book like this?
+
+151
+00:06:24,955 --> 00:06:27,105
+One of the questions I actually have never asked you this
+
+152
+00:06:27,105 --> 00:06:29,787
+personally so I can ask you now on camera.
+
+153
+00:06:29,787 --> 00:06:32,460
+When you're preparing to write a book
+
+154
+00:06:32,460 --> 00:06:35,560
+like on logic or even mathematics or something like that,
+
+155
+00:06:35,560 --> 00:06:38,995
+it's been done for so many decades and centuries,
+
+156
+00:06:38,995 --> 00:06:41,330
+how do you approach it uniquely?
+
+157
+00:06:41,330 --> 00:06:43,680
+Like when you're writing your examples or you're
+
+158
+00:06:43,680 --> 00:06:44,730
+writing the definition of
+
+159
+00:06:44,730 --> 00:06:46,620
+a Modus Ponens or a Modus Tones,
+
+160
+00:06:46,620 --> 00:06:48,030
+a lot of the definitions that we use in
+
+161
+00:06:48,030 --> 00:06:50,220
+this course are definitions I pulled from your book
+
+162
+00:06:50,220 --> 00:06:52,620
+and other logic textbooks and I couldn't
+
+163
+00:06:52,620 --> 00:06:53,910
+really reword them that much
+
+164
+00:06:53,910 --> 00:06:55,375
+because it's a definition right?
+
+165
+00:06:55,375 --> 00:06:57,360
+Modus Ponens is what a Modal Tonens is.
+
+166
+00:06:57,360 --> 00:06:59,190
+So, how do you approach
+
+167
+00:06:59,190 --> 00:07:00,930
+the topic so that you're giving it
+
+168
+00:07:00,930 --> 00:07:02,790
+your own voice and writing it in your way and
+
+169
+00:07:02,790 --> 00:07:05,490
+not just copying what someone else has done?
+
+170
+00:07:05,490 --> 00:07:08,455
+>> Yeah, that's a good question.
+
+171
+00:07:08,455 --> 00:07:13,080
+I've always walked into the classroom without notes.
+
+172
+00:07:13,080 --> 00:07:15,720
+I've never taken notes into the classroom.
+
+173
+00:07:15,720 --> 00:07:17,940
+>> I prepare ahead of time but
+
+174
+00:07:17,940 --> 00:07:19,950
+when I walk into the classroom,
+
+175
+00:07:19,950 --> 00:07:24,190
+I am explaining things to students as
+
+176
+00:07:24,190 --> 00:07:29,155
+clearly as I can at the moment, spontaneously.
+
+177
+00:07:29,155 --> 00:07:31,870
+And then, what works
+
+178
+00:07:31,870 --> 00:07:34,690
+in the classroom is what goes into my textbook.
+
+179
+00:07:34,690 --> 00:07:36,460
+So, for many years,
+
+180
+00:07:36,460 --> 00:07:39,258
+I taught Logic three times a day,
+
+181
+00:07:39,258 --> 00:07:42,550
+and I got a lot of feedback from students
+
+182
+00:07:42,550 --> 00:07:44,740
+and I used that to
+
+183
+00:07:44,740 --> 00:07:47,340
+try to explain things as clearly as I could.
+
+184
+00:07:47,340 --> 00:07:48,895
+And as I'm writing the book,
+
+185
+00:07:48,895 --> 00:07:52,216
+I'm thinking back on my classroom experiences,
+
+186
+00:07:52,216 --> 00:07:54,957
+what explanations work best,
+
+187
+00:07:54,957 --> 00:07:58,995
+and what parts of Logic connect with students,
+
+188
+00:07:58,995 --> 00:08:00,955
+and what parts aren't really necessary.
+
+189
+00:08:00,955 --> 00:08:02,110
+Because you really have to be
+
+190
+00:08:02,110 --> 00:08:04,120
+selective when you write a textbook.
+
+191
+00:08:04,120 --> 00:08:07,090
+No textbook can cover everything.
+
+192
+00:08:07,090 --> 00:08:07,800
+>> Right.
+
+193
+00:08:07,800 --> 00:08:08,225
+>> Yes
+
+194
+00:08:08,225 --> 00:08:11,594
+>> So, talk about your book with Oxford University Press.
+
+195
+00:08:11,594 --> 00:08:12,850
+That's a very different book from
+
+196
+00:08:12,850 --> 00:08:14,545
+many worlds in some ways.
+
+197
+00:08:14,545 --> 00:08:16,255
+I mean, there's obviously some overlap.
+
+198
+00:08:16,255 --> 00:08:18,460
+Where were going after there?
+
+199
+00:08:18,460 --> 00:08:22,510
+>> Well, the third Logic book I
+
+200
+00:08:22,510 --> 00:08:27,205
+wrote was a complete revision of the previous two.
+
+201
+00:08:27,205 --> 00:08:32,550
+And I revised it from the ground up and
+
+202
+00:08:32,550 --> 00:08:36,270
+Oxford had it reviewed by a number of
+
+203
+00:08:36,270 --> 00:08:40,150
+teachers and liked it and published it.
+
+204
+00:08:40,150 --> 00:08:46,040
+I actually went further on explaining everything.
+
+205
+00:08:46,040 --> 00:08:49,885
+It ended up 800 pages,
+
+206
+00:08:49,885 --> 00:08:52,830
+but I tried to explain things so
+
+207
+00:08:52,830 --> 00:08:56,483
+thoroughly that a student can still be at home studying,
+
+208
+00:08:56,483 --> 00:08:58,470
+and would find complete explanations
+
+209
+00:08:58,470 --> 00:09:00,355
+of everything all the way through.
+
+210
+00:09:00,355 --> 00:09:04,140
+And so, it's even more
+
+211
+00:09:04,140 --> 00:09:07,825
+explained I think than the first two books.
+
+212
+00:09:07,825 --> 00:09:10,560
+The second Logic book I wrote
+
+213
+00:09:10,560 --> 00:09:14,730
+expanded the coverage into
+
+214
+00:09:14,730 --> 00:09:17,455
+a lot of Inductive Logic that wasn't in the first book.
+
+215
+00:09:17,455 --> 00:09:19,700
+The first book was almost all Deductive Logic.
+
+216
+00:09:19,700 --> 00:09:23,995
+The second book brought a lot of Inductive Logic in.
+
+217
+00:09:23,995 --> 00:09:25,710
+And then the third logic book,
+
+218
+00:09:25,710 --> 00:09:26,760
+the one you're mentioning now
+
+219
+00:09:26,760 --> 00:09:29,565
+called "Introduction to Logic",
+
+220
+00:09:29,565 --> 00:09:33,000
+has everything from the previous
+
+221
+00:09:33,000 --> 00:09:34,830
+two but I just went through from
+
+222
+00:09:34,830 --> 00:09:36,995
+the ground up and re-explained everything.
+
+223
+00:09:36,995 --> 00:09:40,080
+It was really fun to try
+
+224
+00:09:40,080 --> 00:09:45,835
+to clarify even further everything I tried to say.
+
+225
+00:09:45,835 --> 00:09:49,675
+And I added some sections,
+
+226
+00:09:49,675 --> 00:09:52,050
+some more sections that I hadn't covered.
+
+227
+00:09:52,050 --> 00:09:54,235
+>> That's great. And I like"
+
+228
+00:09:54,235 --> 00:09:56,851
+Introduction to Logic" because of that,
+
+229
+00:09:56,851 --> 00:09:59,273
+the latest book for with Oxford University Press.
+
+230
+00:09:59,273 --> 00:10:00,547
+And in fact, throughout the course,
+
+231
+00:10:00,547 --> 00:10:02,500
+if the topics that you're studying
+
+232
+00:10:02,500 --> 00:10:04,675
+and that you're reading through interest you,
+
+233
+00:10:04,675 --> 00:10:06,670
+I highly recommend you take a look at
+
+234
+00:10:06,670 --> 00:10:09,585
+getting Dr. Herrick's "Logic" textbook.
+
+235
+00:10:09,585 --> 00:10:10,460
+This book is more of
+
+236
+00:10:10,460 --> 00:10:11,920
+an introduction to critical thinking,
+
+237
+00:10:11,920 --> 00:10:14,080
+the one that we've been using in this course.
+
+238
+00:10:14,080 --> 00:10:16,720
+But Dr. Herrick's textbooks are definitely going into
+
+239
+00:10:16,720 --> 00:10:19,990
+more depth in the formal logic spaces.
+
+240
+00:10:19,990 --> 00:10:21,940
+And I think there's an e-book correct?
+
+241
+00:10:21,940 --> 00:10:22,942
+For the Oxford University Press?
+
+242
+00:10:22,942 --> 00:10:25,120
+There's a digital version if you want?
+
+243
+00:10:25,120 --> 00:10:27,910
+>> Yes, both books have a e-text version.
+
+244
+00:10:27,910 --> 00:10:30,670
+>> And they're relatively inexpensive as textbooks go.
+
+245
+00:10:30,670 --> 00:10:32,530
+A lot of textbooks are in the couple hundred
+
+246
+00:10:32,530 --> 00:10:35,110
+dollar range and these are what?
+
+247
+00:10:35,110 --> 00:10:36,583
+50-60? Or something like that?
+
+248
+00:10:36,583 --> 00:10:37,244
+>> Yes. Around 60.
+
+249
+00:10:37,244 --> 00:10:39,192
+>> That's a good price.
+
+250
+00:10:39,192 --> 00:10:40,930
+>> Oxford is a non-profit publisher.
+
+251
+00:10:40,930 --> 00:10:41,310
+>> Right.
+
+252
+00:10:41,310 --> 00:10:45,280
+>> And they produce quality books
+
+253
+00:10:45,280 --> 00:10:47,440
+that are quite a bit
+
+254
+00:10:47,440 --> 00:10:50,875
+less than the big commercial publishers.
+
+255
+00:10:50,875 --> 00:10:52,860
+>> And that's why I don't feel bad recommending
+
+256
+00:10:52,860 --> 00:10:54,325
+these books too.
+
+257
+00:10:54,325 --> 00:10:56,170
+They're great, great texts,
+
+258
+00:10:56,170 --> 00:10:58,090
+one of the things about this latest book,
+
+259
+00:10:58,090 --> 00:11:00,695
+is that you can study from it on your own.
+
+260
+00:11:00,695 --> 00:11:02,140
+So, if you get the good foundation in
+
+261
+00:11:02,140 --> 00:11:04,600
+this course, "Logic computational Thinking",
+
+262
+00:11:04,600 --> 00:11:06,790
+then you can expand your studies by taking
+
+263
+00:11:06,790 --> 00:11:09,070
+Dr. Herrick's book and working through it on your own.
+
+264
+00:11:09,070 --> 00:11:11,260
+I think you can get a lot of value there.
+
+265
+00:11:11,260 --> 00:11:13,795
+So, let's talk a little bit about "Think with Socrates".
+
+266
+00:11:13,795 --> 00:11:15,745
+"Think with Socrates" is a really fun book.
+
+267
+00:11:15,745 --> 00:11:17,285
+I really enjoyed reading through it,
+
+268
+00:11:17,285 --> 00:11:20,530
+it covers a lot of topics very nicely,
+
+269
+00:11:20,530 --> 00:11:24,760
+which is why I wanted to use the book in this course.
+
+270
+00:11:24,760 --> 00:11:26,410
+We license a lot of the content from
+
+271
+00:11:26,410 --> 00:11:27,790
+Oxford University Press and
+
+272
+00:11:27,790 --> 00:11:29,545
+a lot of the content that's in the book,
+
+273
+00:11:29,545 --> 00:11:31,506
+you'll find directly in the course.
+
+274
+00:11:31,506 --> 00:11:34,295
+There's other things that are not in the course itself.
+
+275
+00:11:34,295 --> 00:11:36,385
+So if you want to go and do more study,
+
+276
+00:11:36,385 --> 00:11:38,620
+the book is a nice option there.
+
+277
+00:11:38,620 --> 00:11:40,270
+But what gave you the idea to
+
+278
+00:11:40,270 --> 00:11:42,100
+come up with the book "Think with Socrates"?
+
+279
+00:11:42,100 --> 00:11:44,800
+And what was your goals of producing them?
+
+280
+00:11:44,800 --> 00:11:49,650
+>> Well, alongside Symbolic Logic
+
+281
+00:11:49,650 --> 00:11:52,400
+I've always taught critical thinking.
+
+282
+00:11:52,400 --> 00:11:59,335
+And critical thinking is a different course.
+
+283
+00:11:59,335 --> 00:12:01,380
+Although it's hard sometimes to
+
+284
+00:12:01,380 --> 00:12:04,737
+distinguish Logic and Critical Thinking,
+
+285
+00:12:04,737 --> 00:12:07,305
+but the Critical Thinking course is
+
+286
+00:12:07,305 --> 00:12:11,655
+logic applied to everyday life,
+
+287
+00:12:11,655 --> 00:12:13,845
+and that's one way to think of it.
+
+288
+00:12:13,845 --> 00:12:16,950
+So, Critical Thinking literally means
+
+289
+00:12:16,950 --> 00:12:20,700
+criterial thinking or thinking by criteria.
+
+290
+00:12:20,700 --> 00:12:25,298
+So, criteria are standards, standards of evaluation,
+
+291
+00:12:25,298 --> 00:12:29,367
+and critical thinking literally is thinking by standards,
+
+292
+00:12:29,367 --> 00:12:31,965
+standards of good thinking.
+
+293
+00:12:31,965 --> 00:12:35,390
+And Critical Thinking courses are
+
+294
+00:12:35,390 --> 00:12:39,500
+generally pitched towards improving
+
+295
+00:12:39,500 --> 00:12:41,180
+the reasoning abilities we use in
+
+296
+00:12:41,180 --> 00:12:44,960
+everyday life to make
+
+297
+00:12:44,960 --> 00:12:47,755
+them more realistic and more effective.
+
+298
+00:12:47,755 --> 00:12:50,565
+So, I always taught Critical Thinking
+
+299
+00:12:50,565 --> 00:12:53,475
+and Socrates always came up,
+
+300
+00:12:53,475 --> 00:12:55,620
+because he's generally considered the
+
+301
+00:12:55,620 --> 00:12:58,005
+founder of critical thinking.
+
+302
+00:12:58,005 --> 00:13:00,680
+He was the very first philosopher to teach
+
+303
+00:13:00,680 --> 00:13:06,230
+Critical Thinking as a means of improving your life,
+
+304
+00:13:06,230 --> 00:13:09,680
+and to give his life for teaching it.
+
+305
+00:13:09,680 --> 00:13:12,860
+Because the Athenian democracy executed him
+
+306
+00:13:12,860 --> 00:13:15,950
+primarily because of the critical thinking
+
+307
+00:13:15,950 --> 00:13:18,980
+he was teaching the citizens.
+
+308
+00:13:18,980 --> 00:13:20,525
+And so, he's considered the founder.
+
+309
+00:13:20,525 --> 00:13:24,405
+But most critical thinking books, they honor Socrates,
+
+310
+00:13:24,405 --> 00:13:27,470
+they mention him, but
+
+311
+00:13:27,470 --> 00:13:30,955
+they don't build the course around him.
+
+312
+00:13:30,955 --> 00:13:36,704
+And students, when they meet Socrates,
+
+313
+00:13:36,704 --> 00:13:38,060
+they fall in love with him.
+
+314
+00:13:38,060 --> 00:13:43,095
+He's a remarkable human being, a remarkable character,
+
+315
+00:13:43,095 --> 00:13:48,725
+he's so inspiring and I fell in love with Socrates
+
+316
+00:13:48,725 --> 00:13:51,900
+and the idea came to
+
+317
+00:13:51,900 --> 00:13:53,670
+me to build a critical thinking course
+
+318
+00:13:53,670 --> 00:13:55,550
+around his persona.
+
+319
+00:13:55,550 --> 00:13:59,704
+That was sort of what led me to write the book.
+
+320
+00:13:59,704 --> 00:14:06,143
+The book introduces students to Socrates, his person,
+
+321
+00:14:06,143 --> 00:14:09,200
+his life, his method of thought,
+
+322
+00:14:09,200 --> 00:14:11,120
+and then the whole rest of the book
+
+323
+00:14:11,120 --> 00:14:13,993
+builds on that and refers back to him.
+
+324
+00:14:13,993 --> 00:14:16,765
+And so the course is built around a person,
+
+325
+00:14:16,765 --> 00:14:18,790
+but a remarkable person.
+
+326
+00:14:18,790 --> 00:14:24,205
+A person who sometime in the middle of his life
+
+327
+00:14:24,205 --> 00:14:28,450
+realized that a lot of people think they know what
+
+328
+00:14:28,450 --> 00:14:32,910
+they're talking about when they haven't a clue.
+
+329
+00:14:32,910 --> 00:14:34,520
+They think they're an expert in
+
+330
+00:14:34,520 --> 00:14:36,260
+things then they really
+
+331
+00:14:36,260 --> 00:14:38,435
+have no idea what they're talking about.
+
+332
+00:14:38,435 --> 00:14:43,850
+And he could have
+
+333
+00:14:43,850 --> 00:14:46,740
+just grab people by the collar and shook them,
+
+334
+00:14:46,740 --> 00:14:49,978
+he could have been angry,
+
+335
+00:14:49,978 --> 00:14:51,920
+but he had so much respect for
+
+336
+00:14:51,920 --> 00:14:54,110
+the individual and so much love
+
+337
+00:14:54,110 --> 00:14:56,675
+of his fellow human beings,
+
+338
+00:14:56,675 --> 00:14:59,060
+that he couldn't be
+
+339
+00:14:59,060 --> 00:15:02,190
+harsh with people and yell at them and shake them.
+
+340
+00:15:02,190 --> 00:15:05,735
+His method turned out to be different.
+
+341
+00:15:05,735 --> 00:15:09,312
+He asked people questions,
+
+342
+00:15:09,312 --> 00:15:12,880
+but they were questions designed to cause people to look
+
+343
+00:15:12,880 --> 00:15:16,520
+in the mirror and examine their own assumptions,
+
+344
+00:15:16,520 --> 00:15:22,130
+and find out for themselves where they were going wrong.
+
+345
+00:15:22,130 --> 00:15:24,860
+>> Right. And it's become known as the Socratic method.
+
+346
+00:15:24,860 --> 00:15:26,925
+>> That is the Socratic method.
+
+347
+00:15:26,925 --> 00:15:28,130
+I would put it this way,
+
+348
+00:15:28,130 --> 00:15:29,465
+looking in the mirror,
+
+349
+00:15:29,465 --> 00:15:32,720
+and evaluating your assumptions and
+
+350
+00:15:32,720 --> 00:15:37,805
+your actions on the basis of realistic criteria.
+
+351
+00:15:37,805 --> 00:15:42,845
+Criteria related to truth and justice.
+
+352
+00:15:42,845 --> 00:15:46,985
+And he gave his life for that vision,
+
+353
+00:15:46,985 --> 00:15:51,615
+the vision of a life in which a person
+
+354
+00:15:51,615 --> 00:15:54,885
+constantly examines his assumptions
+
+355
+00:15:54,885 --> 00:15:57,270
+is willing to admit he's wrong,
+
+356
+00:15:57,270 --> 00:16:02,190
+is willing to correct his actions and his views.
+
+357
+00:16:02,190 --> 00:16:05,760
+And so that became known as Critical Thinking.
+
+358
+00:16:05,760 --> 00:16:08,490
+And so, I wanted to organize
+
+359
+00:16:08,490 --> 00:16:12,210
+the book around that human vision, really.
+
+360
+00:16:12,210 --> 00:16:15,595
+>> Yes. And it really turned out to be a great result.
+
+361
+00:16:15,595 --> 00:16:17,970
+When we think about "Logic and Computational Thinking",
+
+362
+00:16:17,970 --> 00:16:19,590
+and applying logical principles
+
+363
+00:16:19,590 --> 00:16:21,165
+to writing computer programs,
+
+364
+00:16:21,165 --> 00:16:23,070
+there's a direct relationship between
+
+365
+00:16:23,070 --> 00:16:25,050
+the formal logic, the deductive reasoning,
+
+366
+00:16:25,050 --> 00:16:26,825
+inductive reasoning,
+
+367
+00:16:26,825 --> 00:16:28,170
+the categorical reasoning that
+
+368
+00:16:28,170 --> 00:16:29,625
+we talk about in the course.
+
+369
+00:16:29,625 --> 00:16:32,220
+But there's a whole aspect of working with other people,
+
+370
+00:16:32,220 --> 00:16:34,620
+and working in a business or a corporation,
+
+371
+00:16:34,620 --> 00:16:36,446
+or selling your work, that
+
+372
+00:16:36,446 --> 00:16:39,345
+takes those logical concepts and applies them to life.
+
+373
+00:16:39,345 --> 00:16:41,390
+And I think that we try to bring out
+
+374
+00:16:41,390 --> 00:16:43,895
+some of those topics as well in the course.
+
+375
+00:16:43,895 --> 00:16:45,480
+And you certainly do a great job
+
+376
+00:16:45,480 --> 00:16:48,480
+of relating kind of logic to real life.
+
+377
+00:16:48,480 --> 00:16:50,070
+Right? Logic can be fairly
+
+378
+00:16:50,070 --> 00:16:52,405
+academic and a little bit stodgy sometimes.
+
+379
+00:16:52,405 --> 00:16:53,700
+But you do a really good job of showing.
+
+380
+00:16:53,700 --> 00:16:56,400
+There's a huge practical side to
+
+381
+00:16:56,400 --> 00:16:58,020
+this discipline and taking
+
+382
+00:16:58,020 --> 00:17:00,370
+those concepts and applying them to a real problems.
+
+383
+00:17:00,370 --> 00:17:02,190
+>> Thank you. Yes. Well, once you're
+
+384
+00:17:02,190 --> 00:17:07,335
+aware of the nature of critical thinking,
+
+385
+00:17:07,335 --> 00:17:10,395
+you're looking at the criteria.
+
+386
+00:17:10,395 --> 00:17:13,965
+And if you're in an organization
+
+387
+00:17:13,965 --> 00:17:16,530
+and decisions are being made and you're
+
+388
+00:17:16,530 --> 00:17:19,245
+part of the decision-making process,
+
+389
+00:17:19,245 --> 00:17:21,240
+you can look at the criteria
+
+390
+00:17:21,240 --> 00:17:23,550
+that are being used and you can ask,
+
+391
+00:17:23,550 --> 00:17:26,715
+"Are these criteria appropriate for the goal?
+
+392
+00:17:26,715 --> 00:17:27,900
+For our goal?
+
+393
+00:17:27,900 --> 00:17:30,138
+Are these criteria grounded in reality?
+
+394
+00:17:30,138 --> 00:17:32,170
+Are these criteria realistic?"
+
+395
+00:17:32,170 --> 00:17:33,445
+You can ask questions like that.
+
+396
+00:17:33,445 --> 00:17:35,290
+That's what a critical thinker does.
+
+397
+00:17:35,290 --> 00:17:37,080
+And so, once you're aware of
+
+398
+00:17:37,080 --> 00:17:39,345
+the way critical thinking works,
+
+399
+00:17:39,345 --> 00:17:43,880
+it can be a tool that you use in an organization,
+
+400
+00:17:43,880 --> 00:17:48,320
+in a group, as well as just in your own personal life.
+
+401
+00:17:48,320 --> 00:17:48,556
+>> That's right.
+
+402
+00:17:48,556 --> 00:17:53,980
+>> So, yes. That's great.
+
+403
+00:17:53,980 --> 00:17:55,675
+>> Well, thanks. Thanks, Paul.
+
+404
+00:17:55,675 --> 00:17:57,790
+It was nice to hear a little bit about the textbooks,
+
+405
+00:17:57,790 --> 00:18:00,305
+and then of course about "Think with Socrates"
+
+406
+00:18:00,305 --> 00:18:03,915
+which has been a fantastic asset to our course.
+
+407
+00:18:03,915 --> 00:18:05,230
+What we'll do in the next video,
+
+408
+00:18:05,230 --> 00:18:06,975
+is talk a little bit about how
+
+409
+00:18:06,975 --> 00:18:09,850
+logic can be applied to real-world problems.
+
+410
+00:18:09,850 --> 00:18:11,050
+We'll talk a little bit about some of
+
+411
+00:18:11,050 --> 00:18:12,520
+the challenges that students face
+
+412
+00:18:12,520 --> 00:18:15,288
+when they just first start studying logic,
+
+413
+00:18:15,288 --> 00:18:16,600
+and we'll explore those topics
+
+414
+00:18:16,600 --> 00:18:18,670
+a little bit in the next video. We'll see you there.
+
+415
+00:18:18,670 --> 00:18:20,450
+>> Thank you.
+

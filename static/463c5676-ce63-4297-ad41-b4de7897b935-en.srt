@@ -1,0 +1,576 @@
+0
+00:00:00,830 --> 00:00:03,860
+So far we've been looking at how arguments are constructed.
+
+1
+00:00:03,860 --> 00:00:05,802
+I've been trying to give you a toolkit for
+
+2
+00:00:05,802 --> 00:00:07,252
+putting arguments together.
+
+3
+00:00:07,252 --> 00:00:11,592
+We've looked at statements, propositions and truth value.
+
+4
+00:00:11,592 --> 00:00:14,630
+Those are the basic building blocks of a logical argument.
+
+5
+00:00:14,630 --> 00:00:15,600
+And now we wanna put
+
+6
+00:00:15,600 --> 00:00:17,730
+those things into a specific structure.
+
+7
+00:00:17,730 --> 00:00:20,530
+We wanna put statements, which symbolize propositions,
+
+8
+00:00:20,530 --> 00:00:23,330
+into a structure so that you can actually make an argument.
+
+9
+00:00:23,330 --> 00:00:26,672
+And that's what we're gonna look at next, argument structure.
+
+10
+00:00:26,672 --> 00:00:30,216
+All right, a good logical argument, as I said in
+
+11
+00:00:30,216 --> 00:00:34,280
+a previous lesson, a good logical argument is premises
+
+12
+00:00:34,280 --> 00:00:38,630
+that relate to a conclusion in a very specific way.
+
+13
+00:00:38,630 --> 00:00:41,440
+So we call an argument that has that relation
+
+14
+00:00:41,440 --> 00:00:43,340
+a proper logical relation.
+
+15
+00:00:43,340 --> 00:00:46,740
+The premises have to lead to the conclusion.
+
+16
+00:00:46,740 --> 00:00:50,110
+The conclusion has to come from the premises, all right?
+
+17
+00:00:50,110 --> 00:00:52,040
+In order for that to happen,
+
+18
+00:00:52,040 --> 00:00:55,520
+arguments have to be structured in a very specific way so
+
+19
+00:00:55,520 --> 00:00:58,170
+that the premises do lead to the conclusion, and
+
+20
+00:00:58,170 --> 00:01:00,110
+that structure is called argument form.
+
+21
+00:01:02,190 --> 00:01:04,610
+And we're gonna be looking at a couple of different ways that we
+
+22
+00:01:04,610 --> 00:01:08,650
+can construct these arguments using very specific forms.
+
+23
+00:01:08,650 --> 00:01:10,898
+And I'll give you those in a later lesson.
+
+24
+00:01:10,898 --> 00:01:14,090
+Right, so well-formed arguments, and we're gonna talk about
+
+25
+00:01:14,090 --> 00:01:16,855
+deductive, which is a very specific type of argument.
+
+26
+00:01:16,855 --> 00:01:19,980
+Well-formed, deductive arguments have a term.
+
+27
+00:01:21,010 --> 00:01:24,710
+When the premises relate to the conclusion in the right way,
+
+28
+00:01:24,710 --> 00:01:27,600
+when it's a properly formed argument,
+
+29
+00:01:27,600 --> 00:01:30,300
+we call those arguments valid arguments.
+
+30
+00:01:31,630 --> 00:01:33,211
+If you're an English speaker,
+
+31
+00:01:33,211 --> 00:01:35,792
+the term valid many times refers to a good argument.
+
+32
+00:01:35,792 --> 00:01:38,311
+Like if someone gives you an argument, and you believe
+
+33
+00:01:38,311 --> 00:01:41,780
+the conclusion is true you say, well, that argument's valid.
+
+34
+00:01:41,780 --> 00:01:44,350
+That person made his or her point.
+
+35
+00:01:44,350 --> 00:01:46,040
+That's not how it's used in logic.
+
+36
+00:01:46,040 --> 00:01:47,440
+It's used a little bit differently.
+
+37
+00:01:47,440 --> 00:01:52,567
+All validity refers to is the form of the argument, whether or
+
+38
+00:01:52,567 --> 00:01:58,870
+not the premises are related to the conclusion in the right way.
+
+39
+00:01:58,870 --> 00:02:03,720
+And conversely, poorly formed arguments are called invalid.
+
+40
+00:02:03,720 --> 00:02:06,440
+And I'll give you an example of these in just a moment.
+
+41
+00:02:06,440 --> 00:02:10,020
+But poorly-formed arguments are called invalid.
+
+42
+00:02:10,020 --> 00:02:12,540
+Properly formed arguments are called valid.
+
+43
+00:02:12,540 --> 00:02:16,290
+Do not think of the term valid to refer to whether an argument
+
+44
+00:02:16,290 --> 00:02:20,265
+makes its case, whether the argument's conclusion is true or
+
+45
+00:02:20,265 --> 00:02:20,790
+false.
+
+46
+00:02:20,790 --> 00:02:23,130
+And that's the point of the second bullet here.
+
+47
+00:02:23,130 --> 00:02:26,273
+Validity has nothing to do with truth value at this point.
+
+48
+00:02:26,273 --> 00:02:27,795
+At least for deductive arguments,
+
+49
+00:02:27,795 --> 00:02:29,732
+validity has nothing to do with truth value.
+
+50
+00:02:29,732 --> 00:02:34,431
+Whether the claims of the premises are true, okay?
+
+51
+00:02:34,431 --> 00:02:35,677
+Argument form then,
+
+52
+00:02:35,677 --> 00:02:39,136
+validity is only one part of what makes a good argument, and
+
+53
+00:02:39,136 --> 00:02:42,810
+we're gonna just focus on that one part for right now.
+
+54
+00:02:42,810 --> 00:02:45,170
+All we're talking about is how to put the premises and
+
+55
+00:02:45,170 --> 00:02:47,720
+the conclusion together to make a good argument, and
+
+56
+00:02:47,720 --> 00:02:50,690
+argument form is one part of that.
+
+57
+00:02:50,690 --> 00:02:53,560
+So I want you to practice using the term valid
+
+58
+00:02:53,560 --> 00:02:55,720
+to refer to argument structure or
+
+59
+00:02:55,720 --> 00:02:58,850
+form, not whether the whole argument is good or bad.
+
+60
+00:02:58,850 --> 00:03:01,100
+We'll talk about that term later on.
+
+61
+00:03:01,100 --> 00:03:04,357
+Let me give you some examples that may help make this
+
+62
+00:03:04,357 --> 00:03:05,352
+clear, okay?
+
+63
+00:03:05,352 --> 00:03:08,120
+Here's an argument in a specific form.
+
+64
+00:03:08,120 --> 00:03:10,530
+It says, if you program computers
+
+65
+00:03:10,530 --> 00:03:12,090
+then you're familiar with JavaScript.
+
+66
+00:03:13,440 --> 00:03:17,450
+You're familiar with JavaScript, therefore you program computers.
+
+67
+00:03:18,590 --> 00:03:20,560
+Now there's something wrong with this argument.
+
+68
+00:03:20,560 --> 00:03:22,420
+This is not in the proper form.
+
+69
+00:03:23,490 --> 00:03:26,871
+And what this means is, based on what we claim in this first
+
+70
+00:03:26,871 --> 00:03:30,321
+premise, and based on what we claim in the second premise,
+
+71
+00:03:30,321 --> 00:03:32,331
+we cannot get to this conclusion.
+
+72
+00:03:32,331 --> 00:03:36,100
+These two premises do not lead to this conclusion.
+
+73
+00:03:36,100 --> 00:03:39,390
+You might wanna pause the video for a moment and just study that
+
+74
+00:03:39,390 --> 00:03:43,760
+argument for a second to see if you can tell what's going on.
+
+75
+00:03:43,760 --> 00:03:45,990
+Why this argument really doesn't work.
+
+76
+00:03:47,010 --> 00:03:49,780
+I'm gonna give you another argument in the same exact form,
+
+77
+00:03:49,780 --> 00:03:51,270
+this is an invalid form.
+
+78
+00:03:51,270 --> 00:03:53,970
+I'm gonna give you another argument that may illustrate it
+
+79
+00:03:53,970 --> 00:03:54,911
+a little bit more clearly.
+
+80
+00:03:56,400 --> 00:03:58,730
+This one says, if Alan Turing,
+
+81
+00:03:58,730 --> 00:04:02,950
+the famous computer scientist, developed the Turing machine or
+
+82
+00:04:02,950 --> 00:04:06,020
+the Turing machine was a machine that was named after him,
+
+83
+00:04:06,020 --> 00:04:07,880
+a concept that was named after him.
+
+84
+00:04:07,880 --> 00:04:12,670
+If Alan Turning died in 1954, then he was born in or
+
+85
+00:04:12,670 --> 00:04:14,074
+prior to 1954.
+
+86
+00:04:15,220 --> 00:04:18,203
+The second premise is Alan Turing was born in or
+
+87
+00:04:18,203 --> 00:04:19,511
+prior to 1954.
+
+88
+00:04:19,511 --> 00:04:24,050
+The conclusion therefore, Alan Turing died in 1954.
+
+89
+00:04:24,050 --> 00:04:28,740
+Now notice just because Alan Turing was born in or prior
+
+90
+00:04:28,740 --> 00:04:32,790
+to 1954, it doesn't necessarily mean that he died in 1954,
+
+91
+00:04:32,790 --> 00:04:35,350
+given what we said in the first premise.
+
+92
+00:04:35,350 --> 00:04:38,590
+Those two premises do not lead to that conclusion
+
+93
+00:04:38,590 --> 00:04:40,700
+because the form is invalid.
+
+94
+00:04:40,700 --> 00:04:44,673
+We cannot draw this conclusion from these two premises.
+
+95
+00:04:44,673 --> 00:04:45,854
+So how would we fix it?
+
+96
+00:04:45,854 --> 00:04:49,572
+Well, we'd fix it by changing the argument structure to
+
+97
+00:04:49,572 --> 00:04:53,294
+the right form, and let me show you what that looks like.
+
+98
+00:04:53,294 --> 00:04:56,690
+Here we have the proper argument form.
+
+99
+00:04:56,690 --> 00:05:01,440
+This argument has the same exact first premise.
+
+100
+00:05:01,440 --> 00:05:04,320
+If Alan Turing died in 1954, then he was born in or
+
+101
+00:05:04,320 --> 00:05:05,413
+prior to 1954.
+
+102
+00:05:05,413 --> 00:05:11,051
+Then our second premise says, Alan Turing died in 1954.
+
+103
+00:05:11,051 --> 00:05:12,556
+So we can then conclude,
+
+104
+00:05:12,556 --> 00:05:16,571
+based on what we learned in the first premise, that, therefore,
+
+105
+00:05:16,571 --> 00:05:19,312
+Alan Turing was born in or prior to 1954.
+
+106
+00:05:19,312 --> 00:05:22,081
+Notice what we've done here is we've taken,
+
+107
+00:05:22,081 --> 00:05:25,844
+in the second version of this argument, we've taken the first
+
+108
+00:05:25,844 --> 00:05:29,536
+part of the if statement in the first premise and asserted that
+
+109
+00:05:29,536 --> 00:05:33,015
+as the second premise, and then concluded the second part
+
+110
+00:05:33,015 --> 00:05:36,092
+of the if statement from the first premise, okay?
+
+111
+00:05:36,092 --> 00:05:40,992
+And this is a proper form and you can see how, based on these
+
+112
+00:05:40,992 --> 00:05:46,204
+first two premises, we can conclude that final conclusion.
+
+113
+00:05:46,204 --> 00:05:49,838
+The premises lead to the conclusion based on what's
+
+114
+00:05:49,838 --> 00:05:51,744
+claimed here, all right?
+
+115
+00:05:51,744 --> 00:05:54,624
+And then the one just prior, the one in yellow here,
+
+116
+00:05:54,624 --> 00:05:55,746
+that does not work.
+
+117
+00:05:55,746 --> 00:05:57,724
+That does not happen, all right?
+
+118
+00:05:57,724 --> 00:06:00,358
+I'm gonna very quickly give you the names for these arguments.
+
+119
+00:06:00,358 --> 00:06:04,658
+Logicians have given Latin names to these structures.
+
+120
+00:06:04,658 --> 00:06:07,341
+And I'll give those to you and then later on in the course I'll
+
+121
+00:06:07,341 --> 00:06:09,158
+teach you how to construct these, okay?
+
+122
+00:06:09,158 --> 00:06:12,467
+This last argument here is called the modus ponens
+
+123
+00:06:12,467 --> 00:06:16,830
+argument, a modus ponens argument, the mode of putting.
+
+124
+00:06:16,830 --> 00:06:18,693
+We're asserting something in the second premise.
+
+125
+00:06:18,693 --> 00:06:21,073
+And this is a valid logical form.
+
+126
+00:06:21,073 --> 00:06:24,314
+And you can put any argument into this form and
+
+127
+00:06:24,314 --> 00:06:28,073
+it would be valid, even if the premises were false.
+
+128
+00:06:28,073 --> 00:06:29,313
+Let me say that again.
+
+129
+00:06:29,313 --> 00:06:32,104
+You could put any argument into this form and
+
+130
+00:06:32,104 --> 00:06:35,730
+it would be valid even if the premises were false.
+
+131
+00:06:35,730 --> 00:06:39,332
+The second argument is an invalid form of the modus
+
+132
+00:06:39,332 --> 00:06:42,163
+ponens, and it's called asserting or
+
+133
+00:06:42,163 --> 00:06:45,081
+affirming the consequent fallacy, and
+
+134
+00:06:45,081 --> 00:06:48,370
+we'll learn more about that later on.
+
+135
+00:06:48,370 --> 00:06:51,241
+But this is an invalid form and it's always invalid
+
+136
+00:06:51,241 --> 00:06:54,323
+regardless of what you plug into the premises, okay?
+
+137
+00:06:54,323 --> 00:06:57,652
+So what we're learning here is that the form of the argument
+
+138
+00:06:57,652 --> 00:07:00,125
+matters in helping determine truth value.
+
+139
+00:07:00,125 --> 00:07:03,240
+And the first step in constructing good arguments is
+
+140
+00:07:03,240 --> 00:07:06,225
+to make sure that your argument is in a valid form.
+
+141
+00:07:06,225 --> 00:07:08,983
+I'm gonna teach you some valid forms later on in the course.
+
+142
+00:07:08,983 --> 00:07:13,533
+The lesson right now is just to think about and to look at those
+
+143
+00:07:13,533 --> 00:07:17,205
+forms to make sure that they are properly valid.
+

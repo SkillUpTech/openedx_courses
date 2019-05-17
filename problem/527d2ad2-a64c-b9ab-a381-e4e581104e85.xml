@@ -1,0 +1,12 @@
+<problem display_name="3.Multiple choice" markdown="null" max_attempts="2" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p/>
+    <p>Father Flanagan’s Boys Town is located in Nebraska. Nebraska is located in the United States. So, Boys Town must be located in the United States.<br/></p>
+    <label>Using the intuitive test for validity, decide if the statement above is valid or invalid.<br/></label>
+    <p/>
+    <choicegroup type="MultipleChoice">
+      <choice correct="True">Valid<br/></choice>
+      <choice correct="False">Invalid<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

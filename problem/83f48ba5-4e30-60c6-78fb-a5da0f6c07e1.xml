@@ -1,0 +1,21 @@
+<problem display_name="4.Multiple choice" markdown="null" max_attempts="1" weight="1.0">
+  <multiplechoiceresponse>
+    <p/>
+    <p>Examine this argument:<br/>
+Ed is walking the twelve miles to downtown. He just left five minutes ago. He walks at an ordinary pace. Therefore, probably he has not arrived yet.<br/></p>
+    <label>Does this inductive argument seem to be strong or weak?<br/></label>
+    <p/>
+    <choicegroup type="MultipleChoice">
+      <choice correct="True">Strong<br/></choice>
+      <choice correct="False">Weak<br/></choice>
+    </choicegroup>
+    <p/>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p/>
+        <p>This might seem to be deductive since even the fastest recorded runner could only cover a little over 1 mile in 5 minutes. The reason it is inductive is because Ed could have hopped in a cab or hitched a ride with a friend. We have good reason to believe he walked but it's not certain.<br/></p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

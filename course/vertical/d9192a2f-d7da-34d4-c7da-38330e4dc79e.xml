@@ -1,0 +1,3 @@
+<vertical display_name="Instructions">
+  <lti_consumer url_name="1e301128-758a-b7b8-edcb-b5d4c8b2c330" xblock-family="xblock.v1" display_name="Instructions" ask_to_send_username="true" ask_to_send_email="true" custom_parameters="[&#10;  &quot;version=2019_T1&quot;&#10;]" lti_id="microsoft" launch_url="https://api.prod.mlxma.microsoft.com/api/v1.0/lti"/>
+</vertical>

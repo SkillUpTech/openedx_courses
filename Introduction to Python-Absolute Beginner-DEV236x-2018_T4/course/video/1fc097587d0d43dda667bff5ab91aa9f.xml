@@ -1,8 +1,0 @@
-<video youtube="1.00:YLS7-ZY9HOE" url_name="1fc097587d0d43dda667bff5ab91aa9f" display_name="user input" download_track="true" download_video="true" edx_video_id="1b0234fa-b13e-486a-ba68-c55a1de9d98c" html5_sources="[]" sub="" transcripts="{&quot;en&quot;: &quot;1b0234fa-b13e-486a-ba68-c55a1de9d98c-en.srt&quot;}" youtube_id_1_0="YLS7-ZY9HOE">
-  <transcript language="en" src="1b0234fa-b13e-486a-ba68-c55a1de9d98c-en.srt"/>
-  <video_asset client_video_id="Unit1_Section2-1-input-basic.mp4" duration="96.7">
-    <encoded_video bitrate="122" file_size="1482503" profile="mobile_low" url="https://d2f1egay8yehza.cloudfront.net/MSXIPU1X2017-V001300_MB2.mp4"/>
-    <encoded_video bitrate="238" file_size="2881472" profile="desktop_mp4" url="https://d2f1egay8yehza.cloudfront.net/MSXIPU1X2017-V001300_DTH.mp4"/>
-    <encoded_video bitrate="0" file_size="0" profile="youtube" url="YLS7-ZY9HOE"/>
-  </video_asset>
-</video>

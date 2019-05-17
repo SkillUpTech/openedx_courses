@@ -1,0 +1,12 @@
+<problem display_name="39. Multiple Choice" markdown="Classify the statement below as A, E, I, or O.&#10;&#10;&gt;&gt;Some flashlights are hand-powered.&lt;&lt;&#10;&#10;( ) A (Universal Affirmative)&#10;&#10;( ) E (Universal Negative)&#10;&#10;(x) I (Particular Affirmative)&#10;&#10;( ) O (Particular Negative)&#10;" max_attempts="1" showanswer="never" weight="2.0">
+  <multiplechoiceresponse>
+    <p>Classify the statement below as A, E, I, or O.</p>
+    <label>Some flashlights are hand-powered.</label>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">A (Universal Affirmative)</choice>
+      <choice correct="false">E (Universal Negative)</choice>
+      <choice correct="true">I (Particular Affirmative)</choice>
+      <choice correct="false">O (Particular Negative)</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

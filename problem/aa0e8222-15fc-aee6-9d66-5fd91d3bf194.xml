@@ -1,0 +1,12 @@
+<problem display_name="4.Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p/>
+    <p>Listening to loud music always ruins your hearing. Joe is hard of hearing. Therefore, Joe must have been listening to loud music.<br/></p>
+    <label>Using the intuitive test for validity, decide if the statement above is valid or invalid.<br/></label>
+    <p/>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">Valid<br/></choice>
+      <choice correct="True">Invalid<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

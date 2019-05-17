@@ -1,0 +1,376 @@
+0
+00:00:01,050 --> 00:00:04,060
+In a previous lesson we introduced to you
+
+1
+00:00:04,060 --> 00:00:05,740
+conditional statements.
+
+2
+00:00:05,740 --> 00:00:10,251
+A conditional operator joins two simple statements by the phrase
+
+3
+00:00:10,251 --> 00:00:11,158
+if and then.
+
+4
+00:00:11,158 --> 00:00:12,606
+And I wanna spend a little bit more
+
+5
+00:00:12,606 --> 00:00:15,404
+time talking about conditional statements because they're so
+
+6
+00:00:15,404 --> 00:00:18,400
+important in constructing logical arguments.
+
+7
+00:00:18,400 --> 00:00:21,470
+As I said, a conditional statement has the structure
+
+8
+00:00:21,470 --> 00:00:22,450
+if then.
+
+9
+00:00:22,450 --> 00:00:26,540
+If simple statement, then another simple statement.
+
+10
+00:00:26,540 --> 00:00:29,230
+And when we construct these conditional statements,
+
+11
+00:00:29,230 --> 00:00:34,880
+these conditional sentences, what we're doing is portraying
+
+12
+00:00:34,880 --> 00:00:39,410
+a relationship between the antecedent which follows the if
+
+13
+00:00:39,410 --> 00:00:42,990
+and the consequent which follows the then, right?
+
+14
+00:00:42,990 --> 00:00:47,360
+Conditional statements in and of themselves are not arguments.
+
+15
+00:00:47,360 --> 00:00:48,630
+They are part of an argument.
+
+16
+00:00:48,630 --> 00:00:52,070
+We can use them as a premise in an overall argument.
+
+17
+00:00:52,070 --> 00:00:54,050
+They're not arguments themselves.
+
+18
+00:00:54,050 --> 00:00:57,273
+And what conditional statements do is set up
+
+19
+00:00:57,273 --> 00:01:00,060
+a relationship that we can analyze and
+
+20
+00:01:00,060 --> 00:01:04,342
+then use to determine truth value of an overall argument.
+
+21
+00:01:04,342 --> 00:01:06,360
+Let me give you an example, all right?
+
+22
+00:01:06,360 --> 00:01:09,370
+So the relationship then that exists between the antecedent
+
+23
+00:01:09,370 --> 00:01:12,960
+and the consequent can be used to set up your argument.
+
+24
+00:01:12,960 --> 00:01:16,910
+So if we have a premise like this, this is a conditional,
+
+25
+00:01:16,910 --> 00:01:19,640
+which we just looked at, it's an if then structure.
+
+26
+00:01:19,640 --> 00:01:22,330
+If iron is less dense than mercury,
+
+27
+00:01:22,330 --> 00:01:24,350
+then it will float in water.
+
+28
+00:01:24,350 --> 00:01:25,300
+What does this tell us?
+
+29
+00:01:25,300 --> 00:01:28,740
+Well it tells us something very specific about the relationship
+
+30
+00:01:28,740 --> 00:01:31,700
+between the density of mercury and whether it will
+
+31
+00:01:31,700 --> 00:01:34,670
+float in water and the density of the water, all right?
+
+32
+00:01:34,670 --> 00:01:36,300
+We can then make a second premise,
+
+33
+00:01:36,300 --> 00:01:39,110
+iron is actually less dense than mercury.
+
+34
+00:01:39,110 --> 00:01:43,528
+And we can conclude, therefore it will float in water, right?
+
+35
+00:01:43,528 --> 00:01:46,772
+So this relationship is determined
+
+36
+00:01:46,772 --> 00:01:51,220
+by this conditional in the first premise.
+
+37
+00:01:51,220 --> 00:01:56,450
+What this tells us is, if iron as an element is less
+
+38
+00:01:56,450 --> 00:02:01,210
+dense than mercury, then it must be true that it floats in water.
+
+39
+00:02:01,210 --> 00:02:03,400
+That's what the first premise tells us.
+
+40
+00:02:03,400 --> 00:02:05,912
+It doesn't tell us that that's actually true.
+
+41
+00:02:05,912 --> 00:02:08,870
+What it's saying, though, is that this is the condition that
+
+42
+00:02:08,870 --> 00:02:11,830
+must follow if iron is less dense than mercury.
+
+43
+00:02:11,830 --> 00:02:14,480
+Namely, it will float in water.
+
+44
+00:02:14,480 --> 00:02:18,580
+Right, so it sets up the condition for our conclusion,
+
+45
+00:02:18,580 --> 00:02:20,830
+for what must be true in the conclusion.
+
+46
+00:02:20,830 --> 00:02:23,590
+All right, here's another example.
+
+47
+00:02:23,590 --> 00:02:26,029
+This is something we saw earlier.
+
+48
+00:02:26,029 --> 00:02:29,368
+If Alan Turing died in 1954, then he was born in or
+
+49
+00:02:29,368 --> 00:02:33,524
+prior to 1954, so I can promise Alan Turing died in 1954,
+
+50
+00:02:33,524 --> 00:02:36,585
+therefore, he was born in or prior to 1954.
+
+51
+00:02:36,585 --> 00:02:42,073
+What we have here, in the first premise, in the conditional
+
+52
+00:02:42,073 --> 00:02:46,272
+is the relationship between the antecedent,
+
+53
+00:02:46,272 --> 00:02:51,762
+Alan Turing died in 1954 and its subsequent consequence
+
+54
+00:02:51,762 --> 00:02:56,840
+about what must be true if Alan Turing died in 1954.
+
+55
+00:02:56,840 --> 00:03:00,668
+And that relationship is an expression of what are called
+
+56
+00:03:00,668 --> 00:03:04,257
+necessary and sufficient conditions, necessary or
+
+57
+00:03:04,257 --> 00:03:06,823
+sufficient conditions, all right?
+
+58
+00:03:06,823 --> 00:03:10,220
+A necessary condition, very simply, is what must be true.
+
+59
+00:03:10,220 --> 00:03:11,803
+It's what is necessary.
+
+60
+00:03:11,803 --> 00:03:15,082
+And we can also say what is necessary or impossible.
+
+61
+00:03:15,082 --> 00:03:17,929
+A sufficient condition is what could be true,
+
+62
+00:03:17,929 --> 00:03:19,464
+what's possibly true.
+
+63
+00:03:19,464 --> 00:03:23,942
+Now, let's look at this again with these ideas in mind.
+
+64
+00:03:23,942 --> 00:03:29,550
+All right, Alan Turing dying in 1954 is a possible scenario.
+
+65
+00:03:29,550 --> 00:03:30,710
+It's what could be true.
+
+66
+00:03:31,920 --> 00:03:33,940
+But what we're claiming is that if, in fact,
+
+67
+00:03:33,940 --> 00:03:37,990
+that is true, the consequent, he was born in or
+
+68
+00:03:37,990 --> 00:03:43,000
+prior to 1954 must follow with logical necessity.
+
+69
+00:03:43,000 --> 00:03:46,560
+Put another way, what we're claiming in the first premise
+
+70
+00:03:46,560 --> 00:03:48,192
+is if the antecedent is true,
+
+71
+00:03:48,192 --> 00:03:52,470
+it's impossible that the consequent be false.
+
+72
+00:03:52,470 --> 00:03:54,660
+That's what the necessary condition is.
+
+73
+00:03:54,660 --> 00:03:59,500
+So the consequent always states the necessary condition.
+
+74
+00:03:59,500 --> 00:04:02,890
+The antecedent always states the sufficient or
+
+75
+00:04:02,890 --> 00:04:03,910
+the possible condition.
+
+76
+00:04:05,030 --> 00:04:09,470
+That's why, in the second premise, if we do in fact assert
+
+77
+00:04:09,470 --> 00:04:11,980
+Alan Turing died in 1954, if we make that claim as
+
+78
+00:04:11,980 --> 00:04:15,370
+actually true, that's what we're doing in the second premise.
+
+79
+00:04:15,370 --> 00:04:18,070
+It has to follow with logical necessity
+
+80
+00:04:18,070 --> 00:04:22,750
+that Alan Turing was born in or prior to 1954.
+
+81
+00:04:22,750 --> 00:04:26,180
+Because the first premise tells us
+
+82
+00:04:26,180 --> 00:04:30,250
+the consequent must be true if the antecedent is true.
+
+83
+00:04:30,250 --> 00:04:33,100
+And that's how conditionals work.
+
+84
+00:04:33,100 --> 00:04:36,770
+They state necessary and sufficient conditions and it
+
+85
+00:04:36,770 --> 00:04:40,270
+helps us actually with defining what must be true in the world.
+
+86
+00:04:40,270 --> 00:04:43,240
+So for example, you can ask what must be true for
+
+87
+00:04:43,240 --> 00:04:45,270
+a thing to be a human being?
+
+88
+00:04:45,270 --> 00:04:47,490
+Or what must be true for
+
+89
+00:04:47,490 --> 00:04:51,710
+a certain condition to take place, right?
+
+90
+00:04:51,710 --> 00:04:55,710
+You can state those in terms of conditionals.
+
+91
+00:04:55,710 --> 00:04:58,860
+And then you can say if the antecedent is true,
+
+92
+00:04:58,860 --> 00:05:01,060
+the consequent must follow.
+
+93
+00:05:01,060 --> 00:05:04,076
+And that's the magic, that's the importance of conditionals.
+

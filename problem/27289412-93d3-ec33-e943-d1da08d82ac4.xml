@@ -1,0 +1,10 @@
+<problem display_name="1.Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p/>
+    <p>A burglar broke into the Gotrocks home and stole the family jewels. Witnesses reported seeing an unusually tall man with long, red hair and a long, red beard running from the residence at about the time of the burglary. Joe Blow’s fingerprints were found at the scene of the crime. Hair matching Joe’s hair was found at the crime scene. Joe Blow is unusually tall and has long, red hair and a long, red beard. The day after the crime, Joe tried to hawk the Gotrocks jewels at the local pawn shop, claiming he found them in the street. Since no other suspects fit the evidence, the best explanation is that Joe is the burglar. It is therefore very likely Joe is the burglar.<br/></p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="True">Inductive Argument<br/></choice>
+      <choice correct="False">Deductive Argument<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

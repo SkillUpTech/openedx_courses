@@ -1,0 +1,20 @@
+<problem display_name="2.Multiple choice" markdown="null" max_attempts="1" weight="1.0">
+  <multiplechoiceresponse>
+    <p/>
+    <p>Examine this argument:<br/>
+Exercising daily helps prevent heart attacks. Don exercises daily. Therefore, Don will probably never suffer a heart attack.<br/></p>
+    <label>Does this inductive argument seem to be strong or weak?<br/></label>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">Strong<br/></choice>
+      <choice correct="True">Weak<br/></choice>
+    </choicegroup>
+    <p/>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p/>
+        <p>This is weak because there are a lot of other factors that would need to be considered before one can determine whether Don is a heart attack candidate. One data point generally is not sufficient to determine the probability that a conclusion is true. More importantly, there is a logical disconnect between the concept of "prevention" and Don "never" suffering a heart attack. Prevention is a relatively weak concept and never is an absolute concept. The former doesn't support the latter inductively.<br/></p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

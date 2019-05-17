@@ -1,9 +1,0 @@
-<problem display_name="Question 1  " markdown="&lt;p&gt;For the code: &lt;code&gt;x = 3 + 9 * 2&lt;/code&gt;, the value of &lt;strong&gt;x is 21&lt;/strong&gt; when applying order of operations&lt;/p&gt;&#10;&#10;&#10;(x) True&#10;( ) False&#10;" max_attempts="1" showanswer="never" weight="1.0">
-  <multiplechoiceresponse>
-    <p>For the code: <code>x = 3 + 9 * 2</code>, the value of <strong>x is 21</strong> when applying order of operations</p>
-    <choicegroup type="MultipleChoice">
-      <choice correct="true">True</choice>
-      <choice correct="false">False</choice>
-    </choicegroup>
-  </multiplechoiceresponse>
-</problem>

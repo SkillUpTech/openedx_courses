@@ -1,0 +1,12 @@
+<problem display_name="18. Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="2.0">
+  <multiplechoiceresponse>
+    <p>The only combination that you will <em>never</em> find in a strong inductive argument is<br/></p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">true premises and a false conclusion<br/></choice>
+      <choice correct="False">true premises and a true conclusion<br/></choice>
+      <choice correct="False">false premises and a false conclusion<br/></choice>
+      <choice correct="False">false premises and a true conclusion<br/></choice>
+      <choice correct="True">none of the above, for any combination is possible<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

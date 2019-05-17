@@ -1,8 +1,0 @@
-<video youtube="1.00:zJeIx_vO0OY" url_name="b4f87284e0874d9587f4c80affbe5506" display_name="Escape Sequences" download_track="true" download_video="true" edx_video_id="51f6e9c1-0eca-4810-8fea-e48b9479f6ba" html5_sources="[]" sub="" transcripts="{&quot;en&quot;: &quot;51f6e9c1-0eca-4810-8fea-e48b9479f6ba-en.srt&quot;}" youtube_id_1_0="zJeIx_vO0OY">
-  <transcript language="en" src="51f6e9c1-0eca-4810-8fea-e48b9479f6ba-en.srt"/>
-  <video_asset client_video_id="Unit1_Section6.2-Escape-Sequences.mp4" duration="129.47">
-    <encoded_video bitrate="150" file_size="2441946" profile="mobile_low" url="https://d2f1egay8yehza.cloudfront.net/MSXIPU1X2017-V004200_MB2.mp4"/>
-    <encoded_video bitrate="205" file_size="3325026" profile="desktop_mp4" url="https://d2f1egay8yehza.cloudfront.net/MSXIPU1X2017-V004200_DTH.mp4"/>
-    <encoded_video bitrate="0" file_size="0" profile="youtube" url="zJeIx_vO0OY"/>
-  </video_asset>
-</video>

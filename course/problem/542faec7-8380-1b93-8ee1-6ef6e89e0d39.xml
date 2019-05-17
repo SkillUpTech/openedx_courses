@@ -1,0 +1,14 @@
+<problem display_name="2.Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p/>
+    <p>Classify the statement below as A, E, I, or O.<br/></p>
+    <label>No Athenian citizens are Spartans.<br/></label>
+    <p/>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">A (Universal Affirmative)<br/></choice>
+      <choice correct="True">E (Universal Negative)<br/></choice>
+      <choice correct="False">I (Particular Affirmative)<br/></choice>
+      <choice correct="False">O (Particular Negative)<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

@@ -1,0 +1,9 @@
+<video youtube="1.00:pJ6n0li3388" url_name="c36df49b-475d-adc8-4dea-5d866ccca9ae" display_name="" download_track="true" download_video="true" edx_video_id="04dd59cb-f541-4b36-8141-70e4a6e7514a" html5_sources="[&quot;https://d2f1egay8yehza.cloudfront.net/MSXLCTXX2017-V001600_DTH.mp4&quot;]" show_captions="true" sub="" transcripts="{&quot;en&quot;: &quot;04dd59cb-f541-4b36-8141-70e4a6e7514a-en.srt&quot;}" youtube_id_0_75="" youtube_id_1_0="pJ6n0li3388" youtube_id_1_25="" youtube_id_1_5="">
+  <source src="https://d2f1egay8yehza.cloudfront.net/MSXLCTXX2017-V001600_DTH.mp4"/>
+  <transcript language="en" src="04dd59cb-f541-4b36-8141-70e4a6e7514a-en.srt"/>
+  <video_asset client_video_id="truthtable2.mp4" duration="705.68">
+    <encoded_video bitrate="0" file_size="0" profile="youtube" url="pJ6n0li3388"/>
+    <encoded_video bitrate="159" file_size="14110439" profile="mobile_low" url="https://d2f1egay8yehza.cloudfront.net/MSXLCTXX2017-V001600_MB2.mp4"/>
+    <encoded_video bitrate="162" file_size="14304305" profile="desktop_mp4" url="https://d2f1egay8yehza.cloudfront.net/MSXLCTXX2017-V001600_DTH.mp4"/>
+  </video_asset>
+</video>

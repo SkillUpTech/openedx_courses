@@ -1,0 +1,12 @@
+<problem display_name="8.Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p/>
+    <p>When a nonmetallic element forms more than one oxide, the oxide containing the most oxygen gives the strongest acid. Sulfur is a nonmetallic element and forms two oxides: sulfuric and sulfurous acid. Sulfuric acid contains more oxygen than sulfurous acid. Therefore, sulfuric acid is certainly stronger than sulfurous acid.<br/></p>
+    <label>Using the intuitive test for validity, decide if the statement above is valid or invalid.<br/></label>
+    <p/>
+    <choicegroup type="MultipleChoice">
+      <choice correct="True">Valid<br/></choice>
+      <choice correct="False">Invalid<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

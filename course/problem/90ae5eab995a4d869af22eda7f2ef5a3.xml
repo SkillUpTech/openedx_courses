@@ -1,0 +1,11 @@
+<problem display_name="41. Multiple Choice" markdown="Use a Venn diagram to test the argument below for validity. &#10;&#10;No logicians are musicians. All musicians are artists. Consequently, no artists are logicians.&#10;&#10;&gt;&gt;According to the Venn diagram, is this argument valid or invalid?&lt;&lt;&#10;&#10;( ) Valid&#10;&#10;(x) Invalid" max_attempts="1" showanswer="never" weight="2.0">
+  <multiplechoiceresponse>
+    <p>Use a Venn diagram to test the argument below for validity. </p>
+    <p>No logicians are musicians. All musicians are artists. Consequently, no artists are logicians.</p>
+    <label>According to the Venn diagram, is this argument valid or invalid?</label>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">Valid</choice>
+      <choice correct="true">Invalid</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

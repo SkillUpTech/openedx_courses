@@ -1,0 +1,14 @@
+<problem display_name="15. Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="2.0">
+  <multiplechoiceresponse>
+    <p>Examine the following argument:<br/>
+<ol><li>If Amber jogs today, then Barbara jogs today.</li><li>If Barbara jogs today, then Ned jogs today.</li><li>Therefore, if Amber jogs today, then Ned jogs today.</li></ol>
+Identify the argument above as an instance of one of the following forms. (Choose one)<br/></p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">Modus Ponens<br/></choice>
+      <choice correct="False">Modus Tollens<br/></choice>
+      <choice correct="False">Disjunctive Syllogism<br/></choice>
+      <choice correct="True">Hypothetical Syllogism<br/></choice>
+      <choice correct="False">None<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

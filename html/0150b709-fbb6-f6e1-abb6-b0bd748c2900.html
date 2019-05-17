@@ -1,0 +1,93 @@
+<p>
+<script src="http://openbox-ficus.cloudapp.net:18010/asset-v1:Microsoft+DEV262x+3T2017+type@asset+block@prism.js"></script>
+</p>
+<p>This property of conditionals define what logicians call <strong>necessary and sufficient conditions</strong>. The necessary condition is what must be true or what is necessary. The sufficient condition tells us what could be true or one <em>possible</em> condition that can bring about the consequent. In other words, the antecedent is <em>sufficient</em> to bring about the consequent but other conditions can as well. For example, consider the following conditional:</p>
+<p>If Alan Turing died in 1954, then he was born in or prior to 1954.</p>
+<p>The sufficient condition--the antecedent--is: Alan Turing died in 1954. <em>If</em> that's true, then it must be true, it's necessarily true, that Alan Turing was born in or prior to 1954--the consequent. This is why we generally use conditionals to define terms or state what is necessarily true of something. What about this conditional:</p>
+<p>If S is a human, then S is . . .</p>
+<p>How would you fill in the consequent? What is necessarily true for something to be human? Does it have to have brown hair? What about being female or over the age of 30? Those don't seem to be necessary conditions for being human. Think about what is necessary and when you come up with that list (which probably is going to be conjunction compound statement), you have your basic definition of "human."</p>
+<h2 id="conditionals-and-truth-conditions">Conditionals and truth conditions</h2>
+<p>A conditional is false only if the antecedent is true but the consequent is false. Under all other truth conditions, we say the conditional is true. To understand why, let's take a look at all the possible truth conditions for a conditional statement.</p>
+<table>
+<thead>
+<tr><th>Truth Conditions</th><th>Example</th><th>Conditional as a whole</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>antecedent is true; consequent is true</td>
+<td>If a byte is 8 bits, then a byte is greater than 7 bits</td>
+<td>True</td>
+</tr>
+<tr>
+<td>antecedent true; consequent false</td>
+<td>If byte is 8 bits, then a byte is greater than 9 bits</td>
+<td>False</td>
+</tr>
+</tbody>
+</table>
+<p>Why the truth condition of the conditional is true in the first example and false in the second should be intuitively clear--this is how we understand how an if-then statement works in English grammar. But what about these:</p>
+<table>
+<thead>
+<tr><th>Truth Conditions</th><th>Example</th><th>Conditional as a whole</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>antecedent is false; consequent is true</td>
+<td>If byte is 7 bits, then a byte is greater than 7 bits</td>
+<td>True</td>
+</tr>
+<tr>
+<td>antecedent is false; consequent is false</td>
+<td>If a byte is 7 bits, then a byte is greater than 10 bits</td>
+<td>True</td>
+</tr>
+</tbody>
+</table>
+<p>In order to understand why the conditional as a whole is true in these cases, we have to go back to the idea of the truth <em>function</em> of compound statements we saw in an earlier lesson. Truth function tells that the compound statement as a whole is a <em>function</em> of the truth value of its "inputs" or the simple statements that make it up. The statement as a whole is false only if the function "fails" or doesn't "accomplish" the goal of the function of the operator. Since the conditional tells us that if the input of the antecedent is true then the input of the consequent also must be true, the conditional "function" only fails if this turns out not to be the case. In all other cases, the function has not failed because the fail condition has not been met so the conditional can be considered true.</p>
+<h4>Okay, But That Doesn't Really Make Sense</h4>
+<p>If that's what you're thinking, here's a metaphor to help explain how this works:</p>
+<p>Suppose you design an airport security system to detect necessary conditions. You design the system so that when a person passes through the security system carrying a cupcake, the security system states a fact about Alan Turing. As a security expert, the only thing you care about is that when a cupcake is brought through the screening area, the system must state something true about Alan Turing. You care only about that case as a whole. You don't care about it detecting cupcakes only; you care about it stating true facts about Turing when a cupcake is brought through. In all other cases, you don't care--the system can state any fact it wishes, true or false. Put another way, the system fails to function properly only if someone brings a cupcake through the screen and the system makes a false statement about Alan Turing.</p>
+<p>So the conditional would be: if cupcake, then true fact about Alan Turning. The "carrying a cupcake" is like a true antecedent and the "truth about Alan Turing" is like a true consequent.</p>
+<p><strong>Case 1</strong> (antecedent is false; consequent is true): So let's suppose a person walks through the screen carrying a cookie. As the person passes through, the system says, "Alan Turing was born in 1912". The system happened to state a true fact about Turing but it doesn't matter because a person carried a cookie through the system. Since the person was not carrying a cupcake, the system can say anything it wants about Turing so the system is working properly in this case.</p>
+<p><strong>Case 2</strong> (antecedent is false; consequent is false): A person walks through carrying a banana and the system states, "Alan Turing died by consuming Nightshade." In this scenario, the system stated something false about Turing but because the person was carrying a banana, it doesn't matter. The system was working as expected because on a false antecedent (anything other than a cupcake), the system can say anything it wants.</p>
+<p><strong>Case 3</strong> (antecedent is true; consequent is true): A person walks through the screen carrying a cupcake and the system states, "Alan Turing worked at the National Physical Laboratory". Here we have our condition met in the antecedent and the system stated a true fact about Turing. So the system is working.</p>
+<p><strong>Case 4</strong> (antecedent is true; consequent is false): A person walks through with a cupcake, and the system states, "Alan Turing, studied at Oxford University." We have the condition in the antecedent that we're looking for but the system made a false statement about Turing. So the system is not working as we want it to--it failed to function properly based on what we want it to do.</p>
+<p>This illustrates the idea of a "truth function." The conditional has to be taken as a whole and fails only under one scenario. In all other scenarios, we say the conditional "works" or is true.</p>
+<p>Here's a computer program (written in pseudo code) that illustrates what's going on. For the inputs to the function, let's suppose that we can only pass in a 1 or a 0 and a 1 represents true for the simple statement and 0 represents false.</p>
+<pre><code>Function WhatsTheTruthValue (a,b)
+{
+    if (a &gt; 0){
+        var t = 3*b;
+        if (t === 0){
+         print "function crashed";
+         return; 
+        }
+    }
+    print "function works";  
+}
+</code></pre>
+<p>In this program, we pass values (either 1s or 0s) into the function and the function attempts to multiply 3 by the value of b. If that operation produces a value of 0, the function prints "function crashed" to the screen and doesn't go any further. Otherwise it prints "function works" to the screen. Now let's look at all the possible operations of this function.</p>
+<table>
+<thead>
+<tr><th>Inputs</th><th>Function outputs</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>a = 1; b = 1</td>
+<td>"function works"</td>
+</tr>
+<tr>
+<td>a = 1; b = 0</td>
+<td>"function crashed"</td>
+</tr>
+<tr>
+<td>a = 0; b = 1</td>
+<td>"function works"</td>
+</tr>
+<tr>
+<td>a = 0; b = 0</td>
+<td>"function works"</td>
+</tr>
+</tbody>
+</table>
+<p>Because our function only multiply 3 by the value of b <em>when</em> a is 1, that's the only condition when it can possibly crash. So it crashes when only one condition is true: a is 1 (true) and b is 0 (false) causing the division operator to produce a value of 0. The important part here is that the output is a product of the inputs, outputs and the operation of the function <em>as a whole</em>.</p>

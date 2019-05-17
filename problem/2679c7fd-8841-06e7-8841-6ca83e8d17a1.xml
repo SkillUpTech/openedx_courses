@@ -1,0 +1,14 @@
+<problem display_name="2.Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p>Consider this colloquial (common) statement:<br/>
+"Olives are a good source of cooking oil"<br/></p>
+    <label>Which one of the following is the proper translation of the above statement into <strong>standard A form</strong><br/></label>
+    <p/>
+    <choicegroup type="MultipleChoice">
+      <choice correct="True">All olives are things that are a good source of cooking oil<br/></choice>
+      <choice correct="False">All olives are used for cooking oil<br/></choice>
+      <choice correct="False">Olives are things used in cooking<br/></choice>
+      <choice correct="False">An olive is a good source of cooking oil<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

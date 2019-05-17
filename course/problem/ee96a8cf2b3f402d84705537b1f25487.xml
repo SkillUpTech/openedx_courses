@@ -1,0 +1,11 @@
+<problem display_name="40. Multiple Choice" markdown="Use a Venn diagram to test the argument below for validity. &#10;&#10;Some politicians are idealistic persons. No idealistic persons are scientists. So, some scientists are not politicians.&#10;&#10;&gt;&gt;According to the Venn diagram, is this argument valid or invalid?&lt;&lt;&#10;&#10;( ) Valid&#10;&#10;(x) Invalid" max_attempts="1" showanswer="never" weight="2.0">
+  <multiplechoiceresponse>
+    <p>Use a Venn diagram to test the argument below for validity. </p>
+    <p>Some politicians are idealistic persons. No idealistic persons are scientists. So, some scientists are not politicians.</p>
+    <label>According to the Venn diagram, is this argument valid or invalid?</label>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">Valid</choice>
+      <choice correct="true">Invalid</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

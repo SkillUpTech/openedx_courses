@@ -1,0 +1,472 @@
+0
+00:00:00,030 --> 00:00:02,090
+In this video I'm going to walk you through
+
+1
+00:00:02,140 --> 00:00:05,040
+using Venn diagrams to test two
+
+2
+00:00:05,070 --> 00:00:08,130
+arguments for validity. So I've got
+
+3
+00:00:08,180 --> 00:00:09,120
+a couple arguments that we're going to
+
+4
+00:00:09,170 --> 00:00:10,950
+look at we'll start obviously with this
+
+5
+00:00:11,010 --> 00:00:13,200
+first one here that's on screen and to
+
+6
+00:00:13,250 --> 00:00:15,040
+begin we're going to draw our diagram
+
+7
+00:00:15,080 --> 00:00:18,270
+we're going to draw three overlapping circles to begin
+
+8
+00:00:18,320 --> 00:00:20,600
+the process of testing these arguments
+
+9
+00:00:20,650 --> 00:00:25,140
+for validity. And as we look at the--
+
+10
+00:00:25,170 --> 00:00:26,490
+argument we need to indicate
+
+11
+00:00:26,530 --> 00:00:28,740
+which circles represent which terms so
+
+12
+00:00:28,800 --> 00:00:30,260
+we're going to start with the second term
+
+13
+00:00:30,320 --> 00:00:32,750
+in the conclusion first and we indicate
+
+14
+00:00:32,800 --> 00:00:35,940
+that on the lower right circle, so we'll
+
+15
+00:00:35,970 --> 00:00:38,670
+put our poets, P there for poets
+
+16
+00:00:38,720 --> 00:00:40,370
+and then we use the middle term which shows
+
+17
+00:00:40,400 --> 00:00:43,530
+up in the second premise in the
+
+18
+00:00:43,570 --> 00:00:46,050
+conclusion and so we'll put logicians
+
+19
+00:00:46,090 --> 00:00:48,570
+here in the bottom right and then our
+
+20
+00:00:48,600 --> 00:00:51,620
+our first term the scientists we're
+
+21
+00:00:51,660 --> 00:00:53,890
+going to indicate on the top circle here.
+
+22
+00:00:53,950 --> 00:00:55,820
+Alright now we've got all of our
+
+23
+00:00:55,860 --> 00:00:57,000
+circles and they're labeled
+
+24
+00:00:57,030 --> 00:00:58,640
+appropriately so we want to start to
+
+25
+00:00:58,690 --> 00:01:00,980
+look at the argument and fill in
+
+26
+00:01:01,030 --> 00:01:04,000
+and represent those premises in the diagram itself.
+
+27
+00:01:04,088 --> 00:01:06,960
+So we'll start with the universal
+
+28
+00:01:07,020 --> 00:01:08,820
+statement so out of the two premises the
+
+29
+00:01:08,870 --> 00:01:10,560
+first premise obviously is the universal
+
+30
+00:01:10,620 --> 00:01:12,930
+statement, No scientists are poets and we
+
+31
+00:01:12,990 --> 00:01:14,490
+need to fill then and we'll look at the
+
+32
+00:01:14,550 --> 00:01:17,310
+areas in this on the both circles where
+
+33
+00:01:17,360 --> 00:01:20,100
+scientists and poets overlap
+
+34
+00:01:20,150 --> 00:01:21,720
+and remember we're going to fill in areas
+
+35
+00:01:21,780 --> 00:01:24,390
+for negative statements. So since it says
+
+36
+00:01:24,460 --> 00:01:26,750
+no scientists are poets, we're going to color
+
+37
+00:01:26,800 --> 00:01:29,340
+in this area here where the two overlap
+
+38
+00:01:29,390 --> 00:01:32,250
+which indicates that this is a null area
+
+39
+00:01:32,310 --> 00:01:35,400
+and Not this represent also no or not statement.
+
+40
+00:01:35,440 --> 00:01:37,360
+So this essentially says that
+
+41
+00:01:37,410 --> 00:01:39,420
+the area between scientists and poets
+
+42
+00:01:39,460 --> 00:01:41,340
+indicates that there's nothing in that
+
+43
+00:01:41,390 --> 00:01:44,150
+space, it's a null area and so that represents
+
+44
+00:01:44,210 --> 00:01:47,360
+that universal not statement.
+
+45
+00:01:47,400 --> 00:01:50,000
+And then the second premise is obviously a
+
+46
+00:01:50,050 --> 00:01:52,110
+particular statement says some
+
+47
+00:01:52,140 --> 00:01:53,850
+scientists are logicians remember some
+
+48
+00:01:53,890 --> 00:01:56,460
+means at least one, so we're going to put
+
+49
+00:01:56,490 --> 00:01:59,640
+an X in the area between the circle for
+
+50
+00:01:59,680 --> 00:02:01,220
+scientists in the circle for logicians,
+
+51
+00:02:01,270 --> 00:02:04,860
+and we'll put that X right there. So now
+
+52
+00:02:04,900 --> 00:02:07,320
+we have our two premises represented into
+
+53
+00:02:07,350 --> 00:02:09,810
+test the argument for validity we
+
+54
+00:02:09,860 --> 00:02:11,580
+have to look at the conclusion and see
+
+55
+00:02:11,620 --> 00:02:16,640
+if the Venn diagram does adequately
+
+56
+00:02:16,680 --> 00:02:19,220
+represent the conclusion, so our
+
+57
+00:02:19,260 --> 00:02:20,970
+conclusion is somewhat logicians are not
+
+58
+00:02:21,020 --> 00:02:22,860
+poets and so we're going to look at the
+
+59
+00:02:22,910 --> 00:02:25,140
+area between logicians and poets the
+
+60
+00:02:25,190 --> 00:02:27,330
+circles were those over the areas of the
+
+61
+00:02:27,360 --> 00:02:29,450
+circles were those overlap. And we can
+
+62
+00:02:29,510 --> 00:02:30,780
+see that we're going to focus on this
+
+63
+00:02:30,810 --> 00:02:34,110
+area here. Now the conclusion says some
+
+64
+00:02:34,150 --> 00:02:36,420
+logicians are not poets and you can see
+
+65
+00:02:36,460 --> 00:02:38,990
+that in that area that we write circled
+
+66
+00:02:39,020 --> 00:02:41,430
+here in green there is half of that area
+
+67
+00:02:41,480 --> 00:02:44,700
+where that's nulled out. So that does it
+
+68
+00:02:44,760 --> 00:02:47,040
+seem to indicate that the conclusion
+
+69
+00:02:47,100 --> 00:02:49,950
+is true, some logicians are not poets.
+
+70
+00:02:50,020 --> 00:02:53,310
+So based on the diagram we've now validated
+
+71
+00:02:53,350 --> 00:02:55,480
+that this is a valid argument
+
+72
+00:02:55,520 --> 00:02:58,680
+and so the Venn diagram has shown us
+
+73
+00:02:58,740 --> 00:03:01,980
+that this is valid. Okay, and we did that
+
+74
+00:03:02,020 --> 00:03:06,470
+simply by filling in the areas for the premises on our diagram
+
+75
+00:03:06,750 --> 00:03:09,600
+and then looking at the conclusion and hence we've conclusion is
+
+76
+00:03:09,730 --> 00:03:11,140
+represented by that diagram.
+
+77
+00:03:12,370 --> 00:03:16,700
+Okay! Now, let's look at our second one, Some actors are sculptors.
+
+78
+00:03:17,120 --> 00:03:19,020
+Some poets are not actors.
+
+79
+00:03:19,490 --> 00:03:22,150
+So, some poets are not sculptors, so let's go ahead
+
+80
+00:03:22,260 --> 00:03:24,270
+and start by creating our circles again.
+
+81
+00:03:25,030 --> 00:03:29,530
+And we'll go ahead and label those as well. We'll start with sculptors
+
+82
+00:03:29,640 --> 00:03:34,990
+here, put that down in the lower-- the lower right
+
+83
+00:03:35,480 --> 00:03:38,860
+and we'll put poets here in the lower left
+
+84
+00:03:39,360 --> 00:03:43,140
+and then actors at the top. Okay, since both
+
+85
+00:03:43,330 --> 00:03:46,520
+premises are particular statements it doesn't matter which when we start with.
+
+86
+00:03:46,600 --> 00:03:49,990
+We'll start with premise 1 and this essentially says-- this says that
+
+87
+00:03:50,080 --> 00:03:53,050
+some actors are not sculptors. So we're going put this in
+
+88
+00:03:53,130 --> 00:03:55,990
+ah, sorry, some actors are sculptors. We're going put our X in the
+
+89
+00:03:56,080 --> 00:03:58,030
+area between actors and sculptors.
+
+90
+00:03:58,440 --> 00:04:03,070
+But, since we don't know which side of this area we want to put our X
+
+91
+00:04:03,420 --> 00:04:08,290
+we have to straddle the line between the space between
+
+92
+00:04:08,800 --> 00:04:12,730
+the area that overlaps actors and sculptors.
+
+93
+00:04:12,820 --> 00:04:16,310
+So, we're going to stick our X there, if we put our X in either side
+
+94
+00:04:16,420 --> 00:04:19,150
+of that circle, we're going to over commit. We're going to state something
+
+95
+00:04:19,300 --> 00:04:23,680
+more than what the premise states, so we want to stick it in the on the line
+
+96
+00:04:23,800 --> 00:04:28,400
+there. So we don't overstate in the diagram what stated in the premises.
+
+97
+00:04:28,640 --> 00:04:30,730
+And then we're going to do the same thing for premise 2.
+
+98
+00:04:31,080 --> 00:04:33,040
+Some poets are not actors and well
+
+99
+00:04:33,070 --> 00:04:35,800
+because there's a couple of different places we could put it
+
+100
+00:04:36,120 --> 00:04:38,000
+and we don't know which one we're going go ahead
+
+101
+00:04:38,000 --> 00:04:41,040
+and stick that on the line just like that. So, now we have our
+
+102
+00:04:41,150 --> 00:04:46,000
+premises represented in the diagram itself and now we need to look
+
+103
+00:04:46,130 --> 00:04:50,720
+at our conclusion which says so some poets are not sculptors
+
+104
+00:04:51,080 --> 00:04:53,680
+and we have to see if that's represented in the diagram.
+
+105
+00:04:53,760 --> 00:04:56,940
+And because there's no areas that are nulled out, there's no areas
+
+106
+00:04:56,960 --> 00:05:01,280
+we filled in indicating a null area, then we can
+
+107
+00:05:01,370 --> 00:05:05,100
+conclude that this argument is invalid because the conclusion
+
+108
+00:05:05,420 --> 00:05:09,600
+is not represented in the argument itself.
+
+109
+00:05:09,730 --> 00:05:12,960
+So this is an invalid argument. OK!
+
+110
+00:05:13,110 --> 00:05:18,800
+So, we used our Venn diagrams here to show that the arguments
+
+111
+00:05:18,930 --> 00:05:21,040
+one argument is valid and one an argument is invalid
+
+112
+00:05:21,130 --> 00:05:24,960
+simply by representing the content of the premises
+
+113
+00:05:25,110 --> 00:05:28,640
+in the diagram itself and then seeing if that diagram represents
+
+114
+00:05:28,770 --> 00:05:32,160
+the content of the conclusion. In one case it did here
+
+115
+00:05:32,310 --> 00:05:35,440
+and then in the second case it did not. So one argument is valid
+
+116
+00:05:35,530 --> 00:05:38,860
+and one arg is invalid. And that's how you can use a Venn diagram
+
+117
+00:05:39,010 --> 00:05:40,910
+to test arguments for validity.
+

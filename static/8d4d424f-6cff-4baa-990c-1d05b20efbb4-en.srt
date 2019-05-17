@@ -1,0 +1,608 @@
+0
+00:00:01,010 --> 00:00:04,115
+We've been looking at how to construct logical arguments
+
+1
+00:00:04,115 --> 00:00:06,810
+made-up of premises and conclusions.
+
+2
+00:00:06,810 --> 00:00:09,400
+And the first thing we looked at in a previous lesson was
+
+3
+00:00:09,400 --> 00:00:10,150
+statements.
+
+4
+00:00:10,150 --> 00:00:13,234
+Statements are linguistic, they're made up of some
+
+5
+00:00:13,234 --> 00:00:16,325
+language, and they're declarative of sentences.
+
+6
+00:00:16,325 --> 00:00:18,760
+They essentially make a claim to truth.
+
+7
+00:00:18,760 --> 00:00:22,720
+Now we wanna look at what statements are of,
+
+8
+00:00:22,720 --> 00:00:26,720
+what consists of a statement for logic, okay?
+
+9
+00:00:26,720 --> 00:00:30,030
+And we're gonna look at propositions as the underlying
+
+10
+00:00:30,030 --> 00:00:31,590
+foundation for a statement.
+
+11
+00:00:31,590 --> 00:00:35,140
+Any time you make a claim of truth, you're actually going to
+
+12
+00:00:35,140 --> 00:00:37,960
+be declaring that some proposition is true and
+
+13
+00:00:37,960 --> 00:00:39,180
+we wanna look at that now.
+
+14
+00:00:39,180 --> 00:00:40,975
+Okay, you're using language to do it, but
+
+15
+00:00:40,975 --> 00:00:42,570
+you're actually talking about propositions.
+
+16
+00:00:43,740 --> 00:00:47,500
+Propositions can be a little esoteric.
+
+17
+00:00:47,500 --> 00:00:50,360
+They can be a little odd to understand, but
+
+18
+00:00:50,360 --> 00:00:53,960
+hopefully you'll see the value of talking about propositions
+
+19
+00:00:53,960 --> 00:00:55,820
+as I move through this, all right?
+
+20
+00:00:55,820 --> 00:00:59,400
+So earlier I said that premises and conclusions are statements,
+
+21
+00:00:59,400 --> 00:01:03,650
+and really statements only are representative or
+
+22
+00:01:03,650 --> 00:01:07,120
+symbols for something else called propositions.
+
+23
+00:01:07,120 --> 00:01:10,390
+And propositions really are the meaning behind the statements
+
+24
+00:01:10,390 --> 00:01:11,650
+that we make.
+
+25
+00:01:11,650 --> 00:01:14,700
+So anytime I make a declaration in language,
+
+26
+00:01:14,700 --> 00:01:18,070
+if I say the grass is green, really what I'm doing is
+
+27
+00:01:18,070 --> 00:01:22,650
+using language to symbolize a meaning, a proposition.
+
+28
+00:01:22,650 --> 00:01:24,410
+That's what propositions are.
+
+29
+00:01:24,410 --> 00:01:26,977
+And you'll see how this works in just a moment.
+
+30
+00:01:26,977 --> 00:01:27,808
+All right, so
+
+31
+00:01:27,808 --> 00:01:32,110
+propositions themselves are the things that are true or false.
+
+32
+00:01:32,110 --> 00:01:34,780
+Propositions are the things that are true or false.
+
+33
+00:01:34,780 --> 00:01:40,032
+The statements alone are only symbols of that, okay?
+
+34
+00:01:40,032 --> 00:01:42,724
+And so then a proposition is different from a sentence or
+
+35
+00:01:42,724 --> 00:01:43,670
+statement.
+
+36
+00:01:43,670 --> 00:01:47,362
+It's different from that linguistic context,
+
+37
+00:01:47,362 --> 00:01:51,414
+because the proposition is actually the thing that is
+
+38
+00:01:51,414 --> 00:01:54,655
+what is true or false, and the statement or
+
+39
+00:01:54,655 --> 00:01:58,182
+the sentence is just a symbol for that, okay?
+
+40
+00:01:58,182 --> 00:02:03,048
+So philosopher Peter Van Inwagen says that a proposition
+
+41
+00:02:03,048 --> 00:02:07,112
+is a non-linguistic bearer of truth-value.
+
+42
+00:02:07,112 --> 00:02:08,450
+Now that's a mouthful, right?
+
+43
+00:02:08,450 --> 00:02:10,235
+That sounds a little intimidating, but
+
+44
+00:02:10,235 --> 00:02:11,870
+let me talk through what this means.
+
+45
+00:02:11,870 --> 00:02:16,082
+Non-linguistic means that a proposition isn't
+
+46
+00:02:16,082 --> 00:02:19,497
+necessarily a language-based thing.
+
+47
+00:02:19,497 --> 00:02:22,745
+It's the thing that stands behind our language,
+
+48
+00:02:22,745 --> 00:02:26,700
+it's the thing that stands behind our grammar, all right?
+
+49
+00:02:26,700 --> 00:02:29,330
+So put another way, it's the meaning, it's the meaning of
+
+50
+00:02:29,330 --> 00:02:31,660
+the thing that we're concerned about, all right?
+
+51
+00:02:31,660 --> 00:02:34,510
+And truth value, as we've seen in previous lessons,
+
+52
+00:02:34,510 --> 00:02:36,920
+is just whether something is true or false.
+
+53
+00:02:36,920 --> 00:02:39,400
+And it's the proposition that is true or
+
+54
+00:02:39,400 --> 00:02:44,000
+false, it's not the expression itself, okay?
+
+55
+00:02:44,000 --> 00:02:45,710
+It's not the statement itself.
+
+56
+00:02:45,710 --> 00:02:48,390
+Let me give you an example, I'm gonna try to
+
+57
+00:02:48,390 --> 00:02:52,236
+turn to the whiteboard here and use mathematics as an example.
+
+58
+00:02:53,569 --> 00:02:59,415
+So let's suppose I, in red ink, wrote this.
+
+59
+00:03:01,708 --> 00:03:04,983
+Now, I don't know if you can see that, that's red.
+
+60
+00:03:04,983 --> 00:03:07,752
+It is a red numeral 2, okay?
+
+61
+00:03:07,752 --> 00:03:10,214
+Now when you first see this, you might think, well,
+
+62
+00:03:10,214 --> 00:03:11,319
+that's the number 2.
+
+63
+00:03:11,319 --> 00:03:15,653
+Some philosophers say this is actually not a number 2, but
+
+64
+00:03:15,653 --> 00:03:16,952
+a numeral 2, and
+
+65
+00:03:16,952 --> 00:03:21,480
+let's talk about the properties of this numeral.
+
+66
+00:03:21,480 --> 00:03:25,760
+This numeral is roughly, I would say, 10 to 12 inches tall.
+
+67
+00:03:25,760 --> 00:03:28,410
+It's red in color.
+
+68
+00:03:28,410 --> 00:03:33,564
+It's actually located on the screen here in this studio and
+
+69
+00:03:33,564 --> 00:03:37,020
+its maybe 5 or 6 inches wide, okay?
+
+70
+00:03:37,020 --> 00:03:39,700
+Those are properties of this numeral 2,
+
+71
+00:03:39,700 --> 00:03:42,470
+that I've drawn here on screen.
+
+72
+00:03:42,470 --> 00:03:45,800
+Now let's ask about the properties of the number 2.
+
+73
+00:03:45,800 --> 00:03:49,220
+Is the number 2 red, no.
+
+74
+00:03:49,220 --> 00:03:53,490
+You can draw a number 2 on your own computer or you can draw
+
+75
+00:03:53,490 --> 00:03:55,628
+a number 2 on a piece of paper in a different color,
+
+76
+00:03:55,628 --> 00:03:58,170
+the number 2 itself is not red.
+
+77
+00:03:58,170 --> 00:04:00,740
+It's not a specific color at all.
+
+78
+00:04:00,740 --> 00:04:04,600
+Is the number 2, 12 inches tall, nope.
+
+79
+00:04:04,600 --> 00:04:07,409
+We would say that the number 2 doesn't have a height.
+
+80
+00:04:07,409 --> 00:04:09,598
+Is the number 2 5 inches wide, no,
+
+81
+00:04:09,598 --> 00:04:12,670
+all those properties are not true of the number 2.
+
+82
+00:04:12,670 --> 00:04:15,579
+Is it located anywhere, well of course not.
+
+83
+00:04:15,579 --> 00:04:17,260
+So what's going on?
+
+84
+00:04:17,260 --> 00:04:20,980
+Well, what some philosophers believe is that this numeral
+
+85
+00:04:20,980 --> 00:04:25,040
+is a representation of the number and I can write the same
+
+86
+00:04:25,040 --> 00:04:28,880
+representation using dots, if I wanted to.
+
+87
+00:04:28,880 --> 00:04:31,290
+I can use dashes, right?
+
+88
+00:04:31,290 --> 00:04:32,450
+I can uses all sorts of things.
+
+89
+00:04:32,450 --> 00:04:34,880
+I can write it in binary if I wanted to.
+
+90
+00:04:34,880 --> 00:04:38,476
+And all of these are representations of that other
+
+91
+00:04:38,476 --> 00:04:40,617
+thing called the number, and
+
+92
+00:04:40,617 --> 00:04:43,535
+they represent it in the symbolic form.
+
+93
+00:04:43,535 --> 00:04:47,060
+We say these are symbols of something else, right?
+
+94
+00:04:47,060 --> 00:04:49,360
+So when we're talking about propositions,
+
+95
+00:04:49,360 --> 00:04:52,310
+we're talking essentially about exactly the same thing.
+
+96
+00:04:52,310 --> 00:04:57,221
+We're talking about these propositions are being
+
+97
+00:04:57,221 --> 00:05:01,569
+represented by the sentences that we claim.
+
+98
+00:05:01,569 --> 00:05:03,429
+Let me give you an example of how this works.
+
+99
+00:05:06,540 --> 00:05:10,490
+So if I said to you Pat likes Jan,
+
+100
+00:05:10,490 --> 00:05:14,150
+these are obviously two English sentences, and Jan is liked
+
+101
+00:05:14,150 --> 00:05:17,770
+by Pat, if I made those two declarative statements.
+
+102
+00:05:17,770 --> 00:05:20,690
+These are two different English sentences, right?
+
+103
+00:05:20,690 --> 00:05:23,660
+The first one has three words, the second one has five words.
+
+104
+00:05:23,660 --> 00:05:27,610
+The first one Pat comes first, the second one Jan comes first.
+
+105
+00:05:27,610 --> 00:05:29,160
+But what are they doing?
+
+106
+00:05:29,160 --> 00:05:31,540
+Do they mean the same thing?
+
+107
+00:05:31,540 --> 00:05:34,260
+And most people would say without quibbling too much, yes,
+
+108
+00:05:34,260 --> 00:05:35,820
+they mean the same thing.
+
+109
+00:05:35,820 --> 00:05:38,390
+They are representative of the same idea.
+
+110
+00:05:39,400 --> 00:05:42,920
+So the way that logicians talk about this is that these two
+
+111
+00:05:42,920 --> 00:05:46,380
+different English sentences, these two different symbols,
+
+112
+00:05:46,380 --> 00:05:50,250
+represent or symbolize the proposition and
+
+113
+00:05:50,250 --> 00:05:53,240
+it's the proposition that's true, right?
+
+114
+00:05:53,240 --> 00:05:55,000
+It's the proposition that's true,
+
+115
+00:05:55,000 --> 00:05:56,487
+not the sentences themselves.
+
+116
+00:05:56,487 --> 00:05:59,810
+Here's another example, we have two separate languages here.
+
+117
+00:05:59,810 --> 00:06:03,440
+The moon has craters, [FOREIGN].
+
+118
+00:06:03,440 --> 00:06:06,363
+And if you speak Spanish, I completely butchered that, so
+
+119
+00:06:06,363 --> 00:06:08,535
+I apologize, but you get the idea, right?
+
+120
+00:06:08,535 --> 00:06:11,510
+We have two different sentences in two different languages.
+
+121
+00:06:11,510 --> 00:06:14,180
+They both represent the same idea, and
+
+122
+00:06:14,180 --> 00:06:16,110
+that idea is the proposition, and
+
+123
+00:06:16,110 --> 00:06:19,360
+it's the proposition that's true or false, okay?
+
+124
+00:06:19,360 --> 00:06:21,790
+So each statement expresses the same truth,
+
+125
+00:06:21,790 --> 00:06:23,440
+that's really what we're after.
+
+126
+00:06:23,440 --> 00:06:26,178
+And we say that they express the same truth,
+
+127
+00:06:26,178 --> 00:06:30,102
+cuz they're exemplifying or symbolizing that proposition.
+
+128
+00:06:30,102 --> 00:06:33,015
+And why does this matter, why is this important at all?
+
+129
+00:06:33,015 --> 00:06:35,730
+The reason it matters is because in logic,
+
+130
+00:06:35,730 --> 00:06:38,750
+what you really care about is getting to that proposition,
+
+131
+00:06:38,750 --> 00:06:43,520
+that truth value, and you can restate premises and conclusions
+
+132
+00:06:43,520 --> 00:06:47,760
+if it helps you get closer to what the actual meaning is.
+
+133
+00:06:47,760 --> 00:06:50,280
+So if you're analyzing an argument and you think that
+
+134
+00:06:50,280 --> 00:06:55,360
+the linguistic statement, the thing that the person wrote,
+
+135
+00:06:55,360 --> 00:07:00,060
+isn't clear enough, you can restate it to make it clearer.
+
+136
+00:07:00,060 --> 00:07:02,550
+Have you ever said to somebody, in other words,
+
+137
+00:07:02,550 --> 00:07:05,720
+what I think you're saying is, this is what you're doing.
+
+138
+00:07:05,720 --> 00:07:08,010
+You're trying to get to the proposition.
+
+139
+00:07:08,010 --> 00:07:11,416
+You're trying to get to the meaning by restating the words
+
+140
+00:07:11,416 --> 00:07:13,640
+that are being used ln that argument or
+
+141
+00:07:13,640 --> 00:07:15,946
+in the claim that the person is making.
+
+142
+00:07:15,946 --> 00:07:19,630
+And that's the role that propositions have here.
+
+143
+00:07:19,630 --> 00:07:21,490
+As long as we get to the correct meaning,
+
+144
+00:07:21,490 --> 00:07:24,320
+we can get to the truth value and we can use different words
+
+145
+00:07:24,320 --> 00:07:26,970
+to express it if it helps us clarify things.
+
+146
+00:07:26,970 --> 00:07:29,120
+And that's the value of propositions.
+
+147
+00:07:29,120 --> 00:07:31,481
+So now we see the relationship between statements,
+
+148
+00:07:31,481 --> 00:07:33,412
+which are linguistic or grammatical, and
+
+149
+00:07:33,412 --> 00:07:36,372
+propositions, which are the meaning behind those statements.
+
+150
+00:07:36,372 --> 00:07:38,806
+The statements symbolize the propositions and
+
+151
+00:07:38,806 --> 00:07:41,430
+it's the propositions that have the truth value.
+

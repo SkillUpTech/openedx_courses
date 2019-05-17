@@ -1,0 +1,532 @@
+0
+00:00:01,050 --> 00:00:02,390
+In a previous lesson,
+
+1
+00:00:02,390 --> 00:00:06,510
+we saw that logic is the science of studying arguments, and
+
+2
+00:00:06,510 --> 00:00:08,520
+arguments consist of three things.
+
+3
+00:00:08,520 --> 00:00:12,240
+Premises, which are reasons that you offer to support
+
+4
+00:00:12,240 --> 00:00:14,850
+another thing called the conclusion, and there has to be
+
+5
+00:00:14,850 --> 00:00:18,490
+a logical relationship between the premises and the conclusion.
+
+6
+00:00:18,490 --> 00:00:21,170
+What we're gonna do now is look at what makes up
+
+7
+00:00:21,170 --> 00:00:23,670
+these premises and conclusions, what are they?
+
+8
+00:00:23,670 --> 00:00:25,117
+And how do we create good ones,
+
+9
+00:00:25,117 --> 00:00:27,633
+how do we create good premises and good conclusions?
+
+10
+00:00:27,633 --> 00:00:29,730
+We're gonna look at two components of this.
+
+11
+00:00:29,730 --> 00:00:33,390
+The first is statements, and the second is propositions.
+
+12
+00:00:33,390 --> 00:00:34,620
+Let's start with statements.
+
+13
+00:00:35,910 --> 00:00:41,570
+So a statement is just a sentence, a linguistic sentence,
+
+14
+00:00:41,570 --> 00:00:45,320
+that expresses some truth or possible truth.
+
+15
+00:00:45,320 --> 00:00:46,671
+So when you make a statement,
+
+16
+00:00:46,671 --> 00:00:48,677
+you're declaring that something is true.
+
+17
+00:00:48,677 --> 00:00:52,281
+Here's some examples, all US citizens live in the US,
+
+18
+00:00:52,281 --> 00:00:54,210
+that is a statement of truth.
+
+19
+00:00:54,210 --> 00:00:57,163
+It could be true, it could be false, we don't know, but
+
+20
+00:00:57,163 --> 00:01:00,423
+all we're saying at this point is this is a statement declaring
+
+21
+00:01:00,423 --> 00:01:02,960
+that something is possibly true.
+
+22
+00:01:02,960 --> 00:01:04,310
+The next two statements,
+
+23
+00:01:04,310 --> 00:01:06,500
+the next statement is actually false.
+
+24
+00:01:06,500 --> 00:01:10,260
+Most businesses in Seattle use red carpeting in their offices,
+
+25
+00:01:10,260 --> 00:01:14,300
+of course that could be true, it's most likely false.
+
+26
+00:01:14,300 --> 00:01:16,970
+But it's still declaring a statement of truth,
+
+27
+00:01:16,970 --> 00:01:18,320
+a possible truth claim.
+
+28
+00:01:19,570 --> 00:01:21,630
+Some people may not know whether that's true or false, so
+
+29
+00:01:21,630 --> 00:01:25,180
+you might do a study and sample all businesses in Seattle to
+
+30
+00:01:25,180 --> 00:01:26,860
+see what color carpeting they have and
+
+31
+00:01:26,860 --> 00:01:28,810
+then you could figure out whether it's true or false.
+
+32
+00:01:28,810 --> 00:01:30,330
+That's not the point right now.
+
+33
+00:01:30,330 --> 00:01:32,842
+It's just looking at how a statement is constructed,
+
+34
+00:01:32,842 --> 00:01:34,270
+it's a declaration of truth.
+
+35
+00:01:34,270 --> 00:01:35,704
+And the same is true for the last one,
+
+36
+00:01:35,704 --> 00:01:38,670
+Apple has a higher market capitalization than Microsoft.
+
+37
+00:01:38,670 --> 00:01:41,691
+That's true at the time of this recording and
+
+38
+00:01:41,691 --> 00:01:44,320
+it's something that we can evaluate.
+
+39
+00:01:44,320 --> 00:01:46,746
+Okay, so when we're talking about a statement,
+
+40
+00:01:46,746 --> 00:01:50,350
+we're talking about that declarative truth claim.
+
+41
+00:01:50,350 --> 00:01:53,242
+Now not all things that we say are declarative in this
+
+42
+00:01:53,242 --> 00:01:54,169
+sense, right?
+
+43
+00:01:54,169 --> 00:01:57,564
+These are obviously talking about English, but
+
+44
+00:01:57,564 --> 00:02:00,628
+most languages have constructs like this,
+
+45
+00:02:00,628 --> 00:02:03,680
+have verbal constructs like this.
+
+46
+00:02:03,680 --> 00:02:06,270
+And we can see that there's different types of things that
+
+47
+00:02:06,270 --> 00:02:08,130
+we can say, right?
+
+48
+00:02:08,130 --> 00:02:11,190
+We can ask a question, what's the time?
+
+49
+00:02:11,190 --> 00:02:14,130
+We can give commands like shut the door.
+
+50
+00:02:14,130 --> 00:02:17,366
+We can make an exclamation, if you drop something on your toe
+
+51
+00:02:17,366 --> 00:02:20,601
+you might yell out ouch or whatever, that's not a statement
+
+52
+00:02:20,601 --> 00:02:23,405
+of truth, you're expressing an emotion, right?
+
+53
+00:02:23,405 --> 00:02:28,410
+So, only declaratives then qualify as statements in logic.
+
+54
+00:02:28,410 --> 00:02:30,090
+It has to be either true or false.
+
+55
+00:02:30,090 --> 00:02:33,050
+You have to be able to apply a truth or
+
+56
+00:02:33,050 --> 00:02:37,450
+a falsity claim to the statement that you're making, okay?
+
+57
+00:02:37,450 --> 00:02:40,930
+So declaratives then are statements in logic,
+
+58
+00:02:40,930 --> 00:02:44,590
+why, because those are the things that we say are true or
+
+59
+00:02:44,590 --> 00:02:46,890
+false, okay?
+
+60
+00:02:46,890 --> 00:02:50,007
+Now, when we're putting together arguments,
+
+61
+00:02:50,007 --> 00:02:53,428
+we're gonna use statements to do it and in logic there
+
+62
+00:02:53,428 --> 00:02:57,014
+are very specific ways to construct these statements.
+
+63
+00:02:57,014 --> 00:03:00,147
+And I'm gonna talk about two types that you'll be able to use
+
+64
+00:03:00,147 --> 00:03:02,650
+when you're creating arguments.
+
+65
+00:03:02,650 --> 00:03:05,926
+The first type is called a simple statement and
+
+66
+00:03:05,926 --> 00:03:10,548
+it's very simple linguistically, simple grammatically, and
+
+67
+00:03:10,548 --> 00:03:13,640
+it makes a single claim to truth, right?
+
+68
+00:03:13,640 --> 00:03:15,650
+Look at the examples I have here.
+
+69
+00:03:15,650 --> 00:03:16,226
+Ann is home.
+
+70
+00:03:16,226 --> 00:03:19,090
+Very simple grammatically, right, there's a subject,
+
+71
+00:03:19,090 --> 00:03:21,200
+a verb and an object, and
+
+72
+00:03:21,200 --> 00:03:23,640
+it is making a declarative statement of truth.
+
+73
+00:03:23,640 --> 00:03:25,328
+Either Ann is home or she's not, but
+
+74
+00:03:25,328 --> 00:03:27,191
+it is claiming that Ann is home, right?
+
+75
+00:03:27,191 --> 00:03:30,100
+There's no other truths that we're gonna look at here.
+
+76
+00:03:30,100 --> 00:03:33,230
+We're only gonna determine whether Ann is actually home.
+
+77
+00:03:33,230 --> 00:03:36,230
+So that's called a simple statement in logic,
+
+78
+00:03:36,230 --> 00:03:39,250
+because it's only talking about one possible truth value.
+
+79
+00:03:39,250 --> 00:03:40,210
+The same for the second one,
+
+80
+00:03:40,210 --> 00:03:43,669
+the screen door has a hole in it, very simple grammatically,
+
+81
+00:03:43,669 --> 00:03:48,950
+also claims to make only one single truth claim, all right?
+
+82
+00:03:48,950 --> 00:03:51,201
+Now we can take these simple statements,
+
+83
+00:03:51,201 --> 00:03:53,583
+these simple declarative statements, and
+
+84
+00:03:53,583 --> 00:03:57,390
+connect them with other simple declarative statements.
+
+85
+00:03:57,390 --> 00:03:59,910
+It's really important to understand how these
+
+86
+00:03:59,910 --> 00:04:02,493
+link together, so as you construct arguments,
+
+87
+00:04:02,493 --> 00:04:05,518
+you can disassemble either arguments you're reading or
+
+88
+00:04:05,518 --> 00:04:07,800
+construct arguments in a much easier way.
+
+89
+00:04:07,800 --> 00:04:10,510
+All right, so we can join these simple statements by
+
+90
+00:04:10,510 --> 00:04:12,960
+what's called a statement operator.
+
+91
+00:04:12,960 --> 00:04:14,780
+And by the way, if you're a computer programmer,
+
+92
+00:04:14,780 --> 00:04:18,610
+you're hopefully starting to hear some similar language to
+
+93
+00:04:18,610 --> 00:04:21,650
+what you might do in computer programming, all right?
+
+94
+00:04:21,650 --> 00:04:24,450
+So these statement operators are used to connect
+
+95
+00:04:24,450 --> 00:04:29,170
+simple statements and create compound statements, all right?
+
+96
+00:04:29,170 --> 00:04:32,960
+And in logic you always want to start with simple statements and
+
+97
+00:04:32,960 --> 00:04:36,450
+use statement operators to construct larger complex
+
+98
+00:04:36,450 --> 00:04:38,220
+statements, right?
+
+99
+00:04:38,220 --> 00:04:42,780
+So here we have two operators AND an OR, and in
+
+100
+00:04:42,780 --> 00:04:46,760
+the first compound statement I say Ann is home AND Bob is home.
+
+101
+00:04:46,760 --> 00:04:50,110
+Now notice we have two statements of truth value.
+
+102
+00:04:50,110 --> 00:04:52,368
+Ann is home is one declarative statement,
+
+103
+00:04:52,368 --> 00:04:54,350
+it's either true or false.
+
+104
+00:04:54,350 --> 00:04:57,030
+Bob is home is a second declarative statement that's
+
+105
+00:04:57,030 --> 00:04:58,350
+either true or false, and
+
+106
+00:04:58,350 --> 00:05:00,530
+we are joining them by this AND operator.
+
+107
+00:05:01,570 --> 00:05:04,840
+Notice also that Ann is home could be true,
+
+108
+00:05:04,840 --> 00:05:06,980
+Bob is home could be false.
+
+109
+00:05:06,980 --> 00:05:07,480
+And that's
+
+110
+00:05:07,480 --> 00:05:10,590
+gonna change the truth value of the whole compound statement.
+
+111
+00:05:10,590 --> 00:05:13,741
+The individual simple statements have their own truth value.
+
+112
+00:05:13,741 --> 00:05:16,761
+And when they're put together by an operator AND,
+
+113
+00:05:16,761 --> 00:05:20,020
+they're gonna have a truth value as a whole.
+
+114
+00:05:20,020 --> 00:05:21,470
+So then we would say,
+
+115
+00:05:21,470 --> 00:05:23,690
+we would put the truth value above the AND, and
+
+116
+00:05:23,690 --> 00:05:27,230
+say the statement as a whole is either true or false, all right?
+
+117
+00:05:27,230 --> 00:05:28,860
+The same is true with the second one,
+
+118
+00:05:28,860 --> 00:05:30,570
+the screen door has a hole in it.
+
+119
+00:05:30,570 --> 00:05:35,520
+A statement of truth OR, this is the operator, I'm seeing things,
+
+120
+00:05:35,520 --> 00:05:36,970
+another statement of truth.
+
+121
+00:05:36,970 --> 00:05:40,340
+You can have one or both be true, or one or
+
+122
+00:05:40,340 --> 00:05:41,066
+both be false, okay?
+
+123
+00:05:42,400 --> 00:05:45,590
+So this is how you construct statements in arguments.
+
+124
+00:05:45,590 --> 00:05:47,460
+And when you make your argument,
+
+125
+00:05:47,460 --> 00:05:49,820
+you're gonna be putting together premises.
+
+126
+00:05:49,820 --> 00:05:53,130
+Those premises are gonna be composed of either simple or
+
+127
+00:05:53,130 --> 00:05:54,490
+compound statements.
+
+128
+00:05:54,490 --> 00:05:57,192
+And the conclusion itself is also going to be a simple or
+
+129
+00:05:57,192 --> 00:05:58,710
+compound statement.
+
+130
+00:05:58,710 --> 00:06:03,210
+And these are the building blocks of logical arguments.
+
+131
+00:06:03,210 --> 00:06:04,950
+This is how you construct them, and
+
+132
+00:06:04,950 --> 00:06:07,677
+this is the first step in constructing good arguments.
+

@@ -1,0 +1,14 @@
+<problem display_name="4.Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p>Consider this colloquial (common) statement:<br/>
+"Any irrational person is a person who does not accept criticism calmly"<br/></p>
+    <label>Which one of the following is the proper translation of the above statement into <strong>standard E form</strong><br/></label>
+    <p/>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">No irrational person accepts criticism calmly<br/></choice>
+      <choice correct="True">No irrational person are persons who accept criticism calmly<br/></choice>
+      <choice correct="False">All irrational persons are persons who do not accept criticism calmly<br/></choice>
+      <choice correct="False">No rational persons accepts criticism calmly<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

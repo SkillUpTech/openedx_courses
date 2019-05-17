@@ -1,0 +1,12 @@
+<problem display_name="17. Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="2.0">
+  <multiplechoiceresponse>
+    <p>In the case of a strong inductive argument: (Choose one)<br/></p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">if the premises are all false, then the conclusion is probably false too<br/></choice>
+      <choice correct="False">if at least one of the premises is true, then the conclusion is probably true<br/></choice>
+      <choice correct="False">if the conclusion is true, then the premises are probably true<br/></choice>
+      <choice correct="False">if the premises are true, then the argument is called a “true” argument<br/></choice>
+      <choice correct="True">if the premises are all true, then the conclusion probably is true<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

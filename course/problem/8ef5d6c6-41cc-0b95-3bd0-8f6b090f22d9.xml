@@ -1,0 +1,13 @@
+<problem display_name="7.Multiple choice" markdown="null" max_attempts="1" weight="1.0">
+  <multiplechoiceresponse>
+    <p/>
+    <p>Examine this argument:<br/>
+Planets have been discovered orbiting many stars. The stars found with orbiting planets all have in common six characteristics. No star lacking planets has been found to have all six characteristics. A new star has been discovered, and it has all six characteristics. It is probable that the new star has planets.<br/></p>
+    <label>Does this inductive argument seem to be strong or weak?<br/></label>
+    <p/>
+    <choicegroup type="MultipleChoice">
+      <choice correct="True">Strong<br/></choice>
+      <choice correct="False">Weak<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

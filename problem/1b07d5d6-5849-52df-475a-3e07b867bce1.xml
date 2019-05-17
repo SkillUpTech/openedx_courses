@@ -1,0 +1,13 @@
+<problem display_name="3. Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p/>
+    <p>Use a Venn diagram to test the argument below for validity.<br/>
+All philosophers are lovers of truth. No lovers of truth are closed-minded people. Thus, no philosophers are closed-minded people.<br/></p>
+    <label>According to the Venn diagram, is this argument valid or invalid?<br/></label>
+    <p/>
+    <choicegroup type="MultipleChoice">
+      <choice correct="True">Valid<br/></choice>
+      <choice correct="False">Invalid<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

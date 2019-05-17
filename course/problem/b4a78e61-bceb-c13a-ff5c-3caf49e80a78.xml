@@ -1,0 +1,15 @@
+<problem display_name="9.Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p/>
+    <p/>
+    <label>Which of the following combination will you <em>not</em> find in a valid deductive argument? (Choose one)<br/></label>
+    <p/>
+    <choicegroup type="MultipleChoice">
+      <choice correct="True">true premises and a false conclusion<br/></choice>
+      <choice correct="False">true premises and a true conclusion<br/></choice>
+      <choice correct="False">false premises and a false conclusion<br/></choice>
+      <choice correct="False">false premises and a true conclusion<br/></choice>
+      <choice correct="False">none of the above<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

@@ -1,0 +1,12 @@
+<problem display_name="1.Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p/>
+    <p>No cat is a reptile. No reptile is a splurp. So, no cat is a splurp.<br/></p>
+    <label>Using the intuitive test for validity, decide if the statement above is valid or invalid.<br/></label>
+    <p/>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">Valid<br/></choice>
+      <choice correct="True">Invalid<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

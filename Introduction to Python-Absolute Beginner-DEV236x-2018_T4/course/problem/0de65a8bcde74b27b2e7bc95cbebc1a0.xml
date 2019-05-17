@@ -1,9 +1,0 @@
-<problem display_name="Question 1 " markdown="&lt;p&gt;&lt;code&gt;input()&lt;/code&gt; function in Python returns user input as a string&lt;/p&gt;&#10;&#10;(x) True&#10;( ) False&#10;" max_attempts="1" showanswer="never" weight="1.0">
-  <multiplechoiceresponse>
-    <p><code>input()</code> function in Python returns user input as a string</p>
-    <choicegroup type="MultipleChoice">
-      <choice correct="true">True</choice>
-      <choice correct="false">False</choice>
-    </choicegroup>
-  </multiplechoiceresponse>
-</problem>

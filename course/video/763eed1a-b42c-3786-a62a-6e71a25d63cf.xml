@@ -1,0 +1,9 @@
+<video youtube="1.00:t5TFtBCnSP0" url_name="763eed1a-b42c-3786-a62a-6e71a25d63cf" display_name="" download_track="true" download_video="true" edx_video_id="463c5676-ce63-4297-ad41-b4de7897b935" html5_sources="[&quot;https://d2f1egay8yehza.cloudfront.net/MSXLCTXX2017-V000800_DTH.mp4&quot;]" show_captions="true" sub="" transcripts="{&quot;en&quot;: &quot;463c5676-ce63-4297-ad41-b4de7897b935-en.srt&quot;}" youtube_id_0_75="" youtube_id_1_0="t5TFtBCnSP0" youtube_id_1_25="" youtube_id_1_5="">
+  <source src="https://d2f1egay8yehza.cloudfront.net/MSXLCTXX2017-V000800_DTH.mp4"/>
+  <transcript language="en" src="463c5676-ce63-4297-ad41-b4de7897b935-en.srt"/>
+  <video_asset client_video_id="02.02.1-2017-05-26-Logic-Comp-Thinking-ArgumentForm.mp4" duration="439.32">
+    <encoded_video bitrate="0" file_size="0" profile="youtube" url="t5TFtBCnSP0"/>
+    <encoded_video bitrate="332" file_size="18235674" profile="desktop_mp4" url="https://d2f1egay8yehza.cloudfront.net/MSXLCTXX2017-V000800_DTH.mp4"/>
+    <encoded_video bitrate="208" file_size="11426144" profile="mobile_low" url="https://d2f1egay8yehza.cloudfront.net/MSXLCTXX2017-V000800_MB2.mp4"/>
+  </video_asset>
+</video>

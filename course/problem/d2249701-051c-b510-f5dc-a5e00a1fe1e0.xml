@@ -1,0 +1,14 @@
+<problem display_name="1.Multiple choice" markdown="null" max_attempts="1" showanswer="never" weight="1.0">
+  <multiplechoiceresponse>
+    <p/>
+    <p/>
+    <label>Which of the following symbolizes a disjunctive syllogism? (Choose one)<br/></label>
+    <p/>
+    <choicegroup type="MultipleChoice">
+      <choice correct="False">p --&gt; (q v r); p; therefore, q v r<br/></choice>
+      <choice correct="True">(p &amp; q) v (r v t); ~(r v t); therefore p &amp; q<br/></choice>
+      <choice correct="False">p --&gt; q; q; therefore p<br/></choice>
+      <choice correct="False">p --&gt; q; ~q; therefore p<br/></choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>
